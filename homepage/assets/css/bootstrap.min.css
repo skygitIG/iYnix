@@ -5,6 +5,9 @@
  * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 :root,
 [data-bs-theme=light] {
     --bs-blue: #0d6efd;
@@ -45,7 +48,7 @@
     --bs-warning-rgb: 255, 193, 7;
     --bs-danger-rgb: 220, 53, 69;
     --bs-light-rgb: 248, 249, 250;
-    --bs-dark-rgb: 33, 37, 41;
+    --bs-dark-rgb: 0, 0, 0;
     --bs-primary-text-emphasis: #052c65;
     --bs-secondary-text-emphasis: #2b2f32;
     --bs-success-text-emphasis: #0a3622;
@@ -196,7 +199,7 @@
 
 body {
     margin: 0;
-    font-family: var(--bs-body-font-family);
+    font-family: "Mulish", sans-serif;
     font-size: var(--bs-body-font-size);
     font-weight: var(--bs-body-font-weight);
     line-height: var(--bs-body-line-height);
@@ -231,12 +234,13 @@ h6 {
     margin-bottom: .5rem;
     font-weight: 500;
     line-height: 1.2;
-    color: var(--bs-heading-color)
+    color: var(--bs-heading-color);
+    font-family: "Geist", sans-serif;
 }
 
 .h1,
 h1 {
-    font-size: calc(1.375rem + 1.5vw)
+    font-size: calc(2.5rem + 1.5vw)
 }
 
 @media (min-width:1200px) {
@@ -298,7 +302,7 @@ h6 {
 
 p {
     margin-top: 0;
-    margin-bottom: 1rem
+    margin-bottom: 0;
 }
 
 abbr[title] {
@@ -495,7 +499,7 @@ optgroup,
 select,
 textarea {
     margin: 0;
-    font-family: inherit;
+    font-family: "Mulish", sans-serif;
     font-size: inherit;
     line-height: inherit
 }
@@ -794,7 +798,8 @@ progress {
     padding-right: calc(var(--bs-gutter-x) * .5);
     padding-left: calc(var(--bs-gutter-x) * .5);
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    min-width: 0px;
 }
 
 @media (min-width:576px) {
@@ -843,7 +848,7 @@ progress {
     .container-sm,
     .container-xl,
     .container-xxl {
-        max-width: 1520px
+        max-width: 1540px
     }
 }
 
@@ -3387,21 +3392,21 @@ textarea.form-control.is-invalid {
 }
 
 .btn {
-    --bs-btn-padding-x: 0.75rem;
-    --bs-btn-padding-y: 0.375rem;
+    --bs-btn-padding-x: 1.5rem;
+    --bs-btn-padding-y: 0.813rem;
     --bs-btn-font-family: ;
     --bs-btn-font-size: 1rem;
     --bs-btn-font-weight: 400;
     --bs-btn-line-height: 1.5;
-    --bs-btn-color: var(--bs-body-color);
+    /* --bs-btn-color: var(--bs-body-color); */
     --bs-btn-bg: transparent;
-    --bs-btn-border-width: var(--bs-border-width);
-    --bs-btn-border-color: transparent;
-    --bs-btn-border-radius: var(--bs-border-radius);
-    --bs-btn-hover-border-color: transparent;
-    --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+    /* --bs-btn-border-width: var(--bs-border-width); */
+    /* --bs-btn-border-color: transparent; */
+    /* --bs-btn-border-radius: var(--bs-border-radius); */
+    /* --bs-btn-hover-border-color: transparent; */
+    /* --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); */
     --bs-btn-disabled-opacity: 0.65;
-    --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
+    /* --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5); */
     display: inline-block;
     padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
     font-family: var(--bs-btn-font-family);
@@ -3416,9 +3421,9 @@ textarea.form-control.is-invalid {
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
-    border-radius: var(--bs-btn-border-radius);
-    background-color: var(--bs-btn-bg);
+    /* border: var(--bs-btn-border-width) solid var(--bs-btn-border-color); */
+    /* border-radius: var(--bs-btn-border-radius); */
+    /* background-color: var(--bs-btn-bg); */
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
@@ -3487,37 +3492,42 @@ fieldset:disabled .btn {
 }
 
 .btn-primary {
-    --bs-btn-color: #fff;
-    --bs-btn-bg: #0d6efd;
-    --bs-btn-border-color: #0d6efd;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #0b5ed7;
-    --bs-btn-hover-border-color: #0a58ca;
+    border-radius: 150px;
+    border: 1px solid #D81F28;
+    background-color: transparent;
+    --bs-btn-color: #D81F28;
+    --bs-btn-bg: transparent;
+    --bs-btn-border-color: #D81F28;
+    --bs-btn-hover-color: #D81F28;
+    /* --bs-btn-hover-bg: #D81F28; */
+    --bs-btn-hover-border-color: #D81F28;
     --bs-btn-focus-shadow-rgb: 49, 132, 253;
     --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #0a58ca;
-    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-bg: #D81F28;
+    --bs-btn-active-border-color: #D81F28;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #0d6efd;
-    --bs-btn-disabled-border-color: #0d6efd
+    --bs-btn-disabled-bg: #D81F28;
+    --bs-btn-disabled-border-color: #D81F28
 }
 
 .btn-secondary {
     --bs-btn-color: #fff;
-    --bs-btn-bg: #6c757d;
-    --bs-btn-border-color: #6c757d;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #5c636a;
-    --bs-btn-hover-border-color: #565e64;
+    border-radius: 8px;
+    border: 1px solid #D81F28;
+    background: #D81F28;
+    --bs-btn-border-color: #D81F28;
+    --bs-btn-hover-color: #D81F28;
+    --bs-btn-hover-bg: #49627a00;
+    --bs-btn-hover-border-color: #D81F28;
     --bs-btn-focus-shadow-rgb: 130, 138, 145;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #565e64;
-    --bs-btn-active-border-color: #51585e;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    /* --bs-btn-active-border-color: #51585e; */
+    /* --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); */
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #6c757d;
-    --bs-btn-disabled-border-color: #6c757d
+    /* --bs-btn-disabled-border-color: #6c757d */
 }
 
 .btn-success {

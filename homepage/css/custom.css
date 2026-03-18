@@ -1,0 +1,19 @@
+.clutch-gap{
+gap: 2.375rem;
+}
+
+@media (max-width:991px){
+.clutch-gap{
+gap: 1.5rem;
+}
+}
+
+@media (max-width:767px){
+.clutch-gap{
+gap: 1rem;
+}
+}
+
+.overflow-h{
+    overflow: hidden;
+}

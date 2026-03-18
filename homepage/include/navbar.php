@@ -6,6 +6,10 @@
 
 <style>
 
+    nav{
+        height: 90px;
+    }
+
 /* Remove default bootstrap caret */
 .dropdown-toggle::after {
   display: none !important;
@@ -99,12 +103,12 @@
 
 
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top py-3">
+<nav class="navbar navbar-expand-lg navbar-dark bg-white fixed-top py-3">
   <div class="container">
 
     <!-- LOGO -->
     <a class="navbar-brand fw-bold text-danger fs-4" href="#">
-      Iynix<span class="text-white">Digital</span>
+      <img src="images/Iynix Logo White 1.svg" alt="">
     </a>
 
     <!-- MOBILE TOGGLER -->
@@ -131,12 +135,12 @@
       <ul class="navbar-nav align-items-lg-center gap-lg-4">
 
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">Home</a>
+          <a class="nav-link text-dark" href="#">Home</a>
         </li>
 
         <!-- SERVICES -->
         <li class="nav-item dropdown">
-          <a class="nav-link text-white d-flex align-items-center justify-content-between"
+          <a class="nav-link text-dark d-flex align-items-center justify-content-between"
              href="#" role="button">
             Services
             <i class="bi bi-chevron-down ms-2 small"></i>
@@ -180,11 +184,15 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">About</a>
+          <a class="nav-link text-dark" href="#">About</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">Contact</a>
+          <a class="nav-link text-dark" href="#">Contact</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">Blogs</a>
         </li>
 
       </ul>
@@ -193,7 +201,7 @@
     <!-- RIGHT BUTTON (Desktop Only) -->
     <div class="d-none d-lg-block">
       <a href="#" class="btn btn-danger rounded-pill px-4">
-        Get Free Audit
+        Let's Talk
       </a>
     </div>
 
