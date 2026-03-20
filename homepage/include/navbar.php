@@ -1,5 +1,5 @@
 <!-- Bootstrap CSS (LOCAL) -->
-<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="homepage/assets/css/bootstrap.min.css">
 
 <!-- Bootstrap Icons CDN -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
@@ -108,7 +108,7 @@
 
     <!-- LOGO -->
     <a class="navbar-brand fw-bold text-danger fs-4" href="#">
-      <img src="images/Iynix Logo White 1.svg" alt="">
+      <img src="homepage/images/Iynix Logo White 1.svg" alt="">
     </a>
 
     <!-- MOBILE TOGGLER -->

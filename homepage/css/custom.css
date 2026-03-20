@@ -17,3 +17,24 @@ gap: 1rem;
 .overflow-h{
     overflow: hidden;
 }
+
+.sbg-light{
+    background-color: #FDFDFD;
+}
+.sbg-gray{
+    background-color: #F4F4F4;
+}
+
+.text-light{
+    color:#ffffff;
+}
+.text-black{
+    color:#000000;
+}
+.text-crimson{
+    color:#D81F28;
+}
+
+.main-banner{
+    padding: 160px 0;
+}
