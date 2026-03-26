@@ -19,7 +19,7 @@
 
     <main style="margin-top: 90px;">
         <section class="bg-dark main-banner">
-            <div class="container d-flex overflow-h flex-column flex-md-column">
+            <div class="container d-flex overflow-h flex-column flex-md-column flex-lg-row">
 
                 <div class="container d-flex flex-column justify-content-end hero-banner-text">
                     <a href="services.php"><button class="btn btn-primary accent"><img
@@ -309,7 +309,7 @@
 
         <section class="hs-f-section">
             <div class="container">
-                <div class="container hs-f-content d-flex align-items-center gap-0 align-items-stretch flex-sm-column-reverse">
+                <div class="container hs-f-content d-flex align-items-center gap-0 align-items-stretch flex-sm-column-reverse flex-lg-row">
                     <div class="container hs-f-text">
                         <h2 class="hs-e-smart-title mb-3 fw-semibold text-black">
                             Oh, Hi. <span class="text-crimson">You Found Us!</span></h2>
@@ -708,7 +708,7 @@
 
         <section class="hs-k-section section-gap-top px-2a">
             <div class="container">
-                <div class="container hs-k-content d-flex align-items-center gap-0 align-items-stretch flex-sm-column">
+                <div class="container hs-k-content d-flex align-items-center gap-0 align-items-stretch flex-sm-column flex-lg-row">
                     <div class="container hs-k-image p-0">
                         <img src="homepage/images/cash-and-chess.png" class="img-fluid" alt="">
                     </div>
@@ -921,7 +921,7 @@
 
         <section class="hs-o-section section-gap px-2a">
             <div class="container">
-                <div class="container hs-o-content d-flex align-items-center gap-0 align-items-stretch flex-sm-column-reverse">
+                <div class="container hs-o-content d-flex align-items-center gap-0 align-items-stretch flex-sm-column-reverse flex-lg-row">
                     <div class="container hs-o-text d-flex flex-column justify-content-center">
                         <h2 class="hs-e-smart-title mb-3 fw-semibold text-black">
                             Still Confused?<br> <span class="text-crimson">Let Us Show You Our Work!</span></h2>
@@ -1332,7 +1332,7 @@
 
         <section class="hs-t-section section-gap px-2a">
             <div class="container">
-                <div class="container hs-t-content d-flex align-items-center gap-0 align-items-stretch flex-sm-column">
+                <div class="container hs-t-content d-flex align-items-center gap-0 align-items-stretch flex-sm-column flex-lg-row">
                     <div class="container hs-t-image p-0">
                         <img src="homepage/images/business-goals.png" class="img-fluid" alt="">
                     </div>
