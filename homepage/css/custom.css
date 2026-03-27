@@ -49,6 +49,21 @@
     padding: 60px 60px 60px 60px!important;
 }
 }
+@media (max-width:575px) {
+    
+.hero-banner-text {
+    min-width: 100%;
+}
+.hs-f-text, .hs-f-image,
+.hs-k-text, .hs-k-image,
+.hs-o-text, .hs-o-image,
+.hs-t-text, .hs-t-image {
+    width: 100%;
+}
+.hs-l-icon img{
+    width: 80px!important;
+}
+}
 
 .hs-f-text,
 .hs-k-text,

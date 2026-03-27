@@ -2,24 +2,37 @@
 
 This is the iYnix project repository. It contains web application files organized in the following structure:
 
-- `css/` - Stylesheets
-- `js/` - JavaScript files
-- `images/` - Image assets
-- `include/` - PHP includes and utilities
+- `index.php` - Main entry point
+- `homepage/` - Homepage directory
+  - `assets/` - Bootstrap assets
+    - `css/` - Bootstrap CSS files
+    - `js/` - Bootstrap JavaScript files
+  - `css/` - Custom stylesheets
+  - `images/` - Image assets
+    - `icons/` - Icon files
+  - `include/` - PHP includes
+  - `js/` - Custom JavaScript files
 
 ## Project Structure
 
 ```
 iYnix/
-├── css/
-├── js/
-├── images/
-└── include/
+├── index.php
+├── README.md
+└── homepage/
+    ├── assets/
+    │   ├── css/
+    │   └── js/
+    ├── css/
+    ├── images/
+    │   └── icons/
+    ├── include/
+    └── js/
 ```
 
 ## Setup
 
-This repository is synced with your local XAMPP installation at `D:\xampp\htdocs\iYnix`.
+This repository is synced with your local XAMPP installation at `C:\xampp\htdocs\iYnix`.
 
 ## Getting Started
 
