@@ -545,7 +545,7 @@
 
             <div class="container">
 
-                <div class="row align-items-center g-4">
+                <div class="row align-items-center g-4 flex-sm-column-reverse flex-column-reverse flex-lg-row">
 
                     <!-- LEFT CONTENT -->
                     <div class="col-lg-6">
@@ -1281,8 +1281,7 @@
                             <div class="hs-s-icon">+</div>
                         </div>
                         <div class="hs-s-answer fw-light">
-                            We look at your audience, competitors and market demand and then select the channels that
-                            would best suit your business and region: SEO, Google Ads, Meta Ads or AI-led growth.
+                            We look at your audience, competitors and market demand and then select the channels that would best suit your business and region: SEO, Google Ads, Meta Ads or AI-led growth.
                         </div>
                     </div>
 
@@ -1292,30 +1291,7 @@
                             <div class="hs-s-icon">+</div>
                         </div>
                         <div class="hs-s-answer fw-light">
-                            We measure success based on ROI, lead quality, conversion rate and sustainable growth
-                            metrics.
-                        </div>
-                    </div>
-
-                    <div class="hs-s-item sbg-gray">
-                        <div class="hs-s-question">
-                            <h3>What is your measure of success in various markets?</h3>
-                            <div class="hs-s-icon">+</div>
-                        </div>
-                        <div class="hs-s-answer fw-light">
-                            We measure success based on ROI, lead quality, conversion rate and sustainable growth
-                            metrics.
-                        </div>
-                    </div>
-
-                    <div class="hs-s-item sbg-gray">
-                        <div class="hs-s-question">
-                            <h3>What is your measure of success in various markets?</h3>
-                            <div class="hs-s-icon">+</div>
-                        </div>
-                        <div class="hs-s-answer fw-light">
-                            We measure success based on ROI, lead quality, conversion rate and sustainable growth
-                            metrics.
+                            Our top priorities are tracked, which include leads, revenue, ROAS, and engagement, which means that performance is measured not only by traffic.
                         </div>
                     </div>
 
@@ -1325,7 +1301,27 @@
                             <div class="hs-s-icon">+</div>
                         </div>
                         <div class="hs-s-answer fw-light">
-                            We focus on performance driven marketing backed by data, transparency and optimization.
+                            We are not a one-size-fits-all marketing. All your business objectives, market environment, and the level of development are the foundation of every strategy, and it remains transparent at every point.
+                        </div>
+                    </div>
+
+                    <div class="hs-s-item sbg-gray">
+                        <div class="hs-s-question">
+                            <h3>Will you be able to assist us in scaling out of one country or region?</h3>
+                            <div class="hs-s-icon">+</div>
+                        </div>
+                        <div class="hs-s-answer fw-light">
+                            Yes. We develop scalable marketing strategies that help us to grow internationally, such as multi-region SEO, paid campaigns, and AI-assisted visibility.
+                        </div>
+                    </div>
+
+                    <div class="hs-s-item sbg-gray">
+                        <div class="hs-s-question">
+                            <h3>Will I have visibility into performance and progress?</h3>
+                            <div class="hs-s-icon">+</div>
+                        </div>
+                        <div class="hs-s-answer fw-light">
+                            Absolutely. You’ll receive clear reporting and regular updates, so you always know what’s working, what’s improving, and where growth is coming from.
                         </div>
                     </div>
 
