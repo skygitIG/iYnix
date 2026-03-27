@@ -1296,8 +1296,7 @@
                             <div class="hs-s-icon">+</div>
                         </div>
                         <div class="hs-s-answer fw-light">
-                            We look at your audience, competitors and market demand and then select the channels that
-                            would best suit your business and region: SEO, Google Ads, Meta Ads or AI-led growth.
+                            We look at your audience, competitors and market demand and then select the channels that would best suit your business and region: SEO, Google Ads, Meta Ads or AI-led growth.
                         </div>
                     </div>
 
@@ -1307,8 +1306,8 @@
                             <div class="hs-s-icon">+</div>
                         </div>
                         <div class="hs-s-answer fw-light">
-                            Our top priorities are tracked, which include leads, revenue, ROAS, and engagement, which
-                            means that performance is measured not only by traffic.
+                            We measure success based on ROI, lead quality, conversion rate and sustainable growth
+                            metrics.
                         </div>
                     </div>
 
@@ -1318,9 +1317,8 @@
                             <div class="hs-s-icon">+</div>
                         </div>
                         <div class="hs-s-answer fw-light">
-                            We are not a one-size-fits-all marketing. All your business objectives, market environment,
-                            and the level of development are the foundation of every strategy, and it remains
-                            transparent at every point.
+                            We measure success based on ROI, lead quality, conversion rate and sustainable growth
+                            metrics.
                         </div>
                     </div>
 
@@ -1330,8 +1328,8 @@
                             <div class="hs-s-icon">+</div>
                         </div>
                         <div class="hs-s-answer fw-light">
-                            Yes. We develop scalable marketing strategies that help us to grow internationally, such as
-                            multi-region SEO, paid campaigns, and AI-assisted visibility.
+                            We measure success based on ROI, lead quality, conversion rate and sustainable growth
+                            metrics.
                         </div>
                     </div>
 
@@ -1341,8 +1339,7 @@
                             <div class="hs-s-icon">+</div>
                         </div>
                         <div class="hs-s-answer fw-light">
-                            Absolutely. You’ll receive clear reporting and regular updates, so you always know what’s
-                            working, what’s improving, and where growth is coming from.
+                            We focus on performance driven marketing backed by data, transparency and optimization.
                         </div>
                     </div>
 
