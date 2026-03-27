@@ -1099,6 +1099,57 @@
 
         <!-- Help You Grow section End -->
         <!-- Meet The People section -->
+         <style>
+            .hs-r-slider {
+    overflow: hidden;
+    position: relative;
+}
+
+.hs-r-track {
+    display: flex;
+    gap: 24px;
+    width: max-content;
+    will-change: transform;
+}
+
+.hs-r-card {
+    width: 400px;
+    height: 380px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.hs-r-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hs-r-info {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background: #D81F28;
+    color: #fff;
+    text-align: center;
+    padding: 14px;
+    transition: .4s;
+}
+
+.hs-r-card:hover .hs-r-info {
+    bottom: 0;
+}
+
+@media(max-width:768px) {
+    .hs-r-card {
+        width: 180px;
+        height: 250px;
+    }
+}
+         </style>
 
         <section class="hs-r-team section-gap-top">
 

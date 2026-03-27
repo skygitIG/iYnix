@@ -27,6 +27,9 @@
     .clutch-gap {
         gap: 1.5rem;
     }
+    .hs-g-track img {
+    width: 700px!important;
+}
 }
 
 @media (max-width:767px) {
@@ -48,6 +51,9 @@
     min-height: 550px!important;
     padding: 60px 60px 60px 60px!important;
 }
+.hs-g-track img {
+    width: 600px!important;
+}
 }
 @media (max-width:575px) {
     
@@ -62,6 +68,34 @@
 }
 .hs-l-icon img{
     width: 80px!important;
+}
+
+.main-banner {
+    padding: 80px 0!important;
+}
+
+.section-gap {
+    padding: 80px 0!important;
+}
+
+.section-gap-top {
+    padding-top: 80px!important;
+}
+
+.section-gap-bottom {
+    padding-bottom: 80px!important;
+}
+.hs-k-text,.hs-f-text,.hs-o-text,.hs-t-text {
+    padding: 60px 15px 60px 15px!important;
+}
+.hs-f-image img,.hs-k-image img,.hs-o-image img,.hs-t-image img {
+        min-height: 400px!important;
+    }
+    .hs-g-track img {
+    width: 400px!important;
+}
+.hs-i-content-2 {
+    margin-top: 80px!important;
 }
 }
 
@@ -963,55 +997,8 @@
 
 /* Help You Grow section End */
 /* Meet The People section */
-.hs-r-slider {
-    overflow: hidden;
-    position: relative;
-}
 
-.hs-r-track {
-    display: flex;
-    gap: 24px;
-    width: max-content;
-    will-change: transform;
-}
-
-.hs-r-card {
-    width: 400px;
-    height: 380px;
-    border-radius: 20px;
-    overflow: hidden;
-    position: relative;
-    flex-shrink: 0;
-}
-
-.hs-r-card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.hs-r-info {
-    position: absolute;
-    bottom: -100%;
-    left: 0;
-    width: 100%;
-    background: #D81F28;
-    color: #fff;
-    text-align: center;
-    padding: 14px;
-    transition: .4s;
-}
-
-.hs-r-card:hover .hs-r-info {
-    bottom: 0;
-}
-
-@media(max-width:768px) {
-    .hs-r-card {
-        width: 180px;
-        height: 250px;
-    }
-}
+/* In index file */
 
 /* Meet The People section End */
 /* FAQs section */
