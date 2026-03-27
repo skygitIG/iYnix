@@ -309,7 +309,8 @@
 
         <section class="hs-f-section">
             <div class="container">
-                <div class="container hs-f-content d-flex align-items-center gap-0 align-items-stretch flex-sm-column-reverse flex-column-reverse flex-lg-row">
+                <div
+                    class="container hs-f-content d-flex align-items-center gap-0 align-items-stretch flex-sm-column-reverse flex-column-reverse flex-lg-row">
                     <div class="container hs-f-text">
                         <h2 class="hs-e-smart-title mb-3 fw-semibold text-black">
                             Oh, Hi. <span class="text-crimson">You Found Us!</span></h2>
@@ -545,7 +546,7 @@
 
             <div class="container">
 
-                <div class="row align-items-center g-4">
+                <div class="row align-items-center g-4 flex-sm-column-reverse flex-column-reverse flex-lg-row">
 
                     <!-- LEFT CONTENT -->
                     <div class="col-lg-6">
@@ -708,7 +709,8 @@
 
         <section class="hs-k-section section-gap-top px-2a">
             <div class="container">
-                <div class="container hs-k-content d-flex align-items-center gap-0 align-items-stretch flex-sm-column flex-column flex-lg-row">
+                <div
+                    class="container hs-k-content d-flex align-items-center gap-0 align-items-stretch flex-sm-column flex-column flex-lg-row">
                     <div class="container hs-k-image p-0">
                         <img src="homepage/images/cash-and-chess.png" class="img-fluid" alt="">
                     </div>
@@ -921,7 +923,8 @@
 
         <section class="hs-o-section section-gap px-2a">
             <div class="container">
-                <div class="container hs-o-content d-flex align-items-center gap-0 align-items-stretch flex-sm-column-reverse flex-column-reverse flex-lg-row">
+                <div
+                    class="container hs-o-content d-flex align-items-center gap-0 align-items-stretch flex-sm-column-reverse flex-column-reverse flex-lg-row">
                     <div class="container hs-o-text d-flex flex-column justify-content-center">
                         <h2 class="hs-e-smart-title mb-3 fw-semibold text-black">
                             Still Confused?<br> <span class="text-crimson">Let Us Show You Our Work!</span></h2>
@@ -948,7 +951,19 @@
 
                 <div class="hs-p-video-box">
 
-                    <img src="homepage/images/video-banner.png" class="hs-p-video-thumb">
+                    <!-- <img src="homepage/images/video-banner.png" class="hs-p-video-thumb"> -->
+                    <picture>
+
+                        <!-- Mobile (≤575px) -->
+                        <source srcset="homepage/images/video-banner-ph.jpeg" media="(max-width: 575px)">
+
+                        <!-- Tablet (576px – 1240px) -->
+                        <source srcset="homepage/images/video-banner-tab.jpeg" media="(max-width: 1240px)">
+
+                        <!-- Desktop fallback -->
+                        <img src="homepage/images/video-banner.png" class="hs-p-video-thumb">
+
+                    </picture>
 
                     <div class="hs-p-play"
                         data-video="https://www.youtube.com/embed/Az-mGR-CehY?list=RDGMEMWO-g6DgCWEqKlDtKbJA1Gw&index=18">
@@ -1099,57 +1114,57 @@
 
         <!-- Help You Grow section End -->
         <!-- Meet The People section -->
-         <style>
+        <style>
             .hs-r-slider {
-    overflow: hidden;
-    position: relative;
-}
+                overflow: hidden;
+                position: relative;
+            }
 
-.hs-r-track {
-    display: flex;
-    gap: 24px;
-    width: max-content;
-    will-change: transform;
-}
+            .hs-r-track {
+                display: flex;
+                gap: 24px;
+                width: max-content;
+                will-change: transform;
+            }
 
-.hs-r-card {
-    width: 400px;
-    height: 380px;
-    border-radius: 20px;
-    overflow: hidden;
-    position: relative;
-    flex-shrink: 0;
-}
+            .hs-r-card {
+                width: 400px;
+                height: 380px;
+                border-radius: 20px;
+                overflow: hidden;
+                position: relative;
+                flex-shrink: 0;
+            }
 
-.hs-r-card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+            .hs-r-card img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
 
-.hs-r-info {
-    position: absolute;
-    bottom: -100%;
-    left: 0;
-    width: 100%;
-    background: #D81F28;
-    color: #fff;
-    text-align: center;
-    padding: 14px;
-    transition: .4s;
-}
+            .hs-r-info {
+                position: absolute;
+                bottom: -100%;
+                left: 0;
+                width: 100%;
+                background: #D81F28;
+                color: #fff;
+                text-align: center;
+                padding: 14px;
+                transition: .4s;
+            }
 
-.hs-r-card:hover .hs-r-info {
-    bottom: 0;
-}
+            .hs-r-card:hover .hs-r-info {
+                bottom: 0;
+            }
 
-@media(max-width:768px) {
-    .hs-r-card {
-        width: 180px;
-        height: 250px;
-    }
-}
-         </style>
+            @media(max-width:768px) {
+                .hs-r-card {
+                    width: 180px;
+                    height: 250px;
+                }
+            }
+        </style>
 
         <section class="hs-r-team section-gap-top">
 
@@ -1292,30 +1307,8 @@
                             <div class="hs-s-icon">+</div>
                         </div>
                         <div class="hs-s-answer fw-light">
-                            We measure success based on ROI, lead quality, conversion rate and sustainable growth
-                            metrics.
-                        </div>
-                    </div>
-
-                    <div class="hs-s-item sbg-gray">
-                        <div class="hs-s-question">
-                            <h3>What is your measure of success in various markets?</h3>
-                            <div class="hs-s-icon">+</div>
-                        </div>
-                        <div class="hs-s-answer fw-light">
-                            We measure success based on ROI, lead quality, conversion rate and sustainable growth
-                            metrics.
-                        </div>
-                    </div>
-
-                    <div class="hs-s-item sbg-gray">
-                        <div class="hs-s-question">
-                            <h3>What is your measure of success in various markets?</h3>
-                            <div class="hs-s-icon">+</div>
-                        </div>
-                        <div class="hs-s-answer fw-light">
-                            We measure success based on ROI, lead quality, conversion rate and sustainable growth
-                            metrics.
+                            Our top priorities are tracked, which include leads, revenue, ROAS, and engagement, which
+                            means that performance is measured not only by traffic.
                         </div>
                     </div>
 
@@ -1325,7 +1318,31 @@
                             <div class="hs-s-icon">+</div>
                         </div>
                         <div class="hs-s-answer fw-light">
-                            We focus on performance driven marketing backed by data, transparency and optimization.
+                            We are not a one-size-fits-all marketing. All your business objectives, market environment,
+                            and the level of development are the foundation of every strategy, and it remains
+                            transparent at every point.
+                        </div>
+                    </div>
+
+                    <div class="hs-s-item sbg-gray">
+                        <div class="hs-s-question">
+                            <h3>Will you be able to assist us in scaling out of one country or region?</h3>
+                            <div class="hs-s-icon">+</div>
+                        </div>
+                        <div class="hs-s-answer fw-light">
+                            Yes. We develop scalable marketing strategies that help us to grow internationally, such as
+                            multi-region SEO, paid campaigns, and AI-assisted visibility.
+                        </div>
+                    </div>
+
+                    <div class="hs-s-item sbg-gray">
+                        <div class="hs-s-question">
+                            <h3>Will I have visibility into performance and progress?</h3>
+                            <div class="hs-s-icon">+</div>
+                        </div>
+                        <div class="hs-s-answer fw-light">
+                            Absolutely. You’ll receive clear reporting and regular updates, so you always know what’s
+                            working, what’s improving, and where growth is coming from.
                         </div>
                     </div>
 
@@ -1383,7 +1400,8 @@
 
         <section class="hs-t-section section-gap px-2a">
             <div class="container">
-                <div class="container hs-t-content d-flex align-items-center gap-0 align-items-stretch flex-sm-column flex-column flex-lg-row">
+                <div
+                    class="container hs-t-content d-flex align-items-center gap-0 align-items-stretch flex-sm-column flex-column flex-lg-row">
                     <div class="container hs-t-image p-0">
                         <img src="homepage/images/business-goals.png" class="img-fluid" alt="">
                     </div>
