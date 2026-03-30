@@ -21,7 +21,7 @@
         <section class="bg-dark main-banner">
             <div class="container d-flex overflow-h flex-column flex-md-column flex-lg-row">
 
-                <div class="container d-flex flex-column justify-content-end hero-banner-text">
+                <div class="container d-flex flex-column justify-content-center hero-banner-text">
                     <a href="services.php"><button class="btn btn-primary accent"><img
                                 src="homepage/images/icons/lightning.svg" alt=""> AI-Driven Digital Marketing
                             Services</button></a>
@@ -35,7 +35,7 @@
         data-bs-target="#hsFormModal" style="width: fit-content;">
   Get in Touch With Us
 </button>
-                    <div class="container d-flex align-items-center clutch-gap mb-3 mt-5">
+                    <!-- <div class="container d-flex align-items-center clutch-gap mb-3 mt-5">
                         <img src="homepage/images/clutch-one.png" class="img-fluid" alt="">
                         <img src="homepage/images/clutch-two.png" class="img-fluid" alt="">
                         <img src="homepage/images/clutch-three.png" class="img-fluid" alt="">
@@ -43,7 +43,7 @@
                     <div class="container d-flex align-items-center clutch-gap mt-4">
                         <img src="homepage/images/google.png" class="img-fluid" alt="">
                         <img src="homepage/images/trustpilot.png" class="img-fluid" alt="">
-                    </div>
+                    </div> -->
                 </div>
                 <div class="container mt-md-5 mt-sm-4 mt-3">
 
@@ -241,10 +241,22 @@
 
                         <div class="hs-d-logo-item"><img src="homepage/images/logos/bsw.png"></div>
                         <div class="hs-d-logo-item"><img src="homepage/images/logos/cmed.png"></div>
-                        <div class="hs-d-logo-item"><img src="homepage/images/logos/bsw.png"></div>
-                        <div class="hs-d-logo-item"><img src="homepage/images/logos/cmed.png"></div>
-                        <div class="hs-d-logo-item"><img src="homepage/images/logos/bsw.png"></div>
-                        <div class="hs-d-logo-item"><img src="homepage/images/logos/cmed.png"></div>
+                        <div class="hs-d-logo-item"><img src="homepage/images/logos/logos-03.png"></div>
+                        <div class="hs-d-logo-item"><img src="homepage/images/logos/logos-04.png"></div>
+                        <div class="hs-d-logo-item"><img src="homepage/images/logos/logos-05.png"></div>
+                        <div class="hs-d-logo-item"><img src="homepage/images/logos/logos-06.png"></div>
+                        <div class="hs-d-logo-item"><img src="homepage/images/logos/logos-07.png"></div>
+                        <div class="hs-d-logo-item"><img src="homepage/images/logos/logos-08.png"></div>
+                        <div class="hs-d-logo-item"><img src="homepage/images/logos/logos-09.png"></div>
+                        <div class="hs-d-logo-item"><img src="homepage/images/logos/logos-10.png"></div>
+                        <div class="hs-d-logo-item"><img src="homepage/images/logos/logos-11.png"></div>
+                        <div class="hs-d-logo-item"><img src="homepage/images/logos/logos-12.png"></div>
+                        <div class="hs-d-logo-item"><img src="homepage/images/logos/logos-13.png"></div>
+                        <div class="hs-d-logo-item"><img src="homepage/images/logos/logos-14.png"></div>
+                        <div class="hs-d-logo-item"><img src="homepage/images/logos/logos-15.png"></div>
+                        <div class="hs-d-logo-item"><img src="homepage/images/logos/logos-16.png"></div>
+                        <div class="hs-d-logo-item"><img src="homepage/images/logos/logos-17.png"></div>
+                        <div class="hs-d-logo-item"><img src="homepage/images/logos/logos-18.png"></div>
 
                     </div>
 
@@ -262,7 +274,7 @@
                     track.innerHTML += track.innerHTML;
 
                     let pos = 0;
-                    let speed = 0.4;
+                    let speed = 0.9;
 
                     function animate() {
                         pos -= speed;
@@ -387,10 +399,10 @@
                         </div>
                         <div class="col-md-6"><img src="homepage/images/portfolio-branding-b.png" class="hs-g-img">
                         </div>
-                        <div class="col-md-6"><img src="homepage/images/portfolio-branding-c.png" class="hs-g-img">
-                        </div>
-                        <div class="col-md-6"><img src="homepage/images/portfolio-branding-d.png" class="hs-g-img">
-                        </div>
+                        <!-- <div class="col-md-6"><img src="homepage/images/portfolio-branding-c.png" class="hs-g-img">
+                        </div> -->
+                        <!-- <div class="col-md-6"><img src="homepage/images/portfolio-branding-d.png" class="hs-g-img">
+                        </div> -->
                         <div class="col-md-6"><img src="homepage/images/portfolio-branding-e.png" class="hs-g-img">
                         </div>
                         <div class="col-md-6"><img src="homepage/images/portfolio-branding-f.png" class="hs-g-img">
@@ -410,6 +422,7 @@
                             <img src="homepage/images/carousal/mockup-04.png" class="hs-g-img">
                             <img src="homepage/images/carousal/mockup-05.png" class="hs-g-img">
                             <img src="homepage/images/carousal/mockup-06.png" class="hs-g-img">
+                            <img src="homepage/images/carousal/mockup-08.png" class="hs-g-img">
 
                         </div>
                     </div>
@@ -419,13 +432,13 @@
                 <!-- UI UX Grid -->
                 <div class="hs-g-content container" id="ui">
                     <div class="row g-4">
-                        <div class="col-md-6"><img src="homepage/images/portfolio-uiux-a.png" class="hs-g-img">
+                        <div class="col-md-6"><img src="homepage/images/portfolio-uiux-a.png" class="hs-g-img" style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);">
                         </div>
-                        <div class="col-md-6"><img src="homepage/images/portfolio-uiux-b.png" class="hs-g-img">
+                        <div class="col-md-6"><img src="homepage/images/portfolio-uiux-b.png" class="hs-g-img" style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);">
                         </div>
-                        <div class="col-md-6"><img src="homepage/images/portfolio-uiux-c.png" class="hs-g-img">
+                        <div class="col-md-6"><img src="homepage/images/portfolio-uiux-c.png" class="hs-g-img" style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);">
                         </div>
-                        <div class="col-md-6"><img src="homepage/images/portfolio-uiux-d.png" class="hs-g-img">
+                        <div class="col-md-6"><img src="homepage/images/portfolio-uiux-f.png" class="hs-g-img" style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);">
                         </div>
                     </div>
                 </div>
@@ -889,7 +902,7 @@
         <!-- Results You Can Measure section -->
 
 
-        <section class="hs-n-results-section section-gap-top px-2a">
+        <section class="hs-n-results-section section-gap px-2a">
 
             <div class="container">
 
@@ -957,7 +970,7 @@
         <!-- Results You Can Measure section End -->
         <!-- Still Confused? section -->
 
-        <section class="hs-o-section section-gap px-2a">
+        <!-- <section class="hs-o-section section-gap px-2a">
             <div class="container">
                 <div
                     class="container hs-o-content d-flex align-items-center gap-0 align-items-stretch flex-sm-column-reverse flex-column-reverse flex-lg-row">
@@ -967,8 +980,6 @@
                         <p class="hs-o-p p-sm my-4">We don't just talk about results; we prove them.
                             Explore our detailed case studies to see how we helped businesses improve traffic,
                             leads, and revenue.</p>
-                        <!-- <a href="services.php"><button class="btn btn-secondary mt-5 mt-md-4">Book Your Free Audit
-                                Now!</button></a> -->
                                 <button class="btn btn-secondary mt-5"
         data-bs-toggle="modal"
         data-bs-target="#hsFormModal" style="width: fit-content;">
@@ -980,7 +991,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
 
         <!-- Still Confused? section End -->
@@ -1006,10 +1017,10 @@
 
                     </picture>
 
-                    <div class="hs-p-play"
+                    <!-- <div class="hs-p-play"
                         data-video="https://www.youtube.com/embed/Az-mGR-CehY?list=RDGMEMWO-g6DgCWEqKlDtKbJA1Gw&index=18">
                         <i class="bi bi-play-fill"></i>
-                    </div>
+                    </div> -->
 
                 </div>
 
