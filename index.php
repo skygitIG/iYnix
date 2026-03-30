@@ -50,19 +50,21 @@
 
                             <div class="ban-sl-row ban-sl-left ban-sl-row-top">
 
-                                <img src="https://picsum.photos/320/400?random=1" class="ban-sl-img">
-                                <img src="https://picsum.photos/320/400?random=2" class="ban-sl-img">
-                                <img src="https://picsum.photos/320/400?random=3" class="ban-sl-img">
-                                <img src="https://picsum.photos/320/400?random=4" class="ban-sl-img">
-                                <img src="https://picsum.photos/320/400?random=5" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-a1.jpg" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-a2.jpg" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-a3.jpg" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-a4.png" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-a5.png" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-a6.png" class="ban-sl-img">
 
                                 <!-- duplicate -->
 
-                                <img src="https://picsum.photos/320/400?random=6" class="ban-sl-img">
-                                <img src="https://picsum.photos/320/400?random=7" class="ban-sl-img">
-                                <img src="https://picsum.photos/320/400?random=8" class="ban-sl-img">
-                                <img src="https://picsum.photos/320/400?random=9" class="ban-sl-img">
-                                <img src="https://picsum.photos/320/400?random=10" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-a1.jpg" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-a2.jpg" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-a3.jpg" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-a4.png" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-a5.png" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-a6.png" class="ban-sl-img">
 
                             </div>
 
@@ -71,19 +73,21 @@
 
                             <div class="ban-sl-row ban-sl-right">
 
-                                <img src="https://picsum.photos/320/400?random=11" class="ban-sl-img">
-                                <img src="https://picsum.photos/320/400?random=12" class="ban-sl-img">
-                                <img src="https://picsum.photos/320/400?random=13" class="ban-sl-img">
-                                <img src="https://picsum.photos/320/400?random=14" class="ban-sl-img">
-                                <img src="https://picsum.photos/320/400?random=15" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-b1.jpg" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-b2.jpg" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-b3.jpg" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-b4.png" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-b5.png" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-b6.png" class="ban-sl-img">
 
                                 <!-- duplicate -->
 
-                                <img src="https://picsum.photos/320/400?random=16" class="ban-sl-img">
-                                <img src="https://picsum.photos/320/400?random=17" class="ban-sl-img">
-                                <img src="https://picsum.photos/320/400?random=18" class="ban-sl-img">
-                                <img src="https://picsum.photos/320/400?random=19" class="ban-sl-img">
-                                <img src="https://picsum.photos/320/400?random=20" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-b1.jpg" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-b2.jpg" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-b3.jpg" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-b4.png" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-b5.png" class="ban-sl-img">
+                                <img src="homepage/images/carousal/hero-carousal-b6.png" class="ban-sl-img">
 
                             </div>
 
@@ -390,10 +394,12 @@
                     <div class="hs-g-carousel">
                         <div class="hs-g-track" id="hs-g-track">
 
-                            <img src="homepage/images/portfolio-web-d-a.png" class="hs-g-img">
-                            <img src="homepage/images/portfolio-web-d-b.png" class="hs-g-img">
-                            <img src="homepage/images/portfolio-web-d-c.png" class="hs-g-img">
-                            <img src="homepage/images/portfolio-web-d-a.png" class="hs-g-img">
+                            <img src="homepage/images/carousal/mockup-01.png" class="hs-g-img">
+                            <img src="homepage/images/carousal/mockup-07.png" class="hs-g-img">
+                            <img src="homepage/images/carousal/mockup-03.png" class="hs-g-img">
+                            <img src="homepage/images/carousal/mockup-04.png" class="hs-g-img">
+                            <img src="homepage/images/carousal/mockup-05.png" class="hs-g-img">
+                            <img src="homepage/images/carousal/mockup-06.png" class="hs-g-img">
 
                         </div>
                     </div>
@@ -443,7 +449,7 @@
                 track.innerHTML += track.innerHTML;
 
                 let pos = 0;
-                let speed = 0.6;
+                let speed = 0.9;
 
                 function loop() {
                     pos -= speed;
