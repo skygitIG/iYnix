@@ -431,7 +431,7 @@
 /* SMART MARKETING SECTION END */
 /* Real Growth SECTION */
 .hs-d-smart-section {
-    background-image: url('homepage/images/icons/bg-curve.svg');
+    background-image: url('../images/icons/bg-curve.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -628,7 +628,7 @@
 /* Leads section End */
 /* Drive Growth section */
 .hs-j-smart-section {
-    background-image: url('homepage/images/icons/bg-curve.svg');
+    background-image: url('../images/icons/bg-curve.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -818,7 +818,7 @@
     background: #000;
     border-radius: 20px;
     padding: 180px 0;
-    background-image: url('homepage/images/icons/bg-curve.svg');
+    background-image: url('../images/icons/bg-curve.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -891,7 +891,7 @@
 /* Still Confused? section End */
 /* Why Choose Iynix section */
 .hs-p-smart-section {
-    background-image: url('homepage/images/icons/bg-curve.svg');
+    background-image: url('../images/icons/bg-curve.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }

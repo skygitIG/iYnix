@@ -1017,10 +1017,10 @@
 
                     </picture>
 
-                    <!-- <div class="hs-p-play"
+                    <div class="hs-p-play"
                         data-video="https://www.youtube.com/embed/Az-mGR-CehY?list=RDGMEMWO-g6DgCWEqKlDtKbJA1Gw&index=18">
                         <i class="bi bi-play-fill"></i>
-                    </div> -->
+                    </div>
 
                 </div>
 
