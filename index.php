@@ -957,8 +957,8 @@
                         <!-- Mobile (≤575px) -->
                         <source srcset="homepage/images/video-banner-ph.jpeg" media="(max-width: 575px)">
 
-                        <!-- Tablet (576px – 1240px) -->
-                        <source srcset="homepage/images/video-banner-tab.jpeg" media="(max-width: 1240px)">
+                        <!-- Tablet (576px – 1540px) -->
+                        <source srcset="homepage/images/video-banner-tab.jpeg" media="(max-width: 1540px)">
 
                         <!-- Desktop fallback -->
                         <img src="homepage/images/video-banner.png" class="hs-p-video-thumb">
