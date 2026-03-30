@@ -29,7 +29,12 @@
                         Empowering Businesses with <span class="text-crimson">Predictable Leads</span> and Revenue
                         Growth
                     </h1>
-                    <a href="services.php"><button class="btn btn-secondary mt-5">Get in Touch With Us</button></a>
+                    <!-- <a href="#"><button class="btn btn-secondary mt-5">Get in Touch With Us</button></a> -->
+                     <button class="btn btn-secondary mt-5"
+        data-bs-toggle="modal"
+        data-bs-target="#hsFormModal" style="width: fit-content;">
+  Get in Touch With Us
+</button>
                     <div class="container d-flex align-items-center clutch-gap mb-3 mt-5">
                         <img src="homepage/images/clutch-one.png" class="img-fluid" alt="">
                         <img src="homepage/images/clutch-two.png" class="img-fluid" alt="">
@@ -189,8 +194,13 @@
                 </div>
 
                 <!-- CTA -->
-                <a href="services.php"><button class="btn btn-secondary mt-5 mt-md-4">Get a Free Marketing
-                        Audit!</button></a>
+                <!-- <a href="services.php"><button class="btn btn-secondary mt-5 mt-md-4">Get a Free Marketing
+                        Audit!</button></a> -->
+                        <button class="btn btn-secondary mt-5"
+        data-bs-toggle="modal"
+        data-bs-target="#hsFormModal" style="width: fit-content;">
+  Get a Free Marketing Audit!
+</button>
 
             </div>
 
@@ -573,8 +583,13 @@
                         </p>
 
                         <!-- CTA -->
-                        <a href="services.php"><button class="btn btn-secondary mt-5 mt-md-4">Get Your Free
-                                Marketing Audit</button></a>
+                        <!-- <a href="services.php"><button class="btn btn-secondary mt-5 mt-md-4">Get Your Free
+                                Marketing Audit</button></a> -->
+                                <button class="btn btn-secondary mt-5"
+        data-bs-toggle="modal"
+        data-bs-target="#hsFormModal" style="width: fit-content;">
+  Get Your Free Marketing Audit
+</button>
 
                     </div>
 
@@ -622,8 +637,13 @@
                         </p>
 
                         <!-- CTA -->
-                        <a href="services.php"><button class="btn btn-secondary mt-5 mt-md-4">Get Your Free
-                                Marketing Audit</button></a>
+                        <!-- <a href="services.php"><button class="btn btn-secondary mt-5 mt-md-4">Get Your Free
+                                Marketing Audit</button></a> -->
+                                <button class="btn btn-secondary mt-5"
+        data-bs-toggle="modal"
+        data-bs-target="#hsFormModal" style="width: fit-content;">
+  Get Your Free Marketing Audit
+</button>
 
                     </div>
 
@@ -725,8 +745,13 @@
                             We Crunch the Strategy. <span class="text-crimson">You Cash the Results!</span></h2>
                         <p class="hs-k-p p-sm my-4">Do you have big goals? Let’s map out a strategy that actually
                             brings in customers and revenue. Book a quick call with our team.</p>
-                        <a href="services.php"><button class="btn btn-secondary mt-5 mt-md-4">Schedule a 15-Min Call
-                                With Us!</button></a>
+                        <!-- <a href="services.php"><button class="btn btn-secondary mt-5 mt-md-4">Schedule a 15-Min Call
+                                With Us!</button></a> -->
+                                <button class="btn btn-secondary mt-5 mt-md-4 hs-calendar-btn"
+        data-bs-toggle="modal"
+        data-bs-target="#hsCalendarModal" style="width: fit-content;">
+  Schedule a 15-Min Call With Us!
+</button>
                     </div>
                 </div>
             </div>
@@ -843,8 +868,13 @@
                     </p>
 
                     <!-- BUTTON -->
-                    <a href="services.php"><button class="btn btn-secondary mt-5 mt-md-4">Book Your Free Audit
-                            Now!</button></a>
+                    <!-- <a href="services.php"><button class="btn btn-secondary mt-5 mt-md-4">Book Your Free Audit
+                            Now!</button></a> -->
+                            <button class="btn btn-secondary mt-5"
+        data-bs-toggle="modal"
+        data-bs-target="#hsFormModal" style="width: fit-content;">
+  Book Your Free Audit Now!
+</button>
 
                 </div>
 
@@ -937,8 +967,13 @@
                         <p class="hs-o-p p-sm my-4">We don't just talk about results; we prove them.
                             Explore our detailed case studies to see how we helped businesses improve traffic,
                             leads, and revenue.</p>
-                        <a href="services.php"><button class="btn btn-secondary mt-5 mt-md-4">Book Your Free Audit
-                                Now!</button></a>
+                        <!-- <a href="services.php"><button class="btn btn-secondary mt-5 mt-md-4">Book Your Free Audit
+                                Now!</button></a> -->
+                                <button class="btn btn-secondary mt-5"
+        data-bs-toggle="modal"
+        data-bs-target="#hsFormModal" style="width: fit-content;">
+  Book Your Free Audit Now!
+</button>
                     </div>
                     <div class="container hs-o-image p-0">
                         <img src="homepage/images/Still-Confused.png" class="img-fluid" alt="">
@@ -1413,7 +1448,7 @@
                             Ready To Talk About Your <span class="text-crimson">Business Goals?</span></h2>
                         <p class="hs-t-p p-sm my-4">If you're looking for better leads, stronger sales, or clearer
                             direction, we'd love to hear about your business and see how we can help.</p>
-                        <a href="services.php"><button class="btn btn-secondary mt-5 mt-md-4">Connect With
+                        <a href="https://iynixdigital.com/contact-us.php"><button class="btn btn-secondary mt-5 mt-md-4">Connect With
                                 Us</button></a>
                     </div>
                 </div>
@@ -1430,6 +1465,61 @@
 
 
     </main>
+
+
+    <!-- FORM POP_UP -->
+
+
+    <div class="modal fade" id="hsFormModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content border-0 rounded-4 overflow-hidden">
+
+      <!-- <div class="modal-header">
+        <h5 class="modal-title">Get In Touch</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div> -->
+
+      <div class="modal-body p-0" style="height:650px;">
+        <iframe
+          src="https://api.leadconnectorhq.com/widget/form/eSQBrTOEcfeR6MjmuMQC"
+          style="width:100%;height:100%;border:none;"
+          title="New Website Form">
+        </iframe>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+    <!-- FORM POP_UP -->
+     <!-- Calendar popup -->
+
+
+     <div class="modal fade" id="hsCalendarModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content border-0 rounded-4 overflow-hidden">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Schedule a Meeting</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body p-0" style="height:700px;">
+        <iframe
+          src="https://api.leadconnectorhq.com/widget/booking/6hGo9fBmoPVyeTsoYtNm"
+          style="width:100%; height:100%; border:none; overflow:hidden;"
+          scrolling="no"
+          title="Booking Calendar">
+        </iframe>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+     <!-- Calendar popup -->
 
 
 
