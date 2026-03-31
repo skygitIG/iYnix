@@ -30,11 +30,10 @@
                         Growth
                     </h1>
                     <!-- <a href="#"><button class="btn btn-secondary mt-5">Get in Touch With Us</button></a> -->
-                     <button class="btn btn-secondary mt-5"
-        data-bs-toggle="modal"
-        data-bs-target="#hsFormModal" style="width: fit-content;">
-  Get in Touch With Us
-</button>
+                    <button class="btn btn-secondary mt-5" data-bs-toggle="modal" data-bs-target="#hsFormModal"
+                        style="width: fit-content;">
+                        Get in Touch With Us
+                    </button>
                     <!-- <div class="container d-flex align-items-center clutch-gap mb-3 mt-5">
                         <img src="homepage/images/clutch-one.png" class="img-fluid" alt="">
                         <img src="homepage/images/clutch-two.png" class="img-fluid" alt="">
@@ -196,11 +195,10 @@
                 <!-- CTA -->
                 <!-- <a href="services.php"><button class="btn btn-secondary mt-5 mt-md-4">Get a Free Marketing
                         Audit!</button></a> -->
-                        <button class="btn btn-secondary mt-5"
-        data-bs-toggle="modal"
-        data-bs-target="#hsFormModal" style="width: fit-content;">
-  Get a Free Marketing Audit!
-</button>
+                <button class="btn btn-secondary mt-5" data-bs-toggle="modal" data-bs-target="#hsFormModal"
+                    style="width: fit-content;">
+                    Get a Free Marketing Audit!
+                </button>
 
             </div>
 
@@ -432,13 +430,17 @@
                 <!-- UI UX Grid -->
                 <div class="hs-g-content container" id="ui">
                     <div class="row g-4">
-                        <div class="col-md-6"><img src="homepage/images/portfolio-uiux-a.png" class="hs-g-img" style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);">
+                        <div class="col-md-6"><img src="homepage/images/portfolio-uiux-a.png" class="hs-g-img"
+                                style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);">
                         </div>
-                        <div class="col-md-6"><img src="homepage/images/portfolio-uiux-b.png" class="hs-g-img" style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);">
+                        <div class="col-md-6"><img src="homepage/images/portfolio-uiux-b.png" class="hs-g-img"
+                                style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);">
                         </div>
-                        <div class="col-md-6"><img src="homepage/images/portfolio-uiux-c.png" class="hs-g-img" style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);">
+                        <div class="col-md-6"><img src="homepage/images/portfolio-uiux-c.png" class="hs-g-img"
+                                style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);">
                         </div>
-                        <div class="col-md-6"><img src="homepage/images/portfolio-uiux-f.png" class="hs-g-img" style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);">
+                        <div class="col-md-6"><img src="homepage/images/portfolio-uiux-f.png" class="hs-g-img"
+                                style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);">
                         </div>
                     </div>
                 </div>
@@ -598,11 +600,10 @@
                         <!-- CTA -->
                         <!-- <a href="services.php"><button class="btn btn-secondary mt-5 mt-md-4">Get Your Free
                                 Marketing Audit</button></a> -->
-                                <button class="btn btn-secondary mt-5"
-        data-bs-toggle="modal"
-        data-bs-target="#hsFormModal" style="width: fit-content;">
-  Get Your Free Marketing Audit
-</button>
+                        <button class="btn btn-secondary mt-5" data-bs-toggle="modal" data-bs-target="#hsFormModal"
+                            style="width: fit-content;">
+                            Get Your Free Marketing Audit
+                        </button>
 
                     </div>
 
@@ -652,11 +653,10 @@
                         <!-- CTA -->
                         <!-- <a href="services.php"><button class="btn btn-secondary mt-5 mt-md-4">Get Your Free
                                 Marketing Audit</button></a> -->
-                                <button class="btn btn-secondary mt-5"
-        data-bs-toggle="modal"
-        data-bs-target="#hsFormModal" style="width: fit-content;">
-  Get Your Free Marketing Audit
-</button>
+                        <button class="btn btn-secondary mt-5" data-bs-toggle="modal" data-bs-target="#hsFormModal"
+                            style="width: fit-content;">
+                            Get Your Free Marketing Audit
+                        </button>
 
                     </div>
 
@@ -760,11 +760,10 @@
                             brings in customers and revenue. Book a quick call with our team.</p>
                         <!-- <a href="services.php"><button class="btn btn-secondary mt-5 mt-md-4">Schedule a 15-Min Call
                                 With Us!</button></a> -->
-                                <button class="btn btn-secondary mt-5 mt-md-4 hs-calendar-btn"
-        data-bs-toggle="modal"
-        data-bs-target="#hsCalendarModal" style="width: fit-content;">
-  Schedule a 15-Min Call With Us!
-</button>
+                        <button class="btn btn-secondary mt-5 mt-md-4 hs-calendar-btn" data-bs-toggle="modal"
+                            data-bs-target="#hsCalendarModal" style="width: fit-content;">
+                            Schedule a 15-Min Call With Us!
+                        </button>
                     </div>
                 </div>
             </div>
@@ -883,11 +882,10 @@
                     <!-- BUTTON -->
                     <!-- <a href="services.php"><button class="btn btn-secondary mt-5 mt-md-4">Book Your Free Audit
                             Now!</button></a> -->
-                            <button class="btn btn-secondary mt-5"
-        data-bs-toggle="modal"
-        data-bs-target="#hsFormModal" style="width: fit-content;">
-  Book Your Free Audit Now!
-</button>
+                    <button class="btn btn-secondary mt-5" data-bs-toggle="modal" data-bs-target="#hsFormModal"
+                        style="width: fit-content;">
+                        Book Your Free Audit Now!
+                    </button>
 
                 </div>
 
@@ -902,7 +900,7 @@
         <!-- Results You Can Measure section -->
 
 
-        <section class="hs-n-results-section section-gap px-2a">
+        <section class="hs-n-results-section section-gap-top px-2a">
 
             <div class="container">
 
@@ -997,7 +995,7 @@
         <!-- Still Confused? section End -->
         <!-- Why Choose Iynix section -->
 
-        <section class="hs-p-smart-section bg-dark section-gap px-2a">
+        <section class="hs-p-smart-section bg-dark section-gap px-2a d-none">
 
             <div class="container">
 
@@ -1231,37 +1229,79 @@
 
                     <!-- CARD -->
                     <div class="hs-r-card">
-                        <img src="homepage/images/people/akash.png">
-                        <div class="hs-r-info">
-                            <h6>Akash</h6><span>Senior Developer</span>
-                        </div>
-                    </div>
-
-                    <div class="hs-r-card">
-                        <img src="homepage/images/people/adarsh.png">
+                        <img src="homepage/images/team/Adarsh-Mathuri.png">
                         <div class="hs-r-info">
                             <h6>Adarsh Mathuri</h6><span>SEO Expert</span>
                         </div>
                     </div>
 
                     <div class="hs-r-card">
-                        <img src="homepage/images/people/het.png">
+                        <img src="homepage/images/team/Himanshu-Verma.png">
+                        <div class="hs-r-info">
+                            <h6>Himanshu Verma</h6><span>SEO Expert</span>
+                        </div>
+                    </div>
+
+                    <div class="hs-r-card">
+                        <img src="homepage/images/team/Akash-kumar.png">
+                        <div class="hs-r-info">
+                            <h6>Akash</h6><span>Senior Developer</span>
+                        </div>
+                    </div>
+
+                    <div class="hs-r-card">
+                        <img src="homepage/images/team/Gunjan-Nagpal.png">
+                        <div class="hs-r-info">
+                            <h6>Gunjan Nagpal</h6><span>Content Specialist</span>
+                        </div>
+                    </div>
+
+                    <div class="hs-r-card">
+                        <img src="homepage/images/team/Samim-Pathan.png">
+                        <div class="hs-r-info">
+                            <h6>Samim Pathan</h6><span>Web Designer</span>
+                        </div>
+                    </div>
+
+                    <div class="hs-r-card">
+                        <img src="homepage/images/team/Het-Patel.png">
                         <div class="hs-r-info">
                             <h6>Het Patel</h6><span>Automation Expert</span>
                         </div>
                     </div>
 
                     <div class="hs-r-card">
-                        <img src="homepage/images/people/samim.png">
+                        <img src="homepage/images/team/Neeraj-Kumar.png">
                         <div class="hs-r-info">
-                            <h6>Samim Pathan</h6><span>Senior Designer</span>
+                            <h6>Neeraj Kumar</h6><span>SEO Expert</span>
                         </div>
                     </div>
 
                     <div class="hs-r-card">
-                        <img src="homepage/images/people/gunjan.png">
+                        <img src="homepage/images/team/Rohit-Rai.png">
                         <div class="hs-r-info">
-                            <h6>Gunjan</h6><span>Content Specialist</span>
+                            <h6>Rohit Rai</h6><span>Website Developer</span>
+                        </div>
+                    </div>
+
+                    <div class="hs-r-card">
+                        <img src="homepage/images/team/Deepak-Shah.png">
+                        <div class="hs-r-info">
+                            <h6>Deepak Shah</h6><span>SEO Expert</span>
+                        </div>
+                    </div>
+
+                    <div class="hs-r-card">
+                        <img src="homepage/images/team/Chetna-Gaur.png">
+                        <div class="hs-r-info">
+                            <h6>Chetna Gaur</h6><span>Marketing Specialist</span>
+                        </div>
+                    </div>
+
+                    <div class="hs-r-card">
+                        <img src="homepage/images/team/Khushi-sahni.png">
+                        <div class="hs-r-info">
+                            <h6>Khushi Sahni</h6><span>SEO Expert</span>
                         </div>
                     </div>
 
@@ -1281,15 +1321,14 @@
                         let slider = section.querySelector('.hs-r-slider');
                         let track = section.querySelector('.hs-r-track');
 
-                        let cards = track.children;
+                        let originalContent = track.innerHTML;
                         let baseWidth = track.scrollWidth;
 
-                        while (track.scrollWidth < slider.offsetWidth * 2) {
-                            track.innerHTML += track.innerHTML;
-                        }
+                        // duplicate once
+                        track.innerHTML += originalContent;
 
                         let pos = 0;
-                        let speed = 0.5;
+                        let speed = 0.9;
                         let pause = false;
 
                         track.addEventListener('mouseover', function (e) {
@@ -1307,14 +1346,13 @@
                         function animate() {
 
                             if (!pause) {
-
                                 pos += speed;
-                                track.style.transform = `translateX(-${pos}px)`;
 
                                 if (pos >= baseWidth) {
-                                    pos = 0;
+                                    pos -= baseWidth;
                                 }
 
+                                track.style.transform = `translateX(-${pos}px)`;
                             }
 
                             requestAnimationFrame(animate);
@@ -1348,7 +1386,8 @@
                             <div class="hs-s-icon">+</div>
                         </div>
                         <div class="hs-s-answer fw-light">
-                            We look at your audience, competitors and market demand and then select the channels that would best suit your business and region: SEO, Google Ads, Meta Ads or AI-led growth.
+                            We look at your audience, competitors and market demand and then select the channels that
+                            would best suit your business and region: SEO, Google Ads, Meta Ads or AI-led growth.
                         </div>
                     </div>
 
@@ -1459,7 +1498,8 @@
                             Ready To Talk About Your <span class="text-crimson">Business Goals?</span></h2>
                         <p class="hs-t-p p-sm my-4">If you're looking for better leads, stronger sales, or clearer
                             direction, we'd love to hear about your business and see how we can help.</p>
-                        <a href="https://iynixdigital.com/contact-us.php"><button class="btn btn-secondary mt-5 mt-md-4">Connect With
+                        <a href="https://iynixdigital.com/contact-us.php"><button
+                                class="btn btn-secondary mt-5 mt-md-4">Connect With
                                 Us</button></a>
                     </div>
                 </div>
@@ -1482,55 +1522,51 @@
 
 
     <div class="modal fade" id="hsFormModal" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content border-0 rounded-4 overflow-hidden">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content border-0 rounded-4 overflow-hidden">
 
-      <!-- <div class="modal-header">
+                <!-- <div class="modal-header">
         <h5 class="modal-title">Get In Touch</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div> -->
 
-      <div class="modal-body p-0" style="height:650px;">
-        <iframe
-          src="https://api.leadconnectorhq.com/widget/form/eSQBrTOEcfeR6MjmuMQC"
-          style="width:100%;height:100%;border:none;"
-          title="New Website Form">
-        </iframe>
-      </div>
+                <div class="modal-body p-0" style="height:650px;">
+                    <iframe src="https://api.leadconnectorhq.com/widget/form/eSQBrTOEcfeR6MjmuMQC"
+                        style="width:100%;height:100%;border:none;" title="New Website Form">
+                    </iframe>
+                </div>
 
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
 
     <!-- FORM POP_UP -->
-     <!-- Calendar popup -->
+    <!-- Calendar popup -->
 
 
-     <div class="modal fade" id="hsCalendarModal" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content border-0 rounded-4 overflow-hidden">
+    <div class="modal fade" id="hsCalendarModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content border-0 rounded-4 overflow-hidden">
 
-      <div class="modal-header">
-        <h5 class="modal-title">Schedule a Meeting</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
+                <div class="modal-header">
+                    <h5 class="modal-title">Schedule a Meeting</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
 
-      <div class="modal-body p-0" style="height:700px;">
-        <iframe
-          src="https://api.leadconnectorhq.com/widget/booking/6hGo9fBmoPVyeTsoYtNm"
-          style="width:100%; height:100%; border:none; overflow:hidden;"
-          scrolling="no"
-          title="Booking Calendar">
-        </iframe>
-      </div>
+                <div class="modal-body p-0" style="height:700px;">
+                    <iframe src="https://api.leadconnectorhq.com/widget/booking/6hGo9fBmoPVyeTsoYtNm"
+                        style="width:100%; height:100%; border:none; overflow:hidden;" scrolling="no"
+                        title="Booking Calendar">
+                    </iframe>
+                </div>
 
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
 
-     <!-- Calendar popup -->
+    <!-- Calendar popup -->
 
 
 
