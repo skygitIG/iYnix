@@ -14,6 +14,26 @@
     .hs-g-tab {
         padding: 24px 70px !important;
     }
+
+    .section-gap {
+        padding: 100px 0 !important;
+    }
+
+    .section-gap-top {
+        padding-top: 100px !important;
+    }
+
+    .section-gap-bottom {
+        padding-bottom: 100px !important;
+    }
+
+    .main-banner {
+        padding: 100px 0 !important;
+    }
+
+    .hs-e-smart-section {
+        padding: 100px 0 0px !important;
+    }
 }
 
 @media (max-width:1240px) {
@@ -68,7 +88,7 @@
 @media (max-width:575px) {
 
     .hero-banner-text {
-        min-width: 100%!important;
+        min-width: 100% !important;
     }
 
     .hs-f-text,
@@ -79,7 +99,7 @@
     .hs-o-image,
     .hs-t-text,
     .hs-t-image {
-        width: 100%;
+        width: 100% !IMPORTANT;
     }
 
     .hs-l-icon img {
@@ -107,13 +127,14 @@
     .hs-o-text,
     .hs-t-text {
         padding: 60px 15px 60px 15px !important;
+        min-height: auto !important;
     }
 
     .hs-f-image img,
     .hs-k-image img,
     .hs-o-image img,
     .hs-t-image img {
-        min-height: 400px !important;
+        min-height: 350px !important;
     }
 
     .hs-g-track img {
@@ -122,6 +143,14 @@
 
     .hs-i-content-2 {
         margin-top: 80px !important;
+    }
+
+    .hs-g-tabs {
+        margin-bottom: 40px !IMPORTANT;
+    }
+
+    .hs-d-logo-item img {
+        width: 200px !IMPORTANT;
     }
 }
 
@@ -240,7 +269,7 @@
     width: 320px;
     aspect-ratio: 4/5;
     object-fit: cover;
-    border-radius: 14px;
+    border-radius: 20px;
     margin-right: 24px;
 
 }
@@ -557,7 +586,7 @@
 /* IMAGE */
 .hs-g-img {
     width: 100%;
-    border-radius: 14px;
+    border-radius: 20px;
     object-fit: cover;
 }
 
