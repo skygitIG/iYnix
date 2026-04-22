@@ -3492,7 +3492,7 @@ fieldset:disabled .btn {
 }
 
 .btn-primary {
-    border-radius: 150px;
+    border-radius: 8px;
     border: 1px solid #D81F28;
     background-color: transparent;
     --bs-btn-color: #D81F28;

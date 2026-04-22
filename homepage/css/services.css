@@ -1,0 +1,6 @@
+.services-hero{
+    background-image: url('../services-img/services-banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

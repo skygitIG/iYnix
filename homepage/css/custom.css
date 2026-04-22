@@ -7,7 +7,8 @@
     .hs-f-image img,
     .hs-k-image img,
     .hs-o-image img,
-    .hs-t-image img {
+    .hs-t-image img,
+    .bann-hf-img img {
         height: 100%;
     }
 
@@ -55,7 +56,8 @@
     .hs-f-image img,
     .hs-k-image img,
     .hs-o-image img,
-    .hs-t-image img {
+    .hs-t-image img,
+    .bann-hf-img img {
         border-radius: 20px 20px 0px 0px !important;
         min-height: 550px;
     }
@@ -63,7 +65,8 @@
     .hs-k-text,
     .hs-f-text,
     .hs-o-text,
-    .hs-t-text {
+    .hs-t-text,
+    .bann-hf-text {
         border-width: 0 1px 1px 1px !important;
         border-radius: 0px 0px 20px 20px !important;
         min-height: 550px !important;
@@ -98,7 +101,9 @@
     .hs-o-text,
     .hs-o-image,
     .hs-t-text,
-    .hs-t-image {
+    .hs-t-image,
+    .bann-hf-text,
+    .bann-hf-img {
         width: 100% !IMPORTANT;
     }
 
@@ -125,7 +130,8 @@
     .hs-k-text,
     .hs-f-text,
     .hs-o-text,
-    .hs-t-text {
+    .hs-t-text,
+    .bann-hf-text {
         padding: 60px 15px 60px 15px !important;
         min-height: auto !important;
     }
@@ -133,7 +139,8 @@
     .hs-f-image img,
     .hs-k-image img,
     .hs-o-image img,
-    .hs-t-image img {
+    .hs-t-image img,
+    .bann-hf-img img {
         min-height: 350px !important;
     }
 
@@ -157,7 +164,8 @@
 .hs-f-text,
 .hs-k-text,
 .hs-o-text,
-.hs-t-text {
+.hs-t-text,
+.bann-hf-text {
     padding: 60px;
     justify-content: center;
     display: flex;
@@ -509,20 +517,29 @@
 }
 
 .hs-f-text,
-.hs-f-image {
+.hs-f-image,
+.bann-hf-text,
+.bann-hf-img {
     width: 50%;
 }
 
-.hs-f-text {
+.hs-f-text,
+.bann-hf-text {
     border: solid #D3D3D3;
     border-width: 1px 0 1px 1px;
     border-radius: 20px 0 0 20px;
     background: #F4F4F4;
-    padding: 160px 60px 160px 60px;
+    padding: 0px 60px 0px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .hs-f-p {
     max-width: 530px;
+}
+.bann-hf-p {
+    max-width: 667px;
 }
 
 .hs-f-info {
@@ -533,8 +550,10 @@
     padding: 24px;
 }
 
-.hs-f-image img {
+.hs-f-image img,
+.bann-hf-img img {
     border-radius: 0 20px 20px 0;
+    height: 100%;
 }
 
 /* You Found Us SECTION END */
