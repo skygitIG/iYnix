@@ -25,16 +25,21 @@
     <section class="main-banner services-hero">
         <div class="container d-flex overflow-h flex-column flex-md-column flex-lg-row">
 
-            <div class="container d-flex flex-column justify-content-center hero-banner-text m-0" style="max-width: 777px;">
-                <h1 class="mt-4 my-3 dt text-light h1-sm fw-bold"><span class="text-crimson">Get More Traffic, Better Leads and Bigger Revenue </span> With Data- Driven Digital Marketing Services
+            <div class="container d-flex flex-column justify-content-center hero-banner-text m-0"
+                style="max-width: 777px;">
+                <h1 class="mt-4 my-3 dt text-light h1-sm fw-bold"><span class="text-crimson">Get More Traffic, Better
+                        Leads and Bigger Revenue </span> With Data- Driven Digital Marketing Services
                 </h1>
-                <p class="fw-medium text-light">We help businesses attract the right audience, convert visitors into leads, and scale revenue using proven SEO, paid advertising, and AI-powered marketing strategies.</p>
+                <p class="fw-medium text-light">We help businesses attract the right audience, convert visitors into
+                    leads, and scale revenue using proven SEO, paid advertising, and AI-powered marketing strategies.
+                </p>
                 <div class="container d-flex gap-3">
                     <button class="btn btn-secondary mt-5" data-bs-toggle="modal" data-bs-target="#hsFormModal"
-                    style="width: fit-content;">
-                    Get a Free Marketing Audit!
-                </button>
-                <a href="javascript:void(0)"><button class="btn btn-primary accent mt-5">Get in Touch With Us</button></a>
+                        style="width: fit-content;">
+                        Get a Free Marketing Audit!
+                    </button>
+                    <a href="javascript:void(0)"><button class="btn btn-primary accent mt-5">Get in Touch With
+                            Us</button></a>
                 </div>
             </div>
         </div>
@@ -42,118 +47,117 @@
     </section>
 
     <!-- Stats section -->
-     <style type="text/css" media="all">
-.sr-stats-section {
-    background: #FDFDFD;
-}
+    <style type="text/css" media="all">
+        .sr-stats-section {
+            background: #FDFDFD;
+        }
 
-.sr-stats-wrap {
-    background: #F4F4F4;
-    border: 1px solid #D3D3D3;
-    border-radius: 20px;
-    overflow: hidden;
-    margin: 0 auto;
-}
+        .sr-stats-wrap {
+            background: #F4F4F4;
+            border: 1px solid #D3D3D3;
+            border-radius: 20px;
+            overflow: hidden;
+            margin: 0 auto;
+        }
 
-.sr-stat-item {
-    text-align: center;
-    padding: 60px;
-    position: relative;
-}
+        .sr-stat-item {
+            text-align: center;
+            padding: 60px;
+            position: relative;
+        }
 
-/* Vertical divider lines for desktop */
-.sr-stat-item::after {
-    content: "";
-    position: absolute;
-    top: 18px;
-    right: 0;
-    width: 1px;
-    height: calc(100% - 36px);
-    background: #cfcfcf;
-}
+        /* Vertical divider lines for desktop */
+        .sr-stat-item::after {
+            content: "";
+            position: absolute;
+            top: 18px;
+            right: 0;
+            width: 1px;
+            height: calc(100% - 36px);
+            background: #cfcfcf;
+        }
 
-/* Remove divider from last item */
-.col-md-4:last-child .sr-stat-item::after {
-    display: none;
-}
+        /* Remove divider from last item */
+        .col-md-4:last-child .sr-stat-item::after {
+            display: none;
+        }
 
-.sr-stat-item h2 {
-    font-weight: 700;
-    color: #D81F28;
-    margin-bottom: 30px;
-    line-height: 1;
-}
+        .sr-stat-item h2 {
+            font-weight: 700;
+            color: #D81F28;
+            margin-bottom: 30px;
+            line-height: 1;
+        }
 
-.sr-stat-item p {
-    font-weight: 600;
-    color: #000000;
-    margin: 0;
-    line-height: 1.4;
-}
+        .sr-stat-item p {
+            font-weight: 600;
+            color: #000000;
+            margin: 0;
+            line-height: 1.4;
+        }
 
-/* Tablet */
-/* @media (max-width: 991px) {
+        /* Tablet */
+        /* @media (max-width: 991px) {
 
     .sr-stat-item p {
         font-size: 16px;
     }
 } */
 
-/* Mobile view */
-@media (max-width: 767px) {
-    .sr-stat-item {
-        padding: 20px 15px;
-    }
+        /* Mobile view */
+        @media (max-width: 767px) {
+            .sr-stat-item {
+                padding: 20px 15px;
+            }
 
-    /* Change line direction to horizontal */
-    .sr-stat-item::after {
-        top: auto;
-        bottom: 0;
-        right: auto;
-        left: 15%;
-        width: 70%;
-        height: 1px;
-    }
+            /* Change line direction to horizontal */
+            .sr-stat-item::after {
+                top: auto;
+                bottom: 0;
+                right: auto;
+                left: 15%;
+                width: 70%;
+                height: 1px;
+            }
 
-    .col-12:last-child .sr-stat-item::after {
-        display: none;
-    }
-}
-  
-</style>
-<section class="sr-stats-section section-gap">
-    <div class="container">
-        <div class="sr-stats-wrap">
-            <div class="row g-0">
-                <div class="col-md-4 col-12">
-                    <div class="sr-stat-item">
-                        <h2>500+</h2>
-                        <p>Campaigns managed</p>
+            .col-12:last-child .sr-stat-item::after {
+                display: none;
+            }
+        }
+    </style>
+    <section class="sr-stats-section section-gap">
+        <div class="container">
+            <div class="sr-stats-wrap">
+                <div class="row g-0">
+                    <div class="col-md-4 col-12">
+                        <div class="sr-stat-item">
+                            <h2>500+</h2>
+                            <p>Campaigns managed</p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-md-4 col-12">
-                    <div class="sr-stat-item">
-                        <h2>95M+</h2>
-                        <p>Organic visitors generated</p>
+                    <div class="col-md-4 col-12">
+                        <div class="sr-stat-item">
+                            <h2>95M+</h2>
+                            <p>Organic visitors generated</p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-md-4 col-12">
-                    <div class="sr-stat-item">
-                        <h2>1.2M+</h2>
-                        <p>Ad conversions</p>
+                    <div class="col-md-4 col-12">
+                        <div class="sr-stat-item">
+                            <h2>1.2M+</h2>
+                            <p>Ad conversions</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
     <!-- Stats section End -->
 
     <!-- Real Growth SECTION -->
-    
-    
+
+
     <?php include_once 'homepage/include/trusted-brands.php';?>
 
 
@@ -164,133 +168,132 @@
 
 
     <style type="text/css" media="all">
+        .sr-a-card {
+            background: #fff;
+            border: 1px solid #d3d3d3;
+            border-radius: 20px;
+            padding: 32px 16px 32px 32px;
+            min-height: 110px;
+            transition: all 0.35s ease;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
 
-.sr-a-card {
-    background: #fff;
-    border: 1px solid #d3d3d3;
-    border-radius: 20px;
-    padding: 32px 16px 32px 32px;
-    min-height: 110px;
-    transition: all 0.35s ease;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+        .sr-a-number {
+            width: 34px;
+            height: 34px;
+            border: 1px dotted #e53935;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #D81F28;
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            transition: all 0.35s ease;
+        }
 
-.sr-a-number {
-    width: 34px;
-    height: 34px;
-    border: 1px dotted #e53935;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    color: #D81F28;
-    font-size: 16px;
-    font-weight: 700;
-    margin-bottom: 30px;
-    transition: all 0.35s ease;
-}
+        .sr-a-card p {
+            transition: all 0.35s ease;
+        }
 
-.sr-a-card p {
-    transition: all 0.35s ease;
-}
+        /* Default active card */
+        .sr-a-active {
+            background: #000;
+        }
 
-/* Default active card */
-.sr-a-active {
-    background: #000;
-}
+        .sr-a-active p {
+            color: #fff;
+        }
 
-.sr-a-active p {
-    color: #fff;
-}
+        .sr-a-active .sr-a-number {
+            border-color: #D81F28;
+            color: #D81F28;
+        }
 
-.sr-a-active .sr-a-number {
-    border-color: #D81F28;
-    color: #D81F28;
-}
+        /* Hover state for all cards */
+        .sr-a-card:hover {
+            background: #000;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+        }
 
-/* Hover state for all cards */
-.sr-a-card:hover {
-    background: #000;
-    transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-}
+        .sr-a-card:hover p {
+            color: #fff;
+        }
 
-.sr-a-card:hover p {
-    color: #fff;
-}
+        /* Responsive */
+        @media (max-width: 767px) {
 
-/* Responsive */
-@media (max-width: 767px) {
+            .sr-a-card {
+                min-height: auto;
+                padding: 18px 16px;
+            }
+        }
+    </style>
+    <section class="section-gap">
+        <div class="container">
+            <div class="sr-a-heading text-center">
+                <h2 class="fw-semibold">
+                    Is Your Business Struggling to <br>
+                    <span class="text-crimson">Generate Consistent Leads Online?</span>
+                </h2>
+                <p class="fw-medium">If this is the case, you might be facing these challenges.</p>
+            </div>
 
-    .sr-a-card {
-        min-height: auto;
-        padding: 18px 16px;
-    }
-}
-</style>
-<section class="section-gap">
-    <div class="container">
-        <div class="sr-a-heading text-center">
-            <h2 class="fw-semibold">
-                Is Your Business Struggling to <br>
-                <span class="text-crimson">Generate Consistent Leads Online?</span>
-            </h2>
-            <p class="fw-medium">If this is the case, you might be facing these challenges.</p>
+            <div class="row g-3 justify-content-center mt-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="sr-a-card">
+                        <span class="sr-a-number">1</span>
+                        <p class="fw-medium">Website traffic is too low</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="sr-a-card">
+                        <span class="sr-a-number">2</span>
+                        <p class="fw-medium">Ads are expensive but not converting</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="sr-a-card">
+                        <span class="sr-a-number">3</span>
+                        <p class="fw-medium">Your website gets visitors, but no leads</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="sr-a-card">
+                        <span class="sr-a-number">4</span>
+                        <p class="fw-medium">Competitors are outranking you on Google</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="sr-a-card">
+                        <span class="sr-a-number">5</span>
+                        <p class="fw-medium">Marketing efforts feel random and unstructured</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sr-a-bottom-text text-center mt-5">
+                <p class="fw-bold">
+                    Do we sound right?
+                    <span class="text-crimson">If yes, then do not worry, we are here to help you!</span>
+                </p>
+            </div>
         </div>
-
-        <div class="row g-3 justify-content-center mt-5">
-            <div class="col-lg-4 col-md-6">
-                <div class="sr-a-card">
-                    <span class="sr-a-number">1</span>
-                    <p class="fw-medium">Website traffic is too low</p>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="sr-a-card">
-                    <span class="sr-a-number">2</span>
-                    <p class="fw-medium">Ads are expensive but not converting</p>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="sr-a-card">
-                    <span class="sr-a-number">3</span>
-                    <p class="fw-medium">Your website gets visitors, but no leads</p>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-6">
-                <div class="sr-a-card">
-                    <span class="sr-a-number">4</span>
-                    <p class="fw-medium">Competitors are outranking you on Google</p>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-6">
-                <div class="sr-a-card">
-                    <span class="sr-a-number">5</span>
-                    <p class="fw-medium">Marketing efforts feel random and unstructured</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="sr-a-bottom-text text-center mt-5">
-            <p class="fw-bold">
-                Do we sound right?
-                <span class="text-crimson">If yes, then do not worry, we are here to help you!</span>
-            </p>
-        </div>
-    </div>
-</section>
+    </section>
 
 
     <!-- Is Your Business Struggling to SECTION END -->
 
-    
+
     <!-- You Found Us SECTION -->
 
     <section>
@@ -299,8 +302,15 @@
                 class="container d-flex align-items-center gap-0 align-items-stretch flex-sm-column-reverse flex-column-reverse flex-lg-row">
                 <div class="container bann-hf-text">
                     <h2 class="mb-3 fw-semibold text-black">
-                        A Strategic Digital Marketing Agency for <span class="text-crimson">Businesses That Want Real Growth</span></h2>
-                    <p class="bann-hf-p p-sm my-4">Expanding online does not only involve running advertisements or posting on social media. It needs an intelligent digital marketing strategy that will draw the appropriate audience, transform visitors into customers, and generate regular revenue.<br>Iynix Digital provides strategic digital marketing services meant to raise your online presence, create qualified leads, and expand your business in a shorter time. We make use of a combination of data-driven analysis, AI solutions, and proven online digital marketing services to come up with campaigns that provide real results.</p>
+                        A Strategic Digital Marketing Agency for <span class="text-crimson">Businesses That Want Real
+                            Growth</span></h2>
+                    <p class="bann-hf-p p-sm my-4">Expanding online does not only involve running advertisements or
+                        posting on social media. It needs an intelligent digital marketing strategy that will draw the
+                        appropriate audience, transform visitors into customers, and generate regular revenue.<br>Iynix
+                        Digital provides strategic digital marketing services meant to raise your online presence,
+                        create qualified leads, and expand your business in a shorter time. We make use of a combination
+                        of data-driven analysis, AI solutions, and proven online digital marketing services to come up
+                        with campaigns that provide real results.</p>
                 </div>
                 <div class="container bann-hf-img p-0">
                     <img src="homepage/images/office-high-five.png" class="img-fluid" alt="">
@@ -311,6 +321,818 @@
 
 
     <!-- You Found Us SECTION End -->
+
+    <!-- Marketing services to grow Section -->
+
+
+    <section class="sr-b-why-section section-gap">
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="text-center mb-5">
+                <h2 class="fw-semibold mb-3">
+                    Why Your Business Needs Digital <br>
+                    <span class="text-crimson">Marketing Services to Grow?</span>
+                </h2>
+                <p class="mx-auto text-black" style="max-width: 1365px;">
+                    Consumers rely on the internet to discover, research, and purchase products and services. Businesses
+                    that invest in digital marketing services gain a competitive advantage by reaching customers exactly
+                    when they are searching for solutions.
+                </p>
+            </div>
+
+            <!-- Custom 3 Column Layout -->
+            <div class="row g-3 container">
+
+                <!-- LEFT (3 items) -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex flex-column gap-3 h-100">
+                        <div class="sr-b-pill p-6 fw-medium">
+                            <p class="text-black">Increase targeted website traffic</p>
+                        </div>
+                        <div class="sr-b-pill p-6 fw-medium">
+                            <p class="text-black">Reach the right audience faster</p>
+                        </div>
+                        <div class="sr-b-pill p-6 fw-medium">
+                            <p class="text-black">Drive consistent sales growth</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CENTER (2 items) -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex flex-column gap-3 h-100">
+                        <div class="sr-b-pill p-6 fw-medium h-100">
+                            <p class="text-black">Achieve higher marketing ROI</p>
+                        </div>
+                        <div class="sr-b-pill p-6 fw-medium h-100">
+                            <p class="text-black">Generate more qualified leads</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT (3 items) -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex flex-column gap-3 h-100">
+                        <div class="sr-b-pill p-6 fw-medium">
+                            <p class="text-black">Improve conversion rates</p>
+                        </div>
+                        <div class="sr-b-pill p-6 fw-medium">
+                            <p class="text-black">Boost brand visibility online</p>
+                        </div>
+                        <div class="sr-b-pill p-6 fw-medium">
+                            <p class="text-black">Scale your business online</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Bottom Text -->
+            <div class="text-center mt-4">
+                <p class="fw-semibold mb-0 text-black" style="max-width: 800px; margin: 0 auto;">
+                    Working with a professional digital marketing company ensures your marketing efforts are strategic
+                    and efficient.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <style>
+        .sr-b-pill {
+            background: #F4F4F4;
+            border: 1px solid #D3D3D3;
+            border-radius: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Mobile Fix */
+        @media (max-width: 767px) {
+            .sr-b-pill {
+                padding: 12px;
+            }
+        }
+    </style>
+
+    <!-- Marketing services to grow Section End -->
+
+
+    <!-- Next-Generation Digital Marketing Agency -->
+
+
+
+    <section class="hs-j-smart-section bg-dark section-gap px-2a">
+
+        <div class="container text-center">
+
+            <!-- Heading -->
+            <h2 class="hs-j-smart-title mb-3 fw-semibold text-light" style="max-width:900px;margin:0 auto;">
+                Next-Generation Digital Marketing Agency
+                <span class="text-crimson">Powered by AI</span>
+            </h2>
+            <p class="text-light" style="max-width: 1425px; margin: 0 auto;">
+                Modern marketing requires smarter strategies and faster decision-making. We are an AI-powered digital
+                marketing agency of the next generation, where sophisticated technology and professional knowledge of
+                marketing are combined to create a highly-targeted and outcome-oriented campaign.
+            </p>
+
+
+        </div>
+
+        <div class="container mt-5">
+
+            <div class="row g-4">
+
+                <!-- CARD 1 -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="hs-j-card h-100 sbg-gray">
+                        <div class="hs-j-icon mb-5"><img
+                                src="homepage/images/services/Predict-high-converting-keywords.svg" alt=""></div>
+                        <h5 class="hs-j-card-title fw-bold mw-100">Predict high-converting keywords</h5>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="hs-j-card h-100 sbg-gray">
+                        <div class="hs-j-icon mb-5"><img
+                                src="homepage/images/services/Optimize-ad-bidding-automatically.svg" alt=""></div>
+                        <h5 class="hs-j-card-title fw-bold mw-100">Optimize ad bidding automatically</h5>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="hs-j-card h-100 sbg-gray">
+                        <div class="hs-j-icon mb-5"><img
+                                src="homepage/images/services/Identify-high-intent-audiences.svg" alt=""></div>
+                        <h5 class="hs-j-card-title fw-bold mw-100">Identify high-intent audiences</h5>
+                    </div>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="hs-j-card h-100 sbg-gray">
+                        <div class="hs-j-icon mb-5"><img
+                                src="homepage/images/services/Personalize-marketing-campaigns.svg" alt=""></div>
+                        <h5 class="hs-j-card-title fw-bold mw-100">Personalize marketing campaigns
+                        </h5>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- Next-Generation Digital Marketing Agency End -->
+
+    <!-- A 360° Approach Section -->
+
+
+
+    <section class="sr-c-slider-section section-gap-top">
+        <div class="container">
+
+            <h3 class="fw-bold mb-2 text-center">
+                A 360° Approach to <br>
+                <span class="text-crimson">Digital Marketing Services</span>
+            </h3>
+
+            <div class="sr-c-slider mt-5">
+
+                <!-- ARROWS -->
+                <button class="sr-c-arrow sr-c-prev"><img src="homepage/images/services/slider-left.svg"
+                        alt=""></button>
+                <button class="sr-c-arrow sr-c-next"><img src="homepage/images/services/slider-right.svg"
+                        alt=""></button>
+
+                <!-- VIEWPORT -->
+                <div class="sr-c-viewport">
+                    <div class="sr-c-track">
+
+                        <!-- CARDS -->
+                        <div class="sr-c-card">
+                            <img src="homepage/images/services/SEO-Audit.svg" alt="" class="mb-6">
+                            <h5 class="mb-3">Social Media</h5>
+                            <p class="p-xsm mb-6">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.</p>
+                            <span class="text-crimson p-sm fw-semibold">Learn More →</span>
+                        </div>
+
+                        <div class="sr-c-card">
+                            <img src="homepage/images/services/SEO-Services.svg" alt="" class="mb-6">
+                            <h5 class="mb-3">SEO Services</h5>
+                            <p class="p-xsm mb-6">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.</p>
+                            <span class="text-crimson p-sm fw-semibold">Learn More →</span>
+                        </div>
+
+                        <div class="sr-c-card">
+                            <img src="homepage/images/services/Local-SEO-Service.svg" alt="" class="mb-6">
+                            <h5 class="mb-3">Content Marketing</h5>
+                            <p class="p-xsm mb-6">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.</p>
+                            <span class="text-crimson p-sm fw-semibold">Learn More →</span>
+                        </div>
+
+                        <div class="sr-c-card">
+                            <img src="homepage/images/services/SEO-Audit.svg" alt="" class="mb-6">
+                            <h5 class="mb-3">SEO Audit</h5>
+                            <p class="p-xsm mb-6">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.</p>
+                            <span class="text-crimson p-sm fw-semibold">Learn More →</span>
+                        </div>
+
+                        <div class="sr-c-card">
+                            <img src="homepage/images/services/Local-SEO-Service.svg" alt="" class="mb-6">
+                            <h5 class="mb-3">Local SEO</h5>
+                            <p class="p-xsm mb-6">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.</p>
+                            <span class="text-crimson p-sm fw-semibold">Learn More →</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <style>
+        /* WRAPPER */
+        .sr-c-slider {
+            position: relative;
+            padding: 0 60px;
+            /* space for arrows */
+        }
+
+        /* VIEWPORT */
+        .sr-c-viewport {
+            overflow: hidden;
+            /* remove scroll */
+            padding: 20px 0;
+            /* give vertical breathing space */
+        }
+
+        /* TRACK */
+        .sr-c-track {
+            display: flex;
+            gap: 20px;
+            /* REQUIRED */
+            transition: transform 0.5s ease;
+            will-change: transform;
+        }
+
+        .sr-c-track {
+            padding: 10px 0;
+            /* creates space for scaled card */
+        }
+
+        /* CARD */
+        .sr-c-card {
+            flex: 0 0 calc((100% - 40px) / 3);
+            padding: 32px;
+            transition: transform 0.4s ease, background 0.3s ease, color 0.3s ease;
+            position: relative;
+            z-index: 1;
+            border-radius: 20px;
+            border: 1px solid #DEDEDE;
+            background: #FFF;
+            box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.06);
+        }
+
+        /* ACTIVE CENTER */
+        .sr-c-card.is-active {
+            background: #000;
+            color: #fff;
+            transform: scale(1.12);
+            /* NOW WORKS */
+            z-index: 3;
+        }
+
+        /* ARROWS */
+        .sr-c-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 38px;
+            height: 38px;
+            border-radius: 8px;
+            border: 1px solid #DEDEDE;
+            box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.12);
+            background: transparent;
+            z-index: 5;
+            cursor: pointer;
+        }
+
+        .sr-c-prev {
+            left: -10px;
+        }
+
+        .sr-c-next {
+            right: -10px;
+        }
+
+        /* TABLET */
+        @media (max-width: 991px) {
+            .sr-c-card {
+                flex: 0 0 calc((100% - 20px) / 2);
+            }
+
+            .sr-c-card.is-active {
+                transform: scale(1);
+            }
+        }
+
+        /* MOBILE */
+        @media (max-width: 767px) {
+            .sr-c-slider {
+                padding: 0 10px;
+            }
+
+            .sr-c-card {
+                flex: 0 0 100%;
+            }
+        }
+    </style>
+
+    <script>
+        (function () {
+            const slider = document.querySelector('.sr-c-slider');
+            if (!slider) return;
+
+            const track = slider.querySelector('.sr-c-track');
+            const prev = slider.querySelector('.sr-c-prev');
+            const next = slider.querySelector('.sr-c-next');
+
+            let cards = Array.from(track.children);
+
+            function getVisible() {
+                if (window.innerWidth < 768) return 1;
+                if (window.innerWidth < 992) return 2;
+                return 3;
+            }
+
+            let visible = getVisible();
+
+            // CLONE FOR LOOP
+            cards.slice(-visible).forEach(el => {
+                track.insertBefore(el.cloneNode(true), track.firstChild);
+            });
+
+            cards.slice(0, visible).forEach(el => {
+                track.appendChild(el.cloneNode(true));
+            });
+
+            let allCards = Array.from(track.children);
+            let index = visible;
+
+            function update() {
+                const gap = 20;
+                const cardWidth = allCards[0].getBoundingClientRect().width + gap;
+                track.style.transform = `translateX(-${index * cardWidth}px)`;
+
+                allCards.forEach(c => c.classList.remove('is-active'));
+
+                const center = index + Math.floor((getVisible() - 1) / 2);
+                if (allCards[center]) {
+                    allCards[center].classList.add('is-active');
+                }
+            }
+
+            function nextSlide() {
+                index++;
+                track.style.transition = 'transform 0.5s ease';
+                update();
+
+                if (index >= allCards.length - visible) {
+                    setTimeout(() => {
+                        track.style.transition = 'none';
+                        index = visible;
+                        update();
+                    }, 500);
+                }
+            }
+
+            function prevSlide() {
+                index--;
+                track.style.transition = 'transform 0.5s ease';
+                update();
+
+                if (index <= 0) {
+                    setTimeout(() => {
+                        track.style.transition = 'none';
+                        index = allCards.length - (visible * 2);
+                        update();
+                    }, 500);
+                }
+            }
+
+            next.addEventListener('click', nextSlide);
+            prev.addEventListener('click', prevSlide);
+
+            window.addEventListener('resize', () => {
+                visible = getVisible();
+                update();
+            });
+
+            window.addEventListener('load', update);
+        })();
+    </script>
+
+
+    <!-- A 360° Approach Section End-->
+
+
+    <!-- Revenues 2x-3x Times Sections -->
+
+
+    <section class="sr-d-section  section-gap">
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="text-center mb-4">
+                <h2 class="fw-bold mb-3">
+                    How Does Iynix Digital Grow Your <br>
+                    <span class="text-crimson">Revenues 2x-3x Times?</span>
+                </h2>
+                <p class="mx-auto mb-5" style="max-width: 1290px;">
+                    At Iynix Digital, our focus is simple: helping your business generate more revenue through smart,
+                    data-driven digital marketing services. Our digital marketing strategy focuses on three key stages
+                    of business growth.
+                </p>
+            </div>
+
+            <!-- Cards -->
+            <div class="row g-4">
+
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="sr-d-card h-100 p-3 p-md-3 p-lg-6 d-flex flex-column">
+                        <div class="sr-d-icon mb-6">
+                            <img src="homepage/images/services/Attract-the-Right-Audience.svg" alt="">
+                        </div>
+
+                        <h5 class="fw-semibold mb-3">Attract the Right Audience</h5>
+
+                        <ul class="sr-d-list ms-2 ps-3">
+                            <li class="p-xsm">SEO and search marketing</li>
+                            <li class="p-xsm">targeted advertising campaigns</li>
+                            <li class="p-xsm">content marketing strategies</li>
+                        </ul>
+
+                        <div class="sr-d-img mt-3">
+                            <img src="homepage/images/services/SEO-and-search-marketing.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="sr-d-card h-100 p-3 p-md-3 p-lg-6 d-flex flex-column">
+                        <div class="sr-d-icon mb-6">
+                            <img src="homepage/images/services/Convert-Visitors-Into-Leads.svg" alt="">
+                        </div>
+
+                        <h5 class="fw-semibold mb-3">Convert Visitors Into Leads</h5>
+
+                        <ul class="sr-d-list ms-2 ps-3">
+                            <li class="p-xsm">optimized landing pages</li>
+                            <li class="p-xsm">compelling calls-to-action</li>
+                            <li class="p-xsm">conversion rate optimization</li>
+                        </ul>
+
+                        <div class="sr-d-img mt-3">
+                            <img src="homepage/images/services/optimized-landing-pages.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="sr-d-card h-100 p-3 p-md-3 p-lg-6 d-flex flex-column">
+                        <div class="sr-d-icon mb-6">
+                            <img src="homepage/images/services/Turn-Leads-Into-Customers.svg" alt="">
+                        </div>
+
+                        <h5 class="fw-semibold mb-3">Turn Leads Into Customers</h5>
+
+                        <ul class="sr-d-list ms-2 ps-3">
+                            <li class="p-xsm">email marketing automation</li>
+                            <li class="p-xsm">remarketing campaigns</li>
+                            <li class="p-xsm">customer engagement strategies</li>
+                        </ul>
+
+                        <div class="sr-d-img mt-3">
+                            <img src="homepage/images/services/email-marketing-automation.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <style>
+        .sr-d-card {
+            border-radius: 20px;
+            border: 1px solid #D3D3D3;
+            background: #F4F4F4;
+        }
+
+        .sr-d-img img {
+            width: 100%;
+            border-radius: 13px;
+            height: 240px;
+            object-fit: cover;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 767px) {
+            .sr-d-img img {
+                height: 200px;
+            }
+        }
+    </style>
+
+
+    <!-- Revenues 2x-3x Times Sections End -->
+
+
+
+    <!-- Testimonials Section -->
+
+
+    <!-- ===== REV SLIDER START ===== -->
+
+<section class="rev-slider-section section-gap">
+    <div class="container">
+
+            <h2 class="mb-3 fw-semibold text-black text-center">
+                What Our
+                <span class="text-crimson">Clients Say?</span>
+            </h2>
+
+            <p class="text-black text-center">
+                Reviews from our satisfied clients
+            </p>
+
+
+    <div class="rev-slider mt-5">
+
+        <button class="rev-arrow rev-prev">
+            <img src="homepage/images/services/slider-left.svg" alt="">
+        </button>
+        <button class="rev-arrow rev-next">
+            <img src="homepage/images/services/slider-right.svg" alt="">
+        </button>
+
+        <div class="rev-viewport">
+            <div class="rev-track">
+
+                <!-- CARDS -->
+                <div class="rev-card">
+                    <img src="homepage/images/services/ratings.svg" alt="" class="mb-6">
+                    <p class="p-xsm mb-6 text-black">If you are looking for the best digital marketing services, look no further than iYnix Digital. They have a perfect 5.0 rating for a reason. They handled our website and marketing campaigns seamlessly, and the ROI has been fantastic. Highly recommend them to anyone looking to scale their brand
+</p>
+                    <span class="text-crimson p-sm fw-semibold">→ Deepak Kumar</span>
+                </div>
+
+                <div class="rev-card">
+                    <img src="homepage/images/services/ratings.svg" alt="" class="mb-6">
+                    <p class="p-xsm mb-6 text-black">Iynix Digital is a results-driven digital marketing service providing SEO, website design, and website development solutions. The team focuses on delivering visually appealing, user-friendly, and high-performance digital experiences that help businesses grow online. With a strategic and professional approach, Iynix Digital ensures reliable and effective results tailored to client needs.
+</p>
+                    <span class="text-crimson p-sm fw-semibold">→ Divya Gupta</span>
+                </div>
+
+                <div class="rev-card">
+                    <img src="homepage/images/services/ratings.svg" alt="" class="mb-6">
+                    <p class="p-xsm mb-6 text-black">iYnix Digital provided excellent digital and web development services. The team was professional, responsive, and delivered quality work on time. Communication was smooth throughout. Highly recommended for reliable digital solutions.
+</p>
+                    <span class="text-crimson p-sm fw-semibold">→ Khushi Sahni</span>
+                </div>
+
+                <div class="rev-card">
+                    <img src="homepage/images/services/ratings.svg" alt="" class="mb-6">
+                    <p class="p-xsm mb-6 text-black">Excellent marketing agency to grow your brand digitally. We had a great experience working with them.</p>
+                    <span class="text-crimson p-sm fw-semibold">→ Gunjan Nagpal</span>
+                </div>
+
+                <div class="rev-card">
+                    <img src="homepage/images/services/ratings.svg" alt="" class="mb-6">
+                    <p class="p-xsm mb-6 text-black">I've had a great experience working with Iynix, They’re highly responsive, knowledgeable, and truly care about delivering results. My website looks amazing and their marketing strategies have helped me attract more customers. Highly recommend!
+</p>
+                    <span class="text-crimson p-sm fw-semibold">→ Het Patel</span>
+                </div>
+
+                <div class="rev-card">
+                    <img src="homepage/images/services/ratings.svg" alt="" class="mb-6">
+                    <p class="p-xsm mb-6 text-black">My experience with iYnix Digital was excellent. Their team is extremely skilled in digital solutions and website development, and their responses are also very professional and quick to respond. They delivered excellent work on schedule and had a clear understanding of my needs. Throughout the entire process, communication was seamless. Strongly advised for anyone searching for reliable internet services.
+</p>
+                    <span class="text-crimson p-sm fw-semibold">→ Akash Kumar</span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</section>
+
+<style>
+.rev-slider {
+    position: relative;
+    padding: 0 60px;
+}
+
+.rev-viewport {
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.rev-track {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.5s ease;
+    will-change: transform;
+    padding: 10px 0;
+}
+
+.rev-card {
+    flex: 0 0 calc((100% - 40px) / 3);
+    padding: 32px;
+    transition: transform 0.4s ease, background 0.3s ease, color 0.3s ease;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+    border: 1px solid #DEDEDE;
+    background: #FFF;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+}
+
+.rev-card img{
+    max-width: 180px;
+}
+
+.rev-card.is-active {
+    background: #F6F6F6;
+    transform: scale(1.1);
+    z-index: 3;
+}
+
+.rev-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 38px;
+    height: 38px;
+    border-radius: 8px;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    background: transparent;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.rev-prev { left: -10px; }
+.rev-next { right: -10px; }
+
+@media (max-width: 991px) {
+    .rev-card {
+        flex: 0 0 calc((100% - 20px) / 2);
+    }
+
+    .rev-card.is-active {
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 767px) {
+    .rev-slider {
+        padding: 0 10px;
+    }
+
+    .rev-card {
+        flex: 0 0 100%;
+    }
+}
+</style>
+
+<script>
+(function () {
+    const sliders = document.querySelectorAll('.rev-slider');
+
+    sliders.forEach((slider) => {
+
+        const track = slider.querySelector('.rev-track');
+        const prev = slider.querySelector('.rev-prev');
+        const next = slider.querySelector('.rev-next');
+
+        let cards = Array.from(track.children);
+
+        function getVisible() {
+            if (window.innerWidth < 768) return 1;
+            if (window.innerWidth < 992) return 2;
+            return 3;
+        }
+
+        let visible = getVisible();
+
+        // CLONE FOR LOOP (scoped per slider)
+        cards.slice(-visible).forEach(el => {
+            track.insertBefore(el.cloneNode(true), track.firstChild);
+        });
+
+        cards.slice(0, visible).forEach(el => {
+            track.appendChild(el.cloneNode(true));
+        });
+
+        let allCards = Array.from(track.children);
+        let index = visible;
+
+        function update() {
+            const gap = 20;
+            const cardWidth = allCards[0].getBoundingClientRect().width + gap;
+            track.style.transform = `translateX(-${index * cardWidth}px)`;
+
+            allCards.forEach(c => c.classList.remove('is-active'));
+
+            const center = index + Math.floor((getVisible() - 1) / 2);
+            if (allCards[center]) {
+                allCards[center].classList.add('is-active');
+            }
+        }
+
+        function nextSlide() {
+            index++;
+            track.style.transition = 'transform 0.5s ease';
+            update();
+
+            if (index >= allCards.length - visible) {
+                setTimeout(() => {
+                    track.style.transition = 'none';
+                    index = visible;
+                    update();
+                }, 500);
+            }
+        }
+
+        function prevSlide() {
+            index--;
+            track.style.transition = 'transform 0.5s ease';
+            update();
+
+            if (index <= 0) {
+                setTimeout(() => {
+                    track.style.transition = 'none';
+                    index = allCards.length - (visible * 2);
+                    update();
+                }, 500);
+            }
+        }
+
+        next.addEventListener('click', nextSlide);
+        prev.addEventListener('click', prevSlide);
+
+        window.addEventListener('resize', () => {
+            visible = getVisible();
+            update();
+        });
+
+        window.addEventListener('load', update);
+
+    });
+})();
+</script>
+
+<!-- ===== REV SLIDER END ===== -->
+
+
+
+    <!-- Testimonials Section End -->
 
 
 

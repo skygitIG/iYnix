@@ -9020,6 +9020,10 @@ fieldset:disabled .btn {
     margin-bottom: 3rem !important
 }
 
+.mb-6 {
+    margin-bottom: 2rem !important
+}
+
 .mb-auto {
     margin-bottom: auto !important
 }
@@ -9074,6 +9078,10 @@ fieldset:disabled .btn {
 
 .p-5 {
     padding: 3rem !important
+}
+
+.p-6 {
+    padding: 2rem !important
 }
 
 .px-0 {
@@ -9210,6 +9218,10 @@ fieldset:disabled .btn {
 
 .pb-5 {
     padding-bottom: 3rem !important
+}
+
+.pb-6 {
+    padding-bottom: 2rem !important
 }
 
 .ps-0 {
@@ -12099,6 +12111,10 @@ fieldset:disabled .btn {
 
     .p-lg-5 {
         padding: 3rem !important
+    }
+
+    .p-lg-6 {
+        padding: 2rem !important
     }
 
     .px-lg-0 {

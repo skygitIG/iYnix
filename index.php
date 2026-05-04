@@ -403,31 +403,270 @@
 
 
     <!-- Testimonials SECTION -->
-
+<!-- 
     <section class="hs-e-smart-section">
 
         <div class="container text-center">
 
-            <!-- Heading -->
             <h2 class="hs-e-smart-title mb-3 fw-semibold text-black">
                 What Our
                 <span class="text-crimson">Clients Say?</span>
             </h2>
 
-            <!-- Subtitle -->
             <p class="hs-e-smart-sub text-black">
                 Reviews from our satisfied clients
             </p>
 
             <div class="container">
-                <!-- <script src="https://widget.trustmary.com/4Pp1GEjos"></script> -->
                 <div id="featurable-eb15ff0a-776d-4616-b161-906006f6c6c9" data-featurable-async></div>
                 <script src="https://featurable.com/assets/v2/carousel_default.min.js" defer charset="UTF-8"></script>
             </div>
 
         </div>
 
-    </section>
+    </section> -->
+
+    
+<section class="rev-slider-section section-gap-top">
+    <div class="container">
+
+            <h2 class="mb-3 fw-semibold text-black text-center">
+                What Our
+                <span class="text-crimson">Clients Say?</span>
+            </h2>
+
+            <p class="text-black text-center">
+                Reviews from our satisfied clients
+            </p>
+
+
+    <div class="rev-slider mt-5">
+
+        <button class="rev-arrow rev-prev">
+            <img src="homepage/images/services/slider-left.svg" alt="">
+        </button>
+        <button class="rev-arrow rev-next">
+            <img src="homepage/images/services/slider-right.svg" alt="">
+        </button>
+
+        <div class="rev-viewport">
+            <div class="rev-track">
+
+                <!-- CARDS -->
+                <div class="rev-card">
+                    <img src="homepage/images/services/ratings.svg" alt="" class="mb-6">
+                    <p class="p-xsm mb-6 text-black">If you are looking for the best digital marketing services, look no further than iYnix Digital. They have a perfect 5.0 rating for a reason. They handled our website and marketing campaigns seamlessly, and the ROI has been fantastic. Highly recommend them to anyone looking to scale their brand
+</p>
+                    <span class="text-crimson p-sm fw-semibold">→ Deepak Kumar</span>
+                </div>
+
+                <div class="rev-card">
+                    <img src="homepage/images/services/ratings.svg" alt="" class="mb-6">
+                    <p class="p-xsm mb-6 text-black">Iynix Digital is a results-driven digital marketing service providing SEO, website design, and website development solutions. The team focuses on delivering visually appealing, user-friendly, and high-performance digital experiences that help businesses grow online. With a strategic and professional approach, Iynix Digital ensures reliable and effective results tailored to client needs.
+</p>
+                    <span class="text-crimson p-sm fw-semibold">→ Divya Gupta</span>
+                </div>
+
+                <div class="rev-card">
+                    <img src="homepage/images/services/ratings.svg" alt="" class="mb-6">
+                    <p class="p-xsm mb-6 text-black">iYnix Digital provided excellent digital and web development services. The team was professional, responsive, and delivered quality work on time. Communication was smooth throughout. Highly recommended for reliable digital solutions.
+</p>
+                    <span class="text-crimson p-sm fw-semibold">→ Khushi Sahni</span>
+                </div>
+
+                <div class="rev-card">
+                    <img src="homepage/images/services/ratings.svg" alt="" class="mb-6">
+                    <p class="p-xsm mb-6 text-black">Excellent marketing agency to grow your brand digitally. We had a great experience working with them.</p>
+                    <span class="text-crimson p-sm fw-semibold">→ Gunjan Nagpal</span>
+                </div>
+
+                <div class="rev-card">
+                    <img src="homepage/images/services/ratings.svg" alt="" class="mb-6">
+                    <p class="p-xsm mb-6 text-black">I've had a great experience working with Iynix, They’re highly responsive, knowledgeable, and truly care about delivering results. My website looks amazing and their marketing strategies have helped me attract more customers. Highly recommend!
+</p>
+                    <span class="text-crimson p-sm fw-semibold">→ Het Patel</span>
+                </div>
+
+                <div class="rev-card">
+                    <img src="homepage/images/services/ratings.svg" alt="" class="mb-6">
+                    <p class="p-xsm mb-6 text-black">My experience with iYnix Digital was excellent. Their team is extremely skilled in digital solutions and website development, and their responses are also very professional and quick to respond. They delivered excellent work on schedule and had a clear understanding of my needs. Throughout the entire process, communication was seamless. Strongly advised for anyone searching for reliable internet services.
+</p>
+                    <span class="text-crimson p-sm fw-semibold">→ Akash Kumar</span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</section>
+
+<style>
+.rev-slider {
+    position: relative;
+    padding: 0 60px;
+}
+
+.rev-viewport {
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.rev-track {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.5s ease;
+    will-change: transform;
+    padding: 10px 0;
+}
+
+.rev-card {
+    flex: 0 0 calc((100% - 40px) / 3);
+    padding: 32px;
+    transition: transform 0.4s ease, background 0.3s ease, color 0.3s ease;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+    border: 1px solid #DEDEDE;
+    background: #FFF;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+}
+
+.rev-card img{
+    max-width: 180px;
+}
+
+.rev-card.is-active {
+    background: #F6F6F6;
+    transform: scale(1.1);
+    z-index: 3;
+}
+
+.rev-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 38px;
+    height: 38px;
+    border-radius: 8px;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    background: transparent;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.rev-prev { left: -10px; }
+.rev-next { right: -10px; }
+
+@media (max-width: 991px) {
+    .rev-card {
+        flex: 0 0 calc((100% - 20px) / 2);
+    }
+
+    .rev-card.is-active {
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 767px) {
+    .rev-slider {
+        padding: 0 10px;
+    }
+
+    .rev-card {
+        flex: 0 0 100%;
+    }
+}
+</style>
+
+<script>
+(function () {
+    const sliders = document.querySelectorAll('.rev-slider');
+
+    sliders.forEach((slider) => {
+
+        const track = slider.querySelector('.rev-track');
+        const prev = slider.querySelector('.rev-prev');
+        const next = slider.querySelector('.rev-next');
+
+        let cards = Array.from(track.children);
+
+        function getVisible() {
+            if (window.innerWidth < 768) return 1;
+            if (window.innerWidth < 992) return 2;
+            return 3;
+        }
+
+        let visible = getVisible();
+
+        // CLONE FOR LOOP (scoped per slider)
+        cards.slice(-visible).forEach(el => {
+            track.insertBefore(el.cloneNode(true), track.firstChild);
+        });
+
+        cards.slice(0, visible).forEach(el => {
+            track.appendChild(el.cloneNode(true));
+        });
+
+        let allCards = Array.from(track.children);
+        let index = visible;
+
+        function update() {
+            const gap = 20;
+            const cardWidth = allCards[0].getBoundingClientRect().width + gap;
+            track.style.transform = `translateX(-${index * cardWidth}px)`;
+
+            allCards.forEach(c => c.classList.remove('is-active'));
+
+            const center = index + Math.floor((getVisible() - 1) / 2);
+            if (allCards[center]) {
+                allCards[center].classList.add('is-active');
+            }
+        }
+
+        function nextSlide() {
+            index++;
+            track.style.transition = 'transform 0.5s ease';
+            update();
+
+            if (index >= allCards.length - visible) {
+                setTimeout(() => {
+                    track.style.transition = 'none';
+                    index = visible;
+                    update();
+                }, 500);
+            }
+        }
+
+        function prevSlide() {
+            index--;
+            track.style.transition = 'transform 0.5s ease';
+            update();
+
+            if (index <= 0) {
+                setTimeout(() => {
+                    track.style.transition = 'none';
+                    index = allCards.length - (visible * 2);
+                    update();
+                }, 500);
+            }
+        }
+
+        next.addEventListener('click', nextSlide);
+        prev.addEventListener('click', prevSlide);
+
+        window.addEventListener('resize', () => {
+            visible = getVisible();
+            update();
+        });
+
+        window.addEventListener('load', update);
+
+    });
+})();
+</script>
 
 
     <!-- Testimonials SECTION End -->
