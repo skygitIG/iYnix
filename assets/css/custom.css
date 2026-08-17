@@ -1656,3 +1656,23 @@
 .modal-backdrop {
     z-index: 99998 !important;
 }
+
+
+/* ppc management css  */
+
+/* Stats bar  */
+.ppc-stats-section {
+    background: #F7F7F7;
+}
+
+.ppc-stats-wrap {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.ppc-stat-item {
+    text-align: center;
+    padding: 60px;
+}
+
+

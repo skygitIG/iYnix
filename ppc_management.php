@@ -47,42 +47,44 @@
     </section>
 
     <!-- Stats section -->
-    <section class="sr-stats-section section-gap">
+    <section class="ppc-stats-section">
         <div class="container">
-            <div class="sr-stats-wrap">
+            <div class="ppc-stats-wrap">
                 <div class="row g-0">
-                    <div class="col-md-3 col-12">
-                        <div class="sr-stat-item">
+                    <div class="col-md-4 col-12">
+                        <div class="ppc-stat-item">
                             <h2>500+</h2>
-                            <p>SEO campaigns managed</p>
+                            <p class="accent">CAMPAIGNS MANAGED</p>
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-12">
-                        <div class="sr-stat-item">
-                            <h2>95M+</h2>
-                            <p>Organic visitors driven</p>
+                    <div class="col-md-4 col-12">
+                        <div class="ppc-stat-item">
+                            <h2>$20M+</h2>
+                            <p class="accent">ADVERTISING BUDGET OPTIMIZED</p>
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-12">
-                        <div class="sr-stat-item">
+                    <div class="col-md-4 col-12">
+                        <div class="ppc-stat-item">
                             <h2>1.2M+</h2>
-                            <p>Organic conversions generated</p>
+                            <p class="accent">AD CONVERSIONS GENERATED</p>
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-12">
-                        <div class="sr-stat-item">
-                            <h2>98%</h2>
-                            <p>Client satisfaction rate</p>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
     </section>
     <!-- Stats section End -->
+
+
+    <!-- slider section start -->
+     <?php include 'assets/include/brands-loop.php'; ?>
+     <?php include 'assets/include/brands-loop.php'; ?>
+    <!-- slider section end  -->
+
 
 
     <script src="assets/vendor/js/bootstrap.bundle.min.js"></script>
