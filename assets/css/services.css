@@ -4,3 +4,11 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+
+.ppc-hero-services{
+    background-image: url('../services-img/ppc-management.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
