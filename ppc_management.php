@@ -82,9 +82,10 @@
 
     <!-- slider section start -->
      <?php include 'assets/include/brands-loop.php'; ?>
-     <?php include 'assets/include/brands-loop.php'; ?>
     <!-- slider section end  -->
 
+
+    
 
 
     <script src="assets/vendor/js/bootstrap.bundle.min.js"></script>
