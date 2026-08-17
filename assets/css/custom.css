@@ -1605,3 +1605,79 @@
 .modal-backdrop {
     z-index: 99998 !important;
 }
+
+/* ===== "Trusted by Brands" 2-row logo marquee (service pages) ===== */
+/* Global component: assets/include/brands-loop.php. Reuses the
+   .ban-sl-row/.ban-sl-left/.ban-sl-right infinite-loop animation already
+   defined above for the homepage hero — only the item styling here is new. */
+.ss-brands-sub {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #6b6b6b;
+}
+
+.ss-brands-loop {
+    position: relative;
+    overflow: hidden;
+}
+
+/* LEFT / RIGHT fade so logos scroll in/out smoothly instead of clipping */
+.ss-brands-loop::before,
+.ss-brands-loop::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 120px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.ss-brands-loop::before {
+    left: 0;
+    background: linear-gradient(to right, #fff 0%, transparent 100%);
+}
+
+.ss-brands-loop::after {
+    right: 0;
+    background: linear-gradient(to left, #fff 0%, transparent 100%);
+}
+
+.ss-brands-row {
+    margin-bottom: 24px;
+}
+
+.ss-brands-row:last-child {
+    margin-bottom: 0;
+}
+
+.ss-brands-item {
+    flex-shrink: 0;
+    margin-right: 24px;
+}
+
+.ss-brands-item img {
+    height: 72px;
+    width: auto;
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .ss-brands-loop::before,
+    .ss-brands-loop::after {
+        width: 60px;
+    }
+
+    .ss-brands-row {
+        margin-bottom: 16px;
+    }
+
+    .ss-brands-item {
+        margin-right: 16px;
+    }
+
+    .ss-brands-item img {
+        height: 52px;
+    }
+}
