@@ -201,19 +201,27 @@
         <div class="container">
             <div
                 class="container d-flex align-items-center gap-0 align-items-stretch flex-sm-column-reverse flex-column-reverse flex-lg-row">
-                <div class="container bann-hf-text">
+                <div class="ss-split-text">
                     <h2 class="mb-3 fw-semibold text-black">
                         A Strategic SEO Marketing Company That Helps Your Business <span class="text-crimson">Get
                             Found, Get Leads, and Keep Growing!</span></h2>
-                    <p class="bann-hf-p p-sm my-4">Ranking on Google isn't about stuffing keywords onto a page
-                        anymore. It takes a technically sound website, content that answers what your customers are
-                        actually searching for, and a link profile search engines trust.<br>Iynix Digital builds SEO
-                        strategies around how your industry and market actually search — combining technical audits,
-                        content strategy, and authority building to grow your organic visibility, qualified leads,
-                        and revenue in a sustainable way.</p>
+                    <p class="bann-hf-p p-16 my-4">SEO is no longer just about keywords. It's about understanding
+                        what people search for, how they behave, and what Google expects from a trustworthy
+                        website.<br>At Iynix Digital, we provide professional SEO services that help your business
+                        stand out, attract qualified visitors, and grow your revenue organically. Our approach
+                        combines:</p>
+                    <ul class="ss-b-list p-16 mb-4">
+                        <li>Data-backed SEO research</li>
+                        <li>Smart content planning</li>
+                        <li>Technical website improvements</li>
+                        <li>AI-driven insights</li>
+                        <li>Transparent reporting</li>
+                    </ul>
+                    <p class="bann-hf-p p-16 fw-bold">We create SEO campaigns that deliver real, measurable results,
+                        not empty promises.</p>
                 </div>
-                <div class="container bann-hf-img p-0">
-                    <img src="assets/images/Business-goals.png" class="img-fluid" alt="">
+                <div class="ss-split-img p-0">
+                    <img src="assets/images/services/SEO/seo-strategy-team.png" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
@@ -706,7 +714,7 @@
     <section class="section-gap-top">
         <div class="container">
             <div class="container d-flex align-items-center gap-0 align-items-stretch flex-sm-column-reverse flex-column-reverse flex-lg-row">
-                <div class="container bann-hf-text">
+                <div class="ss-split-text">
                     <h2 class="mb-3 fw-semibold text-black">
                         Why Choose Iynix Digital As Your <span class="text-crimson">SEO Marketing Company?</span></h2>
                     <ul class="ss-b-checklist">
@@ -717,7 +725,7 @@
                         <li><i class="bi bi-check-circle-fill"></i> Clear and measurable results</li>
                     </ul>
                 </div>
-                <div class="container bann-hf-img p-0">
+                <div class="ss-split-img p-0">
                     <img src="assets/images/Still-Confused.png" class="img-fluid" alt="">
                 </div>
             </div>

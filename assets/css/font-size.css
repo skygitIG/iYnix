@@ -14,6 +14,11 @@ p  { font-size: 1.5rem!important; }     /* 24px */
 button { font-size: 1rem!important; }   /* 16px */
 .accent { font-size: 1.125rem!important; } /* 18px */
 
+/* Fixed 16px text — unlike p/.p-sm/.p-xsm above, this does NOT shrink at
+   smaller breakpoints. Use where the design calls for a flat 16px/24px
+   regardless of screen size. */
+.p-16 { font-size: 1rem!important; line-height: 1.5rem!important; } /* 16px / 24px */
+
 
 /* ===== Laptop ≤1199px ===== */
 

@@ -540,6 +540,7 @@
 }
 .bann-hf-p {
     max-width: 667px;
+    color: #101010;
 }
 
 .hs-f-info {
@@ -1489,6 +1490,57 @@
 .ss-metric-spark {
     display: block;
     margin: 20px auto 0;
+}
+
+/* Plain text+image split layout (Strategic SEO / Why Choose Us sections).
+   Deliberately its own class, not a reuse of .bann-hf-text/.bann-hf-img -
+   those carry a gray panel background + border meant for a different
+   homepage component, which was leaking into these plain sections. */
+.ss-split-text {
+    width: 50%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F7F7F7;
+    border-radius: 20px 0 0 20px;
+}
+
+.ss-split-img {
+    width: 50%;
+}
+
+.ss-split-img img {
+    border-radius: 0 20px 20px 0;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 991px) {
+    .ss-split-text,
+    .ss-split-img {
+        width: 100%;
+    }
+
+    .ss-split-text {
+        padding: 40px 15px;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .ss-split-img img {
+        border-radius: 20px 20px 0 0;
+    }
+}
+
+/* "Strategic SEO Marketing Company" approach list (ss-b-list) */
+.ss-b-list {
+    padding-left: 20px;
+    margin: 0;
+    color: #101010;
+}
+
+.ss-b-list li {
+    margin-bottom: 8px;
 }
 
 /* "Why Does Your Business Need SEO" checklist (ss-b) */
