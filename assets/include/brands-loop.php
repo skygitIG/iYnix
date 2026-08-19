@@ -54,15 +54,15 @@ $brands_row_bottom = [
             <div class="ss-brands-row ss-brands-row-top">
                 <div class="ban-sl-row ban-sl-left">
                     <?php foreach (array_merge($brands_row_top, $brands_row_top) as $logo): ?>
-                        <div class="ss-brands-item"><img src="<?php echo $brands_logo_path . $logo; ?>" alt=""></div>
+                        <div class="ss-brands-item px-4"><img src="<?php echo $brands_logo_path . $logo; ?>" alt=""></div>
                     <?php endforeach; ?>
                 </div>
             </div>
 
             <div class="ss-brands-row">
-                <div class="ban-sl-row ban-sl-right">
+                <div class="ban-sl-row ban-sl-right mt-5 mb-5">
                     <?php foreach (array_merge($brands_row_bottom, $brands_row_bottom) as $logo): ?>
-                        <div class="ss-brands-item"><img src="<?php echo $brands_logo_path . $logo; ?>" alt=""></div>
+                        <div class="ss-brands-item px-4"><img src="<?php echo $brands_logo_path . $logo; ?>" alt=""></div>
                     <?php endforeach; ?>
                 </div>
             </div>

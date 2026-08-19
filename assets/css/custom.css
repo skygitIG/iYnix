@@ -1605,3 +1605,162 @@
 .modal-backdrop {
     z-index: 99998 !important;
 }
+
+
+/* ppc management page css */
+
+.ppc-stats-section {
+    background: #F4F4F4;
+    width: 100%;
+}
+
+.ppc-stat-item {
+    text-align: center;
+    padding: 60px;
+    /* position: relative; */   
+}
+
+.ppc-stat-item h2 {
+    font-weight: 700;
+    color: #D81F28;
+    margin-bottom: 30px;
+    line-height: 1;
+}
+
+.ppc-stat-item p {
+    font-weight: 600;
+    color: #000000;
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* business struggling  */
+
+.ppc-a-card {
+    background: #F4F4F4;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 32px 16px 32px 32px;
+    min-height: 110px;
+    transition: border-color 0.25s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+/* Hover changes only the border color — nothing else */
+.ppc-a-card:hover {
+    border-color: #D81F28;
+}
+
+.ppc-a-danger {
+    width: 64px;
+    height: 64px;
+    display: block;
+    /* margin-bottom: 30px; */
+}
+
+.ppc-a-danger p {
+    margin: 0;
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 32px;
+}
+
+.ppc-line{
+    border: 1px solid #E53935;
+    padding: 20px;
+    border-radius:6px;
+}
+
+@media (max-width: 767px) {
+    .ppc-a-card {
+        min-height: auto;
+        padding: 18px 16px;
+    }
+
+    .ppc-a-danger {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 18px;
+    }
+}
+
+.ppc-section-main{
+    background-color:#F4F4F4;
+    
+}
+
+.ppc-text{
+    color : #666666;
+}
+
+.ppc-checkicon > ul > li {
+    list-style-type: none;
+    color:#101010;
+    font-weight:700;
+}
+
+.ppc-section{
+    margin-top:48px;
+    border:1px solid #E8E8E8;
+    border-radius:8px;
+    background-color: #FFFFFF;
+    padding: 0px 32px 32px 32px;
+}
+
+/* Result section ppc management  */
+
+.ppc-result {
+    color: #AAAAAA;
+}
+.results{
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size:14px;
+}
+.ppc-result-section{
+    background-color:#101010;
+}
+
+.ppc-matter{
+    color:#FFFFFF;
+}
+
+.ppc-result-card{
+    border: 1px solid #262626;
+    max-width: 302px;
+    width:100%;
+    gap: 16px;
+    border-radius:8px;
+    height:158px;
+    min-height:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .ppc-result-card{
+        max-width: 100%;
+    }
+}
+
+/* ppc management service start  */
+
+.ppc-service-headings {
+    color: #666666;
+    font-size:16px;
+}
+
+@media (max-width:767px) {
+    .ppc-service-headings {
+        font-size:14px;
+    }
+}
