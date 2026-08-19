@@ -171,20 +171,22 @@
     <section class="section-gap-bottom">
         <div class="container">
             <div class="ss-cta-box text-center">
-                <h2 class="fw-semibold mb-3">
+                <div class="ss-cta-icon">
+                    <img src="assets/images/services/SEO/Frame.svg" alt="">
+                </div>
+                <h2 class="ss-cta-heading mb-3">
                     So, Are You Ready to Improve Your <br>
                     <span class="text-crimson">Rankings and Grow Your Business?</span>
                 </h2>
-                <p class="fw-medium mx-auto" style="max-width: 700px;">
-                    Your customers are searching. Let's make sure they find you, not your competitors.
-                </p>
+                <p class="ss-cta-subheading mb-2">Your customers are searching.</p>
+                <p class="ss-cta-text mx-auto">Let's make sure they find you, not your competitors.</p>
                 <div class="d-flex flex-wrap gap-3 justify-content-center mt-4">
                     <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#hsFormModal"
                         style="width: fit-content;">
-                        Get a Free SEO Audit!
+                        Get a Free SEO Audit
                     </button>
-                    <a href="javascript:void(0)"><button class="btn btn-primary accent">Get in Touch With
-                            Us</button></a>
+                    <a href="javascript:void(0)"><button class="btn btn-primary accent">Talk to an SEO
+                            Expert</button></a>
                 </div>
             </div>
         </div>
