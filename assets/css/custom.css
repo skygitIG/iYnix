@@ -1,3 +1,77 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+/* =========================================
+   GLOBAL RESPONSIVE CONTAINERS
+   Mobile-first approach
+   ========================================= */
+
+/* Base — full width on all screens by default */
+.new-container,
+.new-container-sm,
+.new-container-md,
+.new-container-lg,
+.new-container-xl,
+.new-container-xxl {
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+/* sm — 576px and up */
+@media (min-width: 576px) {
+    .new-container-sm,
+    .new-container-md,
+    .new-container-lg,
+    .new-container-xl,
+    .new-container-xxl,
+    .new-container {
+        max-width: 540px;
+    }
+}
+
+/* md — 768px and up */
+@media (min-width: 768px) {
+    .new-container-md,
+    .new-container-lg,
+    .new-container-xl,
+    .new-container-xxl,
+    .new-container {
+        max-width: 720px;
+    }
+}
+
+/* lg — 992px and up */
+@media (min-width: 992px) {
+    .new-container-lg,
+    .new-container-xl,
+    .new-container-xxl,
+    .new-container {
+        max-width: 960px;
+    }
+}
+
+/* xl — 1200px and up */
+@media (min-width: 1200px) {
+    .new-container-xl,
+    .new-container-xxl,
+    .new-container {
+        max-width: 1140px;
+    }
+}
+
+/* xxl — 1400px and up */
+@media (min-width: 1400px) {
+    .new-container-xxl,
+    .new-container {
+        max-width: 1280px;  /* tumhara original max-width */
+    }
+}
+
 .clutch-gap {
     gap: 2.375rem;
 }
@@ -1871,7 +1945,7 @@
     background: #F4F4F4;
     border: 1px solid transparent;
     border-radius: 20px;
-    padding: 32px 16px 32px 32px;
+    padding: 24px;
     min-height: 110px;
     transition: border-color 0.25s ease;
     cursor: pointer;
@@ -1879,6 +1953,11 @@
     flex-direction: row;
     justify-content: start;
     align-items: center;
+}
+
+.ppc-a-card img {
+    width:100%;
+    max-width:36px;
 }
 
 /* Hover changes only the border color — nothing else */
@@ -1909,6 +1988,17 @@
     border-radius:6px;
 }
 
+.ppc-main-heading > p{
+    text-align:center;
+}
+
+.ppc-struggling-size{
+    max-width:1005px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 @media (max-width: 767px) {
     .ppc-a-card {
         min-height: auto;
@@ -1918,7 +2008,11 @@
     .ppc-a-danger {
         width: 48px;
         height: 48px;
-        margin-bottom: 18px;
+        /* margin-bottom: 18px; */
+    }
+
+    .results{
+        text-align:center;
     }
 }
 
@@ -1959,6 +2053,10 @@
     background-color:#101010;
 }
 
+.ppc-focus {
+    font-size:21px !important;
+}
+
 .ppc-matter{
     color:#FFFFFF;
 }
@@ -1994,4 +2092,284 @@
     .ppc-service-headings {
         font-size:14px;
     }
+}
+
+/* ppc number box css  */
+
+.ppc-management-box {
+    border :1px solid #E8E8E8;
+    border-radius:8px;
+    padding : 32px;
+    background-color:#F7F7F7;
+    width:411px;
+    max-width:100%;
+}
+
+.ppc-professional {
+    border:1px solid #E8E8E8;
+    padding:24px;
+    background-color:#F7F7F7;
+    border-radius:6px;
+}
+
+.border-reds{
+    border:6px solid #E53935;
+}
+
+.ppc-number{
+    width:100%;
+    max-width:40px; 
+}
+
+.ppc-box-description{
+    font-size:16px !important;
+    color:#666666;
+}
+
+@media (max-width:767px) {
+   .ppc-box-description{
+    font-size:14px !important;
+}
+}
+
+/* compaign smarter css  */
+
+.ppc-smarter-campaign {
+    background-color:#F7F7F7;
+}
+
+.ppc-container {
+    width:1540px;
+    max-width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+/* Our Complete PPC Management Services css  */
+
+/* ── Base Styles ─────────────────────────────── */
+.ppc-complete-section {
+    background-color: #F7F7F7;
+    padding: 32px;
+    border-radius: 16px;
+    margin-top: 32px;
+}
+
+.ppc-complete-textcolor p {
+    color: #666666;
+}
+
+.ppc-complete-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;           /* ✅ wrap add kiya */
+}
+
+.service1 {
+    border-radius: 6px;
+    background-color: #ffffff;
+    padding: 4px 12px;
+    font-size: 12px !important;
+    white-space: nowrap;       /* ✅ text break na ho */
+    flex-shrink: 0;            /* ✅ squeeze na ho */
+}
+
+/* ── Boxes ───────────────────────────────────── */
+.ppc-boxes-parent {
+    display: flex;
+    flex-wrap: wrap;           /* ✅ KEY FIX — boxes wrap honge */
+    gap: 8px;                  /* ✅ mx-2 replace kiya clean gap se */
+}
+
+.ppc-boxes {
+    background-color: #ffffff;
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+    padding: 6px 12px;
+    text-align: center;
+    white-space: nowrap;       /* ✅ text ek line mein rahe */
+}
+
+.ppc-boxes > span {
+    font-size: 14px !important;
+    color: #101010;
+}
+
+.ppc-complete-last {
+    color: #666666;
+}
+
+/* ── Tablet (max 991px) ──────────────────────── */
+@media (max-width: 991px) {
+    .ppc-complete-section {
+        padding: 24px;
+    }
+}
+
+/* ── Mobile (max 767px) ──────────────────────── */
+@media (max-width: 767px) {
+    .ppc-complete-section {
+        padding: 20px 16px;
+        margin-top: 16px;
+        border-radius: 12px;
+    }
+
+    .ppc-complete-text {
+        flex-direction: column;    /* ✅ stack vertically */
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .service1 {
+        font-size: 10px !important;
+        padding: 4px 10px;
+    }
+
+    .ppc-boxes > span {
+        font-size: 12px !important;
+    }
+
+    .ppc-boxes {
+        padding: 5px 10px;
+    }
+}
+
+/* ── Small Mobile (max 480px) ────────────────── */
+@media (max-width: 480px) {
+    .ppc-complete-section {
+        padding: 16px 12px;
+        border-radius: 10px;
+    }
+
+    .ppc-boxes-parent {
+        gap: 6px;
+    }
+
+    .ppc-boxes {
+        padding: 4px 8px;
+    }
+
+    .ppc-boxes > span {
+        font-size: 11px !important;
+    }
+}
+
+
+/* ppc roi css  */
+
+.ppc-roi {
+    background-color:#101010;
+}
+
+.ppc-roi-headings p {
+    color:#AAAAAA;
+}
+
+.ppc-roi-card {
+    border: 1px solid #262626;
+    border-radius: 8px;
+    background-color: #1E1E1E;
+    padding: 40px;
+    margin-top:56px;
+    height: 388px;
+    min-height: 100%;
+}
+
+.ppc-stage {
+    color:#D81F28;
+    text-transform: uppercase;
+    font-size:14px !important;
+}
+
+.ppc-roi-desc {
+    color: #AAAAAA;
+}
+
+    .ppc-roi-list{
+        padding-left: 1rem;
+    }
+
+.ppc-roi-list > li {
+    list-style-type: disc;
+    color: #D81F28;
+    padding-left: 0px;
+    line-height: 33px;
+}
+
+/* PPC Campaign Framework css  */
+
+.ppc-compaign-framework {
+    border: 1px solid #E8E8E8;
+    background-color: #F7F7F7;
+    padding: 32px;
+    border-radius: 8px;
+    height: 100%;
+    min-height: 417px;
+}
+
+.ppc-framework-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0px 12px 0px;
+}
+
+.ppc-framework-box > p{
+    font-size:12px !important;
+    text-transform: uppercase;
+}
+
+.framework-desc {
+    font-size:16px !important;
+    color: #666666;
+}
+
+.framework-list {
+    padding-left: 1rem;
+    color: #666666;
+}
+
+/* Advanced Tools css  */
+
+.dot-box {
+    background-color: #F7F7F7;
+    border-radius: 8px;
+    padding: 20px;
+    /* margin-top:25px; */
+}
+
+.dot-box >ul {
+    margin-bottom: 0px;
+}
+
+.dot-box >ul > li::marker {
+    color: #FF7A00;
+}
+
+/* why choose us section css ppc page */
+
+.why-choose-us {
+    width: 50%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F7F7F7;
+    border-radius: 0px 20px 20px 0px;
+    border: 1px solid #D3D3D3;
+}
+
+.why-choose-us-img img {
+    border-radius: 20px 0px 0px 20px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.why-choose-us-img {
+    width: 50%;
 }

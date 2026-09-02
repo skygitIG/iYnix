@@ -779,6 +779,7 @@ progress {
     max-width: 1320px;
   }
 }
+
 :root {
   --bs-breakpoint-xs: 0;
   --bs-breakpoint-sm: 576px;
