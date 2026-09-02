@@ -234,33 +234,31 @@
 
     <section class="section-gap-top">
         <div class="container">
-            <h3 class="fw-bold mb-5 text-center">Our <span class="text-crimson">Performance Metrics</span></h3>
+            <h3 class="fw-bold mb-3 text-center">Our <span class="text-crimson">Performance Metrics</span></h3>
+            <p class="ss-metric-sub mx-auto mb-5">We, as an SEO marketing agency, focus on results and
+                relationships. Here's what we've achieved for our clients:</p>
 
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
                     <div class="ss-metric-card sbg-gray">
                         <h3>95,000,000+</h3>
                         <p>Organic Website Visitors Driven</p>
-                        <svg class="ss-metric-spark" width="180" height="48" viewBox="0 0 180 48" fill="none">
-                            <polyline points="0,38 25,30 50,34 75,18 100,24 125,10 150,16 180,4" stroke="#D81F28" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
+                        <img src="assets/images/services/SEO/metric-chart-glow.svg" class="ss-metric-glow" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ss-metric-card ss-metric-dark">
                         <h3>1,200,000+</h3>
-                        <p>Conversions Generated</p>
+                        <p>conversions generated through SEO</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-12">
                     <div class="ss-metric-card sbg-gray">
                         <h3>500+</h3>
-                        <p>Successful SEO Campaigns Managed</p>
-                        <svg class="ss-metric-spark" width="180" height="48" viewBox="0 0 180 48" fill="none">
-                            <polyline points="0,30 25,34 50,20 75,26 100,12 125,18 150,6 180,14" stroke="#D81F28" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
+                        <p>successful SEO campaigns managed</p>
+                        <img src="assets/images/services/SEO/metric-chart-glow.svg" class="ss-metric-glow" alt="">
                     </div>
                 </div>
             </div>
