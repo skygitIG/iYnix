@@ -9,6 +9,9 @@
         content="Tired of empty promises? We help US businesses get more leads & 2x-3x revenue growth through SEO, Google Ads & smart digital marketing.">
     <link href="assets/vendor/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/font-size.css">
     <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="assets/css/services.css">
@@ -20,6 +23,8 @@
 
     <!-- Header  -->
     <?php include_once 'assets/include/navbar.php';?>
+
+    <div class="font-inter">
 
 
     <!-- Hero Section  -->
@@ -923,6 +928,7 @@ Partner with Iynix Digital and let our PPC specialists build campaigns designed 
 
     <!-- Ready to Improve Rankings CTA SECTION End -->
 
+    </div>
 
     <script src="assets/vendor/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/js/main.js"></script>

@@ -1,4 +1,10 @@
-* {
+/* Reusable Inter font-family utility — call .font-inter on any element/page
+   instead of forcing it site-wide via a universal selector (that leaked
+   into the navbar and other components on pages that don't even load the
+   Inter font). Pages using this must also link Google Fonts Inter in
+   <head>, same as seo-service.php already does. */
+.font-inter,
+.font-inter * {
     font-family: 'Inter', sans-serif;
 }
 
