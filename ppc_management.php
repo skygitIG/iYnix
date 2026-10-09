@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/font-size.css">
     <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="assets/css/services.css">
@@ -419,179 +419,153 @@
 
         <!-- Our Complete PPC Management Services start  -->
 
-        <section class="section-gap mt-5">
-            <div class="container">
+        <section class="section-gap ppc-complete-wrap" style="padding-top:0px!important;">
+            <div class="new-container">
                 <div class="row g-3">
-                    <div class="col-lg-12 col-md-12 text-center">
-                        <h2 class="fw-bold">Our Complete PPC Management Services</h2>
+                    <div class="col-lg-12 col-md-12">
+                        <h2 class="fw-bold text-crimson"><span class="text-black">Our Complete</span> PPC Management Services</h2>
                     </div>
 
-                    <div class="row g-3 mt-5">
+                    <div class="row g-4 mt-5">
 
-                        <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="ppc-complete-section">
-                                <div class="ppc-complete-text">
-                                <h5 class="fw-bolder">Google Ads Management Services</h5>
-                                <p class="service1"><span class="text-crimson fw-bold">Service 01 </span></p>
-                                </div>
+                                <h5 class="ppc-complete-heading">Google Ads Management Services</h5>
                                 <div class="pt-3 ppc-complete-textcolor">
                                 <p class="p-16 fw-normal">Google remains the largest advertising platform for businesses looking to generate leads and sales.</p>
                                 <p class="p-16 fw-normal">Our Google Ads management services help businesses appear when potential customers are actively searching for solutions.</p>
-                                <p class="p-16 fw-normal">Our team manages:</p>
+                                <p class="p-16 ppc-complete-label">Our team manages:</p>
                                 </div>
-                                <div class="mt-4 ppc-boxes-parent">
-                                    <p class="ppc-boxes"><span class="fw-normal">Search Ads</span></p>
-                                    <p class="ppc-boxes mx-2"><span class="fw-normal">Performance Max Campaigns</span></p>
-                                    <p class="ppc-boxes mx-2"><span class="fw-normal">Display Ads</span></p>
-                                    <p class="ppc-boxes mx-2"><span class="fw-normal">Shopping Campaigns</span></p>
-                                    <p class="ppc-boxes mx-2"><span class="fw-normal">Shopping Campaigns</span></p>
-                                    <p class="ppc-boxes mx-2"><span class="fw-normal">Local Service Ads</span></p>
-                                    <p class="ppc-boxes mx-2"><span class="fw-normal">Remarketing Campaigns</span></p>
-                                </div>
+                                <ul class="mt-3 ppc-complete-list">
+                                    <li>Search Ads</li>
+                                    <li>Performance Max Campaigns</li>
+                                    <li>Display Ads</li>
+                                    <li>Shopping Campaigns</li>
+                                    <li>YouTube Ads</li>
+                                    <li>Local Service Ads</li>
+                                    <li>Remarketing Campaigns</li>
+                                </ul>
                                 <p class="mt-4 p-16 fw-semibold ppc-complete-last">As an experienced Google Ads management company, we focus on generating measurable results while controlling costs.</p>
                             </div>
                         </div>
 
-                        <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="ppc-complete-section">
-                                <div class="ppc-complete-text">
-                                <h5 class="fw-bolder">Google PPC Management</h5>
-                                <p class="service1"><span class="text-crimson fw-bold">Service 02 </span></p>
-                                </div>
+                                <h5 class="ppc-complete-heading">Google PPC Management</h5>
                                 <div class="pt-3 ppc-complete-textcolor">
-                                <p class="p-16 fw-normal">Google PPC management requires ongoing monitoring and optimization. </p>
-                                <p class="p-16 fw-normal">We manage:</p>
+                                <p class="p-16 fw-normal">Google PPC management requires ongoing monitoring and optimization.</p>
+                                <p class="p-16 ppc-complete-label">We manage:</p>
                                 </div>
-                                <div class="mt-4 ppc-boxes-parent">
-                                    <p class="ppc-boxes"><span class="fw-normal">Keyword research</span></p>
-                                    <p class="ppc-boxes mx-2"><span class="fw-normal">Negative keyword optimization</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Bid adjustments</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Audience targeting</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Ad copy testing</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Conversion tracking</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Landing page recommendations</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Budget management</span></p>
-                                </div>
+                                <ul class="mt-3 ppc-complete-list">
+                                    <li>Keyword research</li>
+                                    <li>Negative keyword optimization</li>
+                                    <li>Bid adjustments</li>
+                                    <li>Audience targeting</li>
+                                    <li>Ad copy testing</li>
+                                    <li>Conversion tracking</li>
+                                    <li>Landing page recommendations</li>
+                                    <li>Budget management</li>
+                                </ul>
                                 <p class="mt-4 p-16 fw-semibold ppc-complete-last">Every decision is based on performance data and business objectives.</p>
                             </div>
                         </div>
 
-                        <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="ppc-complete-section">
-                                <div class="ppc-complete-text">
-                                <h5 class="fw-bolder">PPC Ad Management Services</h5>
-                                <p class="service1"><span class="text-crimson fw-bold">Service 03 </span></p>
-                                </div>
+                                <h5 class="ppc-complete-heading">PPC Ad Management Services</h5>
                                 <div class="pt-3 ppc-complete-textcolor">
                                 <p class="p-16 fw-normal">Successful PPC campaigns require continuous improvement.</p>
-                                <p class="p-16 fw-normal">Our PPC ad management services include:</p>
+                                <p class="p-16 ppc-complete-label">Our PPC ad management services include:</p>
                                 </div>
-                                <div class="mt-4 ppc-boxes-parent">
-                                    <p class="ppc-boxes"><span class="fw-normal">Campaign setup</span></p>
-                                    <p class="ppc-boxes mx-2"><span class="fw-normal">Audience research</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Ad creation</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Performance monitoring</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Bid optimization</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Conversion analysis</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Competitor analysis</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Reporting and insights</span></p>
-                                </div>
+                                <ul class="mt-3 ppc-complete-list">
+                                    <li>Campaign setup</li>
+                                    <li>Audience research</li>
+                                    <li>Ad creation</li>
+                                    <li>Performance monitoring</li>
+                                    <li>Bid optimization</li>
+                                    <li>Conversion analysis</li>
+                                    <li>Competitor analysis</li>
+                                    <li>Reporting and insights</li>
+                                </ul>
                                 <p class="mt-4 p-16 fw-semibold ppc-complete-last">We continually improve campaigns to maximize return on investment.</p>
                             </div>
                         </div>
 
-                        <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="ppc-complete-section">
-                                <div class="ppc-complete-text">
-                                <h5 class="fw-bolder">Paid Ad Management</h5>
-                                <p class="service1"><span class="text-crimson fw-bold">Service 04 </span></p>
-                                </div>
+                                <h5 class="ppc-complete-heading">Paid Ad Management</h5>
                                 <div class="pt-3 ppc-complete-textcolor">
                                 <p class="p-16 fw-normal">Modern advertising involves more than Google.</p>
-                                <p class="p-16 fw-normal">Our paid ad management services include:</p>
+                                <p class="p-16 ppc-complete-label">Our paid ad management services include:</p>
                                 </div>
-                                <div class="mt-4 ppc-boxes-parent">
-                                    <p class="ppc-boxes"><span class="fw-normal">Google Ads</span></p>
-                                    <p class="ppc-boxes mx-2"><span class="fw-normal">Microsoft Ads</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Facebook Ads</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Instagram Ads</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">LinkedIn Ads</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">YouTube Ads</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Remarketing Platforms</span></p>
-                                </div>
+                                <ul class="mt-3 ppc-complete-list">
+                                    <li>Google Ads</li>
+                                    <li>Microsoft Ads</li>
+                                    <li>Facebook Ads</li>
+                                    <li>Instagram Ads</li>
+                                    <li>LinkedIn Ads</li>
+                                    <li>YouTube Ads</li>
+                                    <li>Remarketing Platforms</li>
+                                </ul>
                                 <p class="mt-4 p-16 fw-semibold ppc-complete-last">This multi-channel approach helps businesses reach customers across multiple touchpoints.</p>
                             </div>
                         </div>
 
-                        <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="ppc-complete-section">
-                                <div class="ppc-complete-text">
-                                <h5 class="fw-bolder">Remarketing Campaign Management</h5>
-                                <p class="service1"><span class="text-crimson fw-bold">Service 05 </span></p>
-                                </div>
+                                <h5 class="ppc-complete-heading">Remarketing Campaign Management</h5>
                                 <div class="pt-3 ppc-complete-textcolor">
-                                <p class="p-16 fw-normal">Most website visitors do not convert during their first visit.
-                                            </p>
-                                            <p class="p-16 fw-normal">
-                                            Remarketing helps re-engage potential customers through targeted advertising.
-                                            </p>
-                                <p class="p-16 fw-normal">Benefits include:</p>
+                                <p class="p-16 fw-normal">Most website visitors do not convert during their first visit.</p>
+                                <p class="p-16 fw-normal">Remarketing helps re-engage potential customers through targeted advertising.</p>
+                                <p class="p-16 ppc-complete-label">Benefits include:</p>
                                 </div>
-                                <div class="mt-4 ppc-boxes-parent">
-                                    <p class="ppc-boxes"><span class="fw-normal">Higher conversion rates</span></p>
-                                    <p class="ppc-boxes mx-2"><span class="fw-normal">Increased brand recall</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Lower acquisition costs</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Better advertising efficiency</span></p>
-                                </div>
+                                <ul class="mt-3 ppc-complete-list">
+                                    <li>Higher conversion rates</li>
+                                    <li>Increased brand recall</li>
+                                    <li>Lower acquisition costs</li>
+                                    <li>Better advertising efficiency</li>
+                                </ul>
                                 <p class="mt-4 p-16 fw-semibold ppc-complete-last">Remarketing often becomes one of the highest-performing campaign types.</p>
                             </div>
                         </div>
 
-                        <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="ppc-complete-section">
-                                <div class="ppc-complete-text">
-                                <h5 class="fw-bolder">Landing Page Optimization</h5>
-                                <p class="service1"><span class="text-crimson fw-bold">Service 06 </span></p>
-                                </div>
+                                <h5 class="ppc-complete-heading">Landing Page Optimization</h5>
                                 <div class="pt-3 ppc-complete-textcolor">
                                 <p class="p-16 fw-normal">Advertising success depends heavily on the landing page experience.</p>
-                                            
-                                <p class="p-16 fw-normal">We help improve:</p>
+                                <p class="p-16 ppc-complete-label">We help improve:</p>
                                 </div>
-                                <div class="mt-4 ppc-boxes-parent">
-                                    <p class="ppc-boxes"><span class="fw-normal">Conversion rates</span></p>
-                                    <p class="ppc-boxes mx-2"><span class="fw-normal">Page speed</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">User experience</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Form completion rates</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Call-to-action performance</span></p>
-                                </div>
+                                <ul class="mt-3 ppc-complete-list">
+                                    <li>Conversion rates</li>
+                                    <li>Page speed</li>
+                                    <li>User experience</li>
+                                    <li>Form completion rates</li>
+                                    <li>Call-to-action performance</li>
+                                </ul>
                                 <p class="mt-4 p-16 fw-semibold ppc-complete-last">Better landing pages generate more leads from the same advertising budget.</p>
                             </div>
                         </div>
 
                         <div class="col-lg-12 col-md-12 col-sm-12">
                             <div class="ppc-complete-section">
-                                <div class="ppc-complete-text">
-                                <h5 class="fw-bolder">Conversion Tracking and Analytics</h5>
-                                <p class="service1"><span class="text-crimson fw-bold">Service 07 </span></p>
-                                </div>
+                                <h5 class="ppc-complete-heading">Conversion Tracking and Analytics</h5>
                                 <div class="pt-3 ppc-complete-textcolor">
-                                <p class="p-16 fw-normal">Accurate tracking is essential. </p>
-                                            
-                                <p class="p-16 fw-normal">We implement:</p>
+                                <p class="p-16 fw-normal">Accurate tracking is essential.</p>
+                                <p class="p-16 ppc-complete-label">We implement:</p>
                                 </div>
-                                <div class="mt-4 ppc-boxes-parent">
-                                    <p class="ppc-boxes"><span class="fw-normal">Google Analytics 4</span></p>
-                                    <p class="ppc-boxes mx-2"><span class="fw-normal">Google Tag Manager</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Conversion tracking</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Call tracking</span></p>
-                                    <p class="ppc-boxes mx-1"><span class="fw-normal">Event tracking</span></p>
-                                     <p class="ppc-boxes mx-1"><span class="fw-normal">Revenue attribution</span></p>
-                                </div>
+                                <ul class="mt-3 ppc-complete-list">
+                                    <li>Google Analytics 4</li>
+                                    <li>Google Tag Manager</li>
+                                    <li>Conversion tracking</li>
+                                    <li>Call tracking</li>
+                                    <li>Event tracking</li>
+                                    <li>Revenue attribution</li>
+                                </ul>
                                 <p class="mt-4 p-16 fw-semibold ppc-complete-last">Proper tracking allows smarter optimization decisions.</p>
                             </div>
                         </div>
-   
+
                     </div>
                 </div>
             </div>

@@ -2,16 +2,29 @@
 
 This is the iYnix project repository. It contains web application files organized in the following structure:
 
-- `index.php` - Main entry point
+## Pages
+
+- `index.php` - Homepage
+- `seo-service.php` - SEO services page
+- `ppc_management.php` - PPC management services page
+- `social-media-marketing.php` - Social media marketing services page
+- `ecommerce-marketing.php` - Ecommerce marketing services page
+
+## Assets
+
 - `assets/` - Site-wide assets (used by every page, not just the homepage)
-  - `vendor/` - Third-party libraries
-    - `css/` - Bootstrap CSS files
-    - `js/` - Bootstrap JavaScript files
-  - `css/` - Custom stylesheets
+  - `vendor/` - Third-party libraries (Bootstrap CSS/JS)
+  - `css/` - Custom stylesheets (`custom.css`, `font-size.css`, `services.css`)
   - `images/` - Image assets
     - `icons/` - Icon files
-  - `include/` - PHP includes
-  - `services-img/` - Images used on the services page
+    - `services/` - Images used across the service pages (SEO, PPC, social media, ecommerce)
+  - `include/` - Shared PHP includes, reused across pages:
+    - `navbar.php` / `footer.php` - Site-wide header/footer
+    - `trusted-brands.php` - Homepage's single-row logo marquee
+    - `brands-loop.php` - 2-row logo marquee used on the service pages
+    - `testimonials.php` - Review slider, parameterized per page (`$testimonials_heading`, `$testimonials_subheading`)
+    - `faq.php` - FAQ accordion, parameterized per page (`$faq_heading_pre`, `$faq_heading_hi`, `$faq_items`)
+  - `services-img/` - Legacy images used on the services page
 
 ## Project Structure
 
@@ -19,6 +32,9 @@ This is the iYnix project repository. It contains web application files organize
 iYnix/
 ├── index.php
 ├── seo-service.php
+├── ppc_management.php
+├── social-media-marketing.php
+├── ecommerce-marketing.php
 ├── README.md
 └── assets/
     ├── vendor/
@@ -26,6 +42,8 @@ iYnix/
     │   └── js/
     ├── css/
     ├── images/
+    │   ├── icons/
+    │   └── services/
     ├── services-img/
     └── include/
 ```

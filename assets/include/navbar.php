@@ -1,8 +1,9 @@
-<!-- Bootstrap CSS (LOCAL) -->
-<link rel="stylesheet" href="assets/vendor/css/bootstrap.min.css">
-
-<!-- Bootstrap Icons CDN -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<!-- Bootstrap CSS + Bootstrap Icons are already linked in every page's own
+     <head> before this include, so they're deliberately not repeated here.
+     A duplicate <link> here used to re-load bootstrap.min.css inside <body>,
+     positioned after custom.css in the cascade - that silently overrode
+     custom.css's own rules (e.g. .ppc-section's margin-top) with
+     Bootstrap's defaults on every page. -->
 
 <style>
     .nav-header {
@@ -401,7 +402,7 @@
                                         <li><a href="#" class="p-xsm">Page Speed Optimization</a></li>
                                         <li><a href="#" class="p-xsm">Product Marketing</a></li>
                                         <li><a href="#" class="p-xsm">Content Marketing</a></li>
-                                        <li><a href="#" class="p-xsm">PPC Management Services</a></li>
+                                        <li><a href="ppc_management.php" class="p-xsm">PPC Management Services</a></li>
                                         <li><a href="#" class="p-xsm">B2B Marketing</a></li>
                                         <li><a href="#" class="p-xsm">B2C Marketing</a></li>
                                         <li><a href="#" class="p-xsm">B2C and D2C</a></li>
@@ -412,7 +413,7 @@
                                     <h6><i class="bi bi-share-fill"></i>Social Media</h6>
                                     <ul>
                                         <li><a href="#" class="p-xsm">Social Media Ads</a></li>
-                                        <li><a href="#" class="p-xsm">Social Media Marketing</a></li>
+                                        <li><a href="social-media-marketing.php" class="p-xsm">Social Media Marketing</a></li>
                                     </ul>
                                     <br>
                                     <h6><i class="bi bi-phone"></i>Mobile Application Development</h6>
@@ -441,7 +442,7 @@
                                     <ul>
                                         <li><a href="#" class="p-xsm">E-commerce SEO</a></li>
                                         <li><a href="#" class="p-xsm">E-commerce Optimization</a></li>
-                                        <li><a href="#" class="p-xsm">E-commerce Marketing</a></li>
+                                        <li><a href="ecommerce-marketing.php" class="p-xsm">E-commerce Marketing</a></li>
                                     </ul>
                                 </div>
 

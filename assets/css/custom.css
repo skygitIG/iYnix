@@ -310,6 +310,33 @@
     min-width: 740px;
 }
 
+/* Service-page hero intro paragraph + CTA buttons (scoped to the two-button
+   wrapper used on seo-service.php/ppc_management.php/social-media-marketing.php
+   only — homepage's hero has no <p> and a single un-wrapped button, so it's
+   unaffected). */
+@media (max-width: 767px) {
+    .hero-banner-text p {
+        font-size: 15px !important;
+        line-height: 1.6 !important;
+    }
+
+    .hero-banner-text .d-flex.gap-3 .btn {
+        padding: 10px 18px;
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-banner-text p {
+        font-size: 14px !important;
+    }
+
+    .hero-banner-text .d-flex.gap-3 .btn {
+        padding: 9px 14px;
+        font-size: 13px !important;
+    }
+}
+
 /* LEFT GRADIENT */
 .ban-sl-section::before {
     content: "";
@@ -1928,7 +1955,19 @@
 .ppc-stat-item {
     text-align: center;
     padding: 60px;
-    /* position: relative; */   
+    /* position: relative; */
+}
+
+@media (max-width: 991px) {
+    .ppc-stat-item {
+        padding: 32px 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .ppc-stat-item {
+        padding: 24px 16px;
+    }
 }
 
 .ppc-stat-item h2 {
@@ -2045,6 +2084,19 @@
     padding: 0px 32px 32px 32px;
 }
 
+@media (max-width: 767px) {
+    .ppc-section {
+        margin-top: 32px;
+        padding: 0px 20px 20px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ppc-section {
+        padding: 0px 16px 16px 16px;
+    }
+}
+
 /* Result section ppc management  */
 
 .ppc-result {
@@ -2154,55 +2206,68 @@
 
 /* Our Complete PPC Management Services css  */
 
+.ppc-complete-wrap {
+    background-color: #F7F7F7;
+}
+
 /* ── Base Styles ─────────────────────────────── */
 .ppc-complete-section {
-    background-color: #F7F7F7;
+    background-color: #FFFFFF;
     padding: 32px;
     border-radius: 16px;
-    margin-top: 32px;
+    height: 100%;
+}
+
+.ppc-complete-heading {
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+    font-size: 21px !important;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.3 !important; /* 130% */
+    margin: 0;
 }
 
 .ppc-complete-textcolor p {
     color: #666666;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6 !important; /* 160% */
 }
 
-.ppc-complete-text {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 12px;
-    flex-wrap: wrap;           /* ✅ wrap add kiya */
+.ppc-complete-label {
+    font-weight: 700 !important;
 }
 
-.service1 {
-    border-radius: 6px;
-    background-color: #ffffff;
-    padding: 4px 12px;
-    font-size: 12px !important;
-    white-space: nowrap;       /* ✅ text break na ho */
-    flex-shrink: 0;            /* ✅ squeeze na ho */
+/* ── List (replaces the old pill/box items) ──── */
+.ppc-complete-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-/* ── Boxes ───────────────────────────────────── */
-.ppc-boxes-parent {
-    display: flex;
-    flex-wrap: wrap;           /* ✅ KEY FIX — boxes wrap honge */
-    gap: 8px;                  /* ✅ mx-2 replace kiya clean gap se */
+.ppc-complete-list li {
+    position: relative;
+    padding-left: 18px;
+    color: #666666;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6 !important; /* 160% */
 }
 
-.ppc-boxes {
-    background-color: #ffffff;
-    border: 1px solid #E0E0E0;
-    border-radius: 6px;
-    padding: 6px 12px;
-    text-align: center;
-    white-space: nowrap;       /* ✅ text ek line mein rahe */
-}
-
-.ppc-boxes > span {
-    font-size: 14px !important;
-    color: #101010;
+.ppc-complete-list li::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 13px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #666666;
 }
 
 .ppc-complete-last {
@@ -2224,23 +2289,8 @@
         border-radius: 12px;
     }
 
-    .ppc-complete-text {
-        flex-direction: column;    /* ✅ stack vertically */
-        align-items: flex-start;
-        gap: 8px;
-    }
-
-    .service1 {
-        font-size: 10px !important;
-        padding: 4px 10px;
-    }
-
-    .ppc-boxes > span {
-        font-size: 12px !important;
-    }
-
-    .ppc-boxes {
-        padding: 5px 10px;
+    .ppc-complete-heading {
+        font-size: 19px !important;
     }
 }
 
@@ -2249,18 +2299,6 @@
     .ppc-complete-section {
         padding: 16px 12px;
         border-radius: 10px;
-    }
-
-    .ppc-boxes-parent {
-        gap: 6px;
-    }
-
-    .ppc-boxes {
-        padding: 4px 8px;
-    }
-
-    .ppc-boxes > span {
-        font-size: 11px !important;
     }
 }
 
@@ -2283,6 +2321,21 @@
     margin-top:56px;
     height: 388px;
     min-height: 100%;
+}
+
+@media (max-width: 991px) {
+    .ppc-roi-card {
+        height: auto;
+        min-height: 0;
+        margin-top: 24px;
+        padding: 32px;
+    }
+}
+
+@media (max-width: 767px) {
+    .ppc-roi-card {
+        padding: 24px;
+    }
 }
 
 .ppc-stage {
@@ -2378,4 +2431,71 @@
 
 .why-choose-us-img {
     width: 50%;
+}
+
+@media (max-width: 991px) {
+    .why-choose-us,
+    .why-choose-us-img {
+        width: 100%;
+    }
+
+    .why-choose-us {
+        padding: 40px 15px;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .why-choose-us-img img {
+        border-radius: 20px 20px 0 0;
+    }
+}
+/* ===== Advanced Tools — grouped by category (social-media-marketing.php) ===== */
+/* Fresh design: 4 tool categories, each with its own heading + 4 tools,
+   unlike the flat single-list .dot-box pattern used on the PPC page. */
+.social-tools-group {
+    background-color: #F7F7F7;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    padding: 28px;
+    height: 100%;
+}
+
+.social-tools-group h6 {
+    color: #D81F28;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px !important;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-bottom: 18px;
+}
+
+.social-tools-group ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-tools-group ul li {
+    position: relative;
+    padding-left: 18px;
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px !important;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.social-tools-group ul li:last-child {
+    margin-bottom: 0;
+}
+
+.social-tools-group ul li::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 10px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #D81F28;
 }
