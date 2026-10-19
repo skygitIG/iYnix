@@ -2210,6 +2210,30 @@
     background-color: #F7F7F7;
 }
 
+/* ── Section-to-section spacing fixes ──────────
+   Every colour-backed section (ppc-section-main, ppc-result-section, ppc-roi,
+   ppc-smarter-campaign, ppc-complete-wrap) keeps the full .section-gap top+bottom
+   padding by default, so its heading never sits glued to the coloured box's edge.
+
+   Two exceptions:
+   1) ppc_management.php stacks ppc-smarter-campaign directly against
+      ppc-complete-wrap - both the same #F7F7F7 tone - so the full top+bottom
+      padding on both sides doubled into one oversized grey dead zone. Reduce
+      just that boundary instead of zeroing it outright. */
+.ppc-smarter-campaign + .ppc-complete-wrap {
+    padding-top: 64px !important;
+}
+
+/* 2) Plain (uncoloured) .section-gap sections stacked back-to-back double their
+   padding (bottom of one + top of the next) with no colour change to justify
+   it, reading as one oversized empty gap. Collapse the second section's top
+   padding and rely on the first section's bottom padding alone. Coloured
+   sections are excluded so their own box keeps proper breathing room. */
+.section-gap:not(.ppc-section-main):not(.ppc-result-section):not(.ppc-roi):not(.ppc-smarter-campaign):not(.ppc-complete-wrap)
++ .section-gap:not(.ppc-section-main):not(.ppc-result-section):not(.ppc-roi):not(.ppc-smarter-campaign):not(.ppc-complete-wrap) {
+    padding-top: 0 !important;
+}
+
 /* ── Base Styles ─────────────────────────────── */
 .ppc-complete-section {
     background-color: #FFFFFF;
@@ -2381,6 +2405,18 @@
 .ppc-framework-box > p{
     font-size:12px !important;
     text-transform: uppercase;
+}
+
+/* Text-based fallback for step numbers beyond 04, where no matching faint
+   outline-numeral SVG exists (only ppc-01..04 were supplied) - matches the
+   look of those SVGs (large, pale, bold) instead of mixing in the
+   differently-styled five-ppc/six-ppc badge icons. */
+.ppc-step-number {
+    font-size: 34px;
+    font-weight: 800;
+    color: #1A1A1A;
+    opacity: 0.12;
+    line-height: 1;
 }
 
 .framework-desc {

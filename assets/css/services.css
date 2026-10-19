@@ -26,3 +26,24 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.content-hero-services{
+    background-image: url('../images/services/Content Marketing Services-banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.email-hero-services{
+    background-image: url('../images/services/SEO/Email Marketing-banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.webdev-hero-services{
+    background-image: url('../images/services/website development-banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

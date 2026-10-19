@@ -401,8 +401,9 @@
                                         <li><a href="#" class="p-xsm">Local SEO Services</a></li>
                                         <li><a href="#" class="p-xsm">Page Speed Optimization</a></li>
                                         <li><a href="#" class="p-xsm">Product Marketing</a></li>
-                                        <li><a href="#" class="p-xsm">Content Marketing</a></li>
+                                        <li><a href="content-marketing.php" class="p-xsm">Content Marketing</a></li>
                                         <li><a href="ppc_management.php" class="p-xsm">PPC Management Services</a></li>
+                                        <li><a href="email-marketing.php" class="p-xsm">Email Marketing</a></li>
                                         <li><a href="#" class="p-xsm">B2B Marketing</a></li>
                                         <li><a href="#" class="p-xsm">B2C Marketing</a></li>
                                         <li><a href="#" class="p-xsm">B2C and D2C</a></li>
@@ -431,7 +432,7 @@
                                 <div class="nav-col">
                                     <h6><i class="bi bi-code-slash"></i>Website Development</h6>
                                     <ul>
-                                        <li><a href="#" class="p-xsm">Website Design & Development</a></li>
+                                        <li><a href="website-development.php" class="p-xsm">Website Design & Development</a></li>
                                         <li><a href="#" class="p-xsm">Website Redesign</a></li>
                                         <li><a href="#" class="p-xsm">Website Optimisation</a></li>
                                         <li><a href="#" class="p-xsm">Rapid Website Design</a></li>

@@ -419,7 +419,7 @@
 
         <!-- Our Complete PPC Management Services start  -->
 
-        <section class="section-gap ppc-complete-wrap" style="padding-top:0px!important;">
+        <section class="section-gap ppc-complete-wrap">
             <div class="new-container">
                 <div class="row g-3">
                     <div class="col-lg-12 col-md-12">

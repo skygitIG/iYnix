@@ -9,6 +9,9 @@ This is the iYnix project repository. It contains web application files organize
 - `ppc_management.php` - PPC management services page
 - `social-media-marketing.php` - Social media marketing services page
 - `ecommerce-marketing.php` - Ecommerce marketing services page
+- `content-marketing.php` - Content marketing services page
+- `email-marketing.php` - Email marketing services page
+- `website-development.php` - Website development services page
 
 ## Assets
 
@@ -35,6 +38,9 @@ iYnix/
 ├── ppc_management.php
 ├── social-media-marketing.php
 ├── ecommerce-marketing.php
+├── content-marketing.php
+├── email-marketing.php
+├── website-development.php
 ├── README.md
 └── assets/
     ├── vendor/
