@@ -397,6 +397,7 @@
                                     <h6><i class="bi bi-graph-up-arrow"></i>Digital Marketing</h6>
                                     <ul>
                                         <li><a href="seo-service.php" class="p-xsm">SEO</a></li>
+                                        <li><a href="link-building.php" class="p-xsm">Link Building</a></li>
                                         <li><a href="#" class="p-xsm">SEO Audit</a></li>
                                         <li><a href="#" class="p-xsm">Local SEO Services</a></li>
                                         <li><a href="#" class="p-xsm">Page Speed Optimization</a></li>

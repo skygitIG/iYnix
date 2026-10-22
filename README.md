@@ -12,6 +12,7 @@ This is the iYnix project repository. It contains web application files organize
 - `content-marketing.php` - Content marketing services page
 - `email-marketing.php` - Email marketing services page
 - `website-development.php` - Website development services page
+- `link-building.php` - Link building services page
 
 ## Assets
 
@@ -41,6 +42,7 @@ iYnix/
 ├── content-marketing.php
 ├── email-marketing.php
 ├── website-development.php
+├── link-building.php
 ├── README.md
 └── assets/
     ├── vendor/
