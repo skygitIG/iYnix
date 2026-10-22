@@ -420,13 +420,13 @@
                                     <br>
                                     <h6><i class="bi bi-phone"></i>Mobile Application Development</h6>
                                     <ul>
-                                        <li><a href="#" class="p-xsm">iOS App Development</a></li>
-                                        <li><a href="#" class="p-xsm">Android App Development</a></li>
-                                        <li><a href="#" class="p-xsm">Flutter App Development</a></li>
-                                        <li><a href="#" class="p-xsm">React Native App Development</a></li>
-                                        <li><a href="#" class="p-xsm">Mobile App Testing and Quality Assurance</a></li>
-                                        <li><a href="#" class="p-xsm">App Optimization and Performance Tuning</a></li>
-                                        <li><a href="#" class="p-xsm">Mobile App Store Submission and Optimization</a></li>
+                                        <li><a href="app-design-development.php" class="p-xsm">iOS App Development</a></li>
+                                        <li><a href="app-design-development.php" class="p-xsm">Android App Development</a></li>
+                                        <li><a href="app-design-development.php" class="p-xsm">Flutter App Development</a></li>
+                                        <li><a href="app-design-development.php" class="p-xsm">React Native App Development</a></li>
+                                        <li><a href="app-design-development.php" class="p-xsm">Mobile App Testing and Quality Assurance</a></li>
+                                        <li><a href="app-design-development.php" class="p-xsm">App Optimization and Performance Tuning</a></li>
+                                        <li><a href="app-design-development.php" class="p-xsm">Mobile App Store Submission and Optimization</a></li>
                                     </ul>
                                 </div>
 
