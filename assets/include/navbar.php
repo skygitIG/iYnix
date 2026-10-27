@@ -400,7 +400,7 @@
                                         <li><a href="link-building.php" class="p-xsm">Link Building</a></li>
                                         <li><a href="#" class="p-xsm">SEO Audit</a></li>
                                         <li><a href="#" class="p-xsm">Local SEO Services</a></li>
-                                        <li><a href="#" class="p-xsm">Page Speed Optimization</a></li>
+                                        <li><a href="page-speed-optimization.php" class="p-xsm">Page Speed Optimization</a></li>
                                         <li><a href="#" class="p-xsm">Product Marketing</a></li>
                                         <li><a href="content-marketing.php" class="p-xsm">Content Marketing</a></li>
                                         <li><a href="ppc_management.php" class="p-xsm">PPC Management Services</a></li>
@@ -436,6 +436,7 @@
                                         <li><a href="website-development.php" class="p-xsm">Website Design & Development</a></li>
                                         <li><a href="#" class="p-xsm">Website Redesign</a></li>
                                         <li><a href="cro-services.php" class="p-xsm">Website Optimisation</a></li>
+                                        <li><a href="cro-audit.php" class="p-xsm">Conversion Rate Audit</a></li>
                                         <li><a href="#" class="p-xsm">Rapid Website Design</a></li>
                                         <li><a href="#" class="p-xsm">E-Mail Newsletter Design Services</a></li>
                                     </ul>

@@ -68,3 +68,17 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.pagespeed-hero-services{
+    background-image: url('../images/services/page speed optimization-banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.croaudit-hero-services{
+    background-image: url('../images/services/CRO Audit-banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
