@@ -14,6 +14,7 @@ This is the iYnix project repository. It contains web application files organize
 - `website-development.php` - Website development services page
 - `link-building.php` - Link building services page
 - `app-design-development.php` - App design and development services page
+- `cro-services.php` - Conversion rate optimization (CRO) services page
 
 ## Assets
 
@@ -45,6 +46,7 @@ iYnix/
 ├── website-development.php
 ├── link-building.php
 ├── app-design-development.php
+├── cro-services.php
 ├── README.md
 └── assets/
     ├── vendor/

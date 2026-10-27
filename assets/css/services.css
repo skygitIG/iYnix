@@ -61,3 +61,10 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.cro-hero-services{
+    background-image: url('../images/services/CRO Services-banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
