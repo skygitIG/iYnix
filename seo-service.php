@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Marketing Agency in the USA | Get More Leads</title>
+    <title>SEO Services | Higher Rankings, More Traffic and Real Growth</title>
     <meta name="description"
-        content="Tired of empty promises? We help US businesses get more leads & 2x-3x revenue growth through SEO, Google Ads & smart digital marketing.">
+        content="Get found on Google, attract the right visitors, and turn organic traffic into consistent leads and revenue with proven, data-driven SEO strategies from Iynix Digital.">
     <link href="assets/vendor/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +19,7 @@
 
 </head>
 
-<body>
+<body class="seo-page">
 
     <?php include_once 'assets/include/navbar.php';?>
 
@@ -43,7 +43,7 @@
                         style="width: fit-content;">
                         Get a Free SEO Audit!
                     </button>
-                    <a href="javascript:void(0)"><button class="btn btn-primary accent mt-5">Get in Touch With
+                    <a href="javascript:void(0)"><button class="btn btn-primary accent mt-5" data-bs-toggle="modal" data-bs-target="#hsFormModal">Get in Touch With
                             Us</button></a>
                 </div>
             </div>
@@ -112,42 +112,42 @@
             <div class="row g-3 justify-content-center mt-5">
                 <div class="col-lg-4 col-md-6">
                     <div class="ss-a-card h-100">
-                        <img src="assets/images/services/SEO/numbers/one-seo.svg" class="ss-a-number" alt="1">
+                        <img src="assets/images/services/seo-service/numbers/one-seo.svg" class="ss-a-number" alt="1">
                         <p class="fw-medium">Your website barely gets organic traffic</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ss-a-card h-100">
-                        <img src="assets/images/services/SEO/numbers/two-seo.svg" class="ss-a-number" alt="2">
+                        <img src="assets/images/services/seo-service/numbers/two-seo.svg" class="ss-a-number" alt="2">
                         <p class="fw-medium">Competitors show up on Google before you do</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ss-a-card h-100">
-                        <img src="assets/images/services/SEO/numbers/three-seo.svg" class="ss-a-number" alt="3">
+                        <img src="assets/images/services/seo-service/numbers/three-seo.svg" class="ss-a-number" alt="3">
                         <p class="fw-medium">Your site appears on page 2 or beyond</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ss-a-card h-100">
-                        <img src="assets/images/services/SEO/numbers/four-seo.svg" class="ss-a-number" alt="4">
+                        <img src="assets/images/services/seo-service/numbers/four-seo.svg" class="ss-a-number" alt="4">
                         <p class="fw-medium">You get visitors, but no actual leads</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ss-a-card h-100">
-                        <img src="assets/images/services/SEO/numbers/five-seo.svg" class="ss-a-number" alt="5">
+                        <img src="assets/images/services/seo-service/numbers/five-seo.svg" class="ss-a-number" alt="5">
                         <p class="fw-medium">SEO feels confusing or time-consuming</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ss-a-card h-100">
-                        <img src="assets/images/services/SEO/numbers/six-seo.svg" class="ss-a-number" alt="6">
+                        <img src="assets/images/services/seo-service/numbers/six-seo.svg" class="ss-a-number" alt="6">
                         <p class="fw-medium">You've tried things, but nothing seems to work</p>
                     </div>
                 </div>
@@ -172,7 +172,7 @@
         <div class="container">
             <div class="ss-cta-box text-center">
                 <div class="ss-cta-icon">
-                    <img src="assets/images/services/SEO/Frame.svg" alt="">
+                    <img src="assets/images/shared/cta/Frame.svg" alt="">
                 </div>
                 <h2 class="ss-cta-heading mb-3">
                     So, Are You Ready to Improve Your <br>
@@ -185,7 +185,7 @@
                         style="width: fit-content;">
                         Get a Free SEO Audit
                     </button>
-                    <a href="javascript:void(0)"><button class="btn btn-primary accent">Talk to an SEO
+                    <a href="javascript:void(0)"><button class="btn btn-primary accent" data-bs-toggle="modal" data-bs-target="#hsCalendarModal">Talk to an SEO
                             Expert</button></a>
                 </div>
             </div>
@@ -221,7 +221,7 @@
                         not empty promises.</p>
                 </div>
                 <div class="ss-split-img p-0">
-                    <img src="assets/images/services/SEO/seo-strategy-team.png" class="img-fluid" alt="">
+                    <img src="assets/images/services/seo-service/seo-strategy-team.png" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
@@ -243,7 +243,7 @@
                     <div class="ss-metric-card sbg-gray">
                         <h3>95,000,000+</h3>
                         <p>Organic Website Visitors Driven</p>
-                        <img src="assets/images/services/SEO/metric-chart-glow.svg" class="ss-metric-glow" alt="">
+                        <img src="assets/images/services/seo-service/metric-chart-glow.svg" class="ss-metric-glow" alt="">
                     </div>
                 </div>
 
@@ -251,6 +251,7 @@
                     <div class="ss-metric-card ss-metric-dark">
                         <h3>1,200,000+</h3>
                         <p>conversions generated through SEO</p>
+                        <img src="assets/images/services/seo-service/metric-chart-glow.svg" class="ss-metric-glow" alt="">
                     </div>
                 </div>
 
@@ -258,7 +259,7 @@
                     <div class="ss-metric-card sbg-gray">
                         <h3>500+</h3>
                         <p>successful SEO campaigns managed</p>
-                        <img src="assets/images/services/SEO/metric-chart-glow.svg" class="ss-metric-glow" alt="">
+                        <img src="assets/images/services/seo-service/metric-chart-glow.svg" class="ss-metric-glow" alt="">
                     </div>
                 </div>
             </div>
@@ -296,7 +297,7 @@
                 </div>
 
                 <div class="container p-0">
-                    <img src="assets/images/Qualified-Leads.png" class="img-fluid rounded-4" alt="">
+                    <img src="assets/images/shared/photos/Qualified-Leads.png" class="img-fluid rounded-4" alt="">
                 </div>
 
             </div>
@@ -337,7 +338,7 @@
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="hs-j-card h-100 sbg-gray">
                         <div class="hs-j-icon mb-5"><img
-                                src="assets/images/services/Predict-high-converting-keywords.svg" alt=""></div>
+                                src="assets/images/services/seo-service/Predict-high-converting-keywords.svg" alt=""></div>
                         <h5 class="hs-j-card-title fw-bold mw-100">Predict high-converting keywords</h5>
                     </div>
                 </div>
@@ -346,7 +347,7 @@
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="hs-j-card h-100 sbg-gray">
                         <div class="hs-j-icon mb-5"><img
-                                src="assets/images/services/Optimize-ad-bidding-automatically.svg" alt=""></div>
+                                src="assets/images/services/seo-service/Optimize-ad-bidding-automatically.svg" alt=""></div>
                         <h5 class="hs-j-card-title fw-bold mw-100">Uncover content gaps automatically</h5>
                     </div>
                 </div>
@@ -355,7 +356,7 @@
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="hs-j-card h-100 sbg-gray">
                         <div class="hs-j-icon mb-5"><img
-                                src="assets/images/services/Identify-high-intent-audiences.svg" alt=""></div>
+                                src="assets/images/services/seo-service/Identify-high-intent-audiences.svg" alt=""></div>
                         <h5 class="hs-j-card-title fw-bold mw-100">Identify high-intent search audiences</h5>
                     </div>
                 </div>
@@ -364,7 +365,7 @@
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="hs-j-card h-100 sbg-gray">
                         <div class="hs-j-icon mb-5"><img
-                                src="assets/images/services/Personalize-marketing-campaigns.svg" alt=""></div>
+                                src="assets/images/services/seo-service/Personalize-marketing-campaigns.svg" alt=""></div>
                         <h5 class="hs-j-card-title fw-bold mw-100">Track rankings & algorithm shifts in real time
                         </h5>
                     </div>
@@ -396,9 +397,9 @@
             <div class="ss-c-slider mt-5">
 
                 <!-- ARROWS -->
-                <button class="ss-c-arrow ss-c-prev"><img src="assets/images/services/slider-left.svg"
+                <button class="ss-c-arrow ss-c-prev"><img src="assets/images/shared/ui/slider-left.svg"
                         alt=""></button>
-                <button class="ss-c-arrow ss-c-next"><img src="assets/images/services/slider-right.svg"
+                <button class="ss-c-arrow ss-c-next"><img src="assets/images/shared/ui/slider-right.svg"
                         alt=""></button>
 
                 <!-- VIEWPORT -->
@@ -415,7 +416,7 @@
                         </div>
 
                         <div class="ss-c-card">
-                            <img src="assets/images/services/SEO-Services.svg" alt="" class="mb-6">
+                            <img src="assets/images/services/seo-service/SEO-Services.svg" alt="" class="mb-6">
                             <h5 class="mb-3">On-Page SEO</h5>
                             <p class="p-xsm mb-6">Keyword-mapped titles, meta tags, headings, and internal linking
                                 that align every page with what your customers are actually searching for.</p>
@@ -431,7 +432,7 @@
                         </div>
 
                         <div class="ss-c-card">
-                            <img src="assets/images/services/SEO-Audit.svg" alt="" class="mb-6">
+                            <img src="assets/images/services/seo-service/SEO-Audit.svg" alt="" class="mb-6">
                             <h5 class="mb-3">Off-Page SEO &amp; Link Building</h5>
                             <p class="p-xsm mb-6">We build genuine authority through quality backlinks, digital
                                 PR, and citations that search engines actually trust.</p>
@@ -439,7 +440,7 @@
                         </div>
 
                         <div class="ss-c-card">
-                            <img src="assets/images/services/Local-SEO-Service.svg" alt="" class="mb-6">
+                            <img src="assets/images/services/seo-service/Local-SEO-Service.svg" alt="" class="mb-6">
                             <h5 class="mb-3">Local SEO</h5>
                             <p class="p-xsm mb-6">Google Business Profile optimization, local citations, and
                                 location-based content that gets you found by customers near you.</p>
@@ -569,7 +570,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="ss-d-card h-100 p-3 p-md-3 p-lg-6 d-flex flex-column">
                         <div class="ss-d-icon mb-6">
-                            <img src="assets/images/services/Attract-the-Right-Audience.svg" alt="">
+                            <img src="assets/images/services/seo-service/Attract-the-Right-Audience.svg" alt="">
                         </div>
 
                         <h5 class="fw-semibold mb-3">Attract the Right Audience</h5>
@@ -581,7 +582,7 @@
                         </ul>
 
                         <div class="ss-d-img mt-3">
-                            <img src="assets/images/services/SEO-and-search-marketing.png" alt="">
+                            <img src="assets/images/services/seo-service/SEO-and-search-marketing.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -590,7 +591,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="ss-d-card h-100 p-3 p-md-3 p-lg-6 d-flex flex-column">
                         <div class="ss-d-icon mb-6">
-                            <img src="assets/images/services/Convert-Visitors-Into-Leads.svg" alt="">
+                            <img src="assets/images/services/seo-service/Convert-Visitors-Into-Leads.svg" alt="">
                         </div>
 
                         <h5 class="fw-semibold mb-3">Convert Visitors Into Leads</h5>
@@ -602,7 +603,7 @@
                         </ul>
 
                         <div class="ss-d-img mt-3">
-                            <img src="assets/images/services/optimized-landing-pages.png" alt="">
+                            <img src="assets/images/services/seo-service/optimized-landing-pages.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -611,7 +612,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="ss-d-card h-100 p-3 p-md-3 p-lg-6 d-flex flex-column">
                         <div class="ss-d-icon mb-6">
-                            <img src="assets/images/services/Turn-Leads-Into-Customers.svg" alt="">
+                            <img src="assets/images/services/seo-service/Turn-Leads-Into-Customers.svg" alt="">
                         </div>
 
                         <h5 class="fw-semibold mb-3">Turn Leads Into Customers</h5>
@@ -623,7 +624,7 @@
                         </ul>
 
                         <div class="ss-d-img mt-3">
-                            <img src="assets/images/services/email-marketing-automation.png" alt="">
+                            <img src="assets/images/services/seo-service/email-marketing-automation.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -724,7 +725,7 @@
                     </ul>
                 </div>
                 <div class="ss-split-img p-0">
-                    <img src="assets/images/Still-Confused.png" class="img-fluid" alt="">
+                    <img src="assets/images/shared/photos/Still-Confused.png" class="img-fluid" alt="">
                 </div>
             </div>
         </div>

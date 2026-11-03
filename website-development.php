@@ -19,7 +19,7 @@
 
 </head>
 
-<body>
+<body class="service-page">
 
     <!-- Header  -->
     <?php include_once 'assets/include/navbar.php';?>
@@ -44,7 +44,7 @@
                         style="width: fit-content;">
                         Get a Free Website Consultation
                     </button>
-                    <a href="javascript:void(0)"><button class="btn btn-primary accent mt-5">Talk to a Web Development Expert</button></a>
+                    <a href="javascript:void(0)"><button class="btn btn-primary accent mt-5" data-bs-toggle="modal" data-bs-target="#hsCalendarModal">Talk to a Web Development Expert</button></a>
                 </div>
             </div>
         </div>
@@ -112,77 +112,77 @@
             <div class="row g-3 justify-content-center mt-5">
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Outdated website design</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Slow loading speed</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Poor mobile responsiveness</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Low search engine visibility</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Weak lead generation</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Difficult website management</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Poor user experience</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Low conversion rates</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Security vulnerabilities</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Limited scalability</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Lack of custom functionality</p>
                     </div>
                 </div>
@@ -305,21 +305,21 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="ppc-checkicon">
                         <ul>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Better online visibility</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Stronger brand credibility</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Higher search rankings</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Improved lead generation</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Faster website performance</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Better online visibility</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Stronger brand credibility</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Higher search rankings</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Improved lead generation</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Faster website performance</strong></span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 ppc-checkicon">
                     <ul>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Better mobile experience</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Higher conversion rates</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Easier website management</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Stronger security</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Long term business growth</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Better mobile experience</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Higher conversion rates</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Easier website management</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Stronger security</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Long term business growth</strong></span></li>
                     </ul>
                 </div>
             </div>
@@ -705,29 +705,29 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="ppc-checkicon">
                         <ul>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Mobile first design</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Accessibility compliance</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Fast page speed</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Cross browser compatibility</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>SEO friendly coding</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Structured content hierarchy</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Mobile first design</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Accessibility compliance</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Fast page speed</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Cross browser compatibility</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>SEO friendly coding</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Structured content hierarchy</strong></span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 ppc-checkicon">
                     <ul>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Clean website architecture</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Conversion optimization</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Secure development practices</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Regular testing</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>User centered navigation</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Scalable development</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Clean website architecture</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Conversion optimization</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Secure development practices</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Regular testing</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>User centered navigation</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Scalable development</strong></span></li>
                     </ul>
                 </div>
             </div>
 
             <div class="mt-5">
-                <img src="assets/images/services/website development-01.png" class="img-fluid rounded-4 w-100" alt="Website development design process">
+                <img src="assets/images/services/website-development/website development-01.png" class="img-fluid rounded-4 w-100" alt="Website development design process">
             </div>
 
             <div class="text-center mt-5">
@@ -755,7 +755,7 @@
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Step 01</p>
-                            <img src="assets/images/services/SEO/numbers/ppc-01.svg" alt="01">
+                            <img src="assets/images/shared/step-numbers/ppc-01.svg" alt="01">
                         </div>
                         <p class="p-xsm fw-bolder pt-3">Discovery &amp; Planning</p>
                         <p class="framework-desc pt-3">
@@ -773,7 +773,7 @@
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Step 02</p>
-                            <img src="assets/images/services/SEO/numbers/ppc-02.svg" alt="02">
+                            <img src="assets/images/shared/step-numbers/ppc-02.svg" alt="02">
                         </div>
                         <p class="p-xsm fw-bolder pt-3">UI/UX Design</p>
                         <p class="framework-desc pt-3">
@@ -791,7 +791,7 @@
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Step 03</p>
-                            <img src="assets/images/services/SEO/numbers/ppc-03.svg" alt="03">
+                            <img src="assets/images/shared/step-numbers/ppc-03.svg" alt="03">
                         </div>
                         <p class="p-xsm fw-bolder pt-3">Website Development</p>
                         <p class="framework-desc pt-3">
@@ -809,7 +809,7 @@
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Step 04</p>
-                            <img src="assets/images/services/SEO/numbers/ppc-04.svg" alt="04">
+                            <img src="assets/images/shared/step-numbers/ppc-04.svg" alt="04">
                         </div>
                         <p class="p-xsm fw-bolder pt-3">Testing &amp; Quality Assurance</p>
                         <p class="framework-desc pt-3">
@@ -866,13 +866,13 @@
 
 
     <!-- Why choose Us SECTION -->
-    <section>
+    <section class="section-gap">
         <div class="container">
             <div
                 class="container d-flex align-items-center gap-0 align-items-stretch flex-sm-column-reverse flex-column-reverse flex-lg-row">
 
                 <div class="why-choose-us-img p-0">
-                    <img src="assets/images/Still-Confused.png" class="img-fluid" alt="">
+                    <img src="assets/images/shared/photos/Still-Confused.png" class="img-fluid" alt="">
                 </div>
                 <div class="why-choose-us">
                     <h2 class="mb-3 fw-semibold text-black">
@@ -913,7 +913,7 @@
         <div class="container">
             <div class="ss-cta-box text-center">
                 <div class="ss-cta-icon">
-                    <img src="assets/images/services/SEO/Frame.svg" alt="">
+                    <img src="assets/images/shared/cta/Frame.svg" alt="">
                 </div>
                 <h2 class="ss-cta-heading mb-3">
                     Ready to Build a Website <br>
@@ -927,7 +927,7 @@
                         style="width: fit-content;">
                         Get a Free Website Audit
                     </button>
-                    <a href="javascript:void(0)"><button class="btn btn-primary accent">Schedule a Consultation</button></a>
+                    <a href="javascript:void(0)"><button class="btn btn-primary accent" data-bs-toggle="modal" data-bs-target="#hsCalendarModal">Schedule a Consultation</button></a>
                 </div>
             </div>
         </div>

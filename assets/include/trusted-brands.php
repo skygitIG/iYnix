@@ -21,24 +21,24 @@
 
                 <div class="hs-d-logo-track" id="hs-d-track">
 
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-01.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-02.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-03.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-04.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-05a.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-06a.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-07.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-08.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-09.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-10.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-11.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-12.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-13.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-14a.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-16.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-17.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-18.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-19.png"></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-01.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-02.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-03.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-04.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-05a.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-06a.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-07.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-08.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-09.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-10.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-11.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-12.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-13.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-14a.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-16.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-17.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-18.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-19.png" alt=""></div>
 
                 </div>
 

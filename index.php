@@ -155,21 +155,21 @@
 
                         <div class="ban-sl-row ban-sl-left ban-sl-row-top">
 
-                            <img src="assets/images/carousal/hero-carousal-a1.jpg" class="ban-sl-img">
-                            <img src="assets/images/carousal/hero-carousal-a2.jpg" class="ban-sl-img">
-                            <img src="assets/images/carousal/hero-carousal-a3.jpg" class="ban-sl-img">
-                            <img src="assets/images/carousal/hero-carousal-a4.png" class="ban-sl-img">
-                            <img src="assets/images/carousal/hero-carousal-a5.png" class="ban-sl-img">
-                            <img src="assets/images/carousal/hero-carousal-a6.png" class="ban-sl-img">
+                            <img src="assets/images/home/carousel/hero-carousal-a1.jpg" class="ban-sl-img" alt="">
+                            <img src="assets/images/home/carousel/hero-carousal-a2.jpg" class="ban-sl-img" alt="">
+                            <img src="assets/images/home/carousel/hero-carousal-a3.jpg" class="ban-sl-img" alt="">
+                            <img src="assets/images/home/carousel/hero-carousal-a4.png" class="ban-sl-img" alt="">
+                            <img src="assets/images/home/carousel/hero-carousal-a5.png" class="ban-sl-img" alt="">
+                            <img src="assets/images/home/carousel/hero-carousal-a6.png" class="ban-sl-img" alt="">
 
                             <!-- duplicate -->
 
-                            <img src="assets/images/carousal/hero-carousal-a1.jpg" class="ban-sl-img">
-                            <img src="assets/images/carousal/hero-carousal-a2.jpg" class="ban-sl-img">
-                            <img src="assets/images/carousal/hero-carousal-a3.jpg" class="ban-sl-img">
-                            <img src="assets/images/carousal/hero-carousal-a4.png" class="ban-sl-img">
-                            <img src="assets/images/carousal/hero-carousal-a5.png" class="ban-sl-img">
-                            <img src="assets/images/carousal/hero-carousal-a6.png" class="ban-sl-img">
+                            <img src="assets/images/home/carousel/hero-carousal-a1.jpg" class="ban-sl-img" alt="">
+                            <img src="assets/images/home/carousel/hero-carousal-a2.jpg" class="ban-sl-img" alt="">
+                            <img src="assets/images/home/carousel/hero-carousal-a3.jpg" class="ban-sl-img" alt="">
+                            <img src="assets/images/home/carousel/hero-carousal-a4.png" class="ban-sl-img" alt="">
+                            <img src="assets/images/home/carousel/hero-carousal-a5.png" class="ban-sl-img" alt="">
+                            <img src="assets/images/home/carousel/hero-carousal-a6.png" class="ban-sl-img" alt="">
 
                         </div>
 
@@ -178,21 +178,21 @@
 
                         <div class="ban-sl-row ban-sl-right">
 
-                            <img src="assets/images/carousal/hero-carousal-b1.jpg" class="ban-sl-img">
-                            <img src="assets/images/carousal/hero-carousal-b2.jpg" class="ban-sl-img">
-                            <img src="assets/images/carousal/hero-carousal-b3.jpg" class="ban-sl-img">
-                            <img src="assets/images/carousal/hero-carousal-b4.png" class="ban-sl-img">
-                            <img src="assets/images/carousal/hero-carousal-b5.png" class="ban-sl-img">
-                            <img src="assets/images/carousal/hero-carousal-b6.png" class="ban-sl-img">
+                            <img src="assets/images/home/carousel/hero-carousal-b1.jpg" class="ban-sl-img" alt="">
+                            <img src="assets/images/home/carousel/hero-carousal-b2.jpg" class="ban-sl-img" alt="">
+                            <img src="assets/images/home/carousel/hero-carousal-b3.jpg" class="ban-sl-img" alt="">
+                            <img src="assets/images/home/carousel/hero-carousal-b4.png" class="ban-sl-img" alt="">
+                            <img src="assets/images/home/carousel/hero-carousal-b5.png" class="ban-sl-img" alt="">
+                            <img src="assets/images/home/carousel/hero-carousal-b6.png" class="ban-sl-img" alt="">
 
                             <!-- duplicate -->
 
-                            <img src="assets/images/carousal/hero-carousal-b1.jpg" class="ban-sl-img">
-                            <img src="assets/images/carousal/hero-carousal-b2.jpg" class="ban-sl-img">
-                            <img src="assets/images/carousal/hero-carousal-b3.jpg" class="ban-sl-img">
-                            <img src="assets/images/carousal/hero-carousal-b4.png" class="ban-sl-img">
-                            <img src="assets/images/carousal/hero-carousal-b5.png" class="ban-sl-img">
-                            <img src="assets/images/carousal/hero-carousal-b6.png" class="ban-sl-img">
+                            <img src="assets/images/home/carousel/hero-carousal-b1.jpg" class="ban-sl-img" alt="">
+                            <img src="assets/images/home/carousel/hero-carousal-b2.jpg" class="ban-sl-img" alt="">
+                            <img src="assets/images/home/carousel/hero-carousal-b3.jpg" class="ban-sl-img" alt="">
+                            <img src="assets/images/home/carousel/hero-carousal-b4.png" class="ban-sl-img" alt="">
+                            <img src="assets/images/home/carousel/hero-carousal-b5.png" class="ban-sl-img" alt="">
+                            <img src="assets/images/home/carousel/hero-carousal-b6.png" class="ban-sl-img" alt="">
 
                         </div>
 
@@ -336,24 +336,24 @@
 
                 <div class="hs-d-logo-track" id="hs-d-track">
 
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-01.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-02.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-03.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-04.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-05a.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-06a.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-07.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-08.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-09.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-10.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-11.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-12.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-13.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-14a.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-16.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-17.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-18.png"></div>
-                    <div class="hs-d-logo-item"><img src="assets/images/logos/logos-19.png"></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-01.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-02.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-03.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-04.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-05a.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-06a.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-07.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-08.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-09.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-10.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-11.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-12.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-13.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-14a.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-16.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-17.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-18.png" alt=""></div>
+                    <div class="hs-d-logo-item"><img src="assets/images/home/client-logos/logos-19.png" alt=""></div>
 
                 </div>
 
@@ -432,7 +432,7 @@
                     </div>
                 </div>
                 <div class="container hs-f-image p-0">
-                    <img src="assets/images/office-high-five.png" class="img-fluid" alt="">
+                    <img src="assets/images/shared/photos/office-high-five.png" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
@@ -476,13 +476,13 @@
             <!-- Branding Grid -->
             <div class="hs-g-content container" id="branding">
                 <div class="row g-4">
-                    <div class="col-md-6"><img src="assets/images/portfolio-branding-g.png" class="hs-g-img">
+                    <div class="col-md-6"><img src="assets/images/home/portfolio/portfolio-branding-g.png" class="hs-g-img" alt="">
                     </div>
-                    <div class="col-md-6"><img src="assets/images/portfolio-branding-h.png" class="hs-g-img">
+                    <div class="col-md-6"><img src="assets/images/home/portfolio/portfolio-branding-h.png" class="hs-g-img" alt="">
                     </div>
-                    <div class="col-md-6"><img src="assets/images/portfolio-branding-i.png" class="hs-g-img">
+                    <div class="col-md-6"><img src="assets/images/home/portfolio/portfolio-branding-i.png" class="hs-g-img" alt="">
                     </div>
-                    <div class="col-md-6"><img src="assets/images/portfolio-branding-j.png" class="hs-g-img">
+                    <div class="col-md-6"><img src="assets/images/home/portfolio/portfolio-branding-j.png" class="hs-g-img" alt="">
                     </div>
                 </div>
             </div>
@@ -493,13 +493,13 @@
                 <div class="hs-g-carousel">
                     <div class="hs-g-track" id="hs-g-track">
 
-                        <img src="assets/images/carousal/mockup-01.png" class="hs-g-img">
-                        <img src="assets/images/carousal/mockup-07.png" class="hs-g-img">
-                        <img src="assets/images/carousal/mockup-03.png" class="hs-g-img">
-                        <img src="assets/images/carousal/mockup-04.png" class="hs-g-img">
-                        <img src="assets/images/carousal/mockup-05.png" class="hs-g-img">
-                        <img src="assets/images/carousal/mockup-06.png" class="hs-g-img">
-                        <img src="assets/images/carousal/mockup-08.png" class="hs-g-img">
+                        <img src="assets/images/home/carousel/mockup-01.png" class="hs-g-img" alt="">
+                        <img src="assets/images/home/carousel/mockup-07.png" class="hs-g-img" alt="">
+                        <img src="assets/images/home/carousel/mockup-03.png" class="hs-g-img" alt="">
+                        <img src="assets/images/home/carousel/mockup-04.png" class="hs-g-img" alt="">
+                        <img src="assets/images/home/carousel/mockup-05.png" class="hs-g-img" alt="">
+                        <img src="assets/images/home/carousel/mockup-06.png" class="hs-g-img" alt="">
+                        <img src="assets/images/home/carousel/mockup-08.png" class="hs-g-img" alt="">
 
                     </div>
                 </div>
@@ -509,23 +509,23 @@
             <!-- UI UX Grid -->
             <div class="hs-g-content container" id="ui">
                 <div class="row g-4">
-                    <div class="col-md-6"><img src="assets/images/portfolio-uiux-g.png" class="hs-g-img"
-                            style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);">
+                    <div class="col-md-6"><img src="assets/images/home/portfolio/portfolio-uiux-g.png" class="hs-g-img"
+                            style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);" alt="">
                     </div>
-                    <div class="col-md-6"><img src="assets/images/portfolio-uiux-h.png" class="hs-g-img"
-                            style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);">
+                    <div class="col-md-6"><img src="assets/images/home/portfolio/portfolio-uiux-h.png" class="hs-g-img"
+                            style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);" alt="">
                     </div>
-                    <div class="col-md-6"><img src="assets/images/portfolio-uiux-i.png" class="hs-g-img"
-                            style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);">
+                    <div class="col-md-6"><img src="assets/images/home/portfolio/portfolio-uiux-i.png" class="hs-g-img"
+                            style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);" alt="">
                     </div>
-                    <div class="col-md-6"><img src="assets/images/portfolio-uiux-j.png" class="hs-g-img"
-                            style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);">
+                    <div class="col-md-6"><img src="assets/images/home/portfolio/portfolio-uiux-j.png" class="hs-g-img"
+                            style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);" alt="">
                     </div>
-                    <div class="col-md-6"><img src="assets/images/portfolio-uiux-k.png" class="hs-g-img"
-                            style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);">
+                    <div class="col-md-6"><img src="assets/images/home/portfolio/portfolio-uiux-k.png" class="hs-g-img"
+                            style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);" alt="">
                     </div>
-                    <div class="col-md-6"><img src="assets/images/portfolio-uiux-l.png" class="hs-g-img"
-                            style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);">
+                    <div class="col-md-6"><img src="assets/images/home/portfolio/portfolio-uiux-l.png" class="hs-g-img"
+                            style="box-shadow: 0 4px 14px 0 rgba(145, 145, 145, 0.25);" alt="">
                     </div>
                 </div>
             </div>
@@ -696,7 +696,7 @@
                 <div class="col-lg-6">
 
                     <div class="hs-i-img-card">
-                        <img src="assets/images/Qualified-Leads.png" class="img-fluid">
+                        <img src="assets/images/shared/photos/Qualified-Leads.png" class="img-fluid" alt="">
                     </div>
 
                 </div>
@@ -713,7 +713,7 @@
                 <div class="col-lg-6">
 
                     <div class="hs-i-img-card">
-                        <img src="assets/images/Grow-Your-Revenue.png" class="img-fluid">
+                        <img src="assets/images/home/photos/Grow-Your-Revenue.png" class="img-fluid" alt="">
                     </div>
 
                 </div>
@@ -833,7 +833,7 @@
             <div
                 class="container hs-k-content d-flex align-items-center gap-0 align-items-stretch flex-sm-column flex-column flex-lg-row">
                 <div class="container hs-k-image p-0">
-                    <img src="assets/images/cash-and-chess.png" class="img-fluid" alt="">
+                    <img src="assets/images/shared/photos/cash-and-chess.png" class="img-fluid" alt="">
                 </div>
                 <div class="container hs-k-text d-flex flex-column justify-content-center">
                     <h2 class="hs-k-title mb-3 fw-semibold text-black">
@@ -865,62 +865,62 @@
 
                 <!-- ITEM -->
                 <div class="hs-l-item">
-                    <div class="hs-l-icon"><img src="assets/images/industries/Beauty-Lifestyle.svg"></div>
+                    <div class="hs-l-icon"><img src="assets/images/home/industries/Beauty-Lifestyle.svg" alt=""></div>
                     <p>Beauty & Lifestyle</p>
                 </div>
 
                 <div class="hs-l-item">
-                    <div class="hs-l-icon"><img src="assets/images/industries/Healthcare.svg"></div>
+                    <div class="hs-l-icon"><img src="assets/images/home/industries/Healthcare.svg" alt=""></div>
                     <p>Healthcare</p>
                 </div>
 
                 <div class="hs-l-item">
-                    <div class="hs-l-icon"><img src="assets/images/industries/Music-Singing.svg"></div>
+                    <div class="hs-l-icon"><img src="assets/images/home/industries/Music-Singing.svg" alt=""></div>
                     <p>Music & Singing</p>
                 </div>
 
                 <div class="hs-l-item">
-                    <div class="hs-l-icon"><img src="assets/images/industries/Renovation-Remodeling.svg"></div>
+                    <div class="hs-l-icon"><img src="assets/images/home/industries/Renovation-Remodeling.svg" alt=""></div>
                     <p>Renovation & Remodeling</p>
                 </div>
 
                 <div class="hs-l-item">
-                    <div class="hs-l-icon"><img src="assets/images/industries/E-commerce.svg"></div>
+                    <div class="hs-l-icon"><img src="assets/images/home/industries/E-commerce.svg" alt=""></div>
                     <p>E-commerce</p>
                 </div>
 
                 <div class="hs-l-item">
-                    <div class="hs-l-icon"><img src="assets/images/industries/Professional-Services.svg"></div>
+                    <div class="hs-l-icon"><img src="assets/images/home/industries/Professional-Services.svg" alt=""></div>
                     <p>Professional Services</p>
                 </div>
 
                 <div class="hs-l-item">
-                    <div class="hs-l-icon"><img src="assets/images/industries/Construction.svg"></div>
+                    <div class="hs-l-icon"><img src="assets/images/home/industries/Construction.svg" alt=""></div>
                     <p>Construction</p>
                 </div>
 
                 <div class="hs-l-item">
-                    <div class="hs-l-icon"><img src="assets/images/industries/Home-Repair.svg"></div>
+                    <div class="hs-l-icon"><img src="assets/images/home/industries/Home-Repair.svg" alt=""></div>
                     <p>Home Repair</p>
                 </div>
 
                 <div class="hs-l-item">
-                    <div class="hs-l-icon"><img src="assets/images/industries/Laundry-Dry-Cleaning.svg"></div>
+                    <div class="hs-l-icon"><img src="assets/images/home/industries/Laundry-Dry-Cleaning.svg" alt=""></div>
                     <p>Laundry & Dry Cleaning</p>
                 </div>
 
                 <div class="hs-l-item">
-                    <div class="hs-l-icon"><img src="assets/images/industries/Real-Estate.svg"></div>
+                    <div class="hs-l-icon"><img src="assets/images/home/industries/Real-Estate.svg" alt=""></div>
                     <p>Real Estate</p>
                 </div>
 
                 <div class="hs-l-item">
-                    <div class="hs-l-icon"><img src="assets/images/industries/Ed-Tech.svg"></div>
+                    <div class="hs-l-icon"><img src="assets/images/home/industries/Ed-Tech.svg" alt=""></div>
                     <p>Ed-Tech</p>
                 </div>
 
                 <div class="hs-l-item">
-                    <div class="hs-l-icon"><img src="assets/images/industries/IT-Software-Services.svg"></div>
+                    <div class="hs-l-icon"><img src="assets/images/home/industries/IT-Software-Services.svg" alt=""></div>
                     <p>IT & Software Services</p>
                 </div>
 
@@ -999,37 +999,37 @@
                 <!-- CARD -->
                 <div class="col-12 col-md-6">
                     <div class="hs-n-card">
-                        <img src="assets/images/Home-Screen.png" class="img-fluid">
+                        <img src="assets/images/home/photos/Home-Screen.png" class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-12 col-md-6">
                     <div class="hs-n-card">
-                        <img src="assets/images/User-Acquisition.png" class="img-fluid">
+                        <img src="assets/images/home/photos/User-Acquisition.png" class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-12 col-md-6">
                     <div class="hs-n-card">
-                        <img src="assets/images/Before-After-01.png" class="img-fluid">
+                        <img src="assets/images/home/photos/Before-After-01.png" class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-12 col-md-6">
                     <div class="hs-n-card">
-                        <img src="assets/images/Before-After-02.png" class="img-fluid">
+                        <img src="assets/images/home/photos/Before-After-02.png" class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-12 col-md-6">
                     <div class="hs-n-card">
-                        <img src="assets/images/Leads.png" class="img-fluid">
+                        <img src="assets/images/home/photos/Leads.png" class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-12 col-md-6">
                     <div class="hs-n-card">
-                        <img src="assets/images/Phone-call-Tracker-02.png" class="img-fluid">
+                        <img src="assets/images/home/photos/Phone-call-Tracker-02.png" class="img-fluid" alt="">
                     </div>
                 </div>
 
@@ -1062,7 +1062,7 @@
 </button>
                     </div>
                     <div class="container hs-o-image p-0">
-                        <img src="assets/images/Still-Confused.png" class="img-fluid" alt="">
+                        <img src="assets/images/shared/photos/Still-Confused.png" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -1078,17 +1078,17 @@
 
             <div class="hs-p-video-box">
 
-                <!-- <img src="assets/images/video-banner.png" class="hs-p-video-thumb"> -->
+                <!-- <img src="assets/images/home/hero/video-banner.png" class="hs-p-video-thumb" alt=""> -->
                 <picture>
 
                     <!-- Mobile (≤575px) -->
-                    <source srcset="assets/images/video-banner-ph.jpeg" media="(max-width: 575px)">
+                    <source srcset="assets/images/home/hero/video-banner-ph.jpeg" media="(max-width: 575px)">
 
                     <!-- Tablet (576px – 1540px) -->
-                    <source srcset="assets/images/video-banner-tab.jpeg" media="(max-width: 1540px)">
+                    <source srcset="assets/images/home/hero/video-banner-tab.jpeg" media="(max-width: 1540px)">
 
                     <!-- Desktop fallback -->
-                    <img src="assets/images/video-banner.png" class="hs-p-video-thumb">
+                    <img src="assets/images/home/hero/video-banner.png" class="hs-p-video-thumb" alt="">
 
                 </picture>
 
@@ -1306,77 +1306,77 @@
 
                 <!-- CARD -->
                 <div class="hs-r-card">
-                    <img src="assets/images/Team/Adarsh-Mathuri-01.png">
+                    <img src="assets/images/home/team/Adarsh-Mathuri-01.png" alt="">
                     <div class="hs-r-info">
                         <h6>Adarsh Mathuri</h6><span>SEO Expert</span>
                     </div>
                 </div>
 
                 <div class="hs-r-card">
-                    <img src="assets/images/Team/Himanshu-Verma.png">
+                    <img src="assets/images/home/team/Himanshu-Verma.png" alt="">
                     <div class="hs-r-info">
                         <h6>Himanshu Verma</h6><span>SEO Expert</span>
                     </div>
                 </div>
 
                 <div class="hs-r-card">
-                    <img src="assets/images/Team/Akash-kumar.png">
+                    <img src="assets/images/home/team/Akash-kumar.png" alt="">
                     <div class="hs-r-info">
                         <h6>Akash Kumar</h6><span>Senior Developer</span>
                     </div>
                 </div>
 
                 <div class="hs-r-card">
-                    <img src="assets/images/Team/Gunjan-Nagpal.png">
+                    <img src="assets/images/home/team/Gunjan-Nagpal.png" alt="">
                     <div class="hs-r-info">
                         <h6>Gunjan Nagpal</h6><span>Content Specialist</span>
                     </div>
                 </div>
 
                 <div class="hs-r-card">
-                    <img src="assets/images/Team/Samim-Pathan.png">
+                    <img src="assets/images/home/team/Samim-Pathan.png" alt="">
                     <div class="hs-r-info">
                         <h6>Samim Pathan</h6><span>Web Designer</span>
                     </div>
                 </div>
 
                 <div class="hs-r-card">
-                    <img src="assets/images/Team/Het-Patel.png">
+                    <img src="assets/images/home/team/Het-Patel.png" alt="">
                     <div class="hs-r-info">
                         <h6>Het Patel</h6><span>Automation Expert</span>
                     </div>
                 </div>
 
                 <div class="hs-r-card">
-                    <img src="assets/images/Team/Neeraj-Kumar.png">
+                    <img src="assets/images/home/team/Neeraj-Kumar.png" alt="">
                     <div class="hs-r-info">
                         <h6>Neeraj Kumar</h6><span>SEO Expert</span>
                     </div>
                 </div>
 
                 <div class="hs-r-card">
-                    <img src="assets/images/Team/Rohit-Rai.png">
+                    <img src="assets/images/home/team/Rohit-Rai.png" alt="">
                     <div class="hs-r-info">
                         <h6>Rohit Rai</h6><span>Website Developer</span>
                     </div>
                 </div>
 
                 <div class="hs-r-card">
-                    <img src="assets/images/Team/Deepak-Shah.png">
+                    <img src="assets/images/home/team/Deepak-Shah.png" alt="">
                     <div class="hs-r-info">
                         <h6>Deepak Shah</h6><span>SEO Expert</span>
                     </div>
                 </div>
 
                 <!-- <div class="hs-r-card">
-                        <img src="assets/images/Team/Chetna-Gaur.png">
+                        <img src="assets/images/home/team/Chetna-Gaur.png" alt="">
                         <div class="hs-r-info">
                             <h6>Chetna Gaur</h6><span>Marketing Specialist</span>
                         </div>
                     </div> -->
 
                 <div class="hs-r-card">
-                    <img src="assets/images/Team/Khushi-sahni.png">
+                    <img src="assets/images/home/team/Khushi-sahni.png" alt="">
                     <div class="hs-r-info">
                         <h6>Khushi Sahni</h6><span>SEO Expert</span>
                     </div>
@@ -1479,7 +1479,7 @@
             <div
                 class="container hs-t-content d-flex align-items-center gap-0 align-items-stretch flex-sm-column flex-column flex-lg-row">
                 <div class="container hs-t-image p-0">
-                    <img src="assets/images/Business-goals.png" class="img-fluid" alt="">
+                    <img src="assets/images/shared/photos/Business-goals.png" class="img-fluid" alt="">
                 </div>
                 <div class="container hs-t-text d-flex flex-column justify-content-center">
                     <h2 class="hs-t-title mb-3 fw-semibold text-black">

@@ -19,7 +19,7 @@
 
 </head>
 
-<body>
+<body class="service-page">
 
     <!-- Header  -->
     <?php include_once 'assets/include/navbar.php';?>
@@ -42,7 +42,7 @@
                         style="width: fit-content;">
                         Get a Free CRO Audit Consultation
                     </button>
-                    <a href="javascript:void(0)"><button class="btn btn-primary accent mt-5">Request Your Website Audit</button></a>
+                    <a href="javascript:void(0)"><button class="btn btn-primary accent mt-5" data-bs-toggle="modal" data-bs-target="#hsFormModal">Request Your Website Audit</button></a>
                 </div>
             </div>
         </div>
@@ -105,56 +105,56 @@
             <div class="row g-3 justify-content-center mt-5">
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">High traffic but low conversions</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Visitors leaving without taking action</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Confusing checkout or signup flow</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">High cart or form abandonment rates</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Low-performing landing pages</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Weak or unclear calls to action</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Poor mobile conversion rates</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Not knowing why visitors leave</p>
                     </div>
                 </div>
@@ -196,7 +196,7 @@
             </div>
 
             <div class="mt-5">
-                <img src="assets/images/services/CRO Audit-01.png" class="img-fluid rounded-4 w-100" alt="Conversion rate optimization audit performance dashboard">
+                <img src="assets/images/services/cro-audit/CRO Audit-01.png" class="img-fluid rounded-4 w-100" alt="Conversion rate optimization audit performance dashboard">
             </div>
         </div>
     </section>
@@ -362,19 +362,19 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="ppc-checkicon">
                         <ul>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Identify hidden conversion barriers</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Understand real user behavior</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Prioritize the highest impact fixes</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Reduce wasted ad spend</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Identify hidden conversion barriers</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Understand real user behavior</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Prioritize the highest impact fixes</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Reduce wasted ad spend</strong></span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 ppc-checkicon">
                     <ul>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Improve landing page performance</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Strengthen mobile conversions</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Make data backed decisions</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Increase ROI from existing traffic</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Improve landing page performance</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Strengthen mobile conversions</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Make data backed decisions</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Increase ROI from existing traffic</strong></span></li>
                     </ul>
                 </div>
             </div>
@@ -403,17 +403,17 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="ppc-checkicon">
                         <ul>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Analyze heatmaps and session recordings</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Identify drop-off points in the funnel</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Detect friction in forms and checkout</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Analyze heatmaps and session recordings</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Identify drop-off points in the funnel</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Detect friction in forms and checkout</strong></span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 ppc-checkicon">
                     <ul>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Predict high-impact test opportunities</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Benchmark against industry data</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Prioritize fixes by potential impact</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Predict high-impact test opportunities</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Benchmark against industry data</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Prioritize fixes by potential impact</strong></span></li>
                     </ul>
                 </div>
             </div>
@@ -497,7 +497,7 @@
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Week 1-2</p>
-                            <img src="assets/images/services/SEO/numbers/ppc-01.svg" alt="01">
+                            <img src="assets/images/shared/step-numbers/ppc-01.svg" alt="01">
                         </div>
                         <p class="p-xsm fw-bolder pt-3">Conversion Audit &amp; Analysis</p>
                         <p class="framework-desc pt-3">We analyze your website and funnel to identify conversion barriers.
@@ -515,7 +515,7 @@
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Week 3-4</p>
-                            <img src="assets/images/services/SEO/numbers/ppc-02.svg" alt="02">
+                            <img src="assets/images/shared/step-numbers/ppc-02.svg" alt="02">
                         </div>
                         <p class="p-xsm fw-bolder pt-3">Conversion Strategy &amp; Prioritization</p>
                         <p class="framework-desc pt-3">We build a prioritized action plan based on audit findings.
@@ -533,7 +533,7 @@
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Week 5-6</p>
-                            <img src="assets/images/services/SEO/numbers/ppc-03.svg" alt="03">
+                            <img src="assets/images/shared/step-numbers/ppc-03.svg" alt="03">
                         </div>
                         <p class="p-xsm fw-bolder pt-3">Optimization Implementation</p>
                         <p class="framework-desc pt-3">We implement the recommended improvements.
@@ -551,7 +551,7 @@
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Week 7-8</p>
-                            <img src="assets/images/services/SEO/numbers/ppc-04.svg" alt="04">
+                            <img src="assets/images/shared/step-numbers/ppc-04.svg" alt="04">
                         </div>
                         <p class="p-xsm fw-bolder pt-3">Testing, Validation &amp; Reporting</p>
                         <p class="framework-desc pt-3">We verify improvements and report on results.
@@ -572,13 +572,13 @@
 
 
     <!-- Why choose Us SECTION -->
-    <section>
+    <section class="section-gap">
         <div class="container">
             <div
                 class="container d-flex align-items-center gap-0 align-items-stretch flex-sm-column-reverse flex-column-reverse flex-lg-row">
 
                 <div class="why-choose-us-img p-0">
-                    <img src="assets/images/Still-Confused.png" class="img-fluid" alt="">
+                    <img src="assets/images/shared/photos/Still-Confused.png" class="img-fluid" alt="">
                 </div>
                 <div class="why-choose-us">
                     <h2 class="mb-3 fw-semibold text-black">
@@ -691,7 +691,7 @@
         <div class="container">
             <div class="ss-cta-box text-center">
                 <div class="ss-cta-icon">
-                    <img src="assets/images/services/SEO/Frame.svg" alt="">
+                    <img src="assets/images/shared/cta/Frame.svg" alt="">
                 </div>
                 <h2 class="ss-cta-heading mb-3">
                     Ready to Turn More Website <br>
@@ -705,7 +705,7 @@
                         style="width: fit-content;">
                         Get a Free CRO Audit Consultation
                     </button>
-                    <a href="javascript:void(0)"><button class="btn btn-primary accent">Talk to Our CRO Experts</button></a>
+                    <a href="javascript:void(0)"><button class="btn btn-primary accent" data-bs-toggle="modal" data-bs-target="#hsCalendarModal">Talk to Our CRO Experts</button></a>
                 </div>
             </div>
         </div>

@@ -19,7 +19,7 @@
 
 </head>
 
-<body>
+<body class="service-page">
 
     <!-- Header  -->
     <?php include_once 'assets/include/navbar.php';?>
@@ -42,7 +42,7 @@
                         style="width: fit-content;">
                         Get a Free Social Media Audit!
                     </button>
-                    <a href="javascript:void(0)"><button class="btn btn-primary accent mt-5">Talk to a Social Media Expert!</button></a>
+                    <a href="javascript:void(0)"><button class="btn btn-primary accent mt-5" data-bs-toggle="modal" data-bs-target="#hsCalendarModal">Talk to a Social Media Expert!</button></a>
                 </div>
             </div>
         </div>
@@ -106,56 +106,56 @@
             <div class="row g-3 justify-content-center mt-5">
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Low engagement on posts</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Inconsistent brand presence</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Paid social campaigns with poor ROI</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Followers that never convert into customers</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Limited reach despite regular posting</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Difficulty generating leads from social platforms</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Lack of a clear social media marketing strategy</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Not enough time to manage multiple platforms</p>
                     </div>
                 </div>
@@ -198,7 +198,7 @@
             </div>
 
             <div class="mt-5">
-                <img src="assets/images/services/SEO/social-media-img01.png" class="img-fluid rounded-4 w-100" alt="Strategic social media marketing growth">
+                <img src="assets/images/services/social-media/social-media-img01.png" class="img-fluid rounded-4 w-100" alt="Strategic social media marketing growth">
             </div>
         </div>
     </section>
@@ -263,19 +263,19 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="ppc-checkicon">
                         <ul>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Increased brand awareness</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Better audience engagement</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Higher website traffic</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>More qualified leads</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Increased brand awareness</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Better audience engagement</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Higher website traffic</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>More qualified leads</strong></span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 ppc-checkicon">
                     <ul>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Improved customer loyalty</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Enhanced online reputation</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Increased conversions and sales</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Greater return on marketing investment</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Improved customer loyalty</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Enhanced online reputation</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Increased conversions and sales</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Greater return on marketing investment</strong></span></li>
                     </ul>
                 </div>
             </div>
@@ -304,19 +304,19 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="ppc-checkicon">
                         <ul>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Build a recognizable brand identity</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Connect with potential customers</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Generate qualified leads consistently</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Improve customer relationships</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Build a recognizable brand identity</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Connect with potential customers</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Generate qualified leads consistently</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Improve customer relationships</strong></span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 ppc-checkicon">
                     <ul>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Increase website traffic</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Support sales and business growth</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Stay ahead of competitors</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Create long term customer loyalty</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Increase website traffic</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Support sales and business growth</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Stay ahead of competitors</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Create long term customer loyalty</strong></span></li>
                     </ul>
                 </div>
             </div>
@@ -345,19 +345,19 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="ppc-checkicon">
                         <ul>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Identify high performing content topics</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Analyze audience behavior patterns</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Predict engagement opportunities</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Optimize posting schedules</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Identify high performing content topics</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Analyze audience behavior patterns</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Predict engagement opportunities</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Optimize posting schedules</strong></span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 ppc-checkicon">
                     <ul>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Improve audience targeting</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Track social trends in real time</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Enhance ad campaign performance</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Generate actionable campaign insights</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Improve audience targeting</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Track social trends in real time</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Enhance ad campaign performance</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Generate actionable campaign insights</strong></span></li>
                     </ul>
                 </div>
             </div>
@@ -600,7 +600,7 @@
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Week 1-2</p>
-                            <img src="assets/images/services/SEO/numbers/ppc-01.svg" alt="01">
+                            <img src="assets/images/shared/step-numbers/ppc-01.svg" alt="01">
                         </div>
                         <p class="p-xsm fw-bolder pt-3">Research and Discovery</p>
                         <p class="framework-desc pt-3">We analyze your business, competitors, audience, and current social media performance.
@@ -618,7 +618,7 @@
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Week 3-4</p>
-                            <img src="assets/images/services/SEO/numbers/ppc-02.svg" alt="02">
+                            <img src="assets/images/shared/step-numbers/ppc-02.svg" alt="02">
                         </div>
                         <p class="p-xsm fw-bolder pt-3">Strategy Development</p>
                         <p class="framework-desc pt-3">Our team creates a customized social media marketing strategy tailored to your business goals.
@@ -636,7 +636,7 @@
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Week 5-6</p>
-                            <img src="assets/images/services/SEO/numbers/ppc-03.svg" alt="03">
+                            <img src="assets/images/shared/step-numbers/ppc-03.svg" alt="03">
                         </div>
                         <p class="p-xsm fw-bolder pt-3">Campaign Launch</p>
                         <p class="framework-desc pt-3">We begin implementing content, advertising, and engagement strategies.
@@ -654,7 +654,7 @@
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Week 7-8</p>
-                            <img src="assets/images/services/SEO/numbers/ppc-04.svg" alt="04">
+                            <img src="assets/images/shared/step-numbers/ppc-04.svg" alt="04">
                         </div>
                         <p class="p-xsm fw-bolder pt-3">Optimization and Growth</p>
                         <p class="framework-desc pt-3">We continuously monitor and improve performance.
@@ -675,13 +675,13 @@
 
 
     <!-- Why choose Us SECTION -->
-    <section>
+    <section class="section-gap">
         <div class="container">
             <div
                 class="container d-flex align-items-center gap-0 align-items-stretch flex-sm-column-reverse flex-column-reverse flex-lg-row">
 
                 <div class="why-choose-us-img p-0">
-                    <img src="assets/images/office-high-five.png" class="img-fluid" alt="">
+                    <img src="assets/images/shared/photos/office-high-five.png" class="img-fluid" alt="">
                 </div>
                 <div class="why-choose-us">
                     <h2 class="mb-3 fw-semibold text-black">
@@ -786,7 +786,7 @@
         <div class="container">
             <div class="ss-cta-box text-center">
                 <div class="ss-cta-icon">
-                    <img src="assets/images/services/SEO/Frame.svg" alt="">
+                    <img src="assets/images/shared/cta/Frame.svg" alt="">
                 </div>
                 <h2 class="ss-cta-heading mb-3">
                     Ready to Grow Your Brand <br>
@@ -801,7 +801,7 @@ Partner with a trusted social media marketing agency and start building campaign
                         style="width: fit-content;">
                         Get a Free Social Media Audit!
                     </button>
-                    <a href="javascript:void(0)"><button class="btn btn-primary accent">Talk to a Social Media Expert Today!</button></a>
+                    <a href="javascript:void(0)"><button class="btn btn-primary accent" data-bs-toggle="modal" data-bs-target="#hsCalendarModal">Talk to a Social Media Expert Today!</button></a>
                 </div>
             </div>
         </div>

@@ -19,7 +19,7 @@ if (!isset($brands_subheading)) {
     $brands_subheading = 'We work with businesses across industries to improve visibility, leads, and real business results.';
 }
 
-$brands_logo_path = 'assets/images/services/brands-service-page/';
+$brands_logo_path = 'assets/images/shared/brand-logos/';
 $brands_row_top = [
     'boulder-decisions.png',
     'radiance-aesthetic-medicine.png',

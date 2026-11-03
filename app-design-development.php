@@ -19,7 +19,7 @@
 
 </head>
 
-<body>
+<body class="service-page">
 
     <!-- Header  -->
     <?php include_once 'assets/include/navbar.php';?>
@@ -42,7 +42,7 @@
                         style="width: fit-content;">
                         Get a Free Consultation
                     </button>
-                    <a href="javascript:void(0)"><button class="btn btn-primary accent mt-5">Request a Custom App Quote</button></a>
+                    <a href="javascript:void(0)"><button class="btn btn-primary accent mt-5" data-bs-toggle="modal" data-bs-target="#hsFormModal">Request a Custom App Quote</button></a>
                 </div>
             </div>
         </div>
@@ -104,42 +104,42 @@
             <div class="row g-3 justify-content-center mt-5">
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Poor user experience and outdated app design</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Low app downloads and poor engagement</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Slow, buggy, or unreliable applications</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Difficulty scaling as business grows</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">Lack of integration with existing systems</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
                         <p class="fw-bold px-3 p-16">High development costs without measurable ROI</p>
                     </div>
                 </div>
@@ -180,7 +180,7 @@
             </div>
 
             <div class="mt-5">
-                <img src="assets/images/services/app design and development-02.png" class="img-fluid rounded-4 w-100" alt="App design wireframes and UI/UX prototyping">
+                <img src="assets/images/services/app-development/app design and development-02.png" class="img-fluid rounded-4 w-100" alt="App design wireframes and UI/UX prototyping">
             </div>
         </div>
     </section>
@@ -327,19 +327,19 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="ppc-checkicon">
                         <ul>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Improve customer engagement</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Increase customer retention</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Strengthen brand loyalty</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Generate additional revenue</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Improve customer engagement</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Increase customer retention</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Strengthen brand loyalty</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Generate additional revenue</strong></span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 ppc-checkicon">
                     <ul>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Automate business operations</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Improve customer support</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Enable real-time communication</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Gain valuable business insights</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Automate business operations</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Improve customer support</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Enable real-time communication</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Gain valuable business insights</strong></span></li>
                     </ul>
                 </div>
             </div>
@@ -431,7 +431,7 @@
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Week 1-2</p>
-                            <img src="assets/images/services/SEO/numbers/ppc-01.svg" alt="01">
+                            <img src="assets/images/shared/step-numbers/ppc-01.svg" alt="01">
                         </div>
                         <p class="p-xsm fw-bolder pt-3">Discovery &amp; Planning</p>
                         <p class="framework-desc pt-3">We understand your business objectives, target audience, competitors, and technical requirements before creating a complete project roadmap.
@@ -448,7 +448,7 @@
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Week 3-4</p>
-                            <img src="assets/images/services/SEO/numbers/ppc-02.svg" alt="02">
+                            <img src="assets/images/shared/step-numbers/ppc-02.svg" alt="02">
                         </div>
                         <p class="p-xsm fw-bolder pt-3">UI/UX Design</p>
                         <p class="framework-desc pt-3">Our designers create intuitive wireframes, prototypes, and visually engaging interfaces that maximize usability.
@@ -465,7 +465,7 @@
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Week 5-8</p>
-                            <img src="assets/images/services/SEO/numbers/ppc-03.svg" alt="03">
+                            <img src="assets/images/shared/step-numbers/ppc-03.svg" alt="03">
                         </div>
                         <p class="p-xsm fw-bolder pt-3">App Development</p>
                         <p class="framework-desc pt-3">Our developers build secure and scalable mobile applications using modern development frameworks and best coding practices.
@@ -482,7 +482,7 @@
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Week 9-10</p>
-                            <img src="assets/images/services/SEO/numbers/ppc-04.svg" alt="04">
+                            <img src="assets/images/shared/step-numbers/ppc-04.svg" alt="04">
                         </div>
                         <p class="p-xsm fw-bolder pt-3">Testing &amp; Launch</p>
                         <p class="framework-desc pt-3">Before deployment, every application undergoes extensive testing to ensure flawless performance.
@@ -503,13 +503,13 @@
 
 
     <!-- Why choose Us SECTION -->
-    <section>
+    <section class="section-gap">
         <div class="container">
             <div
                 class="container d-flex align-items-center gap-0 align-items-stretch flex-sm-column-reverse flex-column-reverse flex-lg-row">
 
                 <div class="why-choose-us-img p-0">
-                    <img src="assets/images/Still-Confused.png" class="img-fluid" alt="">
+                    <img src="assets/images/shared/photos/Still-Confused.png" class="img-fluid" alt="">
                 </div>
                 <div class="why-choose-us">
                     <h2 class="mb-3 fw-semibold text-black">
@@ -548,7 +548,7 @@
         <div class="container">
             <div class="ss-cta-box text-center">
                 <div class="ss-cta-icon">
-                    <img src="assets/images/services/SEO/Frame.svg" alt="">
+                    <img src="assets/images/shared/cta/Frame.svg" alt="">
                 </div>
                 <h2 class="ss-cta-heading mb-3">
                     Ready to Build Your <br>
@@ -562,7 +562,7 @@
                         style="width: fit-content;">
                         Get a Free Consultation
                     </button>
-                    <a href="javascript:void(0)"><button class="btn btn-primary accent">Speak With Our App Experts</button></a>
+                    <a href="javascript:void(0)"><button class="btn btn-primary accent" data-bs-toggle="modal" data-bs-target="#hsCalendarModal">Speak With Our App Experts</button></a>
                 </div>
             </div>
         </div>

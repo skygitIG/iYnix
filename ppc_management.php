@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Marketing Agency in the USA | Get More Leads</title>
+    <title>PPC Management Services | Get More Leads and Higher ROI</title>
     <meta name="description"
-        content="Tired of empty promises? We help US businesses get more leads & 2x-3x revenue growth through SEO, Google Ads & smart digital marketing.">
+        content="Drive more qualified leads and increase revenue with data-driven PPC management services. Iynix Digital creates, optimizes, and scales paid advertising campaigns that deliver measurable business growth.">
     <link href="assets/vendor/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +19,7 @@
 
 </head>
 
-<body>
+<body class="service-page">
 
     <!-- Header  -->
     <?php include_once 'assets/include/navbar.php';?>
@@ -44,7 +44,7 @@
                         style="width: fit-content;">
                         Get a Free PPC Audit!
                     </button>
-                    <a href="javascript:void(0)"><button class="btn btn-primary accent mt-5">Talk to a PPC Expert!</button></a>
+                    <a href="javascript:void(0)"><button class="btn btn-primary accent mt-5" data-bs-toggle="modal" data-bs-target="#hsCalendarModal">Talk to a PPC Expert!</button></a>
                 </div>
             </div>
         </div>
@@ -109,63 +109,63 @@
             <div class="row g-3 justify-content-center mt-5">
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="1">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="1">
                         <p class="fw-bold px-3 p-16">Rising ad costs every month</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="2">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="2">
                         <p class="fw-bold px-3 p-16">Low conversion rates</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="3">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="3">
                         <p class="fw-bold px-3 p-16">Poor quality leads</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="4">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="4">
                         <p class="fw-bold px-3 p-16">Inconsistent campaign performance</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="5">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="5">
                         <p class="fw-bold px-3 p-16">High cost per acquisition</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="6">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="6">
                         <p class="fw-bold px-3 p-16">Low click-through rates</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="6">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="6">
                         <p class="fw-bold px-3 p-16">Limited visibility in search results</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="6">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="6">
                         <p class="fw-bold px-3 p-16">No clear understanding of ROI</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="ppc-a-card h-100">
-                        <img src="assets/images/services/SEO/dangericon/danger.svg" class="ppc-a-danger" alt="6">
+                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="6">
                         <p class="fw-bold px-3 p-16">Advertising campaigns that lack direction</p>
                     </div>
                 </div>
@@ -217,21 +217,21 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="ppc-checkicon">
                         <ul>
-                             <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Google PPC management</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Google Ads management services</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>PPC ad management</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>PPC ad management</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Landing page optimization</strong></span></li>
+                             <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Google PPC management</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Google Ads management services</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>PPC ad management</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Paid ad management</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Landing page optimization</strong></span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 ppc-checkicon">
                     <ul>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Conversion tracking</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Remarketing campaigns</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Shopping Ads management</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Performance Max campaign management</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Display advertising management</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Conversion tracking</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Remarketing campaigns</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Shopping Ads management</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Performance Max campaign management</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Display advertising management</strong></span></li>
                         </ul>
                 </div>
 
@@ -313,7 +313,7 @@
             <div class="row g-3 mt-5">
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="ppc-management-box">
-                    <img class="ppc-number" src="assets/images/services/SEO/numbers/one-ppc.svg">
+                    <img class="ppc-number" src="assets/images/services/ppc/numbers/one-ppc.svg" alt="">
                     <p class="fw-bolder p-xsm mt-3">Generate Immediate Traffic</p>
                     <p class="ppc-box-description mt-3">Unlike SEO, PPC campaigns begin driving visitors shortly after launch.</p>
                   </div>  
@@ -321,7 +321,7 @@
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="ppc-management-box">
-                    <img class="ppc-number" src="assets/images/services/SEO/numbers/two-ppc.svg">
+                    <img class="ppc-number" src="assets/images/services/ppc/numbers/two-ppc.svg" alt="">
                     <p class="fw-bolder p-xsm mt-3">Reach High-Intent Customers</p>
                     <p class="ppc-box-description mt-3">Target people actively searching for your products or services.</p>
                   </div>  
@@ -329,7 +329,7 @@
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="ppc-management-box">
-                    <img class="ppc-number" src="assets/images/services/SEO/numbers/three-ppc.svg">
+                    <img class="ppc-number" src="assets/images/services/ppc/numbers/three-ppc.svg" alt="">
                     <p class="fw-bolder p-xsm mt-3">Increase Lead Quality</p>
                     <p class="ppc-box-description mt-3">Better targeting attracts better prospects.</p>
                   </div>  
@@ -337,7 +337,7 @@
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="ppc-management-box">
-                    <img class="ppc-number" src="assets/images/services/SEO/numbers/four-ppc.svg">
+                    <img class="ppc-number" src="assets/images/services/ppc/numbers/four-ppc.svg" alt="">
                     <p class="fw-bolder p-xsm mt-3">Improve Conversion Rates</p>
                     <p class="ppc-box-description mt-3">Optimized campaigns generate more sales from existing traffic.</p>
                   </div>  
@@ -345,7 +345,7 @@
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="ppc-management-box">
-                    <img class="ppc-number" src="assets/images/services/SEO/numbers/five-ppc.svg">
+                    <img class="ppc-number" src="assets/images/services/ppc/numbers/five-ppc.svg" alt="">
                     <p class="fw-bolder p-xsm mt-3">Control Advertising Costs</p>
                     <p class="ppc-box-description mt-3">Strategic bidding helps maximize every advertising dollar.</p>
                   </div>  
@@ -353,7 +353,7 @@
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="ppc-management-box">
-                    <img class="ppc-number" src="assets/images/services/SEO/numbers/six-ppc.svg">
+                    <img class="ppc-number" src="assets/images/services/ppc/numbers/six-ppc.svg" alt="">
                     <p class="fw-bolder p-xsm mt-3">Scale Business Growth</p>
                     <p class="ppc-box-description mt-3">Increase visibility and revenue without waiting months for results.</p>
                   </div>  
@@ -388,19 +388,19 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="ppc-checkicon">
                         <ul>
-                             <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Identify profitable keyword opportunities</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Analyze audience behavior patterns</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Predict conversion trends</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Optimize bidding strategies</strong></span></li>
+                             <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Identify profitable keyword opportunities</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Analyze audience behavior patterns</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Predict conversion trends</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Optimize bidding strategies</strong></span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 ppc-checkicon">
                     <ul>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Reduce wasted spend</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Improve audience targeting</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Enhance ad performance</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg"> <span><strong>Increase campaign efficiency</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Reduce wasted spend</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Improve audience targeting</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Enhance ad performance</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span><strong>Increase campaign efficiency</strong></span></li>
                         </ul>
                 </div>
 
@@ -652,7 +652,7 @@
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Week 1-2</p>
-                            <img src="assets/images/services/SEO/numbers/ppc-01.svg" alt="ppc-01">
+                            <img src="assets/images/shared/step-numbers/ppc-01.svg" alt="ppc-01">
                         </div>
                         <p class="p-xsm fw-bolder pt-3">Audit and Research</p>
                         <p class="framework-desc pt-3">We begin with a complete advertising assessment. <br>
@@ -660,7 +660,7 @@
                             <ul class="framework-list pt-3 fw-bold">
                                 <li>Reviews existing campaigns</li>
                                 <li>Conducts keyword research</li>
-                                <li>Reviews existing campaigns</li>
+                                <li>Analyzes competitors</li>
                                 <li>Audits conversion tracking</li>
                                 <li>Identifies growth opportunities</li>
                             </ul>
@@ -672,7 +672,7 @@
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Week 3-4</p>
-                            <img src="assets/images/services/SEO/numbers/ppc-02.svg" alt="ppc-02">
+                            <img src="assets/images/shared/step-numbers/ppc-02.svg" alt="ppc-02">
                         </div>
                         <p class="p-xsm fw-bolder pt-3">Strategy and Planning</p>
                         <p class="framework-desc pt-3">After research, we develop a custom campaign strategy. <br>
@@ -692,7 +692,7 @@
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Week 5-6</p>
-                            <img src="assets/images/services/SEO/numbers/ppc-03.svg" alt="ppc-03">
+                            <img src="assets/images/shared/step-numbers/ppc-03.svg" alt="ppc-03">
                         </div>
                         <p class="p-xsm fw-bolder pt-3">Campaign Launch</p>
                         <p class="framework-desc pt-3">We launch campaigns with full tracking and optimization systems. <br>
@@ -712,7 +712,7 @@
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Week 7-8</p>
-                            <img src="assets/images/services/SEO/numbers/ppc-04.svg" alt="ppc-04">
+                            <img src="assets/images/shared/step-numbers/ppc-04.svg" alt="ppc-04">
                         </div>
                         <p class="p-xsm fw-bolder pt-3">Optimization and Growth</p>
                         <p class="framework-desc pt-3">Optimization never stops. <br>
@@ -743,13 +743,13 @@
 
         <!-- Why choose Us SECTION -->
 
-    <section>
+    <section class="section-gap">
         <div class="container">
             <div
                 class="container d-flex align-items-center gap-0 align-items-stretch flex-sm-column-reverse flex-column-reverse flex-lg-row">
                 
                 <div class="why-choose-us-img p-0">
-                    <img src="assets/images/services/SEO/ppc-img.png" class="img-fluid" alt="">
+                    <img src="assets/images/services/ppc/ppc-img.png" class="img-fluid" alt="">
                 </div>
                 <div class="why-choose-us">
                     <h2 class="mb-3 fw-semibold text-black">
@@ -873,13 +873,23 @@
      <!-- Advanced Tools section end  -->
 
 
+    <!-- Testimonials Section -->
+    <?php
+    $testimonials_heading = 'What Clients Say About Our PPC Management Services?';
+    $testimonials_subheading = 'Businesses trust Iynix Digital because we focus on results.';
+    include 'assets/include/testimonials.php';
+    unset($testimonials_heading, $testimonials_subheading);
+    ?>
+    <!-- Testimonials Section End -->
+
+
         <!-- Ready to Improve Rankings CTA SECTION -->
 
     <section class="section-gap-bottom">
         <div class="container">
             <div class="ss-cta-box text-center">
                 <div class="ss-cta-icon">
-                    <img src="assets/images/services/SEO/Frame.svg" alt="">
+                    <img src="assets/images/shared/cta/Frame.svg" alt="">
                 </div>
                 <h2 class="ss-cta-heading mb-3">
                     Ready to Grow With Expert <br>
@@ -894,7 +904,7 @@ Partner with Iynix Digital and let our PPC specialists build campaigns designed 
                         style="width: fit-content;">
                         Get a Free PPC Audit!
                     </button>
-                    <a href="javascript:void(0)"><button class="btn btn-primary accent">Talk to a PPC Expert Today!</button></a>
+                    <a href="javascript:void(0)"><button class="btn btn-primary accent" data-bs-toggle="modal" data-bs-target="#hsCalendarModal">Talk to a PPC Expert Today!</button></a>
                 </div>
             </div>
         </div>
@@ -902,7 +912,96 @@ Partner with Iynix Digital and let our PPC specialists build campaigns designed 
 
     <!-- Ready to Improve Rankings CTA SECTION End -->
 
+
+    <!-- FAQs Section -->
+    <?php
+    $faq_heading_pre = 'Frequently Asked Questions About ';
+    $faq_heading_hi = 'PPC Management Services';
+    $faq_items = [
+        [
+            'q' => 'What are PPC management services?',
+            'a' => 'PPC management services involve creating, managing, optimizing, and monitoring paid advertising campaigns to improve leads, sales, and return on investment.',
+        ],
+        [
+            'q' => 'What does a Google Ads management company do?',
+            'a' => 'A Google Ads management company handles your campaigns from start to finish, including keyword research, ad copy, audience targeting, bidding, conversion tracking, and ongoing optimization.',
+        ],
+        [
+            'q' => 'How much do PPC management services cost?',
+            'a' => 'The cost depends on your goals, your advertising budget, the platforms you use, and the size of your campaigns. We review your needs first and then recommend a plan that fits your business.',
+        ],
+        [
+            'q' => 'Why should I hire a PPC management company?',
+            'a' => 'An experienced team helps you avoid wasted ad spend, target the right audience, and keep improving results, so you can focus on running your business while your campaigns are actively managed.',
+        ],
+        [
+            'q' => 'How long does PPC take to generate results?',
+            'a' => 'Unlike SEO, PPC campaigns can begin driving visitors shortly after launch. Lead quality and return on investment usually improve over time as we gather data and optimize your campaigns.',
+        ],
+        [
+            'q' => 'What is the difference between SEO and PPC?',
+            'a' => 'SEO earns organic visibility in search results and builds over time, while PPC places paid ads that can bring traffic quickly. Many businesses use both to cover short-term and long-term growth.',
+        ],
+        [
+            'q' => 'Can PPC work for small businesses?',
+            'a' => 'Yes. With focused targeting and careful budget control, PPC allows small businesses to reach people actively searching for their products or services without needing a large advertising budget.',
+        ],
+        [
+            'q' => 'How do you measure PPC campaign success?',
+            'a' => 'We track the metrics tied to business results, including conversions, cost per acquisition, click-through rate, and return on ad spend, so you can see exactly what your budget is delivering.',
+        ],
+        [
+            'q' => 'Which platforms do you manage?',
+            'a' => 'We manage campaigns across platforms including Google Ads and Microsoft Advertising, along with Meta Ads Manager, using the channels that best fit your audience and goals.',
+        ],
+        [
+            'q' => 'How often are PPC campaigns optimized?',
+            'a' => 'Optimization is ongoing. We continually review keywords, bids, audiences, landing pages, and ad copy, making changes as your performance data shows new opportunities.',
+        ],
+    ];
+    include 'assets/include/faq.php';
+    unset($faq_heading_pre, $faq_heading_hi, $faq_items);
+    ?>
+    <!-- FAQs Section End -->
+
     </div>
+
+    <!-- FORM POP_UP -->
+
+    <div class="modal fade" id="hsFormModal" tabindex="-1" aria-hidden="true" style="overflow: scroll;">
+        <div class="modal-dialog modal-dialog-centered" style="max-width:700px;">
+            <div class="modal-content border-0 rounded-4 overflow-hidden">
+
+                <div class="modal-body p-0">
+                    <iframe src="https://api.leadconnectorhq.com/widget/form/eSQBrTOEcfeR6MjmuMQC"
+                        style="width:100%; height:650px; border:none; position:relative; z-index:999999;"
+                        title="New Website Form">
+                    </iframe>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- FORM POP_UP -->
+    <!-- Calendar popup -->
+
+    <div class="modal fade" id="hsCalendarModal" tabindex="-1" aria-hidden="true" style="overflow: scroll;">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content border-0 rounded-4 overflow-hidden">
+
+                <div class="modal-body p-0" style="min-height:700px;">
+                    <iframe src="https://api.leadconnectorhq.com/widget/booking/6hGo9fBmoPVyeTsoYtNm"
+                        style="width:100%; min-height:700px; border:none; overflow:hidden;" scrolling="scrolling"
+                        title="Booking Calendar">
+                    </iframe>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Calendar popup -->
+
 
     <script src="assets/vendor/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/js/main.js"></script>

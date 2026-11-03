@@ -370,7 +370,7 @@
     <div class="container">
         <div class="nav-wrap">
 
-            <a href="index.php" class="nav-logo"><img src="assets/images/Iynix-Logo.svg" alt=""></a>
+            <a href="index.php" class="nav-logo"><img src="assets/images/brand/Iynix-Logo.svg" alt="iYnix Digital"></a>
 
             <div class="nav-center">
                 <ul class="nav-menu">
@@ -437,6 +437,8 @@
                                         <li><a href="#" class="p-xsm">Website Redesign</a></li>
                                         <li><a href="cro-services.php" class="p-xsm">Website Optimisation</a></li>
                                         <li><a href="cro-audit.php" class="p-xsm">Conversion Rate Audit</a></li>
+                                        <li><a href="user-behavior-analytics.php" class="p-xsm">User Behavior Analytics</a></li>
+                                        <li><a href="user-experience-testing.php" class="p-xsm">User Experience Testing</a></li>
                                         <li><a href="#" class="p-xsm">Rapid Website Design</a></li>
                                         <li><a href="#" class="p-xsm">E-Mail Newsletter Design Services</a></li>
                                     </ul>
@@ -481,22 +483,22 @@
                             <div class="nav-grid">
 
                                 <div class="nav-col">
-                                    <a href=""><img src="assets/images/office-high-five.png" alt="Who We Are" class="nav-menu-img">
+                                    <a href=""><img src="assets/images/shared/photos/office-high-five.png" alt="Who We Are" class="nav-menu-img">
                                     <h6>Who We Are</h6></a>
                                 </div>
 
                                 <div class="nav-col">
-                                    <a href=""><img src="assets/images/Business-goals.png" alt="What We Do" class="nav-menu-img">
+                                    <a href=""><img src="assets/images/shared/photos/Business-goals.png" alt="What We Do" class="nav-menu-img">
                                     <h6>What We Do</h6></a>
                                 </div>
 
                                 <div class="nav-col">
-                                    <a href=""><img src="assets/images/Still-Confused.png" alt="Our Work" class="nav-menu-img">
+                                    <a href=""><img src="assets/images/shared/photos/Still-Confused.png" alt="Our Work" class="nav-menu-img">
                                     <h6>How We Work</h6></a>
                                 </div>
 
                                 <div class="nav-col">
-                                    <a href=""><img src="assets/images/cash-and-chess.png" alt="Our Leadership" class="nav-menu-img">
+                                    <a href=""><img src="assets/images/shared/photos/cash-and-chess.png" alt="Our Leadership" class="nav-menu-img">
                                     <h6>Our Leadership</h6></a>
                                 </div>
 

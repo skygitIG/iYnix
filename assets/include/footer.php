@@ -102,7 +102,7 @@
 
                 <div class="col-lg-4 col-md-12 footer-about">
                     <a href="index.php" class="footer-logo">
-                        <img src="assets/images/Iynix-Logo-White.svg" alt="iYnix Digital">
+                        <img src="assets/images/brand/Iynix-Logo-White.svg" alt="iYnix Digital">
                     </a>
                     <p class="p-xsm">iYnix Digital offers a full range of services that help you attract more
                         leads, make a great impression, and convert those leads into paying customers. With iYnix,
