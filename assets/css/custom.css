@@ -2618,3 +2618,123 @@
     border-radius: 50%;
     background-color: #D81F28;
 }
+
+/* Drive Business Growth page style  */
+
+.drive-business-section{
+    background-color:#F7F7F7;
+}
+
+.drive-business-box {
+    border :1px solid #E8E8E8;
+    border-radius:8px;
+    padding : 32px;
+    background-color:#FFFFFF;
+    /* width:411px; */
+    max-width:100%;
+}
+
+.business-ready-box {
+    border :1px solid #E8E8E8;
+    border-radius:8px;
+    padding : 32px;
+    background-color:#F7F7F7;
+    /* width:411px; */
+    max-width:100%;
+}
+
+.drive-business-redline-box {
+    border:1px solid #E8E8E8;
+    padding:24px;
+    background-color:#F7F7F7;
+    border-radius:6px;
+}
+
+.drive-business-app-development{
+    border :1px solid #E8E8E8;
+    border-radius:8px;
+    padding : 32px;
+    background-color:#FFFFFF;
+    height:100%;
+    max-width:100%;
+}
+
+.custom-build-box {
+    border :1px solid #E8E8E8;
+    border-radius:8px;
+    padding : 32px;
+    background-color:#F7F7F7;
+    max-width:100%;
+    height:100%;
+}
+.custom-build-list > ul  {
+    padding-left:0px;
+}
+.custom-build-list > ul > li {
+    list-style-type: none;
+}
+
+.custom-build-box:hover .custom-build-heading{
+    color:#D81F28;
+}
+
+.full-service-card{
+    border: 1px solid #262626;
+    gap: 16px;
+    padding:32px;
+    border-radius:8px;
+    min-height:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color:#1E1E1E;
+}
+
+.Transparent-number{
+    width:100%;
+    max-width:36px; 
+}
+
+.transparent-ready-box {
+    border :1px solid #E8E8E8;
+    border-radius:8px;
+    padding : 24px;
+    background-color:#F7F7F7;
+    /* width:411px; */
+    max-width:100%;
+}
+
+.drive-transparent-redline-box {
+    border:1px solid #D81F28;
+    padding:24px;
+    background-color:#E5393512;
+    border-radius:6px;
+}
+
+.development-proccess-section{
+    background-color:#FFFFFF;
+}
+
+.ios-development-proccess{
+    border :1px solid #E8E8E8;
+    border-radius:8px;
+    padding : 32px;
+    background-color:#F7F7F7;
+    height:100%;
+    max-width:100%;
+}
+
+.iso-development-list {
+    padding-left: 1.5rem;
+}
+
+.why-choose-us-img-drive > img {
+    height:100%;
+}
+
+@media (max-width: 992px) {
+   .why-choose-us-img-drive {
+    order: 2;
+   }
+}
