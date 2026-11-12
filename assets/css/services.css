@@ -104,6 +104,13 @@
     background-repeat: no-repeat;
 }
 
+.android-app-development-banner{
+    background-image: url('../images/services/android-app-development/android app development.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 /* On smaller screens the hero text sits over the bright part of the banner,
    so darken the whole image. An inset shadow paints above the background but

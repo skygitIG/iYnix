@@ -2630,7 +2630,7 @@
     border-radius:8px;
     padding : 32px;
     background-color:#FFFFFF;
-    /* width:411px; */
+    height:100%;
     max-width:100%;
 }
 
