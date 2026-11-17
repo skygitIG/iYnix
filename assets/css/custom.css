@@ -2474,7 +2474,7 @@
     padding: 32px;
     border-radius: 8px;
     height: 100%;
-    min-height: 417px;
+    /* min-height: 417px; */
 }
 
 .ppc-framework-box{
@@ -2737,4 +2737,63 @@
    .why-choose-us-img-drive {
     order: 2;
    }
+}
+
+
+/* mobile app testing css start   */
+
+.problem-find-section{
+    margin-top:48px;
+    border-radius:8px;
+    background-color: #FFFFFF;
+    padding: 0px !important;
+}
+
+.problem-find-checkicon > ul > li {
+    list-style-type: none;
+    color:#101010;
+    font-weight:700;
+}
+
+.problem-find-checkicon > ul {
+    padding-left: 0px !important;
+}
+
+.problem-find-bottom-text{
+    background-color: #E5393512;
+    border: 1px solid #E53935;
+    border-radius: 6px;
+    padding: 24px;
+}
+
+.problem-find-section {
+    background-color:#F7F7F7;
+}
+
+.mobile-testing-app-redline-box {
+    border:1px solid #E8E8E8;
+    padding:24px;
+    background-color:#F7F7F7;
+    border-radius:6px;
+    display:flex;
+}
+
+.testing-different-section{
+    background-color:#F7F7F7;
+}
+
+.you-get-checkicon > ul {
+    padding-left:0px;
+}
+
+.you-get-checkicon > ul >li {
+    list-style-type: none;
+}
+
+.different-business-need {
+    background-color: #F7F7F7;
+}
+
+.before-whychooseus {
+    width:80%;
 }
