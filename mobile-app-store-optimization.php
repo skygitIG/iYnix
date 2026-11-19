@@ -33,18 +33,19 @@
 
             <div class="container d-flex flex-column justify-content-center hero-banner-text m-0"
                 style="max-width: 777px;">
-                <h1 class="mt-4 my-3 dt text-light h1-sm fw-bold">Find App Bugs Before Your Users Do  <span class="text-crimson">With Mobile App Testing Services</span>
+                <h1 class="mt-4 my-3 dt text-light h1-sm fw-bold">Improve Your Mobile App <span class="text-crimson"> Performance, Visibility, and User Experience</span>
                 </h1>
-                <p class="fw-medium text-light">Your app needs to work properly across different devices, operating systems, screen sizes, and network conditions. One small bug in login, payments, checkout, or navigation can lead to poor reviews and lost users.</p>
-                <p class="fw-medium text-light">Our mobile app testing services help you find and fix these issues before release. We test Android and iOS apps using manual testing, automation, real device testing, and mobile app cloud testing services.</p>
-                <p class="fw-medium text-light">Get your app tested before your customers find the problems.</p>
+                <p class="fw-medium text-light">Your app needs to work well, load fast, and give users a reason to keep using it. Slow screens, crashes, poor navigation, and low app store visibility can lead to fewer downloads and lost users.
+Our mobile app optimization services help improve your app across performance, search visibility, app store presence, and user experience. We review your app, find areas that need improvement, and create a clear optimization plan based on your goals.
+Get your app optimized for better performance and stronger user engagement.</p>
+                
                 
                 <div class="container d-flex gap-3">
                     <button class="btn btn-secondary mt-5" data-bs-toggle="modal" data-bs-target="#hsFormModal"
                         style="width: fit-content;">
                         Get a Free Speed Audit!
                     </button>
-                    <a href="javascript:void(0)"><button class="btn btn-primary accent mt-5" data-bs-toggle="modal" data-bs-target="#hsCalendarModal">Talk to a Testing Expert</button></a>
+                    <a href="javascript:void(0)"><button class="btn btn-primary accent mt-5" data-bs-toggle="modal" data-bs-target="#hsCalendarModal">Talk to a Mobile App Expert</button></a>
                 </div>
             </div>
         </div>
@@ -52,17 +53,12 @@
     </section>
 
 
-    <!-- Trusted by Brands section start -->
-    <?php include 'assets/include/brands-loop.php'; ?>
-    <!-- Trusted by Brands section end -->
-
-
-    <!-- Poor website performance hurting business section start  -->
+    <!-- Mobile App Losing Users section start  -->
     <section class="section-gap">
         <div class="new-container">
             <div class="ss-a-heading ppc-main-heading text-center">
-                <h2 class="fw-semibold">
-                    Is Your <span class="text-crimson">Mobile App Ready </span>for Real Users?
+                <h2 class="fw-semibold">Is Your Mobile App 
+                    Is Your <span class="text-crimson">Losing Users? </span>
                 </h2>
                 <div class="text-center">
                 <p class="fw-medium mt-4 p-xsm text-center ppc-struggling-size">Before you launch your app, ask yourself:
@@ -113,16 +109,9 @@
                     </div>
                 </div>
 
-                <div class="col-lg-12 col-md-12">
-                    <div class="ppc-a-card h-100">
-                        <img src="assets/images/shared/ui/danger.svg" class="ppc-a-danger" alt="">
-                        <p class="fw-bold px-3 p-16">Does the app perform well when many users access it?</p>
-                    </div>
-                </div>
-
             </div>
 
-            <div class="ppc-a-bottom-text ppc-line text-center mt-5">
+            <div class="ppc-a-bottom-text mobile-app-optimization-line text-center mt-5">
                 <p class="fw-bold p-16">
                     If you are unsure about any of these, your app needs proper testing before release. We help you find these issues early, 
                     so your development team has time to fix them.
@@ -130,42 +119,18 @@
             </div>
         </div>
     </section>
-    <!-- Poor website performance hurting business section end  -->
+    <!-- Mobile App Losing Users section end  -->
 
-
-    <!-- Professional page speed optimization services section start  -->
-    <section class="ppc-section-main section-gap">
-        <div class="new-container">
-            <div class="ss-a-heading">
-                <h2 class="fw-semibold">
-                    <span class="text-crimson">Mobile App Testing Services </span>
-                Built Around Your App</h2>
-            </div>
-
-            <div class="row g-3">
-                <div class="col-lg-12 col-md-6">
-                    <div class="h-100">
-                        <p class="fw-medium mt-3 p-xsm ppc-text">Website speed plays a major role in user experience, SEO performance, and lead generation. Even a few extra seconds of loading time can reduce engagement and sales.</p>
-                        <p class="fw-medium mt-3 p-xsm ppc-text">At Iynix Digital, we provide professional site speed optimization services designed to improve website speed, increase performance, and create a better user experience.</p>
-                        <p class="fw-medium mt-3 p-xsm ppc-text">Our specialists analyze every aspect of your website, identify performance bottlenecks, and implement proven solutions that deliver measurable results.</p>
-                        <p class="fw-medium mt-3 p-xsm ppc-text">Whether you need WordPress speed optimization, mobile speed optimization, or complete website speed optimization, we build a strategy tailored to your business.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mt-5">
-                <img src="assets/images/services/mobile-app-testing/mobile-app-testing-secong-img.webp" class="img-fluid rounded-4 w-100" alt="Page speed optimization performance dashboard">
-            </div>
-        </div>
-    </section>
-    <!-- Professional page speed optimization services section end  -->
-
-     <!-- Mobile App Testing Services section start  -->
+     <!-- Mobile App Optimization Services section start  -->
      <section class="section-gap development-proccess-section">
             <div class="new-container">
             <div class="row" g-3>
                 <div class="ppc-service-headings">
-                <h2 class="fw-bold text-black">Our Complete <span class="text-crimson">Mobile App Testing Services  </span></h2>
+                <h2 class="fw-bold text-black">Mobile App Optimization Services <span class="text-crimson">Built Around Your Goals  </span></h2>
+                 <p class="pt-2 fw-normal p-xsm">Mobile app optimization covers more than app speed.</p>
+                <p class="pt-2 fw-normal p-xsm">We look at how your app performs, how users interact with your features, how your app appears in search, and how your store listing converts visitors into downloads.</p>
+                <p class="pt-2 fw-normal p-xsm">Our mobile app optimization services help improve performance, usability, search visibility, and app store presence.</p>
+            
                 </div>
             </div>
 
@@ -253,16 +218,7 @@
                   </div>  
                 </div>
 
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                  <div class="ios-development-proccess">
-                    <p class="fw-bolder p-text-21 mt-3">Image & Asset Optimization</p>
-                    <div>
-                        <p class="ppc-box-description ppc-text mt-3">Large images, videos, and website files can significantly slow down your site. We optimize images, scripts, stylesheets, and other assets by reducing file sizes without sacrificing quality. This helps pages load faster while maintaining a professional appearance and excellent user experience.</p>
-                    </div>
-                  </div>  
-                </div>
-
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-12 col-md-12 col-sm-12">
                   <div class="ios-development-proccess">
                     <p class="fw-bolder p-text-21 mt-3">Caching Configuration</p>
                     <div>
@@ -277,15 +233,15 @@
 
             </div>
         </section>
-    <!-- Mobile App Testing Services section end  -->
+    <!-- Mobile App Optimization Services section end  -->
 
 
-    <!-- Why page speed optimization matters section start  -->
+    <!-- Problems Can We Help section start  -->
     <section class="section-gap problem-find-section">
         <div class="new-container">
             <div class="row" g-3>
                 <div class="ppc-service-headings">
-                <h2 class="fw-bold text-black">What  <span class="text-crimson"> Problems Do We Help </span>You Find?</h2>
+                <h2 class="fw-bold text-black">What  <span class="text-crimson"> Problems Can We Help </span>You Fix?</h2>
                 <p class="pt-2 fw-normal p-16">Google wants to deliver the best experience possible to users. Website speed plays a major role in achieving that goal.</p>
                 <p class="pt-4 fw-bold p-16"><i>Page speed optimization helps:</i></p>
             </div>
@@ -315,23 +271,55 @@
                     </ul>
                 </div>
             </div>
-            <div class="text-center mt-5 problem-find-bottom-text">
-                <p class="fw-bold text-black mt-2 p-16">
-                  A faster website gives search engines and users a better experience.
-                </p>
-            </div>
         </div>
     </section>
-    <!-- Why page speed optimization matters section end  -->
+    <!-- Problems Can We Help section end  -->
 
+    
+    <!-- Mobile App Optimization Matter section start  -->
+    <section class="section-gap mobile-app-optimization-section">
+        <div class="new-container">
+            <div class="row" g-3>
+                <div class="ppc-service-headings">
+                <h2 class="fw-bold text-black">Why Does <span class="text-crimson">Mobile App Optimization </span> Matter?</h2>
+                <p class="pt-2 fw-normal p-16">Modern content marketing requires more than creativity. It requires data. </p>
+                <p class="pt-2 fw-normal p-16">Our team uses advanced AI tools and analytics platforms to improve content performance and efficiency. </p>
+            </div>
+            </div>
 
+            <div class="row g-3 mobile-app-optimization">
+                <h6 class="text-crimson text-uppercase fw-bolder">We Use AI To:</h6>
+                <div class="col-lg-6 col-md-6">
+                    <div class="you-get-checkicon">
+                        <ul>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Discover high-intent content opportunities</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Identify trending topics</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Analyze competitor content strategies</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Predict content performance</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Predict content performance</strong></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 you-get-checkicon">
+                    <ul>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Improve content optimization</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Personalize audience messaging</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Enhance content distribution strategies</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span ><strong>Enhance content distribution strategies</strong></span></li>
+                    </ul>
+                </div>
+            </div>
 
-     <!-- Still Relying Only on a Website section start  -->
+        </div>
+    </section>
+    <!-- Mobile App Optimization Matter section end  -->
+
+     <!-- Mobile App Optimization Techniques We Use section start  -->
      <section class="section-gap ">
             <div class="new-container">
             <div class="row" g-3>
                 <div class="ppc-service-headings">
-                <h2 class="fw-bold text-black">Why Test Your <span class="text-crimson"> Mobile App </span>Before Launch?</h2>
+                <h2 class="fw-bold text-black">Mobile App Optimization <span class="text-crimson">Techniques We Use </span></h2>
                 <p class="pt-2 fw-normal p-16">A testing process helps you reduce release risks and improve the experience for your users.</p>
                 <p class="pt-4 fw-bold p-16"><i>With professional mobile app testing services, you get:</i></p>
 
@@ -381,10 +369,45 @@
                   </div>  
                 </div>
 
-                <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="business-ready-box">
                     <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
-                    <p class="fw-bolder p-xsm mt-3">Clear information for your development team</p>
+                    <p class="fw-bolder p-xsm mt-3">Fewer bugs after launch</p>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="business-ready-box">
+                    <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
+                    <p class="fw-bolder p-xsm mt-3">Fewer bugs after launch</p>
+                  </div>  
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="business-ready-box">
+                    <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
+                    <p class="fw-bolder p-xsm mt-3">Better device compatibility</p>
+                  </div>  
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="business-ready-box">
+                    <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
+                    <p class="fw-bolder p-xsm mt-3">Faster identification of critical issues</p>
+                  </div>  
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="business-ready-box">
+                    <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
+                    <p class="fw-bolder p-xsm mt-3">More reliable app updates</p>
+                  </div>  
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="business-ready-box">
+                    <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
+                    <p class="fw-bolder p-xsm mt-3">Better user experience</p>
                   </div>  
                 </div>
 
@@ -396,56 +419,55 @@
 
             </div>
         </section>
-    <!-- Still Relying Only on a Website section end  -->
+    <!-- Mobile App Optimization Techniques We Use section end  -->
 
-
-    <!-- How website speed optimization improves user experience section start  -->
-    <section class="section-gap testing-different-section">
+    <!-- Android and iOS section start  -->
+        <section class="section-gap mobile-app-optimization-section">
         <div class="new-container">
             <div class="row" g-3>
                 <div class="ppc-service-headings">
-                <h2 class="fw-bold text-black">What Makes <span class="text-crimson">Our Mobile App Testing </span> Different?</h2>
-                <p class="pt-2 fw-normal p-16">Choosing a testing company is about more than running test cases. You need a team that understands how your app works and where users are likely to face problems.</p>
-            </div>
+                <h2 class="fw-bold text-black">Mobile App Optimization for <span class="text-crimson">Android and iOS </span></h2>
+                </div>
             </div>
 
-            <div class="row g-3 ppc-section">
-                <h6 class="text-crimson text-uppercase fw-bolder">You get:</h6>
+            <div class="row g-3 ">
+                
                 <div class="col-lg-6 col-md-6">
-                    <div class="you-get-checkicon">
+                    <div class="mobile-app-optimization-ai ">
+                        <h6 class="text-crimson text-uppercase fw-bolder pt-3">Android App Optimization</h6>
                         <ul>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Navigation speed</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Mobile usability</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Customer engagement</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Customer engagement</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Customer engagement</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/single-check.svg" alt=""> <span class="px-2"><strong>Discover high-intent content opportunities</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/single-check.svg" alt=""> <span class="px-2"><strong>Identify trending topics</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/single-check.svg" alt=""> <span class="px-2"><strong>Analyze competitor content strategies</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/single-check.svg" alt=""> <span class="px-2"><strong>Predict content performance</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/single-check.svg" alt=""> <span class="px-2"><strong>Predict content performance</strong></span></li>
                         </ul>
                     </div>
                 </div>
+                
                 <div class="col-lg-6 col-md-6 you-get-checkicon">
+                    <div class="mobile-app-optimization-ai ">
+                    <h6 class="text-crimson text-uppercase fw-bolder pt-3">Android App Optimization</h6>
                     <ul>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Session duration</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>User satisfaction</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Lead generation opportunities</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span ><strong>Lead generation opportunities</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/single-check.svg" alt=""> <span class="px-2"><strong>Improve content optimization</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/single-check.svg" alt=""> <span class="px-2"><strong>Personalize audience messaging</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/single-check.svg" alt=""> <span class="px-2"><strong>Enhance content distribution strategies</strong></span></li>
+                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/single-check.svg" alt=""> <span ><strong>Enhance content distribution strategies</strong></span></li>
                     </ul>
                 </div>
+                </div>
             </div>
-            <div class="text-center mt-5">
-                <p class="fw-bold text-crimson mt-2 p-16">
-                  A faster website creates a smoother experience from the first click to the final conversion.
-                </p>
-            </div>
+
         </div>
     </section>
-    <!-- How website speed optimization improves user experience section end  -->
+    <!-- Android and iOS section end  -->
 
-    <!-- Our site speed optimization framework section start  -->
+    <!-- We Optimize section start  -->
     <section class="section-gap">
         <div class="new-container">
             <div class="row" g-3>
                 <div class="ppc-roi-headings">
-                <h2 class="fw-bold text-black">How Does Iynix Digital <span class="text-crimson">Improve User Experience?</span></h2>
+                <h2 class="fw-bold text-black">How Do <span class="text-crimson">We Optimize </span> Your Mobile App?</h2>
                     <p class="pt-2 fw-normal p-16">Our conversion rate audit follows three important stages.</p>
             </div>
             </div>
@@ -516,89 +538,15 @@
             </div>
         </div>
     </section>
-    <!-- Our site speed optimization framework section end  -->
-
-    <!-- Why page speed optimization matters section start  -->
-    <section class="section-gap problem-find-section">
-        <div class="new-container">
-            <div class="row" g-3>
-                <div class="ppc-service-headings">
-                <h2 class="fw-bold text-black">What <span class="text-crimson"> You Receive </span>From Our Testing Team?</h2>
-                <p class="pt-2 fw-normal p-16">Google wants to deliver the best experience possible to users. Website speed plays a major role in achieving that goal.</p>
-                <p class="pt-4 fw-bold p-16"><i>Page speed optimization helps:</i></p>
-            </div>
-            </div>
-
-            <div class="row g-3 problem-find-section">
-                <div class="col-lg-6 col-md-6">
-                    <div class="problem-find-checkicon">
-                        <ul>
-                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Bug description</strong></span></li>
-                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Steps to reproduce</strong></span></li>
-                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Bug priority</strong></span></li>
-                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Affected device</strong></span></li>
-                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Operating system</strong></span></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 problem-find-checkicon">
-                    <ul>
-                        <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Screenshots</strong></span></li>
-                        <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Screen recordings when needed</strong></span></li>
-                        <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Retesting status</strong></span></li>
-                        <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Final testing report</strong></span></li>
-                    </ul>
-                </div>
-            </div>
-            
-        </div>
-    </section>
-    <!-- Why page speed optimization matters section end  -->
+    <!-- We Optimize section end  -->
 
 
-    <!-- How page speed optimization helps SEO section start  -->
+    <!-- Mobile App Optimization Process section start  -->
     <section class="section-gap">
         <div class="new-container">
             <div class="row" g-3>
-                <div class="ppc-service-headings">
-                <h2 class="fw-bold text-black">Mobile App Testing for <span class="text-crimson">Different Business Needs</span></h2>
-                <p class="pt-2 fw-normal p-16">Choosing a testing company is about more than running test cases. You need a team that understands how your app works and where users are likely to face problems.</p>
-            </div>
-            </div>
-
-            <div class="row g-3 ppc-section different-business-need">
-                <h6 class="text-crimson text-uppercase fw-bolder">Our testing support covers:</h6>
-                <div class="col-lg-6 col-md-6">
-                    <div class="you-get-checkicon ">
-                        <ul>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Navigation speed</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Mobile usability</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Customer engagement</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Customer engagement</strong></span></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 you-get-checkicon">
-                    <ul>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Session duration</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>User satisfaction</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Lead generation opportunities</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span ><strong>Lead generation opportunities</strong></span></li>
-                    </ul>
-                </div>
-            </div>
-            
-        </div>
-    </section>
-    <!-- How page speed optimization helps SEO section end  -->
-
-
-    <!-- Our site speed optimization framework section start  -->
-    <section class="section-gap">
-        <div class="new-container">
-            <div class="row" g-3>
-                <div class="ppc-roi-headings text-center">
-                <h2 class="fw-bold text-black">Our Site Speed <span class="text-crimson">Optimization Framework</span></h2>
+                <div class="ppc-roi-headings ">
+                <h2 class="fw-bold text-black">Our Mobile App Optimization <span class="text-crimson">Process</span></h2>
             </div>
             </div>
 
@@ -606,7 +554,7 @@
 
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="ppc-compaign-framework">
-                        <div class="ppc-framework-box">
+                        <div class="ppc-framework-box ">
                             <p class="text-crimson fw-bold">Week 1</p>
                            
                         </div>
@@ -680,7 +628,33 @@
             </div>
         </div>
     </section>
-    <!-- Our site speed optimization framework section end  -->
+    <!-- Mobile App Optimization Process section end  -->
+
+    <!--  Optimize Your Mobile App section start  -->
+    <section class="section-gap">
+        <div class="new-container">
+            
+
+            <div class="row g-3  ">
+                <div class="col-lg-6 col-md-6">
+                   <div class="">
+                    <h2 class="mb-3 fw-semibold text-black before-whychooseus">
+                        <span class="text-crimson">When Should You </span> or <span class="text-crimson">
+                            Optimize Your Mobile App? </span> </h2>
+                    <p class="p-16 fw-bolder pt-3 before-whychooseus ppc-text">Do not wait until users start leaving.</p>
+                    <p class="p-16 fw-bolder pt-3 before-whychooseus ppc-text">Optimization should begin during development and continue after launch. Regular reviews help you identify performance issues, user experience problems, search changes, and new opportunities.
+                        For an existing app, start with a complete optimization audit.</p>
+
+                </div>
+                </div>
+                <div class="col-lg-6 col-md-6 you-get-checkicon">
+                  <img src="assets/images/services/mobile-app-performance/second-img.webp" class="img-fluid" alt="">
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Optimize Your Mobile App section end  -->
 
 
     <!-- Why choose Us SECTION -->
@@ -690,22 +664,23 @@
                 class="container d-flex align-items-center gap-0 align-items-stretch flex-sm-column-reverse flex-column-reverse flex-lg-row">
 
                 <div class="why-choose-us-img p-0">
-                    <img src="assets/images/shared/photos/Still-Confused.png" class="img-fluid" alt="">
+                    <img src="assets/images/services/mobile-app-performance/why-chooseus.webp" class="img-fluid" alt="">
                 </div>
                 <div class="why-choose-us">
                     <h2 class="mb-3 fw-semibold text-black">
-                        Why Choose Iynix Digital for <span class="text-crimson">
-                            Site Speed Optimization?</span></h2>
+                        Why Choose Iynix Digital for  <span class="text-crimson">
+                            Mobile App Optimization?</span></h2>
                     <ul class="ss-b-list p-16 mb-4">
-                        <li>Experienced optimization specialists</li>
-                        <li>Customized performance strategies</li>
-                        <li>Transparent reporting</li>
-                        <li>Data driven recommendations</li>
-                        <li>Proven optimization process</li>
-                        <li>Advanced technical expertise</li>
-                        <li>WordPress optimization specialists</li>
-                        <li>Dedicated support team</li>
-                        <li>Long term performance monitoring</li>
+                        <li>Android and iOS expertise</li>
+                        <li>Performance optimization</li>
+                        <li>Mobile app SEO optimization</li>
+                        <li>Mobile app search optimization</li>
+                        <li>App store optimization</li>
+                        <li>UX analysis</li>
+                        <li>Competitor research</li>
+                        <li>Clear optimization reports</li>
+                        <li>Priority-based recommendations</li>
+                        <li>Ongoing performance tracking</li>
                     </ul>
 
                 </div>
@@ -733,8 +708,8 @@
                     <img src="assets/images/shared/cta/Frame.svg" alt="">
                 </div>
                 <h2 class="ss-cta-heading mb-3">
-                    Ready to Improve Website <br>
-                    <span class="text-crimson">Speed and Grow Your Business?</span>
+                    Ready to Optimize <br>
+                    <span class="text-crimson">Your Mobile App?</span>
                 </h2>
                 <p class="ss-cta-subheading mb-2">A slow website hurts rankings, conversions, and customer experience.</p>
                 <p class="ss-cta-text mx-auto">Partner with Iynix Digital and get a site speed optimization strategy designed to improve website performance, improve website speed, and drive measurable business growth.
@@ -758,36 +733,44 @@
     $faq_heading_hi = 'Site Speed Optimization';
     $faq_items = [
         [
-            'q' => 'What is site speed optimization?',
-            'a' => 'Site speed optimization is the process of improving how quickly a website loads and performs. It includes optimizing images, code, servers, caching, and other technical elements.',
+            'q' => 'What is mobile app optimization?',
+            'a' => 'Mobile app optimization involves improving an app's performance, usability, search visibility, store presence, and user experience.',
         ],
         [
-            'q' => 'Why is website speed optimization important?',
-            'a' => 'A faster website improves user experience, reduces bounce rates, supports better search engine rankings, and helps convert more visitors into leads and customers - even a few extra seconds of load time can noticeably reduce engagement and sales.',
+            'q' => 'Why should I optimize my mobile app?',
+            'a' => 'Optimization helps improve speed, stability, user experience, search visibility, downloads, and engagement.',
         ],
         [
-            'q' => 'How does page speed optimization help SEO?',
-            'a' => 'Google uses page speed and Core Web Vitals as ranking signals, so a faster website improves crawl efficiency, reduces bounce rates, and gives search engines a better experience - all of which can support higher rankings.',
+            'q' => 'What are mobile app optimization techniques?',
+            'a' => 'Mobile app optimization techniques include performance analysis, image optimization, memory management, network optimization, crash analysis, UX improvements, keyword research, and app store optimization.',
         ],
         [
-            'q' => 'What is WordPress speed optimization?',
-            'a' => 'WordPress speed optimization targets the issues specific to WordPress sites - heavy themes, plugins, and outdated configurations - by optimizing themes, plugins, databases, and server settings to improve loading times and stability.',
+            'q' => 'What is mobile app SEO optimization?',
+            'a' => 'Mobile app SEO optimization focuses on improving the search visibility of your app through relevant keywords, content, search intent, and related online signals.',
         ],
         [
-            'q' => 'How can I improve website speed?',
-            'a' => 'Website speed is typically improved through image and asset compression, code cleanup, caching configuration, database optimization, server enhancements, and CDN setup - each addressing a different source of slow loading times.',
+            'q' => 'What is mobile app search optimization?',
+            'a' => 'Mobile app search optimization helps your app appear for relevant searches made by potential users. It includes keyword research, competitor analysis, and content optimization.',
         ],
         [
-            'q' => 'What is mobile speed optimization?',
-            'a' => 'Mobile speed optimization improves how quickly and smoothly a website loads on smartphones and tablets, since mobile devices often have slower connections and less processing power than desktops.',
+            'q' => 'What is mobile app performance optimization?',
+            'a' => 'Mobile app performance optimization focuses on improving loading speed, responsiveness, stability, memory usage, battery usage, and network performance.',
         ],
         [
-            'q' => 'How long does website speed optimization take?',
-            'a' => 'Our site speed optimization framework typically runs over 4 weeks - from audit and strategy through implementation and testing - though initial improvements are often visible as soon as the first optimizations go live.',
+            'q' => 'What is mobile app store optimization?',
+            'a' => 'Mobile app store optimization improves your app listing on platforms such as Google Play and the Apple App Store. It includes keyword, title, description, screenshot, and conversion optimization.',
         ],
         [
-            'q' => 'Can a slow website speed affect conversions?',
-            'a' => 'Yes. Slow loading times frustrate visitors and increase abandonment before they even see your products or services, which directly lowers conversion rates regardless of how much traffic you drive to the site.',
+            'q' => 'How often should I optimize my mobile app?',
+            'a' => 'Review your app regularly, especially after major updates, new features, changes in user behavior, or changes in search performance.',
+        ],
+        [
+            'q' => 'Do you optimize both Android and iOS apps?',
+            'a' => 'Yes. We provide mobile app optimization for both Android and iOS applications.',
+        ],
+        [
+            'q' => 'How long does mobile app optimization take?',
+            'a' => 'The timeline depends on your app, number of issues, platforms, and optimization requirements. A complete timeline is provided after the initial app review.',
         ],
     ];
     include 'assets/include/faq.php';

@@ -2797,3 +2797,39 @@
 .before-whychooseus {
     width:80%;
 }
+
+.mobile-app-optimization{
+    margin-top:48px;
+    border:1px solid #E8E8E8;
+    border-radius:8px;
+    background-color: #F7F7F7;
+    padding: 0px 32px 32px 32px;
+}
+
+.mobile-app-optimization-section {
+    background-color:#ffffff;
+}
+
+.mobile-app-optimization-ai{
+    margin-top:48px;
+    border:1px solid #E8E8E8;
+    border-radius:8px;
+    background-color: #F7F7F7;
+    height:100%;
+}
+
+.mobile-app-optimization-ai >ul{
+    list-style-type: none;
+}
+
+.mobile-app-optimization-ai >h6{
+    padding-left:32px;
+}
+
+.mobile-app-optimization-line{
+    border: 1px solid #E53935;
+    padding: 20px;
+    border-radius:6px;
+    background: #E5393512;
+
+}
