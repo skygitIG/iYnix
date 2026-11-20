@@ -1,7 +1,6 @@
 <?php
 // Single source for the Services menu (Figma "Website header" + "Website footer", Nov 2026).
 // Used by navbar.php (desktop mega menu + mobile accordion) and footer.php (services accordion).
-// Pages that are not built yet point to '#'. Replace with the real file when the page exists.
 // 'col' = column in the desktop mega menu (1-4), in Figma's top-to-bottom order.
 $iynix_services = [
     ['title' => 'Digital marketing', 'col' => 1, 'links' => [
@@ -14,25 +13,32 @@ $iynix_services = [
         ['B2B Marketing', 'b2b-marketing.php'],
         ['B2C Marketing', 'b2c-marketing.php'],
         ['B2C and D2C', 'b2c-and-d2c-marketing.php'],
-        ['Business Automation & CRM', '#'],
     ]],
-    ['title' => 'Social media', 'col' => 1, 'links' => [
-        ['Social Media Ads', 'social-media-ads.php'],
-        ['Social Media Marketing', 'social-media-marketing.php'],
+    ['title' => 'E-commerce solutions', 'col' => 1, 'links' => [
+        ['E-commerce SEO', 'ecommerce-seo.php'],
+        ['Shopify SEO', 'shopify-seo.php'],
+        ['E-commerce Optimization', 'ecommerce-optimization.php'],
+        ['E-commerce Marketing', 'ecommerce-marketing.php'],
+        ['E-commerce Web Design', 'ecommerce-web-design.php'],
+        ['Shopify Web Design', 'shopify-web-design.php'],
     ]],
     ['title' => 'SEO & link building', 'col' => 2, 'links' => [
         ['SEO', 'seo-service.php'],
         ['SEO Audit', 'seo-audit.php'],
         ['Local SEO Service', 'local-seo.php'],
+        ['Technical SEO', 'technical-seo.php'],
+        ['On-Page SEO', 'on-page-seo.php'],
+        ['Off-Page SEO', 'off-page-seo.php'],
+        ['AI SEO', 'ai-seo.php'],
+        ['SEO Content Writing', 'seo-content-writing.php'],
         ['Page Speed Optimization', 'page-speed-optimization.php'],
         ['Link Building', 'link-building.php'],
         ['HARO Link Building', 'haro-link-building.php'],
         ['Digital PR', 'digital-pr.php'],
     ]],
-    ['title' => 'E-commerce solutions', 'col' => 2, 'links' => [
-        ['E-commerce SEO', 'ecommerce-seo.php'],
-        ['E-commerce Optimization', 'ecommerce-optimization.php'],
-        ['E-commerce Marketing', 'ecommerce-marketing.php'],
+    ['title' => 'Social media', 'col' => 2, 'links' => [
+        ['Social Media Ads', 'social-media-ads.php'],
+        ['Social Media Marketing', 'social-media-marketing.php'],
     ]],
     ['title' => 'UI/UX design & branding', 'col' => 3, 'links' => [
         ['UI Design Services', 'ui-design-services.php'],
@@ -53,7 +59,6 @@ $iynix_services = [
     ]],
     ['title' => 'Website development', 'col' => 4, 'links' => [
         ['Website Development', 'website-development.php'],
-        ['Website Design & Development', '#'],
         ['Website Redesign', 'website-redesign.php'],
         ['Website Optimisation', 'website-optimization.php'],
         ['Rapid Website Design', 'rapid-website-design.php'],
@@ -74,6 +79,20 @@ $iynix_services = [
 // Mobile / footer accordion order (Figma mobile header + footer).
 $iynix_services_order = ['Digital marketing', 'SEO & link building', 'Social media', 'E-commerce solutions',
     'UI/UX design & branding', 'Website development', 'Mobile app development', 'Conversion optimization'];
+
+// Location pages, shown as an accordion in the footer (not in the header mega menu).
+$iynix_locations = ['title' => 'Atlanta', 'links' => [
+    ['Digital Marketing Agency', 'digital-marketing-agency-atlanta.php'],
+    ['SEO Company', 'seo-company-atlanta.php'],
+    ['Local SEO', 'local-seo-atlanta.php'],
+    ['Content Marketing', 'content-marketing-atlanta.php'],
+    ['PPC Management', 'ppc-management-atlanta.php'],
+    ['Social Media Marketing', 'social-media-marketing-atlanta.php'],
+    ['Website Design', 'website-design-atlanta.php'],
+    ['App Design & Development', 'app-development-atlanta.php'],
+    ['iOS App Development', 'ios-app-development-atlanta.php'],
+    ['Android App Development', 'android-app-development-atlanta.php'],
+]];
 
 $iynix_about = [
     ['Who We Are', 'who-we-are.php', 'assets/images/shared/photos/office-high-five.png'],

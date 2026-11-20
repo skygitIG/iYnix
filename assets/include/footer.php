@@ -10,7 +10,7 @@ $ft_social = [
     ['YouTube', '#', 'youtube'],
 ];
 $ft_explore = [['Home', 'index.php'], ['Who We Are', 'who-we-are.php'], ['What We Do', 'what-we-do.php'], ['How We Work', 'how-we-work.php'],
-    ['Our Leadership', 'our-leadership.php'], ['Portfolio', '#'], ['Blog', 'https://iynixdigital.com/blog/'], ['Contact Us', '#']];
+    ['Our Leadership', 'our-leadership.php'], ['Portfolio', 'index.php#portfolio'], ['Blog', 'https://iynixdigital.com/blog/'], ['Contact Us', '#contact']];
 ?>
 <style>
     .ft {
@@ -209,6 +209,14 @@ $ft_explore = [['Home', 'index.php'], ['Who We Are', 'who-we-are.php'], ['What W
                 </ul>
             </details>
             <?php endforeach; ?>
+            <details class="ft-acc">
+                <summary><span>Locations: <?= htmlspecialchars($iynix_locations['title']) ?></span><img src="assets/images/icons/nav/chevron-white.svg" alt=""></summary>
+                <ul class="ft-list">
+                    <?php foreach ($iynix_locations['links'] as [$label, $href]): ?>
+                    <li><a href="<?= $href ?>"><?= htmlspecialchars($label) ?></a></li>
+                    <?php endforeach; ?>
+                </ul>
+            </details>
         </div>
 
         <div class="ft-explore">
@@ -220,7 +228,7 @@ $ft_explore = [['Home', 'index.php'], ['Who We Are', 'who-we-are.php'], ['What W
             </ul>
         </div>
 
-        <div class="ft-contact">
+        <div class="ft-contact" id="contact">
             <div class="ft-heading">Contact Us</div>
             <div class="ft-info">
                 <img src="assets/images/icons/nav/location.svg" alt="">

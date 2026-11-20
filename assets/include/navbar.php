@@ -23,10 +23,10 @@ $nh_chevron = '<img src="assets/images/icons/nav/chevron.svg" alt="" width="16" 
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 104px;
+        height: 80px;
     }
 
-    .nh-logo { display: block; width: 141px; height: 44px; flex-shrink: 0; }
+    .nh-logo { display: block; width: 128px; height: 40px; flex-shrink: 0; }
     .nh-logo img { display: block; width: 100%; height: 100%; }
 
     .nh-primary { display: flex; align-items: center; gap: 48px; }
@@ -35,7 +35,7 @@ $nh_chevron = '<img src="assets/images/icons/nav/chevron.svg" alt="" width="16" 
         display: inline-flex;
         align-items: center;
         gap: 8px;
-        padding: 16px 0;
+        padding: 12px 0;
         background: none;
         border: 0;
         font: 500 16px/24px 'Inter', sans-serif;
@@ -56,8 +56,8 @@ $nh_chevron = '<img src="assets/images/icons/nav/chevron.svg" alt="" width="16" 
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        height: 56px;
-        width: 128px;
+        height: 48px;
+        width: 120px;
         background: #101010;
         color: #fff;
         border: 0;
@@ -95,7 +95,7 @@ $nh_chevron = '<img src="assets/images/icons/nav/chevron.svg" alt="" width="16" 
         border-bottom: 1px solid #eaeaea;
         box-shadow: 0 16px 32px rgba(16, 16, 16, .06);
         padding: 32px 0 40px;
-        max-height: calc(100vh - 104px);
+        max-height: calc(100vh - 80px);
         overflow-y: auto;
     }
 
@@ -169,7 +169,7 @@ $nh_chevron = '<img src="assets/images/icons/nav/chevron.svg" alt="" width="16" 
     /* ---------- Mobile / tablet menu ---------- */
     .nh-mobile {
         position: fixed;
-        top: 104px;
+        top: 80px;
         left: 0;
         right: 0;
         bottom: 0;
@@ -223,20 +223,24 @@ $nh_chevron = '<img src="assets/images/icons/nav/chevron.svg" alt="" width="16" 
 
     body.nh-lock { overflow: hidden; }
 
+    /* Sticky header: in-page anchors (Portfolio, Contact) land below it. */
+    #portfolio, #contact { scroll-margin-top: 104px; }
+
     /* Tablet: Let's Talk + hamburger (Figma Tablet 834px) */
     @media (max-width: 1199.98px) {
-        .nh-bar { height: 88px; }
+        .nh-bar { height: 72px; }
         .nh-primary, .nh-panel { display: none !important; }
         .nh-icon-btn.nh-burger { display: inline-flex; }
-        .nh-mobile { top: 88px; }
+        .nh-mobile { top: 72px; }
         .nh-m-cta, .nh-m-contact { display: none; }
     }
 
     /* Mobile: hamburger only, CTA moves into the menu (Figma Mobile 390px) */
     @media (max-width: 767.98px) {
-        .nh-bar { height: 80px; }
+        .nh-bar { height: 64px; }
+        .nh-logo { width: 115px; height: 36px; }
         .nh-actions .nh-cta { display: none; }
-        .nh-mobile { top: 80px; }
+        .nh-mobile { top: 64px; }
         .nh-m-cta { display: inline-flex; }
         .nh-m-contact { display: flex; }
     }
@@ -251,9 +255,9 @@ $nh_chevron = '<img src="assets/images/icons/nav/chevron.svg" alt="" width="16" 
             <a class="nh-link" href="index.php">Home</a>
             <button type="button" class="nh-link" aria-expanded="false" aria-controls="nh-about-panel" data-nh-panel="nh-about-panel">About <?= $nh_chevron ?></button>
             <button type="button" class="nh-link" aria-expanded="false" aria-controls="nh-services-panel" data-nh-panel="nh-services-panel">Services <?= $nh_chevron ?></button>
-            <a class="nh-link" href="#">Portfolio</a>
+            <a class="nh-link" href="index.php#portfolio">Portfolio</a>
             <a class="nh-link" href="https://iynixdigital.com/blog/">Blogs</a>
-            <a class="nh-link" href="#">Contact</a>
+            <a class="nh-link" href="#contact">Contact</a>
         </nav>
 
         <div class="nh-actions">
@@ -336,9 +340,9 @@ $nh_chevron = '<img src="assets/images/icons/nav/chevron.svg" alt="" width="16" 
         <?php endforeach; ?>
 
         <div class="mt-3">
-            <a class="nh-m-link" href="#">Portfolio</a>
+            <a class="nh-m-link" href="index.php#portfolio">Portfolio</a>
             <a class="nh-m-link" href="https://iynixdigital.com/blog/">Blogs</a>
-            <a class="nh-m-link" href="#">Contact</a>
+            <a class="nh-m-link" href="#contact">Contact</a>
         </div>
 
         <button type="button" class="nh-cta nh-m-cta" data-bs-toggle="modal" data-bs-target="#hsFormModal">Let’s Talk</button>
@@ -369,11 +373,33 @@ document.addEventListener('DOMContentLoaded', function () {
         t.addEventListener('click', function (e) {
             e.stopPropagation();
             const panel = document.getElementById(t.dataset.nhPanel);
-            const open = t.getAttribute('aria-expanded') === 'true';
+            // With hover, a click on an already-open trigger keeps it open (it was opened by hover).
+            const open = t.getAttribute('aria-expanded') === 'true' && !canHover.matches;
             closePanels(t);
             t.setAttribute('aria-expanded', open ? 'false' : 'true');
             panel.hidden = open;
         });
+    });
+
+    // Desktop (mouse/trackpad): open on hover, close shortly after the pointer leaves trigger + panel.
+    const canHover = window.matchMedia('(hover: hover) and (pointer: fine)');
+    let hoverTimer = null;
+    function openPanel(t) {
+        clearTimeout(hoverTimer);
+        closePanels(t);
+        t.setAttribute('aria-expanded', 'true');
+        document.getElementById(t.dataset.nhPanel).hidden = false;
+    }
+    function scheduleClose() {
+        clearTimeout(hoverTimer);
+        hoverTimer = setTimeout(function () { closePanels(); }, 200);
+    }
+    triggers.forEach(function (t) {
+        const panel = document.getElementById(t.dataset.nhPanel);
+        t.addEventListener('mouseenter', function () { if (canHover.matches && window.innerWidth >= 1200) openPanel(t); });
+        t.addEventListener('mouseleave', function () { if (canHover.matches) scheduleClose(); });
+        panel.addEventListener('mouseenter', function () { clearTimeout(hoverTimer); });
+        panel.addEventListener('mouseleave', function () { if (canHover.matches) scheduleClose(); });
     });
 
     header.querySelectorAll('.nh-close').forEach(function (b) {
@@ -399,8 +425,8 @@ document.addEventListener('DOMContentLoaded', function () {
         setMobile(mobile.hidden);
     });
 
-    // Opening a modal from inside the mobile menu should close the menu first.
-    mobile.querySelectorAll('[data-bs-toggle="modal"]').forEach(function (b) {
+    // Opening a modal or jumping to a section from inside the mobile menu should close the menu first.
+    mobile.querySelectorAll('[data-bs-toggle="modal"], a[href^="#"], a[href*="#portfolio"]').forEach(function (b) {
         b.addEventListener('click', function () { setMobile(false); });
     });
 

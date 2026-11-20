@@ -443,7 +443,7 @@
     <!-- PORTFOLIO SECTION -->
 
 
-    <section class="hs-g-portfolio section-gap-top">
+    <section class="hs-g-portfolio section-gap-top" id="portfolio">
 
         <div class="container-hs-g text-center">
 
