@@ -10,7 +10,7 @@ $ft_social = [
     ['YouTube', '#', 'youtube'],
 ];
 $ft_explore = [['Home', 'index.php'], ['Who We Are', 'who-we-are.php'], ['What We Do', 'what-we-do.php'], ['How We Work', 'how-we-work.php'],
-    ['Our Leadership', 'our-leadership.php'], ['Portfolio', '#'], ['Blog', '#'], ['Contact Us', '#']];
+    ['Our Leadership', 'our-leadership.php'], ['Portfolio', '#'], ['Blog', 'https://iynixdigital.com/blog/'], ['Contact Us', '#']];
 ?>
 <style>
     .ft {

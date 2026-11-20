@@ -252,7 +252,7 @@ $nh_chevron = '<img src="assets/images/icons/nav/chevron.svg" alt="" width="16" 
             <button type="button" class="nh-link" aria-expanded="false" aria-controls="nh-about-panel" data-nh-panel="nh-about-panel">About <?= $nh_chevron ?></button>
             <button type="button" class="nh-link" aria-expanded="false" aria-controls="nh-services-panel" data-nh-panel="nh-services-panel">Services <?= $nh_chevron ?></button>
             <a class="nh-link" href="#">Portfolio</a>
-            <a class="nh-link" href="#">Blogs</a>
+            <a class="nh-link" href="https://iynixdigital.com/blog/">Blogs</a>
             <a class="nh-link" href="#">Contact</a>
         </nav>
 
@@ -337,7 +337,7 @@ $nh_chevron = '<img src="assets/images/icons/nav/chevron.svg" alt="" width="16" 
 
         <div class="mt-3">
             <a class="nh-m-link" href="#">Portfolio</a>
-            <a class="nh-m-link" href="#">Blogs</a>
+            <a class="nh-m-link" href="https://iynixdigital.com/blog/">Blogs</a>
             <a class="nh-m-link" href="#">Contact</a>
         </div>
 
