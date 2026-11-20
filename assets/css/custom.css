@@ -2749,6 +2749,12 @@
     padding: 0px !important;
 }
 
+/* The class sits on both the section and its inner row; only the row
+   should be pushed down, or the grey band gets a white strip above it. */
+section.problem-find-section {
+    margin-top: 0;
+}
+
 .problem-find-checkicon > ul > li {
     list-style-type: none;
     color:#101010;
@@ -2815,7 +2821,8 @@
     border:1px solid #E8E8E8;
     border-radius:8px;
     background-color: #F7F7F7;
-    height:100%;
+    /* the 48px top margin would otherwise push the card past its column */
+    height:calc(100% - 48px);
 }
 
 .mobile-app-optimization-ai >ul{

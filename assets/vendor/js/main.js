@@ -21,7 +21,10 @@ document.addEventListener('DOMContentLoaded', function () {
 function initScrollReveal() {
     // This file is shared across pages via the same <script> include;
     // keep the animation scoped to the homepage only, as requested.
-    var isHomepage = !document.querySelector('.services-hero');
+    // Service/about pages carry body.service-page (or seo-page); the homepage has no body class.
+    var isHomepage = !document.querySelector('.services-hero') &&
+        !document.body.classList.contains('service-page') &&
+        !document.body.classList.contains('seo-page');
     if (!isHomepage) return;
 
     // Respect users who've asked their OS/browser to reduce motion.

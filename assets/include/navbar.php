@@ -1,575 +1,417 @@
-<!-- Bootstrap CSS + Bootstrap Icons are already linked in every page's own
-     <head> before this include, so they're deliberately not repeated here.
-     A duplicate <link> here used to re-load bootstrap.min.css inside <body>,
-     positioned after custom.css in the cascade - that silently overrode
-     custom.css's own rules (e.g. .ppc-section's margin-top) with
-     Bootstrap's defaults on every page. -->
+<?php
+// Site header — matches Figma "Website header" frames (Desktop 1588:11142, Desktop/Menu open 1588:11196,
+// Tablet 1588:11388, Mobile 1588:11670, Mobile/Menu open 1588:11700).
+// Bootstrap CSS + Bootstrap Icons + Inter are linked in every page's <head>; only Mulish (menu headings) is added here.
+// Do NOT re-link bootstrap.min.css here: loading it inside <body> after custom.css overrides custom.css rules.
+include_once __DIR__ . '/services-menu.php';
+$nh_services = iynix_services_by_title($iynix_services);
+$nh_chevron = '<img src="assets/images/icons/nav/chevron.svg" alt="" width="16" height="16" class="nh-chevron">';
+?>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Mulish:wght@900&display=swap" rel="stylesheet">
 
 <style>
-    .nav-header {
+    .nh-header {
         position: sticky;
         top: 0;
+        z-index: 999;
         background: #fff;
         border-bottom: 1px solid #eaeaea;
-        box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.06);
-        z-index: 999;
-        font-family: var(--bs-font-sans-serif);
+        font-family: 'Inter', var(--bs-font-sans-serif);
     }
-    /* No override here on purpose: .container keeps Bootstrap's normal
-       responsive max-width (tops out at 1540px, same as every content
-       section on the page) so the nav lines up with the page content
-       instead of stretching edge-to-edge. */
 
-    .nav-wrap {
+    .nh-bar {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: calc(var(--bs-gutter-x) * .5) 0;
-        position: relative;
+        height: 104px;
     }
 
-    .nav-logo {
-        font-size: 28px;
-        font-weight: 700;
-        color: var(--bs-body-color);
+    .nh-logo { display: block; width: 141px; height: 44px; flex-shrink: 0; }
+    .nh-logo img { display: block; width: 100%; height: 100%; }
+
+    .nh-primary { display: flex; align-items: center; gap: 48px; }
+
+    .nh-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 16px 0;
+        background: none;
+        border: 0;
+        font: 500 16px/24px 'Inter', sans-serif;
+        color: #666;
         text-decoration: none;
-        flex: 1;
-    }
-
-    .nav-logo img {
-        height: 40px;
-        width: auto;
-        display: block;
-    }
-
-    .nav-center {
-        flex: 2;
-        display: flex;
-        justify-content: center;
-    }
-
-    .nav-menu {
-        display: flex;
-        gap: 40px;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    .nav-item {
-        padding: 12px 0;
-    }
-
-    .nav-link {
-        text-decoration: none;
-        color: var(--bs-body-color);
-        font-weight: 600;
         cursor: pointer;
-        transition: color 0.3s ease;
+        transition: color .2s ease;
     }
 
-    .nav-link:hover {
-        color: #D81F28;
-    }
+    .nh-link:hover, .nh-link:focus-visible, .nh-link.is-active { color: #d81f28; }
+    .nh-link .nh-chevron { transition: transform .25s ease; }
+    .nh-link[aria-expanded="true"] { color: #d81f28; }
+    .nh-link[aria-expanded="true"] .nh-chevron { transform: rotate(180deg); }
 
-    .nav-btn-wrap {
-        flex: 1;
-        display: flex;
-        justify-content: flex-end;
-    }
+    .nh-actions { display: flex; align-items: center; gap: 24px; }
 
-    .nav-btn {
-        background: #D81F28;
+    .nh-cta {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 56px;
+        width: 128px;
+        background: #101010;
         color: #fff;
-        padding: 12px 24px;
-        border-radius: 10px;
-        text-decoration: none;
-        font-weight: 600;
+        border: 0;
+        border-radius: 8px;
+        font: 600 16px/24px 'Inter', sans-serif;
+        transition: background .2s ease;
     }
 
-    .nav-mega {
+    .nh-cta:hover { background: #d81f28; color: #fff; }
+
+    .nh-icon-btn {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        padding: 0;
+        background: none;
+        border: 0;
+        border-radius: 8px;
+        color: #101010;
+        font-size: 28px;
+        line-height: 1;
+    }
+
+    .nh-icon-btn img { width: 24px; height: 24px; display: block; }
+
+    /* ---------- Desktop drop panels (Services / About) ---------- */
+    .nh-panel {
         position: absolute;
         top: 100%;
         left: 0;
-        width: 100%;
-        background: #FDFDFD;
-        border-top: 3px solid #D81F28;
-        padding: 40px calc(var(--bs-gutter-x) * .5);
-        border-radius: 0 0 20px 20px;
-        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
-        opacity: 0;
-        visibility: hidden;
-        transform: translateY(-10px);
-        transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+        right: 0;
+        background: #fff;
+        border-bottom: 1px solid #eaeaea;
+        box-shadow: 0 16px 32px rgba(16, 16, 16, .06);
+        padding: 32px 0 40px;
+        max-height: calc(100vh - 104px);
+        overflow-y: auto;
     }
 
-    .nav-services:hover .nav-mega,
-    .nav-about:hover .nav-mega {
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(0);
-    }
+    .nh-panel[hidden] { display: none; }
 
-    .nav-grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 40px;
-    }
+    .nh-panel-head { display: flex; align-items: center; margin-bottom: 24px; }
 
-    .nav-col h6 {
-        margin: 0 0 15px;
-        /* font-size: 20px; */
-        font-weight: 600;
-        color: #D81F28;
-    }
-
-    .nav-col ul {
-        list-style: none;
-        padding: 0;
+    .nh-panel-title {
+        flex: 1;
         margin: 0;
+        font: 900 24px/32px 'Mulish', sans-serif;
+        color: #101010;
     }
 
-    .nav-col li {
-        margin-bottom: 10px;
+    .nh-panel .nh-icon-btn { display: inline-flex; }
+
+    .nh-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
+    .nh-col { display: flex; flex-direction: column; gap: 24px; }
+
+    .nh-group-title {
+        margin: 0 0 12px;
+        font: 900 16px/24px 'Mulish', sans-serif;
+        color: #101010;
     }
 
-    .nav-col a {
-        color: var(--bs-body-color);
+    .nh-sublinks { list-style: none; margin: 0; padding: 0; }
+
+    .nh-sublinks a {
+        display: block;
+        padding: 5px 0;
+        font: 400 14px/24px 'Inter', sans-serif;
+        color: #666;
         text-decoration: none;
-        transition: color 0.3s ease;
+        transition: color .2s ease;
     }
 
-    .nav-col a:hover {
-        color: #D81F28;
-        text-decoration: underline;
-    }
+    .nh-sublinks a:hover { color: #d81f28; }
 
-    /* Services mega menu — text columns */
-    .nav-services .nav-grid {
-        gap: 0;
-    }
+    .nh-divider { height: 1px; background: #eaeaea; margin: 24px 0; }
 
-    .nav-services .nav-col {
-        padding: 0 32px;
-        border-right: 1px solid #ececec;
-    }
+    .nh-panel-foot { display: flex; align-items: center; gap: 32px; }
 
-    .nav-services .nav-col:first-child {
-        padding-left: 0;
-    }
+    .nh-panel-foot div { flex: 1; margin: 0; font: 600 16px/24px 'Inter', sans-serif; color: #101010; }
 
-    .nav-services .nav-col:last-child {
-        border-right: none;
-    }
-
-    .nav-services .nav-col h6 {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        padding-bottom: 12px;
-        margin-bottom: 16px;
-        border-bottom: 1px solid #f0f0f0;
-    }
-
-    .nav-services .nav-col h6 i {
-        font-size: 1.05rem;
-        color: #D81F28;
-    }
-
-    .nav-services .nav-col li {
-        margin-bottom: 2px;
-    }
-
-    .nav-services .nav-col a {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        padding: 7px 10px;
-        margin: 0 -10px;
-        border-radius: 8px;
-    }
-
-    .nav-services .nav-col a::before {
-        content: "";
-        width: 5px;
-        height: 5px;
-        border-radius: 50%;
-        background: #D3D3D3;
-        flex-shrink: 0;
-        transition: background 0.25s ease;
-    }
-
-    .nav-services .nav-col a:hover {
-        background: #FBEAEA;
-        color: #D81F28;
-        text-decoration: none;
-        transform: translateX(2px);
-    }
-
-    .nav-services .nav-col a:hover::before {
-        background: #D81F28;
-    }
-
-    /* About mega menu — image cards */
-    .nav-about .nav-col a:hover {
+    .nh-panel-foot a {
+        flex: 1;
+        padding: 8px 0;
+        font: 600 16px/24px 'Inter', sans-serif;
+        color: #666;
         text-decoration: none;
     }
 
-    .nav-menu-img {
+    .nh-panel-foot a:hover { color: #d81f28; }
+
+    .nh-about-card { display: block; text-decoration: none; }
+
+    .nh-about-card img {
+        display: block;
         width: 100%;
         height: 150px;
         object-fit: cover;
-        border-radius: 20px;
-        margin-bottom: 16px;
-        transition: 0.3s ease;
-        display: block;
+        border-radius: 12px;
+        margin-bottom: 12px;
+        transition: transform .3s ease;
     }
 
-    .nav-col:hover .nav-menu-img {
-        transform: scale(1.03);
-    }
+    .nh-about-card span { font: 900 16px/24px 'Mulish', sans-serif; color: #101010; }
+    .nh-about-card:hover img { transform: scale(1.03); }
+    .nh-about-card:hover span { color: #d81f28; }
 
-    .nav-toggle {
-        display: none;
-        font-size: 30px;
-        cursor: pointer;
-    }
-    .nav-link {
-    display: flex !important;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.nav-arrow {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.3s ease;
-    margin-left: 10px;
-    line-height: 1;
-}
-
-/* desktop hover */
-.nav-services:hover .nav-arrow,
-.nav-about:hover .nav-arrow {
-    transform: rotate(180deg);
-}
-
-/* mobile open state */
-.nav-item.nav-open .nav-arrow {
-    transform: rotate(180deg);
-}
-
-/* Breakpoint is 991px (not the usual 767px) because at 768–991px
-   Bootstrap's own .container caps at 720px — too narrow to fit the
-   logo + 5 menu items + CTA button on one line without overlapping. */
-@media (max-width: 991px) {
-    .nav-toggle {
-        display: block !important;
-        font-size: 30px;
-        cursor: pointer;
-        z-index: 1001;
-    }
-
-    .nav-btn-wrap {
-        display: none !important;
-    }
-
-    .nav-center {
-        display: none !important;
-        /* position: fixed (not absolute) so the panel is anchored to the
-           viewport edges — position: absolute here would inherit .nav-wrap's
-           box, which sits inset by the .container's own left/right gutter,
-           leaving a sliver of page content visible on both sides. */
+    /* ---------- Mobile / tablet menu ---------- */
+    .nh-mobile {
         position: fixed;
-        top: 70px;
+        top: 104px;
         left: 0;
         right: 0;
-        width: auto;
-        max-height: calc(100vh - 70px);
-        max-height: calc(100dvh - 70px);
+        bottom: 0;
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
         background: #fff;
-        padding: 20px;
-        box-shadow: 0 12px 25px rgba(0,0,0,0.08);
-        z-index: 1000;
-        flex: unset !important;
+        padding: 16px 24px 32px;
     }
 
-    .nav-center.nav-active {
-        display: block !important;
-    }
+    .nh-mobile[hidden] { display: none; }
 
-    .nav-menu {
-      display: flex !important;
-        flex-direction: column;
-        gap: 0;
-        width: 100%;
-    }
-
-    .nav-item {
-        cursor: pointer;
-        padding: 14px 0;
-    }
-
-    .nav-link {
-        display: inline-flex;
-        width: 100%;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .nav-mega {
-        position: static !important;
-        width: 100%;
-        padding: 12px 0 0;
-        border-top: none;
-        box-shadow: none;
-        display: none;
-        opacity: 1 !important;
-        visibility: visible !important;
-        transform: none !important;
-    }
-
-    .nav-services .nav-col {
-        padding: 0;
-        border-right: none;
-        border-bottom: 1px solid #f0f0f0;
-        padding-bottom: 16px;
-        margin-bottom: 16px;
-    }
-
-    .nav-services .nav-col:last-child {
-        border-bottom: none;
-        margin-bottom: 0;
-    }
-
-    .nav-item.nav-open .nav-mega {
+    .nh-m-link {
         display: block;
+        padding: 12px 0;
+        font: 500 16px/24px 'Inter', sans-serif;
+        color: #666;
+        text-decoration: none;
     }
 
-    .nav-grid {
-        display: block !important;
+    .nh-m-link:hover { color: #d81f28; }
+
+    .nh-acc { border-bottom: 1px solid #eaeaea; }
+
+    .nh-acc > summary {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 12px 0;
+        list-style: none;
+        cursor: pointer;
+        font: 500 16px/24px 'Inter', sans-serif;
+        color: #101010;
     }
 
-    .nav-col {
-        margin-bottom: 20px;
+    .nh-acc > summary::-webkit-details-marker { display: none; }
+    .nh-acc > summary span { flex: 1; }
+    .nh-acc > summary .nh-chevron { transition: transform .25s ease; }
+    .nh-acc[open] > summary .nh-chevron { transform: rotate(180deg); }
+    .nh-acc .nh-sublinks { padding: 0 0 12px 12px; }
+
+    .nh-m-label {
+        margin: 16px 0 8px;
+        font: 900 16px/24px 'Mulish', sans-serif;
+        color: #101010;
     }
 
-    .nav-menu-img {
-        width: 100%;
-        height: 140px;
-        margin-bottom: 12px;
+    .nh-m-cta { width: 100%; height: 52px; margin-top: 16px; }
+
+    .nh-m-contact { margin-top: 16px; display: flex; flex-direction: column; gap: 8px; }
+    .nh-m-contact a { font: 400 14px/24px 'Inter', sans-serif; color: #666; text-decoration: none; }
+
+    body.nh-lock { overflow: hidden; }
+
+    /* Tablet: Let's Talk + hamburger (Figma Tablet 834px) */
+    @media (max-width: 1199.98px) {
+        .nh-bar { height: 88px; }
+        .nh-primary, .nh-panel { display: none !important; }
+        .nh-icon-btn.nh-burger { display: inline-flex; }
+        .nh-mobile { top: 88px; }
+        .nh-m-cta, .nh-m-contact { display: none; }
     }
-}
+
+    /* Mobile: hamburger only, CTA moves into the menu (Figma Mobile 390px) */
+    @media (max-width: 767.98px) {
+        .nh-bar { height: 80px; }
+        .nh-actions .nh-cta { display: none; }
+        .nh-mobile { top: 80px; }
+        .nh-m-cta { display: inline-flex; }
+        .nh-m-contact { display: flex; }
+    }
 </style>
 
-<header class="nav-header">
-    <div class="container">
-        <div class="nav-wrap">
+<header class="nh-header">
+    <div class="container nh-bar">
 
-            <a href="index.php" class="nav-logo"><img src="assets/images/brand/Iynix-Logo.svg" alt="iYnix Digital"></a>
+        <a href="index.php" class="nh-logo"><img src="assets/images/icons/nav/header-logo.svg" alt="iYnix Digital" width="141" height="44"></a>
 
-            <div class="nav-center">
-                <ul class="nav-menu">
+        <nav class="nh-primary" aria-label="Primary">
+            <a class="nh-link" href="index.php">Home</a>
+            <button type="button" class="nh-link" aria-expanded="false" aria-controls="nh-about-panel" data-nh-panel="nh-about-panel">About <?= $nh_chevron ?></button>
+            <button type="button" class="nh-link" aria-expanded="false" aria-controls="nh-services-panel" data-nh-panel="nh-services-panel">Services <?= $nh_chevron ?></button>
+            <a class="nh-link" href="#">Portfolio</a>
+            <a class="nh-link" href="#">Blogs</a>
+            <a class="nh-link" href="#">Contact</a>
+        </nav>
 
-                
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php">Home</a>
-                    </li>
+        <div class="nh-actions">
+            <button type="button" class="nh-cta" data-bs-toggle="modal" data-bs-target="#hsFormModal">Let’s Talk</button>
+            <button type="button" class="nh-icon-btn nh-burger" aria-label="Open menu" aria-expanded="false" aria-controls="nh-mobile-menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="#101010" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </button>
+        </div>
+    </div>
 
-                    <li class="nav-item nav-services">
-                        <a class="nav-link" href="seo-service.php">
-        <span>Services</span>
-        <span class="nav-arrow">
-            <svg viewBox="0 0 24 24" width="16" height="16">
-                <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/>
-            </svg>
-        </span>
-    </a>
-
-                        <div class="nav-mega">
-                            <div class="nav-grid">
-
-                                <div class="nav-col">
-                                    <h6><i class="bi bi-graph-up-arrow"></i>Digital Marketing</h6>
-                                    <ul>
-                                        <li><a href="seo-service.php" class="p-xsm">SEO</a></li>
-                                        <li><a href="link-building.php" class="p-xsm">Link Building</a></li>
-                                        <li><a href="#" class="p-xsm">SEO Audit</a></li>
-                                        <li><a href="#" class="p-xsm">Local SEO Services</a></li>
-                                        <li><a href="page-speed-optimization.php" class="p-xsm">Page Speed Optimization</a></li>
-                                        <li><a href="#" class="p-xsm">Product Marketing</a></li>
-                                        <li><a href="content-marketing.php" class="p-xsm">Content Marketing</a></li>
-                                        <li><a href="ppc_management.php" class="p-xsm">PPC Management Services</a></li>
-                                        <li><a href="email-marketing.php" class="p-xsm">Email Marketing</a></li>
-                                        <li><a href="#" class="p-xsm">B2B Marketing</a></li>
-                                        <li><a href="#" class="p-xsm">B2C Marketing</a></li>
-                                        <li><a href="#" class="p-xsm">B2C and D2C</a></li>
-                                    </ul>
-                                </div>
-
-                                <div class="nav-col">
-                                    <h6><i class="bi bi-share-fill"></i>Social Media</h6>
-                                    <ul>
-                                        <li><a href="#" class="p-xsm">Social Media Ads</a></li>
-                                        <li><a href="social-media-marketing.php" class="p-xsm">Social Media Marketing</a></li>
-                                    </ul>
-                                    <br>
-                                    <h6><i class="bi bi-phone"></i>Mobile Application Development</h6>
-                                    <ul>
-                                        <li><a href="app-design-development.php" class="p-xsm">iOS App Development</a></li>
-                                        <li><a href="app-design-development.php" class="p-xsm">Android App Development</a></li>
-                                        <li><a href="app-design-development.php" class="p-xsm">Flutter App Development</a></li>
-                                        <li><a href="app-design-development.php" class="p-xsm">React Native App Development</a></li>
-                                        <li><a href="app-design-development.php" class="p-xsm">Mobile App Testing and Quality Assurance</a></li>
-                                        <li><a href="app-design-development.php" class="p-xsm">App Optimization and Performance Tuning</a></li>
-                                        <li><a href="app-design-development.php" class="p-xsm">Mobile App Store Submission and Optimization</a></li>
-                                    </ul>
-                                </div>
-
-                                <div class="nav-col">
-                                    <h6><i class="bi bi-code-slash"></i>Website Development</h6>
-                                    <ul>
-                                        <li><a href="website-development.php" class="p-xsm">Website Design & Development</a></li>
-                                        <li><a href="#" class="p-xsm">Website Redesign</a></li>
-                                        <li><a href="cro-services.php" class="p-xsm">Website Optimisation</a></li>
-                                        <li><a href="cro-audit.php" class="p-xsm">Conversion Rate Audit</a></li>
-                                        <li><a href="user-behavior-analytics.php" class="p-xsm">User Behavior Analytics</a></li>
-                                        <li><a href="user-experience-testing.php" class="p-xsm">User Experience Testing</a></li>
-                                        <li><a href="#" class="p-xsm">Rapid Website Design</a></li>
-                                        <li><a href="#" class="p-xsm">E-Mail Newsletter Design Services</a></li>
-                                    </ul>
-                                    <br>
-                                    <h6><i class="bi bi-cart3"></i>E-commerce Solutions</h6>
-                                    <ul>
-                                        <li><a href="#" class="p-xsm">E-commerce SEO</a></li>
-                                        <li><a href="#" class="p-xsm">E-commerce Optimization</a></li>
-                                        <li><a href="ecommerce-marketing.php" class="p-xsm">E-commerce Marketing</a></li>
-                                    </ul>
-                                </div>
-
-                                <div class="nav-col">
-                                    <h6><i class="bi bi-palette2"></i>UI/UX Design</h6>
-                                    <ul>
-                                        <li><a href="#" class="p-xsm">UI Design Services</a></li>
-                                        <li><a href="#" class="p-xsm">UX Design Services</a></li>
-                                        <li><a href="#" class="p-xsm">Prototyping</a></li>
-                                        <li><a href="#" class="p-xsm">Interaction Design</a></li>
-                                        <li><a href="#" class="p-xsm">Mobile App Design</a></li>
-                                        <li><a href="#" class="p-xsm">Website Design</a></li>
-                                        <li><a href="#" class="p-xsm">Responsive Design</a></li>
-                                        <li><a href="#" class="p-xsm">Product Design</a></li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="nav-item nav-about">
-                        <a class="nav-link" href="#">
-        <span>About</span>
-        <span class="nav-arrow">
-            <svg viewBox="0 0 24 24" width="16" height="16">
-                <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/>
-            </svg>
-        </span>
-    </a>
-
-                        <div class="nav-mega">
-                            <div class="nav-grid">
-
-                                <div class="nav-col">
-                                    <a href=""><img src="assets/images/shared/photos/office-high-five.png" alt="Who We Are" class="nav-menu-img">
-                                    <h6>Who We Are</h6></a>
-                                </div>
-
-                                <div class="nav-col">
-                                    <a href=""><img src="assets/images/shared/photos/Business-goals.png" alt="What We Do" class="nav-menu-img">
-                                    <h6>What We Do</h6></a>
-                                </div>
-
-                                <div class="nav-col">
-                                    <a href=""><img src="assets/images/shared/photos/Still-Confused.png" alt="Our Work" class="nav-menu-img">
-                                    <h6>How We Work</h6></a>
-                                </div>
-
-                                <div class="nav-col">
-                                    <a href=""><img src="assets/images/shared/photos/cash-and-chess.png" alt="Our Leadership" class="nav-menu-img">
-                                    <h6>Our Leadership</h6></a>
-                                </div>
-
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-
-                </ul>
+    <!-- Desktop: Services mega menu -->
+    <div class="nh-panel" id="nh-services-panel" hidden>
+        <div class="container">
+            <div class="nh-panel-head">
+                <div class="nh-panel-title">Our services</div>
+                <button type="button" class="nh-icon-btn nh-close" aria-label="Close services"><img src="assets/images/icons/nav/close.svg" alt=""></button>
             </div>
-
-            <div class="nav-btn-wrap">
-                <!-- <a href="#" class="nav-btn">Get Proposal</a> -->
-            
-            <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#hsFormModal"
-                        style="width: fit-content;">
-                        Get Proposal
-                    </button>
+            <div class="nh-grid">
+                <?php for ($c = 1; $c <= 4; $c++): ?>
+                <div class="nh-col">
+                    <?php foreach ($iynix_services as $grp): if ($grp['col'] !== $c) continue; ?>
+                    <div>
+                        <div class="nh-group-title"><?= htmlspecialchars($grp['title']) ?></div>
+                        <ul class="nh-sublinks">
+                            <?php foreach ($grp['links'] as [$label, $href]): ?>
+                            <li><a href="<?= $href ?>"><?= htmlspecialchars($label) ?></a></li>
+                            <?php endforeach; ?>
+                        </ul>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
+                <?php endfor; ?>
             </div>
+            <div class="nh-divider"></div>
+            <div class="nh-panel-foot">
+                <div>Not sure where to start?</div>
+                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#hsCalendarModal">Talk to our team</a>
+            </div>
+        </div>
+    </div>
 
-            <div class="nav-toggle">&#9776;</div>
+    <!-- Desktop: About panel -->
+    <div class="nh-panel" id="nh-about-panel" hidden>
+        <div class="container">
+            <div class="nh-panel-head">
+                <div class="nh-panel-title">About us</div>
+                <button type="button" class="nh-icon-btn nh-close" aria-label="Close about"><img src="assets/images/icons/nav/close.svg" alt=""></button>
+            </div>
+            <div class="nh-grid">
+                <?php foreach ($iynix_about as [$label, $href, $img]): ?>
+                <a class="nh-about-card" href="<?= $href ?>"><img src="<?= $img ?>" alt="<?= htmlspecialchars($label) ?>"><span><?= htmlspecialchars($label) ?></span></a>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </div>
 
+    <!-- Tablet / mobile menu -->
+    <div class="nh-mobile" id="nh-mobile-menu" hidden>
+        <a class="nh-m-link" href="index.php">Home</a>
+
+        <details class="nh-acc">
+            <summary><span>About</span><?= $nh_chevron ?></summary>
+            <ul class="nh-sublinks">
+                <?php foreach ($iynix_about as [$label, $href]): ?>
+                <li><a href="<?= $href ?>"><?= htmlspecialchars($label) ?></a></li>
+                <?php endforeach; ?>
+            </ul>
+        </details>
+
+        <div class="nh-m-label">Services</div>
+        <?php foreach ($iynix_services_order as $t): $grp = $nh_services[$t]; ?>
+        <details class="nh-acc">
+            <summary><span><?= htmlspecialchars($grp['title']) ?></span><?= $nh_chevron ?></summary>
+            <ul class="nh-sublinks">
+                <?php foreach ($grp['links'] as [$label, $href]): ?>
+                <li><a href="<?= $href ?>"><?= htmlspecialchars($label) ?></a></li>
+                <?php endforeach; ?>
+            </ul>
+        </details>
+        <?php endforeach; ?>
+
+        <div class="mt-3">
+            <a class="nh-m-link" href="#">Portfolio</a>
+            <a class="nh-m-link" href="#">Blogs</a>
+            <a class="nh-m-link" href="#">Contact</a>
+        </div>
+
+        <button type="button" class="nh-cta nh-m-cta" data-bs-toggle="modal" data-bs-target="#hsFormModal">Let’s Talk</button>
+        <div class="nh-m-contact">
+            <a href="tel:<?= $iynix_contact['tel'] ?>"><?= $iynix_contact['phone'] ?></a>
+            <a href="mailto:<?= $iynix_contact['email'] ?>"><?= $iynix_contact['email'] ?></a>
         </div>
     </div>
 </header>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-    const toggle = document.querySelector('.nav-toggle');
-    const navCenter = document.querySelector('.nav-center');
-    const items = document.querySelectorAll('.nav-item');
+    const header = document.querySelector('.nh-header');
+    if (!header) return;
+    const triggers = header.querySelectorAll('[data-nh-panel]');
+    const burger = header.querySelector('.nh-burger');
+    const mobile = document.getElementById('nh-mobile-menu');
 
-    // mobile menu toggle
-    toggle.addEventListener('click', function () {
-        navCenter.classList.toggle('nav-active');
+    function closePanels(except) {
+        triggers.forEach(function (t) {
+            if (t === except) return;
+            t.setAttribute('aria-expanded', 'false');
+            document.getElementById(t.dataset.nhPanel).hidden = true;
+        });
+    }
+
+    triggers.forEach(function (t) {
+        t.addEventListener('click', function (e) {
+            e.stopPropagation();
+            const panel = document.getElementById(t.dataset.nhPanel);
+            const open = t.getAttribute('aria-expanded') === 'true';
+            closePanels(t);
+            t.setAttribute('aria-expanded', open ? 'false' : 'true');
+            panel.hidden = open;
+        });
     });
 
-    // submenu toggle on full item block click
-    // NOTE: width is checked live inside the click handler (not once at page
-    // load) so this keeps working correctly if the viewport is resized after
-    // load — e.g. via Chrome DevTools device toolbar — without a refresh.
-    items.forEach(item => {
-        const mega = item.querySelector('.nav-mega');
-
-        if (mega) {
-            item.addEventListener('click', function (e) {
-                if (window.innerWidth > 991) return; // desktop: hover/link behaves normally
-
-                // prevent anchor navigation
-                e.preventDefault();
-                e.stopPropagation();
-
-                this.classList.toggle('nav-open');
-            });
-        }
+    header.querySelectorAll('.nh-close').forEach(function (b) {
+        b.addEventListener('click', function () { closePanels(); });
     });
 
-    // if the viewport is resized back to desktop width while the mobile
-    // menu/submenu is open, clear that state so nothing is left "stuck"
+    // Clicks inside a panel stay in it; anywhere else closes it.
+    header.querySelectorAll('.nh-panel').forEach(function (p) {
+        p.addEventListener('click', function (e) { e.stopPropagation(); });
+    });
+    document.addEventListener('click', function () { closePanels(); });
+
+    function setMobile(open) {
+        mobile.hidden = !open;
+        burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+        burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+        burger.innerHTML = open ? '<img src="assets/images/icons/nav/close.svg" alt="">' : '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="#101010" stroke-width="1.8" stroke-linecap="round"/></svg>';
+        document.body.classList.toggle('nh-lock', open);
+    }
+
+    burger.addEventListener('click', function (e) {
+        e.stopPropagation();
+        setMobile(mobile.hidden);
+    });
+
+    // Opening a modal from inside the mobile menu should close the menu first.
+    mobile.querySelectorAll('[data-bs-toggle="modal"]').forEach(function (b) {
+        b.addEventListener('click', function () { setMobile(false); });
+    });
+
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') { closePanels(); setMobile(false); }
+    });
+
+    // Leaving the tablet/mobile range with the menu open must not leave it stuck.
     window.addEventListener('resize', function () {
-        if (window.innerWidth > 991) {
-            navCenter.classList.remove('nav-active');
-            items.forEach(item => item.classList.remove('nav-open'));
-        }
+        if (window.innerWidth >= 1200 && !mobile.hidden) setMobile(false);
+        if (window.innerWidth < 1200) closePanels();
     });
 });
 </script>

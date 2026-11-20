@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile App Testing</title>
+    <title>Mobile App Testing Services | Find Bugs Before Your Users Do</title>
     <meta name="description"
-        content="Improve website performance with professional page speed optimization services - faster loading times, better Core Web Vitals, and higher conversions from Iynix Digital.">
+        content="Find and fix app bugs before release. Iynix Digital provides mobile app testing services for Android and iOS, including manual testing, test automation, real device testing, and cloud testing.">
     <link href="assets/vendor/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +28,7 @@
 
 
     <!-- Hero Section  -->
-    <section class="main-banner mobile-app-development-banner">
+    <section class="main-banner mobile-app-testing-banner">
         <div class="container d-flex overflow-h flex-column flex-md-column flex-lg-row">
 
             <div class="container d-flex flex-column justify-content-center hero-banner-text m-0"
@@ -42,7 +42,7 @@
                 <div class="container d-flex gap-3">
                     <button class="btn btn-secondary mt-5" data-bs-toggle="modal" data-bs-target="#hsFormModal"
                         style="width: fit-content;">
-                        Get a Free Speed Audit!
+                        Get a Free App Testing Assessment
                     </button>
                     <a href="javascript:void(0)"><button class="btn btn-primary accent mt-5" data-bs-toggle="modal" data-bs-target="#hsCalendarModal">Talk to a Testing Expert</button></a>
                 </div>
@@ -57,7 +57,7 @@
     <!-- Trusted by Brands section end -->
 
 
-    <!-- Poor website performance hurting business section start  -->
+    <!-- Is Your App Ready section start  -->
     <section class="section-gap">
         <div class="new-container">
             <div class="ss-a-heading ppc-main-heading text-center">
@@ -130,10 +130,10 @@
             </div>
         </div>
     </section>
-    <!-- Poor website performance hurting business section end  -->
+    <!-- Is Your App Ready section end  -->
 
 
-    <!-- Professional page speed optimization services section start  -->
+    <!-- Testing Built Around Your App section start  -->
     <section class="ppc-section-main section-gap">
         <div class="new-container">
             <div class="ss-a-heading">
@@ -145,20 +145,20 @@
             <div class="row g-3">
                 <div class="col-lg-12 col-md-6">
                     <div class="h-100">
-                        <p class="fw-medium mt-3 p-xsm ppc-text">Website speed plays a major role in user experience, SEO performance, and lead generation. Even a few extra seconds of loading time can reduce engagement and sales.</p>
-                        <p class="fw-medium mt-3 p-xsm ppc-text">At Iynix Digital, we provide professional site speed optimization services designed to improve website speed, increase performance, and create a better user experience.</p>
-                        <p class="fw-medium mt-3 p-xsm ppc-text">Our specialists analyze every aspect of your website, identify performance bottlenecks, and implement proven solutions that deliver measurable results.</p>
-                        <p class="fw-medium mt-3 p-xsm ppc-text">Whether you need WordPress speed optimization, mobile speed optimization, or complete website speed optimization, we build a strategy tailored to your business.</p>
+                        <p class="fw-medium mt-3 p-xsm ppc-text">Every app is different. A food delivery app, a banking app, and a healthcare app all have different users, features, and risks. That is why we do not use the same testing checklist for every project.</p>
+                        <p class="fw-medium mt-3 p-xsm ppc-text">At Iynix Digital, we start by understanding your app, your users, and the journeys that matter most to your business, such as sign-up, login, search, checkout, and payments.</p>
+                        <p class="fw-medium mt-3 p-xsm ppc-text">Our testers then check your Android and iOS app across real devices, operating system versions, screen sizes, and network conditions to find bugs before your users do.</p>
+                        <p class="fw-medium mt-3 p-xsm ppc-text">Whether you need manual testing, test automation, real device testing, or mobile app cloud testing services, we build a testing plan around your app and release cycle.</p>
                     </div>
                 </div>
             </div>
 
             <div class="mt-5">
-                <img src="assets/images/services/mobile-app-testing/mobile-app-testing-secong-img.webp" class="img-fluid rounded-4 w-100" alt="Page speed optimization performance dashboard">
+                <img src="assets/images/services/mobile-app-testing/mobile-app-testing-secong-img.webp" class="img-fluid rounded-4 w-100" alt="Mobile app testing across Android and iOS devices">
             </div>
         </div>
     </section>
-    <!-- Professional page speed optimization services section end  -->
+    <!-- Testing Built Around Your App section end  -->
 
      <!-- Mobile App Testing Services section start  -->
      <section class="section-gap development-proccess-section">
@@ -173,54 +173,54 @@
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="ios-development-proccess">
-                    <p class="fw-bolder p-text-21 mt-3">Website Speed Optimization</p>
+                    <p class="fw-bolder p-text-21 mt-3">Functional Testing</p>
                     <div>
-                        <p class="ppc-box-description ppc-text mt-3">A slow website can frustrate visitors and cause potential customers to leave before they even explore your services. Our website speed optimization service focuses on improving your website’s overall performance, reducing loading times, and creating a smoother user experience. We identify performance bottlenecks and implement proven solutions that help your website load faster and perform better across all devices.</p>   
+                        <p class="ppc-box-description ppc-text mt-3">We check every feature, screen, button, form, and user flow to make sure your app works exactly as intended. From sign-up and login to search, checkout, and account settings, we confirm that each function behaves correctly before your users rely on it.</p>   
                     </div>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="ios-development-proccess">
-                    <p class="fw-bolder p-text-21 mt-3">Page Speed Optimization</p>
+                    <p class="fw-bolder p-text-21 mt-3">Usability Testing</p>
                     <div>
-                        <p class="ppc-box-description ppc-text mt-3">Sometimes, specific pages on a website load slower than others due to large files, unnecessary code, or poor optimization. Our page speed optimization service focuses on improving the loading speed of individual pages, helping them achieve better performance scores and provide a faster experience for visitors. Faster pages can also improve search engine rankings and conversion rates.</p>
+                        <p class="ppc-box-description ppc-text mt-3">An app can work perfectly and still confuse users. We review navigation, layouts, onboarding, and key user journeys to find steps that feel slow, unclear, or frustrating, and share practical suggestions to make your app easier to use.</p>
                     </div>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="ios-development-proccess">
-                    <p class="fw-bolder p-text-21 mt-3">WordPress Speed Optimization</p>
+                    <p class="fw-bolder p-text-21 mt-3">Compatibility Testing</p>
                     <div>
-                        <p class="ppc-box-description ppc-text mt-3">WordPress websites often become slow because of heavy themes, plugins, or outdated configurations. Our WordPress speed optimization service is designed specifically for WordPress sites. We optimize themes, plugins, databases, and server settings to improve loading times, enhance website stability, and create a better experience for users.</p>
+                        <p class="ppc-box-description ppc-text mt-3">Your users do not all have the same phone. We test your app across different Android and iOS devices, operating system versions, screen sizes, and resolutions to make sure it looks and works properly for everyone.</p>
                        </div>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="ios-development-proccess">
-                    <p class="fw-bolder p-text-21 mt-3">Mobile Speed Optimization</p>
+                    <p class="fw-bolder p-text-21 mt-3">Performance Testing</p>
                     <div>
-                        <p class="ppc-box-description ppc-text mt-3">More people browse websites on mobile devices than ever before. If your website loads slowly on smartphones or tablets, you could be losing valuable traffic and leads. Our mobile speed optimization service improves loading times, usability, and performance for mobile users, ensuring they enjoy a fast and seamless browsing experience.</p>
+                        <p class="ppc-box-description ppc-text mt-3">We measure how your app behaves under real conditions, including launch time, screen loading speed, memory usage, battery consumption, and response time when many users access it at once. This helps you avoid slowdowns and crashes after release.</p>
                         </div>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="ios-development-proccess">
-                    <p class="fw-bolder p-text-21 mt-3">Core Web Vitals Optimization</p>
+                    <p class="fw-bolder p-text-21 mt-3">Security Testing</p>
                     <div>
-                        <p class="ppc-box-description ppc-text mt-3">Core Web Vitals are Google's key performance metrics that measure user experience on your website. These metrics focus on loading speed, visual stability, and interactivity. We optimize your website to improve Core Web Vitals scores, helping enhance user satisfaction and increasing your chances of achieving better search engine rankings.</p>
+                        <p class="ppc-box-description ppc-text mt-3">Mobile apps often handle personal and payment data. We check authentication, data storage, session handling, permissions, and API communication to find security gaps that could put your users and your business at risk.</p>
                     </div>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="ios-development-proccess">
-                    <p class="fw-bolder p-text-21 mt-3">Server Performance Optimization</p>
+                    <p class="fw-bolder p-text-21 mt-3">Regression Testing</p>
                     <div>
-                        <p class="ppc-box-description ppc-text mt-3">The speed of your website is heavily influenced by your hosting environment and server configuration. Our server performance optimization service focuses on reducing server response times, improving resource allocation, and optimizing server settings. This helps your website deliver content more efficiently and handle traffic more effectively.</p>
+                        <p class="ppc-box-description ppc-text mt-3">New updates should not break features that already work. We retest existing functionality after every release, bug fix, or new feature, so your app stays stable as it grows.</p>
                     </div>
                   </div>  
                 </div>
@@ -228,45 +228,45 @@
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="ios-development-proccess">
-                    <p class="fw-bolder p-text-21 mt-3">Image & Asset Optimization</p>
+                    <p class="fw-bolder p-text-21 mt-3">Mobile App Test Automation</p>
                     <div>
-                        <p class="ppc-box-description ppc-text mt-3">Large images, videos, and website files can significantly slow down your site. We optimize images, scripts, stylesheets, and other assets by reducing file sizes without sacrificing quality. This helps pages load faster while maintaining a professional appearance and excellent user experience.</p>
+                        <p class="ppc-box-description ppc-text mt-3">We create automated test scripts for repeated test cases such as login, navigation, forms, and checkout. Our mobile app test automation services reduce manual effort, speed up regression cycles, and support frequent releases.</p>
                     </div>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="ios-development-proccess">
-                    <p class="fw-bolder p-text-21 mt-3">Caching Configuration</p>
+                    <p class="fw-bolder p-text-21 mt-3">Real Device Testing</p>
                     <div>
-                        <p class="ppc-box-description ppc-text mt-3">Caching allows your website to store frequently accessed content so it can be delivered more quickly to returning visitors. Our caching configuration service implements advanced caching techniques that reduce server workload and improve website speed, resulting in faster page loading and better overall performance.</p>
+                        <p class="ppc-box-description ppc-text mt-3">Emulators cannot catch every problem. We test your app on real Android phones, iPhones, and tablets to find issues related to hardware, gestures, cameras, notifications, sensors, and real-world app behaviour.</p>
                     </div>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="ios-development-proccess">
-                    <p class="fw-bolder p-text-21 mt-3">Database Optimization</p>
+                    <p class="fw-bolder p-text-21 mt-3">Mobile App Cloud Testing</p>
                     <div>
-                        <p class="ppc-box-description ppc-text mt-3">Over time, website databases collect unnecessary data that can affect performance. Our database optimization service removes outdated information, cleans up unnecessary files, and improves database efficiency. This helps your website process requests faster and perform more smoothly.</p>
+                        <p class="ppc-box-description ppc-text mt-3">Our mobile app cloud testing services give your app access to a wide range of devices and operating systems through cloud-based testing platforms. This expands device coverage without the cost of maintaining every device in-house.</p>
                     </div>
                   </div>  
                 </div>
 
                 <div class="col-lg-6 col-md-6 col-sm-12">
                   <div class="ios-development-proccess">
-                    <p class="fw-bolder p-text-21 mt-3">Image & Asset Optimization</p>
+                    <p class="fw-bolder p-text-21 mt-3">API &amp; Integration Testing</p>
                     <div>
-                        <p class="ppc-box-description ppc-text mt-3">Large images, videos, and website files can significantly slow down your site. We optimize images, scripts, stylesheets, and other assets by reducing file sizes without sacrificing quality. This helps pages load faster while maintaining a professional appearance and excellent user experience.</p>
+                        <p class="ppc-box-description ppc-text mt-3">Most apps depend on backend services, payment gateways, maps, and third-party tools. We test APIs and integrations to make sure data is sent, received, and displayed correctly, even when a service responds slowly or fails.</p>
                     </div>
                   </div>  
                 </div>
 
                 <div class="col-lg-6 col-md-6 col-sm-12">
                   <div class="ios-development-proccess">
-                    <p class="fw-bolder p-text-21 mt-3">Caching Configuration</p>
+                    <p class="fw-bolder p-text-21 mt-3">Network &amp; Interruption Testing</p>
                     <div>
-                        <p class="ppc-box-description ppc-text mt-3">Caching allows your website to store frequently accessed content so it can be delivered more quickly to returning visitors. Our caching configuration service implements advanced caching techniques that reduce server workload and improve website speed, resulting in faster page loading and better overall performance.</p>
+                        <p class="ppc-box-description ppc-text mt-3">Real users switch between Wi-Fi and mobile data, lose signal, and receive calls while using your app. We test how your app handles slow networks, offline mode, incoming calls, notifications, and background switching without losing data or crashing.</p>
                     </div>
                   </div>  
                 </div>
@@ -286,8 +286,8 @@
             <div class="row" g-3>
                 <div class="ppc-service-headings">
                 <h2 class="fw-bold text-black">What  <span class="text-crimson"> Problems Do We Help </span>You Find?</h2>
-                <p class="pt-2 fw-normal p-16">Google wants to deliver the best experience possible to users. Website speed plays a major role in achieving that goal.</p>
-                <p class="pt-4 fw-bold p-16"><i>Page speed optimization helps:</i></p>
+                <p class="pt-2 fw-normal p-16">Some bugs are easy to spot. Others only appear on certain devices, networks, or user journeys. Our testing team looks for the issues that cause bad reviews and lost users.</p>
+                <p class="pt-4 fw-bold p-16"><i>We help you find:</i></p>
             </div>
             </div>
 
@@ -295,29 +295,29 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="problem-find-checkicon">
                         <ul>
-                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Improve Core Web Vitals</strong></span></li>
-                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Reduce loading delays</strong></span></li>
-                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Improve crawl efficiency</strong></span></li>
-                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Improve crawl efficiency</strong></span></li>
-                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Improve crawl efficiency</strong></span></li>
-                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Improve crawl efficiency</strong></span></li>
+                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>App crashes and freezes</strong></span></li>
+                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Login and sign-up errors</strong></span></li>
+                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Payment and checkout failures</strong></span></li>
+                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Broken buttons, forms, and links</strong></span></li>
+                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Layout issues on different screen sizes</strong></span></li>
+                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Slow loading screens</strong></span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 problem-find-checkicon">
                     <ul>
-                        <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Increase user engagement</strong></span></li>
-                        <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Support higher rankings</strong></span></li>
-                        <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Reduce bounce rates</strong></span></li>
-                        <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Reduce bounce rates</strong></span></li>
-                        <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Reduce bounce rates</strong></span></li>
-                        <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Reduce bounce rates</strong></span></li>
+                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Problems on slow or unstable networks</strong></span></li>
+                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Push notification issues</strong></span></li>
+                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Data sync and API errors</strong></span></li>
+                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Security and data storage gaps</strong></span></li>
+                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Bugs introduced by new updates</strong></span></li>
+                            <li class="fw-medium mt-4 p-16 ppc-text"><img src="assets/images/icons/checkicon.svg" alt=""> <span class="px-3"><strong>Device and OS compatibility issues</strong></span></li>
                     </ul>
                 </div>
             </div>
             <div class="text-center mt-5 problem-find-bottom-text">
                 <p class="fw-bold text-black mt-2 p-16">
-                  A faster website gives search engines and users a better experience.
+                  Finding these issues before launch saves your team time, money, and your app&#39;s reputation.
                 </p>
             </div>
         </div>
@@ -326,7 +326,7 @@
 
 
 
-     <!-- Still Relying Only on a Website section start  -->
+     <!-- Why Test Before Launch section start  -->
      <section class="section-gap ">
             <div class="new-container">
             <div class="row" g-3>
@@ -349,7 +349,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="business-ready-box">
                     <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
-                    <p class="fw-bolder p-xsm mt-3">Fewer bugs after launch</p>
+                    <p class="fw-bolder p-xsm mt-3">Better app stability</p>
                   </div>  
                 </div>
 
@@ -389,17 +389,17 @@
                 </div>
 
                  <div class="col-lg-12 col-md-12 col-sm-12 mt-5">
-                    <div class="mobile-testing-app-redline-box"><span class="border-reds mx-3"></span><p class="fw-bold p-16">Working with an experienced social media marketing agency for small businesses and enterprise brands ensures your campaigns are optimized for growth and profitability.</p></div>
+                    <div class="mobile-testing-app-redline-box"><span class="border-reds mx-3"></span><p class="fw-bold p-16">Testing before launch costs far less than fixing bugs after your users find them, leave bad reviews, or uninstall your app.</p></div>
                 </div>
 
             </div>
 
             </div>
         </section>
-    <!-- Still Relying Only on a Website section end  -->
+    <!-- Why Test Before Launch section end  -->
 
 
-    <!-- How website speed optimization improves user experience section start  -->
+    <!-- What Makes Us Different section start  -->
     <section class="section-gap testing-different-section">
         <div class="new-container">
             <div class="row" g-3>
@@ -414,31 +414,31 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="you-get-checkicon">
                         <ul>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Navigation speed</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Mobile usability</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Customer engagement</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Customer engagement</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Customer engagement</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Testers who understand your app and users</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Test plans built around real user journeys</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Coverage across Android and iOS</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Real device and cloud device testing</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>The right mix of manual and automated testing</strong></span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 you-get-checkicon">
                     <ul>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Session duration</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>User satisfaction</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Lead generation opportunities</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span ><strong>Lead generation opportunities</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Clear, easy-to-follow bug reports</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Priority-based issue tracking</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Retesting after every fix</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Direct communication with your developers</strong></span></li>
                     </ul>
                 </div>
             </div>
             <div class="text-center mt-5">
                 <p class="fw-bold text-crimson mt-2 p-16">
-                  A faster website creates a smoother experience from the first click to the final conversion.
+                  We do not just report bugs. We help your team understand what to fix first and why it matters to your users.
                 </p>
             </div>
         </div>
     </section>
-    <!-- How website speed optimization improves user experience section end  -->
+    <!-- What Makes Us Different section end  -->
 
     <!-- Our site speed optimization framework section start  -->
     <section class="section-gap">
@@ -446,7 +446,7 @@
             <div class="row" g-3>
                 <div class="ppc-roi-headings">
                 <h2 class="fw-bold text-black">How Does Iynix Digital <span class="text-crimson">Improve User Experience?</span></h2>
-                    <p class="pt-2 fw-normal p-16">Our conversion rate audit follows three important stages.</p>
+                    <p class="pt-2 fw-normal p-16">Our testing approach follows six clear steps, so every issue that affects your users is found, reported, and fixed.</p>
             </div>
             </div>
 
@@ -457,7 +457,7 @@
                         <div class="ppc-framework-box">
                             <img src="assets/images/shared/step-numbers/ppc-01.svg" alt="01">
                         </div>
-                        <p class="h5 fw-bolder pt-3">Build Your Subscriber List</p>
+                        <p class="h5 fw-bolder pt-3">Understand Your App</p>
                         <p class="framework-desc pt-3">We first understand your app, features, users, business goals, and key user journeys.</p>
                     </div>
                 </div>
@@ -465,50 +465,50 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
-                            <img src="assets/images/shared/step-numbers/ppc-02.svg" alt="01">
+                            <img src="assets/images/shared/step-numbers/ppc-02.svg" alt="02">
                         </div>
-                        <p class="h5 fw-bolder pt-3">Nurture Leads</p>
-                        <p class="framework-desc pt-3">We first understand your app, features, users, business goals, and key user journeys.</p>
+                        <p class="h5 fw-bolder pt-3">Create the Test Plan</p>
+                        <p class="framework-desc pt-3">We define what to test, which devices and OS versions to cover, and which testing methods your app needs.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
-                            <img src="assets/images/shared/step-numbers/ppc-03.svg" alt="01">
+                            <img src="assets/images/shared/step-numbers/ppc-03.svg" alt="03">
                         </div>
-                        <p class="h5 fw-bolder pt-3">Nurture Leads</p>
-                        <p class="framework-desc pt-3">We first understand your app, features, users, business goals, and key user journeys.</p>
+                        <p class="h5 fw-bolder pt-3">Set Up Devices &amp; Environments</p>
+                        <p class="framework-desc pt-3">We prepare real devices, cloud devices, test accounts, and test data that match how your users use the app.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
-                            <img src="assets/images/shared/step-numbers/ppc-04.svg" alt="01">
+                            <img src="assets/images/shared/step-numbers/ppc-04.svg" alt="04">
                         </div>
-                        <p class="h5 fw-bolder pt-3">Build Your Subscriber List</p>
-                        <p class="framework-desc pt-3">We first understand your app, features, users, business goals, and key user journeys.</p>
+                        <p class="h5 fw-bolder pt-3">Run Manual &amp; Automated Tests</p>
+                        <p class="framework-desc pt-3">Our testers check features, flows, performance, security, and compatibility using the right mix of manual and automated testing.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
-                            <img src="assets/images/shared/step-numbers/05.svg" alt="01">
+                            <img src="assets/images/shared/step-numbers/05.svg" alt="05">
                         </div>
-                        <p class="h5 fw-bolder pt-3">Nurture Leads</p>
-                        <p class="framework-desc pt-3">We first understand your app, features, users, business goals, and key user journeys.</p>
+                        <p class="h5 fw-bolder pt-3">Report Bugs Clearly</p>
+                        <p class="framework-desc pt-3">Every issue is logged with steps to reproduce, priority, device details, and screenshots so your developers can fix it quickly.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="ppc-compaign-framework">
                         <div class="ppc-framework-box">
-                            <img src="assets/images/shared/step-numbers/06.svg" alt="01">
+                            <img src="assets/images/shared/step-numbers/06.svg" alt="06">
                         </div>
-                        <p class="h5 fw-bolder pt-3">Nurture Leads</p>
-                        <p class="framework-desc pt-3">We first understand your app, features, users, business goals, and key user journeys.</p>
+                        <p class="h5 fw-bolder pt-3">Retest &amp; Run Regression Checks</p>
+                        <p class="framework-desc pt-3">After fixes, we retest each issue and check related features to make sure nothing else broke before release.</p>
                     </div>
                 </div>
 
@@ -524,8 +524,8 @@
             <div class="row" g-3>
                 <div class="ppc-service-headings">
                 <h2 class="fw-bold text-black">What <span class="text-crimson"> You Receive </span>From Our Testing Team?</h2>
-                <p class="pt-2 fw-normal p-16">Google wants to deliver the best experience possible to users. Website speed plays a major role in achieving that goal.</p>
-                <p class="pt-4 fw-bold p-16"><i>Page speed optimization helps:</i></p>
+                <p class="pt-2 fw-normal p-16">You get clear, detailed information your development team can act on right away, not a vague list of problems.</p>
+                <p class="pt-4 fw-bold p-16"><i>Every bug report includes:</i></p>
             </div>
             </div>
 
@@ -562,7 +562,7 @@
             <div class="row" g-3>
                 <div class="ppc-service-headings">
                 <h2 class="fw-bold text-black">Mobile App Testing for <span class="text-crimson">Different Business Needs</span></h2>
-                <p class="pt-2 fw-normal p-16">Choosing a testing company is about more than running test cases. You need a team that understands how your app works and where users are likely to face problems.</p>
+                <p class="pt-2 fw-normal p-16">Every business has different users, features, and risks. We adjust our testing to match the type of app you are building and the people who use it.</p>
             </div>
             </div>
 
@@ -571,19 +571,19 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="you-get-checkicon ">
                         <ul>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Navigation speed</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Mobile usability</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Customer engagement</strong></span></li>
-                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Customer engagement</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>eCommerce and shopping apps</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Banking and fintech apps</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Healthcare and fitness apps</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Food delivery and on-demand apps</strong></span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 you-get-checkicon">
                     <ul>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Session duration</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>User satisfaction</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Lead generation opportunities</strong></span></li>
-                        <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span ><strong>Lead generation opportunities</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Booking and travel apps</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Education and eLearning apps</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Social and community apps</strong></span></li>
+                            <li class="fw-medium mt-3 p-xsm ppc-text"><img src="assets/images/icons/icon-check.svg" alt=""> <span class="px-2"><strong>Enterprise and internal business apps</strong></span></li>
                     </ul>
                 </div>
             </div>
@@ -598,7 +598,7 @@
         <div class="new-container">
             <div class="row" g-3>
                 <div class="ppc-roi-headings text-center">
-                <h2 class="fw-bold text-black">Our Site Speed <span class="text-crimson">Optimization Framework</span></h2>
+                <h2 class="fw-bold text-black">Our Mobile App Testing <span class="text-crimson">Process</span></h2>
             </div>
             </div>
 
@@ -610,13 +610,13 @@
                             <p class="text-crimson fw-bold">Week 1</p>
                            
                         </div>
-                        <p class="fw-bolder pt-3">Website Speed Audit & Analysis</p>
+                        <p class="fw-bolder pt-3">App Review &amp; Test Planning</p>
                         <p class="framework-desc pt-3">
                             <ul class="framework-list pt-3 fw-bold">
-                                <li>Technical speed audit</li>
-                                <li>Core Web Vitals analysis</li>
-                                <li>Mobile performance testing</li>
-                                <li>Website performance review</li>
+                            <li>App and user journey review</li>
+                            <li>Device and OS coverage plan</li>
+                            <li>Test case creation</li>
+                            <li>Test environment setup</li>
                             </ul>
                         </p>
                     </div>
@@ -627,13 +627,13 @@
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Week 2</p>
                         </div>
-                        <p class="fw-bolder pt-3">Site Speed Optimization Strategy</p>
+                        <p class="fw-bolder pt-3">Functional &amp; Compatibility Testing</p>
                         <p class="framework-desc pt-3">
                             <ul class="framework-list pt-3 fw-bold">
-                                <li>Performance roadmap</li>
-                                <li>Priority recommendations</li>
-                                <li>Technical planning</li>
-                                <li>Optimization strategy</li>
+                            <li>Feature and user flow testing</li>
+                            <li>Real device testing</li>
+                            <li>Cloud device testing</li>
+                            <li>Bug logging and reporting</li>
                             </ul>
                         </p>
                     </div>
@@ -644,13 +644,13 @@
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Week 3</p>
                         </div>
-                        <p class="fw-bolder pt-3">Website Speed Optimization Implementation</p>
+                        <p class="fw-bolder pt-3">Performance, Security &amp; Automation</p>
                         <p class="framework-desc pt-3">
                             <ul class="framework-list pt-3 fw-bold">
-                                <li>Image optimization</li>
-                                <li>Code optimization</li>
-                                <li>Caching implementation</li>
-                                <li>Server enhancements</li>
+                            <li>Load and performance testing</li>
+                            <li>Security checks</li>
+                            <li>Automation script setup</li>
+                            <li>Network condition testing</li>
                             </ul>
                         </p>
                     </div>
@@ -661,20 +661,20 @@
                         <div class="ppc-framework-box">
                             <p class="text-crimson fw-bold">Week 4</p>
                         </div>
-                        <p class="fw-bolder pt-3">Testing, Mobile Speed Optimization & Monitoring</p>
+                        <p class="fw-bolder pt-3">Regression, Retesting &amp; Final Report</p>
                         <p class="framework-desc pt-3">
                             <ul class="framework-list pt-3 fw-bold">
-                                <li>Performance testing</li>
-                                <li>Mobile speed analysis</li>
-                                <li>Core Web Vitals validation</li>
-                                <li>Ongoing monitoring</li>
+                            <li>Retesting fixed issues</li>
+                            <li>Regression testing</li>
+                            <li>Release readiness check</li>
+                            <li>Release sign-off summary</li>
                             </ul>
                         </p>
                     </div>
                 </div>
 
                 <div class="col-lg-12 col-md-12 col-sm-12 mt-5">
-                    <div class="mobile-testing-app-redline-box"><span class="border-reds mx-3"></span><p class="fw-bold p-16">Every project is developed with a strong focus on usability, performance, and measurable business outcomes.</p></div>
+                    <div class="mobile-testing-app-redline-box"><span class="border-reds mx-3"></span><p class="fw-bold p-16">Timelines can change based on your app size, features, and device coverage. We share a clear testing schedule after reviewing your app.</p></div>
                 </div>
 
             </div>
@@ -724,16 +724,17 @@
                         Why Choose Iynix Digital as Your <span class="text-crimson">
                             Mobile App Testing Service Provider?</span></h2>
                     <ul class="ss-b-list p-16 mb-4">
-                        <li>Experienced optimization specialists</li>
-                        <li>Customized performance strategies</li>
-                        <li>Transparent reporting</li>
-                        <li>Data driven recommendations</li>
-                        <li>Proven optimization process</li>
-                        <li>Advanced technical expertise</li>
-                        <li>WordPress optimization specialists</li>
-                        <li>Dedicated support team</li>
-                        <li>Long term performance monitoring</li>
+                            <li>Experienced mobile testing team</li>
+                            <li>Android and iOS coverage</li>
+                            <li>Manual and automated testing</li>
+                            <li>Real device testing</li>
+                            <li>Mobile app cloud testing services</li>
+                            <li>Detailed bug reports</li>
+                            <li>Regression testing</li>
+                            <li>Clear communication</li>
+                            <li>Testing support before and after release</li>
                     </ul>
+                    <p class="ppc-text fw-bold p-16">You get a testing team focused on finding issues before your users do.</p>
 
                 </div>
             </div>
@@ -772,15 +773,15 @@ Testing should start during development and continue as new features are added. 
 
     <!-- Testimonials Section -->
     <?php
-    $testimonials_heading = 'What Clients Say About Our Page Speed Optimization Service?';
-    $testimonials_subheading = 'Businesses trust us to improve website speed, user experience, and search performance. Let you see what they said!';
+    $testimonials_heading = 'What Clients Say About Our Mobile App Testing Services?';
+    $testimonials_subheading = 'Businesses trust us to find bugs early, improve app stability, and launch with confidence. See what they said!';
     include 'assets/include/testimonials.php';
     unset($testimonials_heading, $testimonials_subheading);
     ?>
     <!-- Testimonials Section End -->
 
 
-    <!-- Ready to improve website speed CTA SECTION -->
+    <!-- Ready to Find the Bugs CTA SECTION -->
     <section class="section-gap-bottom">
         <div class="container">
             <div class="ss-cta-box text-center">
@@ -792,26 +793,25 @@ Testing should start during development and continue as new features are added. 
  
                     <span class="text-crimson">Find the Bugs</span> <br>Before Your Users Do?
                 </h2>
-                <p class="ss-cta-subheading mb-2">A slow website hurts rankings, conversions, and customer experience.</p>
-                <p class="ss-cta-text mx-auto">Partner with Iynix Digital and get a site speed optimization strategy designed to improve website performance, improve website speed, and drive measurable business growth.
-</p>
+                <p class="ss-cta-subheading mb-2">Your app represents your business.</p>
+                <p class="ss-cta-text mx-auto">A broken payment flow, app crash, or login issue can affect user trust and revenue. Get your Android or iOS app tested by a team that checks the features, devices, user journeys, and performance that matter to your customers.</p>
                 <div class="d-flex flex-wrap gap-3 justify-content-center mt-4">
                     <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#hsFormModal"
                         style="width: fit-content;">
-                        Get a Free Speed Audit!
+                        Get a Free App Testing Assessment
                     </button>
-                    <a href="javascript:void(0)"><button class="btn btn-primary accent" data-bs-toggle="modal" data-bs-target="#hsCalendarModal">Talk to a Website Speed Optimization Expert!</button></a>
+                    <a href="javascript:void(0)"><button class="btn btn-primary accent" data-bs-toggle="modal" data-bs-target="#hsCalendarModal">Talk to a Mobile App Testing Expert</button></a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Ready to improve website speed CTA SECTION End -->
+    <!-- Ready to Find the Bugs CTA SECTION End -->
 
 
     <!-- FAQs Section -->
     <?php
     $faq_heading_pre = 'Frequently Asked Questions About ';
-    $faq_heading_hi = 'Site Speed Optimization';
+    $faq_heading_hi = 'Mobile App Testing';
     $faq_items = [
         [
             'q' => 'What are mobile app testing services?',

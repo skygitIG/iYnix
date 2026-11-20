@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>React Native App Development Company</title>
+    <title>React Native App Development Company | Android and iOS Apps</title>
     <meta name="description"
-        content="Turn your app idea into a powerful digital product with intuitive UI/UX design, scalable mobile applications, and enterprise-grade development from Iynix Digital.">
+        content="Build Android and iOS apps faster with one codebase. Iynix Digital is a React Native app development company that delivers scalable, high-performing cross-platform mobile apps.">
     <link href="assets/vendor/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -64,15 +64,15 @@
             <div class="row g-3">
                 <div class="col-lg-12 col-md-12">
                     <div class="h-100">
-                    <p class="fw-medium mt-3 p-xsm ppc-text">A great Android app is more than just clean code. It should solve real business challenges, engage users, and grow with your business. That's exactly what we build.</p>
-                   <p class="fw-medium mt-3 p-xsm ppc-text">As a trusted Android app development company, we help businesses transform ideas into powerful mobile applications that perform flawlessly across Android devices. From planning and UI/UX design to development, testing, deployment, and ongoing support, our team manages the complete app development journey.</p>
+                    <p class="fw-medium mt-3 p-xsm ppc-text">Your customers use both Android phones and iPhones. Building and maintaining two separate apps takes more time, more money, and more effort. React Native solves that problem.</p>
+                   <p class="fw-medium mt-3 p-xsm ppc-text">As a trusted React Native app development company, we build high-quality mobile apps for Android and iOS from one shared codebase. From planning and UI/UX design to development, testing, deployment, and ongoing support, our team manages the complete app development journey.</p>
                 </div>
                 </div>
 
             </div>
 
             <div class="mt-5">
-                <img src="assets/images/services/react-native-development/react-native-second-img.webp" class="img-fluid rounded-4 w-100" alt="App design wireframes and UI/UX prototyping">
+                <img src="assets/images/services/react-native-development/react-native-second-img.webp" class="img-fluid rounded-4 w-100" alt="React Native app development for Android and iOS">
             </div>
         </div>
     </section>
@@ -85,8 +85,8 @@
             <div class="row" g-3>
                 <div class="ppc-service-headings">
                 <h2 class="fw-bold text-black">Why Should You Choose <span class="text-crimson"> React Native for Mobile App</span> Development?</h2>
-                <p class="pt-2 fw-normal p-16">Android powers the largest share of smartphones worldwide, giving businesses an incredible opportunity to connect with millions of potential customers. Investing in professional Android app development services allows you to build stronger customer relationships while creating new revenue opportunities.</p>
-                <p class="pt-4 fw-bold p-16"><i>Here's why businesses continue to choose Android:</i></p>
+                <p class="pt-2 fw-normal p-16">React Native is an open-source framework created by Meta that lets developers build real native mobile apps for Android and iOS using JavaScript and React. It is trusted by companies of every size to launch apps faster without compromising on quality.</p>
+                <p class="pt-4 fw-bold p-16"><i>Here&#39;s why businesses choose React Native:</i></p>
             </div>
             </div>
 
@@ -94,32 +94,24 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="drive-business-box">
                     <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
-                    <p class="fw-bolder p-xsm mt-3">Reach More Customers</p>
-                    <p class="ppc-box-description mt-3">Launch your application on the world's most widely used mobile platform and connect with users across different devices and markets.</p>
+                    <p class="fw-bolder p-xsm mt-3">One Codebase for Android and iOS</p>
+                    <p class="ppc-box-description mt-3">Share most of your code across both platforms, so you build, test, and update your app once instead of twice.</p>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="drive-business-box">
                     <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
-                    <p class="fw-bolder p-xsm mt-3">Build Without Limitations</p>
-                    <p class="ppc-box-description mt-3">Android offers unmatched flexibility, allowing businesses to create applications that perfectly fit their workflows and business objectives.</p>
+                    <p class="fw-bolder p-xsm mt-3">Faster Development</p>
+                    <p class="ppc-box-description mt-3">Reusable components and Fast Refresh help developers build and change features quickly, shortening your time to market.</p>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="drive-business-box">
                     <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
-                    <p class="fw-bolder p-xsm mt-3">Deliver Better User Experiences</p>
-                    <p class="ppc-box-description mt-3">Provide customers with fast, responsive, and personalized mobile experiences that keep them engaged.</p>
-                  </div>  
-                </div>
-
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                  <div class="drive-business-box">
-                    <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
-                    <p class="fw-bolder p-xsm mt-3">Scale as Your Business Grows</p>
-                    <p class="ppc-box-description mt-3">Add new features, integrate third-party platforms, and support increasing user demand without rebuilding your application.</p>
+                    <p class="fw-bolder p-xsm mt-3">Native Look and Feel</p>
+                    <p class="ppc-box-description mt-3">React Native uses real native UI components, so your app looks and behaves the way Android and iOS users expect.</p>
                   </div>  
                 </div>
 
@@ -127,12 +119,20 @@
                   <div class="drive-business-box">
                     <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
                     <p class="fw-bolder p-xsm mt-3">Lower Development Costs</p>
-                    <p class="ppc-box-description mt-3">Reach a larger audience with a cost-effective platform that supports multiple devices and screen sizes.</p>
+                    <p class="ppc-box-description mt-3">One development team and one codebase reduce both your initial build cost and ongoing maintenance costs.</p>
+                  </div>  
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                  <div class="drive-business-box">
+                    <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
+                    <p class="fw-bolder p-xsm mt-3">Large Ecosystem and Community</p>
+                    <p class="ppc-box-description mt-3">Backed by Meta and a huge developer community, React Native offers thousands of ready-made libraries and tools that speed up development.</p>
                   </div>  
                 </div>
 
                 <div class="col-lg-12 col-md-12 col-sm-12 mt-5">
-                    <div class="drive-business-redline-box"><p class="fw-bold p-16"><span class="border-reds mx-3"></span>Whether you're building a new digital product or modernizing existing operations, Android provides the flexibility your business needs to grow. </p></div>
+                    <div class="drive-business-redline-box"><p class="fw-bold p-16"><span class="border-reds mx-3"></span>React Native helps you reach more users with less effort, without giving up the quality your customers expect.</p></div>
                 </div>
 
             </div>
@@ -147,8 +147,8 @@
             <div class="row" g-3>
                 <div class="ppc-service-headings">
                 <h2 class="fw-bold text-black">We are More Than <span class="text-crimson"> App Developers!</span></h2>
-                <p class="pt-2 fw-normal p-16">Today's customers expect businesses to be available wherever they are. An Android application gives them instant access to your products, services, and support while helping your business operate more efficiently.</p>
-                <p class="pt-4 fw-bold p-16"><i>An Android app can help you:</i></p>
+                <p class="pt-2 fw-normal p-16">Building a successful app takes more than writing code. We work as your technology partner, helping you plan, design, launch, and grow an app that supports your business goals.</p>
+                <p class="pt-4 fw-bold p-16"><i>With our React Native team, you get:</i></p>
 
             </div>
             </div>
@@ -157,47 +157,47 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="business-ready-box">
                     <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
-                    <p class="fw-bolder p-xsm mt-3">Deliver Better Customer Experiences</p>
+                    <p class="fw-bolder p-xsm mt-3">Product Strategy and Planning</p>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="business-ready-box">
                     <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
-                    <p class="fw-bolder p-xsm mt-3">Increase Customer Loyalty</p>
+                    <p class="fw-bolder p-xsm mt-3">User-Focused UI/UX Design</p>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="business-ready-box">
                     <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
-                    <p class="fw-bolder p-xsm mt-3">Simplify Daily Operations</p>
+                    <p class="fw-bolder p-xsm mt-3">Clean, Scalable Code</p>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-6">
                   <div class="business-ready-box">
                     <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
-                    <p class="fw-bolder p-xsm mt-3">Generate More Revenue</p>
+                    <p class="fw-bolder p-xsm mt-3">Secure Backend and API Integration</p>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-6">
                   <div class="business-ready-box">
                     <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
-                    <p class="fw-bolder p-xsm mt-3">Stay Ahead of Your Competition</p>
+                    <p class="fw-bolder p-xsm mt-3">Smooth App Store Launch</p>
                   </div>  
                 </div>
 
                  <div class="col-lg-4 col-md-4 col-sm-6">
                   <div class="business-ready-box">
                     <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
-                    <p class="fw-bolder p-xsm mt-3">Stay Ahead of Your Competition</p>
+                    <p class="fw-bolder p-xsm mt-3">Long-Term Support and Growth</p>
                   </div>  
                 </div>
 
                 <div class="col-lg-12 col-md-12 col-sm-12 mt-5">
-                    <div class="drive-business-redline-box"><p class="fw-bold p-16"><span class="border-reds mx-3"></span>Whether you're building a new digital product or modernizing existing operations, Android provides the flexibility your business needs to grow. </p></div>
+                    <div class="drive-business-redline-box"><p class="fw-bold p-16"><span class="border-reds mx-3"></span>Whether you&#39;re launching a new product or improving an existing app, we stay with you from the first idea to every future update.</p></div>
                 </div>
 
             </div>
@@ -212,8 +212,8 @@
             <div class="new-container">
             <div class="row" g-3>
                 <div class="ppc-service-headings">
-                <h2 class="fw-bold text-black">Our <span class="text-crimson">Our React Native App Development  </span>Services</h2>
-                <p class="pt-2 fw-normal p-16">Every successful mobile application begins with the right strategy. Our complete Android app development service covers every phase of development, ensuring your application is ready to perform from day one. </p>
+                <h2 class="fw-bold text-black">Our <span class="text-crimson">React Native App Development </span>Services</h2>
+                <p class="pt-2 fw-normal p-16">Every successful mobile application begins with the right strategy. Our complete React Native app development service covers every phase of development, ensuring your application is ready to perform from day one.</p>
             </div>
             </div>
 
@@ -223,70 +223,70 @@
                   <div class="drive-business-app-development">
                     <p class="fw-bolder p-text-21 mt-3">Cross-Platform App Development</p>
                     <div>
-                       <p class="ppc-box-description ppc-text mt-3">Reach Android and iOS users with a single application built using Flutter. We create high-performing cross-platform apps that reduce development time while delivering a consistent experience across devices.</p>
+                       <p class="ppc-box-description ppc-text mt-3">Reach Android and iOS users with a single application built using React Native. We create high-performing cross-platform apps that reduce development time while delivering a consistent experience across devices.</p>
                     </div>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-6">
                   <div class="drive-business-app-development">
-                    <p class="fw-bolder p-text-21 mt-3">Cross-Platform App Development</p>
+                    <p class="fw-bolder p-text-21 mt-3">Custom React Native App Development</p>
                     <div>
-                       <p class="ppc-box-description ppc-text mt-3">Reach Android and iOS users with a single application built using Flutter. We create high-performing cross-platform apps that reduce development time while delivering a consistent experience across devices.</p>
+                       <p class="ppc-box-description ppc-text mt-3">We build React Native apps around your business goals, workflows, and customers, with features designed specifically for your organization.</p>
                     </div>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-6">
                   <div class="drive-business-app-development">
-                    <p class="fw-bolder p-text-21 mt-3">Cross-Platform App Development</p>
+                    <p class="fw-bolder p-text-21 mt-3">React Native UI/UX Design</p>
                     <div>
-                       <p class="ppc-box-description ppc-text mt-3">Reach Android and iOS users with a single application built using Flutter. We create high-performing cross-platform apps that reduce development time while delivering a consistent experience across devices.</p>
+                       <p class="ppc-box-description ppc-text mt-3">Our designers create clean, intuitive screens that feel natural on both Android and iOS and make it easy for users to complete key actions.</p>
                     </div>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-6">
                   <div class="drive-business-app-development">
-                    <p class="fw-bolder p-text-21 mt-3">Cross-Platform App Development</p>
+                    <p class="fw-bolder p-text-21 mt-3">React Native MVP Development</p>
                     <div>
-                       <p class="ppc-box-description ppc-text mt-3">Reach Android and iOS users with a single application built using Flutter. We create high-performing cross-platform apps that reduce development time while delivering a consistent experience across devices.</p>
+                       <p class="ppc-box-description ppc-text mt-3">Launch your idea quickly with a lean, scalable MVP that helps you test the market, collect feedback, and plan your next features.</p>
                     </div>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-6">
                   <div class="drive-business-app-development">
-                    <p class="fw-bolder p-text-21 mt-3">Cross-Platform App Development</p>
+                    <p class="fw-bolder p-text-21 mt-3">API &amp; Backend Integration</p>
                     <div>
-                       <p class="ppc-box-description ppc-text mt-3">Reach Android and iOS users with a single application built using Flutter. We create high-performing cross-platform apps that reduce development time while delivering a consistent experience across devices.</p>
+                       <p class="ppc-box-description ppc-text mt-3">We connect your app with secure backends, REST and GraphQL APIs, payment gateways, CRMs, maps, analytics, and other third-party services.</p>
                     </div>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-6">
                   <div class="drive-business-app-development">
-                    <p class="fw-bolder p-text-21 mt-3">Cross-Platform App Development</p>
+                    <p class="fw-bolder p-text-21 mt-3">App Migration to React Native</p>
                     <div>
-                       <p class="ppc-box-description ppc-text mt-3">Reach Android and iOS users with a single application built using Flutter. We create high-performing cross-platform apps that reduce development time while delivering a consistent experience across devices.</p>
+                       <p class="ppc-box-description ppc-text mt-3">Have separate native apps that are hard to maintain? We migrate them to React Native, so you can manage one codebase and release updates faster.</p>
                     </div>
                   </div>  
                 </div>
 
                 <div class="col-lg-6 col-md-6 col-sm-12">
                   <div class="drive-business-app-development">
-                    <p class="fw-bolder p-text-21 mt-3">Cross-Platform App Development</p>
+                    <p class="fw-bolder p-text-21 mt-3">React Native App Upgrades</p>
                     <div>
-                       <p class="ppc-box-description ppc-text mt-3">Reach Android and iOS users with a single application built using Flutter. We create high-performing cross-platform apps that reduce development time while delivering a consistent experience across devices.</p>
+                       <p class="ppc-box-description ppc-text mt-3">We update existing React Native apps to the latest versions, improve performance, fix issues, and refresh the design without starting from scratch.</p>
                     </div>
                   </div>  
                 </div>
 
                 <div class="col-lg-6 col-md-6 col-sm-12">
                   <div class="drive-business-app-development">
-                    <p class="fw-bolder p-text-21 mt-3">Cross-Platform App Development</p>
+                    <p class="fw-bolder p-text-21 mt-3">Maintenance &amp; Support</p>
                     <div>
-                       <p class="ppc-box-description ppc-text mt-3">Reach Android and iOS users with a single application built using Flutter. We create high-performing cross-platform apps that reduce development time while delivering a consistent experience across devices.</p>
+                       <p class="ppc-box-description ppc-text mt-3">We keep your app secure, stable, and up to date with new Android and iOS versions, bug fixes, performance monitoring, and new features.</p>
                     </div>
                   </div>  
                 </div>
@@ -306,11 +306,11 @@
             <div class="row" g-3>
                 <div class="ppc-service-headings">
                 <h2 class="fw-bold text-black">We Provide <span class="text-crimson"> React Native Mobile App Development </span> Services for Every Business!</h2>
-                <p class="pt-2 fw-normal p-16">One of the first questions businesses ask is, "How much will my Android app cost?" The answer depends on your project requirements.</p>
-                <p class="pt-2 fw-normal p-16">Every application is different, which is why we provide tailored estimates instead of one-size-fits-all pricing. Our team evaluates your business goals, required features, integrations, and development timeline before preparing a transparent quote.</p>
+                <p class="pt-2 fw-normal p-16">From startups launching their first product to established companies building tools for their teams, we create React Native apps for businesses of every size and industry.</p>
+                <p class="pt-2 fw-normal p-16">Every app is planned around your users, your workflows, and the results you want to achieve.</p>
 
 
-                <p class="pt-4 fw-bold p-16"><i>Several factors influence development costs, including:</i></p>
+                <p class="pt-4 fw-bold p-16"><i>We build React Native apps for:</i></p>
 
             </div>
             </div>
@@ -319,56 +319,56 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                   <div class="transparent-ready-box">
                     <img class="Transparent-number" src="assets/images/icons/checkicon.svg" alt="">
-                    <span class="fw-bolder p-xsm mt-3 px-1">App complexity</span>
+                    <span class="fw-bolder p-xsm mt-3 px-1">Startups and MVPs</span>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-6">
                   <div class="transparent-ready-box">
                     <img class="Transparent-number" src="assets/images/icons/checkicon.svg" alt="">
-                    <span class="fw-bolder p-xsm mt-3 px-1">Number of screens</span>
+                    <span class="fw-bolder p-xsm mt-3 px-1">eCommerce and retail</span>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-6">
                   <div class="transparent-ready-box">
                     <img class="Transparent-number" src="assets/images/icons/checkicon.svg" alt="">
-                    <span class="fw-bolder p-xsm mt-3 px-1">UI/UX design requirements</span>
+                    <span class="fw-bolder p-xsm mt-3 px-1">Healthcare and fitness</span>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-6">
                   <div class="transparent-ready-box">
                     <img class="Transparent-number" src="assets/images/icons/checkicon.svg" alt="">
-                    <span class="fw-bolder p-xsm mt-3 px-1">Custom features</span>
+                    <span class="fw-bolder p-xsm mt-3 px-1">Fintech and banking</span>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-6">
                   <div class="transparent-ready-box">
                     <img class="Transparent-number" src="assets/images/icons/checkicon.svg" alt="">
-                    <span class="fw-bolder p-xsm mt-3 px-1">Third-party integrations</span>
+                    <span class="fw-bolder p-xsm mt-3 px-1">Education and eLearning</span>
                   </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-6">
                   <div class="transparent-ready-box">
                     <img class="Transparent-number" src="assets/images/icons/checkicon.svg" alt="">
-                    <span class="fw-bolder p-xsm mt-3 px-1">Backend infrastructure</span>
+                    <span class="fw-bolder p-xsm mt-3 px-1">On-demand and delivery services</span>
                   </div>  
                 </div>
 
                 <div class="col-lg-6 col-md-6 col-sm-12">
                   <div class="transparent-ready-box">
                     <img class="Transparent-number" src="assets/images/icons/checkicon.svg" alt="">
-                    <span class="fw-bolder p-xsm mt-3 px-1">Testing and deployment</span>
+                    <span class="fw-bolder p-xsm mt-3 px-1">Logistics and transportation</span>
                   </div>  
                 </div>
 
                 <div class="col-lg-6 col-md-6 col-sm-12">
                   <div class="transparent-ready-box">
                     <img class="Transparent-number" src="assets/images/icons/checkicon.svg" alt="">
-                    <span class="fw-bolder p-xsm mt-3 px-1">Ongoing maintenance</span>
+                    <span class="fw-bolder p-xsm mt-3 px-1">Enterprise and internal tools</span>
                   </div>  
                 </div>
 
@@ -385,7 +385,7 @@
             <div class="row" g-3>
                 <div class="ppc-service-headings">
                 <h2 class="fw-bold text-black">How Do We Build Your <span class="text-crimson"> React Native Mobile App?</span></h2>
-                <p class="pt-2 fw-normal p-16">Great apps don't happen by chance. They are built through careful planning, collaboration, and continuous improvement. Our proven development process ensures your Android application is delivered on time, within budget, and ready to support your business goals.</p>
+                <p class="pt-2 fw-normal p-16">Great apps don't happen by chance. They are built through careful planning, collaboration, and continuous improvement. Our proven development process ensures your React Native application is delivered on time, within budget, and ready to support your business goals.</p>
             </div>
             </div>
 
@@ -417,7 +417,7 @@
                     <p class="fw-bolder p-text-21 mt-3">User-Centric UI/UX Design That Keeps People Engaged</p>
                     <div>
                         <p class="ppc-box-description ppc-text mt-3">An app only succeeds when people enjoy using it. </p>
-                        <p class="ppc-box-description ppc-text mt-3">Our designers create intuitive interfaces that combine attractive visuals with seamless navigation. Every screen is designed to make interactions simple, helping users complete tasks quickly while enjoying a consistent experience across Android devices.</p>
+                        <p class="ppc-box-description ppc-text mt-3">Our designers create intuitive interfaces that combine attractive visuals with seamless navigation. Every screen is designed to make interactions simple, helping users complete tasks quickly while enjoying a consistent experience across Android and iOS devices.</p>
                         
                         <p class="ppc-text pt-4 fw-bold p-16"><b>Our design process includes: </b></p>
                         <ul class="pt-3 iso-development-list">
@@ -437,13 +437,13 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="ios-development-proccess">
                     <p class="text-crimson fw-bold p-16 text-uppercase">Step 3</p>
-                    <p class="fw-bolder p-text-21 mt-3">Agile Android Development That Adapts as You Grow</p>
+                    <p class="fw-bolder p-text-21 mt-3">Agile React Native Development That Adapts as You Grow</p>
                     <div>
-                        <p class="ppc-box-description ppc-text mt-3">As an experienced Android app development firm, we follow agile methodologies to deliver projects faster while giving clients complete visibility throughout the development cycle.
+                        <p class="ppc-box-description ppc-text mt-3">As an experienced React Native app development firm, we follow agile methodologies to deliver projects faster while giving clients complete visibility throughout the development cycle.
                           Instead of waiting until the end of the project, you'll receive regular updates, working prototypes, and continuous improvements after every sprint.</p>
                         <p class="ppc-text pt-4 fw-bold p-16"><b>Our development services include: </b></p>
                         <ul class="pt-3 iso-development-list">
-                       <li class="ppc-text mb-1"> Native Android Development </li>
+                       <li class="ppc-text mb-1"> React Native &amp; JavaScript Development </li>
                        <li class="ppc-text mb-1"> Backend Development </li>
                         <li class="ppc-text mb-1"> Database Architecture </li>
                         <li class="ppc-text mb-1">API Development </li>
@@ -463,7 +463,7 @@
                     <p class="fw-bolder p-text-21 mt-3">Rigorous Testing Before Your App Goes Live</p>
                     <div>
                         <p class="ppc-box-description ppc-text mt-3">Launching an app without proper testing can lead to poor reviews, lost users, and unnecessary maintenance costs.</p>
-                        <p class="ppc-box-description ppc-text mt-3">Every application we build undergoes multiple rounds of quality assurance to ensure it performs reliably across Android devices and operating system versions.</p>
+                        <p class="ppc-box-description ppc-text mt-3">Every application we build undergoes multiple rounds of quality assurance to ensure it performs reliably across Android and iOS devices and operating system versions.</p>
                          <p class="ppc-text pt-4 fw-bold p-16"><b>Our testing covers:</b></p>
                         <ul class="pt-3 iso-development-list">
                        <li class="ppc-text mb-1"> Functional Testing </li>
@@ -484,11 +484,11 @@
                     <p class="text-crimson fw-bold p-16 text-uppercase">Step 5</p>
                     <p class="fw-bolder p-text-21 mt-3">Launching Your App</p>
                     <div>
-                        <p class="ppc-box-description ppc-text mt-3">Publishing an Android app involves more than uploading files to the Google Play Store. We manage the complete deployment process, ensuring your application complies with Google's guidelines while delivering a smooth launch experience.</p>
+                        <p class="ppc-box-description ppc-text mt-3">Publishing a React Native app involves more than uploading files to the app stores. We manage the complete deployment process for Google Play and the Apple App Store, ensuring your application meets each store&#39;s guidelines while delivering a smooth launch experience.</p>
 
                         <p class="ppc-text pt-4 fw-bold p-16"><b>Our deployment services include: </b></p>
                         <ul class="pt-3 iso-development-list">
-                       <li class="ppc-text mb-1"> Google Play Store Submission </li>
+                       <li class="ppc-text mb-1"> Google Play &amp; App Store Submission </li>
                        <li class="ppc-text mb-1"> Store Listing Optimization </li>
                         <li class="ppc-text mb-1"> App Assets Preparation </li>
                         <li class="ppc-text mb-1">Version Management </li>
@@ -507,7 +507,7 @@
                     <div>
                         <p class="ppc-box-description ppc-text mt-3">A successful app continues to evolve long after launch.</p>
 
-                        <p class="ppc-box-description ppc-text mt-3">We provide continuous maintenance and support to keep your application secure, compatible with new Android versions, and ready for future business growth. </p>
+                        <p class="ppc-box-description ppc-text mt-3">We provide continuous maintenance and support to keep your application secure, compatible with new Android and iOS versions, and ready for future business growth. </p>
 
                         <p class="ppc-text pt-4 fw-bold p-16"><b>Our support services include: </b></p>
                         <ul class="pt-3 iso-development-list">
@@ -547,20 +547,16 @@
                     <h2 class="mb-3 fw-semibold text-black">
                         Why Choose Iynix Digital As Your <span class="text-crimson">
                             React Native App Development Agency? </span></h2>
-                            <p class="ppc-text">Choosing the right development partner can make all the difference between an average app and one that drives real business growth.
-                            Unlike many Android app development firms, we focus on understanding your business first. Every decision we make from design and development to deployment is guided by your goals, ensuring the final product delivers measurable results.</p>
+                            <p class="ppc-text">Choosing the right development partner affects the success of your application. Our React Native app development agency focuses on building mobile apps that solve business problems, improve customer experience, and support long-term growth.</p>
 
-                            <p class="ppc-text fw-bold">Businesses partner with us because we offer:</p>
+                            <p class="ppc-text fw-bold">Businesses work with us because we offer:</p>
                          <ul class="ss-b-list p mb-4 mt-4">
-                        <li>Experienced Android Developers</li>
-                        <li>Industry-Specific Expertise</li>
-                        <li>Fully Customized Solutions</li>
-                        <li>Agile Development Methodology</li>
-                        <li>Transparent Communication</li>
-                        <li>Scalable Architecture</li>
-                        <li>Enterprise-Grade Security</li>
-                        <li>On-Time Project Delivery</li>
-                        <li>Long-Term Maintenance & Support</li>
+                            <li>Experienced React Native Developers</li>
+                            <li>Solutions Built Around Your Business</li>
+                            <li>Clear Communication</li>
+                            <li>Scalable Development</li>
+                            <li>Reliable Security</li>
+                            <li>On-Time Delivery</li>
                     </ul>
 
                 </div>
@@ -572,8 +568,8 @@
 
     <!-- Testimonials Section -->
     <?php
-    $testimonials_heading = 'What Clients Say About Our App Design and Development Services?';
-    $testimonials_subheading = 'Businesses choose our website and app design company because we deliver innovative mobile applications that improve user engagement, streamline business operations, and generate measurable ROI.';
+    $testimonials_heading = 'What Clients Say About Our React Native App Development Services?';
+    $testimonials_subheading = 'Businesses trust us to build reliable React Native apps that work smoothly on Android and iOS. See what they said!';
     include 'assets/include/testimonials.php';
     unset($testimonials_heading, $testimonials_subheading);
     ?>
@@ -592,18 +588,15 @@
                     <span class="text-crimson"> React Native App?</span>
                 </h2>
                
-                <p class="ss-cta-text mx-auto">Whether you're launching a new product, streamlining business operations, or replacing an outdated mobile application, having the right development partner can make all the difference.
-                  <br><br>
-                If you're looking for a trusted Android app development company that delivers innovative mobile solutions and long-term value, we're ready to help.
-
+                <p class="ss-cta-text mx-auto">Whether you are launching a startup, expanding your business, or replacing an existing application, our team is ready to help. We build mobile applications that support your business goals, improve customer experience, and perform reliably across Android and iOS.
                 </p><br>
-                <p><b>Let's turn your app idea into a powerful Android solution.</b></p>
+                <p><b>Let&#39;s discuss your project and build an app your users enjoy using.</b></p>
                 <div class="d-flex flex-wrap gap-3 justify-content-center mt-4">
                     <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#hsFormModal"
                         style="width: fit-content;">
-                       Get Your Free Consultation Today
+                       Get a Free Consultation
                     </button>
-                   
+                    <a href="javascript:void(0)"><button class="btn btn-primary accent" data-bs-toggle="modal" data-bs-target="#hsCalendarModal">Talk to Our Experts</button></a>
                 </div>
             </div>
         </div>
@@ -614,7 +607,7 @@
     <!-- FAQs Section -->
     <?php
     $faq_heading_pre = 'Frequently Asked Questions About ';
-    $faq_heading_hi = 'Ios App Development Company';
+    $faq_heading_hi = 'React Native App Development';
     $faq_items = [
         [
             'q' => 'Do you build apps for Android and iOS?',
@@ -642,7 +635,7 @@
         ],
         [
             'q' => 'Do you integrate third-party software?',
-            'a' => 'Yes. We integrate payment gateways, CRM systems, ERP software, cloud platforms, maps, messaging tools, analytics platforms, and other business software to extend your application's functionality.',
+            'a' => 'Yes. We integrate payment gateways, CRM systems, ERP software, cloud platforms, maps, messaging tools, analytics platforms, and other business software to extend your application\'s functionality.',
         ],
         
        

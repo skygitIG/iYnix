@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Android App Development</title>
+    <title>Android App Development Company | Custom Android Apps</title>
     <meta name="description"
-        content="Turn your app idea into a powerful digital product with intuitive UI/UX design, scalable mobile applications, and enterprise-grade development from Iynix Digital.">
+        content="Build fast, secure, and scalable Android apps with Iynix Digital. We design, develop, test, and publish custom Android applications that customers love and businesses trust.">
     <link href="assets/vendor/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -266,10 +266,10 @@
 
                 <div class="col-lg-6 col-md-6 col-sm-6">
                   <div class="drive-business-app-development">
-                    <p class="fw-bolder p-text-21 mt-3">Native Android Apps Built for Maximum Performance </p>
+                    <p class="fw-bolder p-text-21 mt-3">Android App Development Solutions for Every Industry</p>
                     <div>
                      
-                        <p class="ppc-box-description mt-3"> Android App Development Solutions for Every Industry Every industry has unique challenges, and every business requires a different approach.</p>
+                        <p class="ppc-box-description mt-3">Every industry has unique challenges, and every business requires a different approach.</p>
                         <p class="ppc-box-description mt-3">Our Android app development solutions help organizations streamline operations, improve customer engagement, and accelerate digital transformation.</p>
 
                         <p class="ppc-text p-16 pt-4"><b> We build solutions for: </b></p>
@@ -659,7 +659,7 @@
     <!-- FAQs Section -->
     <?php
     $faq_heading_pre = 'Frequently Asked Questions About ';
-    $faq_heading_hi = 'Ios App Development Company';
+    $faq_heading_hi = 'Android App Development';
     $faq_items = [
         [
             'q' => 'Do you develop apps for all Android devices?',
@@ -671,7 +671,7 @@
         ],
         [
             'q' => 'How long does Android app development take?',
-            'a' => 'The timeline depends on your app's complexity, features, integrations, and testing requirements. After understanding your project, we'll provide a detailed development schedule with clear milestones.',
+            'a' => 'The timeline depends on your app\'s complexity, features, integrations, and testing requirements. After understanding your project, we\'ll provide a detailed development schedule with clear milestones.',
         ],
         [
             'q' => 'Can you upgrade an existing Android application?',
@@ -687,7 +687,7 @@
         ],
         [
             'q' => 'Can you integrate third-party APIs and business software?',
-            'a' => 'Yes. We integrate payment gateways, CRMs, ERPs, cloud platforms, analytics tools, mapping services, and other third-party APIs to extend your app's functionality.',
+            'a' => 'Yes. We integrate payment gateways, CRMs, ERPs, cloud platforms, analytics tools, mapping services, and other third-party APIs to extend your app\'s functionality.',
         ],
         
        

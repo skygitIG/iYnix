@@ -19,15 +19,26 @@ This is the iYnix project repository. It contains web application files organize
 - `cro-audit.php` - Conversion rate optimization (CRO) audit page
 - `user-behavior-analytics.php` - User behavior analytics services page
 - `user-experience-testing.php` - User experience testing services page
+- `ios-app-development-company.php` - iOS app development page
+- `android-app-development.php` - Android app development page
+- `flutter-app-development-company.php` - Flutter app development page
+- `react-native-app-development-company.php` - React Native app development page
+- `mobile-app-testing.php` - Mobile app testing services page
+- `mobile-app-store-optimization.php` - Mobile app optimization page
+- `who-we-are.php` - About: Who We Are
+- `what-we-do.php` - About: What We Do
+- `how-we-work.php` - About: How We Work
+- `our-leadership.php` - About: Our Leadership
 
 ## Assets
 
 - `assets/` - Site-wide assets (used by every page, not just the homepage)
   - `vendor/` - Third-party libraries (Bootstrap CSS/JS)
-  - `css/` - Custom stylesheets (`custom.css`, `font-size.css`, `services.css`)
+  - `css/` - Custom stylesheets (`custom.css`, `font-size.css`, `services.css`, `about.css` for the About pages)
   - `images/` - Image assets, see "Where to find an image" below
   - `include/` - Shared PHP includes, reused across pages:
     - `navbar.php` / `footer.php` - Site-wide header/footer
+    - `services-menu.php` - Services/About link lists and contact details shared by the header and footer (edit links here)
     - `trusted-brands.php` - Homepage's single-row logo marquee
     - `brands-loop.php` - 2-row logo marquee used on the service pages
     - `testimonials.php` - Review slider, parameterized per page (`$testimonials_heading`, `$testimonials_subheading`)
@@ -47,6 +58,8 @@ This is the iYnix project repository. It contains web application files organize
 | Homepage industry icons | `home/industries/` |
 | Other homepage pictures | `home/photos/` |
 | A service page's banner and pictures | `services/<page-name>/` |
+| About pages' pictures | `about/<page-name>/` |
+| Header/footer logos and icons | `icons/nav/` |
 | Logos in the service pages' "Trusted by Brands" | `shared/brand-logos/` |
 | Photos used on more than one page | `shared/photos/` |
 | CTA box icon and background | `shared/cta/` |
@@ -76,6 +89,16 @@ iYnix/
 ├── cro-audit.php
 ├── user-behavior-analytics.php
 ├── user-experience-testing.php
+├── ios-app-development-company.php
+├── android-app-development.php
+├── flutter-app-development-company.php
+├── react-native-app-development-company.php
+├── mobile-app-testing.php
+├── mobile-app-store-optimization.php
+├── who-we-are.php
+├── what-we-do.php
+├── how-we-work.php
+├── our-leadership.php
 ├── README.md
 ├── design-specs/
 └── assets/
@@ -87,6 +110,7 @@ iYnix/
     └── images/
         ├── brand/
         ├── icons/
+        │   └── nav/
         ├── home/
         │   ├── carousel/
         │   ├── client-logos/
@@ -95,16 +119,27 @@ iYnix/
         │   ├── photos/
         │   ├── portfolio/
         │   └── team/
+        ├── about/
+        │   ├── how-we-work/
+        │   ├── our-leadership/
+        │   ├── what-we-do/
+        │   └── who-we-are/
         ├── services/
+        │   ├── android-app-development/
         │   ├── app-development/
         │   ├── content-marketing/
         │   ├── cro-audit/
         │   ├── cro-services/
+        │   ├── drive-business-growth/
         │   ├── ecommerce/
         │   ├── email-marketing/
+        │   ├── flutter-app-development/
         │   ├── link-building/
+        │   ├── mobile-app-performance/
+        │   ├── mobile-app-testing/
         │   ├── page-speed/
         │   ├── ppc/
+        │   ├── react-native-development/
         │   ├── seo-service/
         │   ├── social-media/
         │   ├── user-behavior-analytics/
