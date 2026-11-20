@@ -30,11 +30,71 @@ This is the iYnix project repository. It contains web application files organize
 - `how-we-work.php` - About: How We Work
 - `our-leadership.php` - About: Our Leadership
 
+Website & design pages:
+
+- `rapid-website-design.php` - Rapid website design
+- `website-design.php` - Website design
+- `website-redesign.php` - Website redesign
+- `website-optimization.php` - Website optimization
+- `responsive-design.php` - Responsive design
+- `ui-design-services.php` - UI design services
+- `ux-design-services.php` - UX design services
+- `prototyping.php` - Prototyping
+- `interaction-design.php` - Interaction design
+- `product-design.php` - Product design
+- `digital-branding.php` - Digital branding
+- `ecommerce-web-design.php` - Ecommerce web design (not in menu)
+- `shopify-web-design.php` - Shopify web design (not in menu)
+
+Marketing pages:
+
+- `digital-marketing.php` - Digital marketing
+- `product-marketing.php` - Product marketing
+- `b2b-marketing.php` - B2B marketing
+- `b2c-marketing.php` - B2C marketing
+- `b2c-and-d2c-marketing.php` - B2C and D2C marketing
+- `lead-generation.php` - Lead generation
+- `social-media-ads.php` - Social media ads
+- `digital-pr.php` - Digital PR
+- `haro-link-building.php` - HARO link building
+- `email-newsletter-design.php` - Email newsletter design
+
+SEO & ecommerce pages:
+
+- `seo-audit.php` - SEO audit
+- `local-seo.php` - Local SEO
+- `ecommerce-seo.php` - Ecommerce SEO
+- `ecommerce-optimization.php` - Ecommerce optimization
+- `technical-seo.php` - Technical SEO (not in menu)
+- `ai-seo.php` - AI SEO (not in menu)
+- `on-page-seo.php` - On-page SEO (not in menu)
+- `off-page-seo.php` - Off-page SEO (not in menu)
+- `shopify-seo.php` - Shopify SEO (not in menu)
+- `seo-content-writing.php` - SEO content writing (not in menu)
+
+App pages:
+
+- `app-store-optimization.php` - App store submission & optimization
+- `mobile-app-design.php` - Mobile app design
+
+Atlanta location pages (not in menu):
+
+- `digital-marketing-agency-atlanta.php` - Digital marketing agency, Atlanta
+- `seo-company-atlanta.php` - SEO company, Atlanta
+- `local-seo-atlanta.php` - Local SEO, Atlanta
+- `content-marketing-atlanta.php` - Content marketing, Atlanta
+- `ppc-management-atlanta.php` - PPC management, Atlanta
+- `social-media-marketing-atlanta.php` - Social media marketing, Atlanta
+- `website-design-atlanta.php` - Website design, Atlanta
+- `ios-app-development-atlanta.php` - iOS app development, Atlanta
+- `android-app-development-atlanta.php` - Android app development, Atlanta
+- `app-development-atlanta.php` - App design & development, Atlanta
+
 ## Assets
 
 - `assets/` - Site-wide assets (used by every page, not just the homepage)
   - `vendor/` - Third-party libraries (Bootstrap CSS/JS)
-  - `css/` - Custom stylesheets (`custom.css`, `font-size.css`, `services.css`, `about.css` for the About pages)
+  - `css/` - Custom stylesheets (`custom.css`, `font-size.css`, `services.css`, `about.css` for the About pages, `svc.css` for the sub-service, SEO and location pages)
   - `images/` - Image assets, see "Where to find an image" below
   - `include/` - Shared PHP includes, reused across pages:
     - `navbar.php` / `footer.php` - Site-wide header/footer
@@ -43,6 +103,7 @@ This is the iYnix project repository. It contains web application files organize
     - `brands-loop.php` - 2-row logo marquee used on the service pages
     - `testimonials.php` - Review slider, parameterized per page (`$testimonials_heading`, `$testimonials_subheading`)
     - `faq.php` - FAQ accordion, parameterized per page (`$faq_heading_pre`, `$faq_heading_hi`, `$faq_items`)
+- `wordpress/blog-custom.css` - CSS to paste into the WordPress blog (Appearance → Customize → Additional CSS) so it matches the Figma blog design
 - `design-specs/` - Designer PDF specs for reference only, not used by the website
 
 ## Where to find an image
@@ -65,6 +126,7 @@ This is the iYnix project repository. It contains web application files organize
 | CTA box icon and background | `shared/cta/` |
 | Week 01-04 process numbers | `shared/step-numbers/` |
 | Warning icon, slider arrows, rating stars | `shared/ui/` |
+| Sub-service page icons (check, alert, CTA) | `icons/svc/` |
 | General icons | `icons/` |
 | Images no page currently uses | `_unused/` |
 
@@ -99,7 +161,53 @@ iYnix/
 ├── what-we-do.php
 ├── how-we-work.php
 ├── our-leadership.php
+├── rapid-website-design.php
+├── website-design.php
+├── website-redesign.php
+├── website-optimization.php
+├── responsive-design.php
+├── ui-design-services.php
+├── ux-design-services.php
+├── prototyping.php
+├── interaction-design.php
+├── product-design.php
+├── digital-branding.php
+├── ecommerce-web-design.php
+├── shopify-web-design.php
+├── digital-marketing.php
+├── product-marketing.php
+├── b2b-marketing.php
+├── b2c-marketing.php
+├── b2c-and-d2c-marketing.php
+├── lead-generation.php
+├── social-media-ads.php
+├── digital-pr.php
+├── haro-link-building.php
+├── email-newsletter-design.php
+├── seo-audit.php
+├── local-seo.php
+├── ecommerce-seo.php
+├── ecommerce-optimization.php
+├── technical-seo.php
+├── ai-seo.php
+├── on-page-seo.php
+├── off-page-seo.php
+├── shopify-seo.php
+├── seo-content-writing.php
+├── app-store-optimization.php
+├── mobile-app-design.php
+├── digital-marketing-agency-atlanta.php
+├── seo-company-atlanta.php
+├── local-seo-atlanta.php
+├── content-marketing-atlanta.php
+├── ppc-management-atlanta.php
+├── social-media-marketing-atlanta.php
+├── website-design-atlanta.php
+├── ios-app-development-atlanta.php
+├── android-app-development-atlanta.php
+├── app-development-atlanta.php
 ├── README.md
+├── wordpress/
 ├── design-specs/
 └── assets/
     ├── vendor/
@@ -110,7 +218,8 @@ iYnix/
     └── images/
         ├── brand/
         ├── icons/
-        │   └── nav/
+        │   ├── nav/
+        │   └── svc/
         ├── home/
         │   ├── carousel/
         │   ├── client-logos/
@@ -125,26 +234,69 @@ iYnix/
         │   ├── what-we-do/
         │   └── who-we-are/
         ├── services/
+        │   ├── ai-seo/
         │   ├── android-app-development/
+        │   ├── android-app-development-atlanta/
         │   ├── app-development/
+        │   ├── app-development-atlanta/
+        │   ├── app-store-optimization/
+        │   ├── b2b-marketing/
+        │   ├── b2c-d2c-marketing/
+        │   ├── b2c-marketing/
         │   ├── content-marketing/
+        │   ├── content-marketing-atlanta/
         │   ├── cro-audit/
         │   ├── cro-services/
+        │   ├── digital-branding/
+        │   ├── digital-marketing/
+        │   ├── digital-marketing-agency-atlanta/
+        │   ├── digital-pr/
         │   ├── drive-business-growth/
         │   ├── ecommerce/
+        │   ├── ecommerce-seo/
+        │   ├── ecommerce-web-design/
         │   ├── email-marketing/
+        │   ├── email-newsletter-design/
         │   ├── flutter-app-development/
+        │   ├── haro-link-building/
+        │   ├── interaction-design/
+        │   ├── ios-app-development-atlanta/
+        │   ├── lead-generation/
         │   ├── link-building/
+        │   ├── local-seo/
+        │   ├── local-seo-atlanta/
+        │   ├── mobile-app-design/
         │   ├── mobile-app-performance/
         │   ├── mobile-app-testing/
+        │   ├── off-page-seo/
+        │   ├── on-page-seo/
         │   ├── page-speed/
         │   ├── ppc/
+        │   ├── ppc-management-atlanta/
+        │   ├── product-design/
+        │   ├── product-marketing/
+        │   ├── rapid-website-design/
         │   ├── react-native-development/
+        │   ├── responsive-design/
+        │   ├── seo-audit/
+        │   ├── seo-company-atlanta/
+        │   ├── seo-content-writing/
         │   ├── seo-service/
+        │   ├── shopify-seo/
+        │   ├── shopify-web-design/
         │   ├── social-media/
+        │   ├── social-media-ads/
+        │   ├── social-media-marketing-atlanta/
+        │   ├── technical-seo/
+        │   ├── ui-design/
         │   ├── user-behavior-analytics/
         │   ├── user-experience-testing/
-        │   └── website-development/
+        │   ├── ux-design/
+        │   ├── website-design/
+        │   ├── website-design-atlanta/
+        │   ├── website-development/
+        │   ├── website-optimization/
+        │   └── website-redesign/
         ├── shared/
         │   ├── brand-logos/
         │   ├── cta/
