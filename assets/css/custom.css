@@ -2840,3 +2840,896 @@ section.problem-find-section {
     background: #E5393512;
 
 }
+
+/* =========================================================
+   haro-link-building.php — HARO Link Building page
+   Saari classes .haro- prefix ke saath hain, kisi aur page par
+   asar nahi padega. Section spacing .service-page vars se aati hai.
+   Hero, saare sections aur CTA .new-container me hain, isliye
+   poore page ka left edge ek hi line par rehta hai.
+   ========================================================= */
+
+/* ---------- Hero ---------- */
+.haro-hero {
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+.haro-hero .haro-hero-text {
+    min-width: 0 !important;   /* global 740px / 500px min-width hatata hai */
+    max-width: 600px;          /* Figma jaisa 3-line h1 */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ---------- Section backgrounds ---------- */
+.haro-grey { background-color: #F7F7F7; }
+.haro-dark { background-color: #101010; }
+
+/* ---------- Section heading block ---------- */
+.haro-head {
+    margin: 0 0 48px;
+    text-align: center;
+}
+
+.haro-head.is-left {
+    text-align: left;
+}
+
+.haro-h2 {
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px !important;
+    font-weight: 700;
+    line-height: 1.3 !important;
+    max-width: 900px;
+    margin: 0 auto 16px;
+}
+
+.haro-head.is-left .haro-h2 {
+    max-width: none;
+    margin-left: 0;
+}
+
+.haro-h2:last-child { margin-bottom: 0; }
+
+.haro-intro {
+    color: #666666;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px !important;
+    font-weight: 400;
+    line-height: 1.6 !important;
+    margin: 0 0 12px;
+}
+
+.haro-intro:last-child { margin-bottom: 0; }
+
+.haro-sub {
+    color: #666666;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px !important;
+    font-weight: 500;
+    line-height: 1.6 !important;
+    margin: 24px 0 0;
+}
+
+.haro-dark .haro-h2 { color: #FFFFFF; }
+.haro-dark .haro-intro { color: #AAAAAA; }
+
+/* ---------- Icon box (alert / check) ---------- */
+.haro-icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #E5393512;
+}
+
+.haro-icon.is-round {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.haro-icon img {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+/* ---------- Pain-point items (icon left, grey) ---------- */
+.haro-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    height: 100%;
+    padding: 24px;
+    background: #F7F7F7;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 1.5 !important;
+    transition: border-color 0.25s ease;
+}
+
+.haro-item:hover { border-color: #D81F28; }
+
+/* ---------- Benefit cards (icon top, white) ---------- */
+.haro-benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    height: 100%;
+    padding: 24px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 1.5 !important;
+    transition: border-color 0.25s ease;
+}
+
+.haro-benefit:hover { border-color: #D81F28; }
+
+/* ---------- Red-border note box ---------- */
+.haro-callout {
+    margin-top: 32px;
+    padding: 20px 24px;
+    border: 1px solid #E53935;
+    border-radius: 6px;
+    background: #E5393512;
+}
+
+.haro-callout p {
+    margin: 0;
+    color: #101010;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 1.6 !important;
+}
+
+/* ---------- Wide image ---------- */
+.haro-wide-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 48px;
+    border-radius: 20px;
+}
+
+/* ---------- Results stats (dark band) ---------- */
+.haro-stat {
+    height: 100%;
+    padding: 40px 32px;
+    text-align: center;
+    background: #1E1E1E;
+    border: 1px solid #262626;
+    border-radius: 8px;
+}
+
+.haro-stat-label {
+    margin: 0 0 16px;
+    color: #AAAAAA;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px !important;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.haro-stat-num {
+    margin: 0;
+    color: #D81F28;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px !important;
+    font-weight: 800;
+    line-height: 1 !important;
+}
+
+/* ---------- Service cards (white, bordered) ---------- */
+.haro-card {
+    height: 100%;
+    padding: 32px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
+    transition: border-color 0.25s ease;
+}
+
+.haro-card:hover { border-color: #D81F28; }
+
+.haro-card-title {
+    margin: 0 0 12px;
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px !important;
+    font-weight: 800;
+    line-height: 1.3 !important;
+}
+
+.haro-card p,
+.haro-step p {
+    margin: 0;
+    color: #666666;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+}
+
+/* ---------- Process steps (grey) ---------- */
+.haro-step {
+    height: 100%;
+    padding: 32px;
+    background: #F7F7F7;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    transition: border-color 0.25s ease;
+}
+
+.haro-step:hover { border-color: #D81F28; }
+
+.haro-step-tag {
+    display: block;
+    margin-bottom: 12px;
+    color: #D81F28;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px !important;
+    font-weight: 700;
+    line-height: 1.4 !important;
+}
+
+/* ---------- Why Choose (existing .why-choose-us sirf is page par) ---------- */
+.haro-why .haro-h2 {
+    text-align: left;
+    margin: 0 0 20px;
+}
+
+.haro-why-text {
+    margin: 0 0 8px;
+    color: #666666;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+}
+
+.haro-why-text + .haro-checklist {
+    margin-top: 16px;
+}
+
+.haro-checklist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.haro-checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 12px;
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 1.5 !important;
+}
+
+.haro-checklist li:last-child { margin-bottom: 0; }
+
+.haro-checklist li .bi {
+    flex-shrink: 0;
+    color: #D81F28;
+    font-size: 18px;
+    line-height: 1;
+    margin-top: 2px;
+}
+
+/* ---------- Industries box ---------- */
+.haro-box {
+    padding: 32px;
+    background: #F7F7F7;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+}
+
+.haro-box-label {
+    margin: 0 0 20px;
+    color: #D81F28;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px !important;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.haro-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px 32px;
+}
+
+.haro-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 1 !important;
+}
+
+.haro-list li .bi {
+    flex-shrink: 0;
+    color: #D81F28;
+    font-size: 22px;
+    line-height: 1;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1199px) {
+    .haro-h2 { font-size: 34px !important; }
+}
+
+@media (max-width: 767px) {
+    .haro-hero .haro-hero-text { max-width: 100%; }
+    .haro-head { margin-bottom: 32px; }
+    .haro-h2 { font-size: 28px !important; }
+    .haro-intro { font-size: 16px !important; }
+    .haro-item,
+    .haro-benefit { padding: 18px 16px; }
+    .haro-card,
+    .haro-step,
+    .haro-box { padding: 24px 20px; }
+    .haro-card-title { font-size: 19px !important; }
+    .haro-stat { padding: 28px 20px; }
+    .haro-stat-num { font-size: 36px !important; }
+    .haro-wide-img { margin-top: 32px; border-radius: 12px; }
+    .haro-callout { padding: 16px; }
+    .haro-list { grid-template-columns: 1fr; }
+}
+
+/* ---------- "Is Your Brand Struggling" section (Figma) ---------- */
+/* Base .haro-h2 / .haro-item / .haro-callout p me font-size aur line-height
+   par !important hai, isliye sirf wahi do override !important ke saath hain. */
+.dpr-page .dpr-struggle .haro-h2 {
+    font-size: 48px !important;
+    line-height: 1.25 !important;
+    max-width: none;
+}
+
+.dpr-page .dpr-struggle .haro-item {
+    line-height: 1.25 !important;
+    border-radius: 6px;
+}
+
+.dpr-page .dpr-struggle .haro-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+}
+
+.dpr-page .dpr-struggle .haro-icon .bi {
+    font-size: 16px;
+}
+
+.dpr-page .dpr-struggle .haro-callout {
+    margin-top: 48px;
+    padding: 28px 24px;
+    border-radius: 4px;
+}
+
+.dpr-page .dpr-struggle .haro-callout p {
+    line-height: 1.5 !important;
+}
+
+/* ---------- Left-bar note (Why Need section) ---------- */
+.dpr-note {
+    margin-top: 32px;
+    padding: 20px 24px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-left: 4px solid #D81F28;
+    border-radius: 6px;
+}
+
+.dpr-note p {
+    margin: 0;
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+/* ---------- Plain list inside .haro-card ---------- */
+.dpr-card-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dpr-card-list li {
+    color: #666666;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* ---------- Testimonial card content ---------- */
+.dpr-stars {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 16px;
+    color: #D81F28;
+    font-size: 16px;
+}
+
+.dpr-review {
+    color: #666666;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.dpr-reviewer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.dpr-avatar {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #EDEDED;
+    color: #101010;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.dpr-page .rev-arrow .bi {
+    color: #101010;
+    font-size: 16px;
+}
+
+/* ---------- CTA icon (Bootstrap Icon instead of an <img>) ---------- */
+.dpr-page .ss-cta-icon .bi {
+    color: #D81F28;
+    font-size: 28px;
+    line-height: 1;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1199px) {
+    .dpr-hero-title { font-size: 40px !important; }
+    .dpr-page .dpr-struggle .haro-h2 { font-size: 40px !important; }
+}
+
+@media (max-width: 991px) {
+    .dpr-hero-title { font-size: 34px !important; }
+    .dpr-page .dpr-stat-num { font-size: 40px; }
+    .dpr-page .dpr-struggle .haro-h2 { font-size: 34px !important; }
+}
+
+@media (max-width: 767px) {
+    /* chhoti screen par hero image text ke peeche aati hai, isliye dark overlay */
+    .dpr-hero {
+        background-position: 70% center;
+    }
+
+    .dpr-hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.65);
+        pointer-events: none;
+    }
+
+    .dpr-hero-title { font-size: 28px !important; }
+    .dpr-hero-text { margin-bottom: 24px; }
+    .dpr-page .dpr-stat-num { font-size: 36px; margin-bottom: 8px; }
+    .dpr-page .dpr-struggle .haro-h2 { font-size: 28px !important; }
+    .dpr-page .dpr-struggle .haro-callout {
+        margin-top: 32px;
+        padding: 16px;
+    }
+    .dpr-note { padding: 16px; }
+    .dpr-review { margin-bottom: 16px; }
+}
+
+/* =========================================================
+   digital-pr.php — "Our Digital PR Performance" (dark band)
+   Every rule is scoped under .dprperf-section, so no other page
+   or section is affected. !important is used only on font-size /
+   line-height of the h2 and p, because the site's global heading
+   and paragraph sizes use !important.
+   ========================================================= */
+.dprperf-section {
+    background-color: #101010;
+}
+
+/* Figma content width is 1280px (cards run from 320 to 1600 at 1920 wide) */
+.dprperf-section .dprperf-inner {
+    width: 100%;
+    max-width: 1312px;            /* 1280 content + 2 × 16px side padding */
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+/* ---------- Heading block ---------- */
+.dprperf-section .dprperf-head {
+    margin: 0 0 48px;
+    text-align: center;
+}
+
+.dprperf-section .dprperf-heading {
+    margin: 0 0 16px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px !important;
+    font-weight: 700;
+    line-height: 1.25 !important;
+}
+
+.dprperf-section .dprperf-accent {
+    color: #D81F28;
+}
+
+.dprperf-section .dprperf-sub {
+    margin: 0;
+    color: #AAAAAA;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px !important;
+    font-weight: 400;
+    line-height: 1.6 !important;
+}
+
+/* ---------- Stat cards (628 × 140 at 1920 wide) ---------- */
+.dprperf-section .dprperf-card {
+    height: 100%;
+    padding: 32px;
+    text-align: center;
+    background-color: #1E1E1E;
+    border: 1px solid #262626;
+    border-radius: 6px;
+}
+
+.dprperf-section .dprperf-label {
+    margin: 0 0 16px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.dprperf-section .dprperf-num {
+    margin: 0;
+    color: #E53935;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1199px) {
+    .dprperf-section .dprperf-heading { font-size: 40px !important; }
+}
+
+@media (max-width: 991px) {
+    .dprperf-section .dprperf-heading { font-size: 34px !important; }
+    .dprperf-section .dprperf-card { padding: 28px 20px; }
+}
+
+@media (max-width: 767px) {
+    .dprperf-section .dprperf-head { margin-bottom: 32px; }
+    .dprperf-section .dprperf-heading { font-size: 28px !important; }
+    .dprperf-section .dprperf-sub { font-size: 16px !important; }
+    .dprperf-section .dprperf-card { padding: 24px 16px; }
+    .dprperf-section .dprperf-num { font-size: 36px; }
+}
+
+/* =========================================================
+   
+   ========================================================= */
+.dprneed-section {
+    background-color: #F7F7F7;
+}
+
+/* Figma content width 1280px (cards 320 se 1600 tak, 1920 frame me) */
+.dprneed-section .dprneed-inner {
+    width: 100%;
+    max-width: 1312px;            /* 1280 content + 2 × 16px side padding */
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+/* ---------- Heading block ---------- */
+.dprneed-section .dprneed-head {
+    margin: 0 0 48px;
+    text-align: center;
+}
+
+.dprneed-section .dprneed-heading {
+    margin: 0 0 16px;
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px !important;
+    font-weight: 700;
+    line-height: 1.25 !important;
+}
+
+.dprneed-section .dprneed-accent {
+    color: #D81F28;
+}
+
+.dprneed-section .dprneed-intro,
+.dprneed-section .dprneed-sub {
+    margin: 0;
+    color: #666666;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px !important;
+    font-weight: 400;
+    line-height: 1.6 !important;
+}
+
+.dprneed-section .dprneed-sub {
+    margin-top: 48px;
+}
+
+/* ---------- Benefit cards (410 × 122 at 1920) ---------- */
+.dprneed-section .dprneed-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    height: 100%;
+    padding: 32px 32px 8px;
+    background-color: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 6px;
+}
+
+.dprneed-section .dprneed-icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #FDECEC;
+}
+
+/* .dprneed-section .dprneed-icon img {
+    width: 16px;
+    height: 16px;
+    display: block;
+} */
+
+.dprneed-section .dprneed-text {
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/* ---------- Note box with red bar ---------- */
+.dprneed-section .dprneed-note {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    padding: 24px;
+    background-color: #F7F7F7;
+    border: 1px solid #E8E8E8;
+    border-radius: 6px;
+}
+
+.dprneed-section .dprneed-note::before {
+    content: "";
+    flex-shrink: 0;
+    width: 5px;
+    height: 32px;
+    background-color: #D81F28;
+}
+
+.dprneed-section .dprneed-note-text {
+    margin: 0;
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 26px !important;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1199px) {
+    .dprneed-section .dprneed-heading { font-size: 40px !important; }
+    .dprneed-section .dprneed-card { padding: 28px 24px 12px; }
+    .dprneed-section .dprneed-text { font-size: 18px; }
+}
+
+@media (max-width: 991px) {
+    .dprneed-section .dprneed-heading { font-size: 34px !important; }
+}
+
+@media (max-width: 767px) {
+    .dprneed-section .dprneed-head { margin-bottom: 32px; }
+    .dprneed-section .dprneed-heading { font-size: 28px !important; }
+    .dprneed-section .dprneed-intro,
+    .dprneed-section .dprneed-sub { font-size: 16px !important; }
+    .dprneed-section .dprneed-sub { margin-top: 24px; }
+    .dprneed-section .dprneed-card { padding: 20px; gap: 12px; }
+    .dprneed-section .dprneed-icon { width: 36px; height: 36px; }
+    .dprneed-section .dprneed-text { font-size: 17px; }
+    .dprneed-section .dprneed-note { margin-top: 32px; padding: 16px; gap: 16px; }
+    .dprneed-section .dprneed-note-text {
+        font-size: 15px !important;
+        line-height: 24px !important;
+    }
+}
+
+/* =========================================================
+   digital-pr.php — "Smarter Digital PR Strategies Powered by Data & AI"
+   ========================================================= */
+.dprai-section {
+    background-color: #FFFFFF;
+}
+
+/* Figma content width 1280px */
+.dprai-section .dprai-inner {
+    width: 100%;
+    max-width: 1312px;            /* 1280 content + 2 × 16px side padding */
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+/* ---------- Heading + intro ---------- */
+.dprai-section .dprai-heading {
+    margin: 0 0 16px;
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px !important;
+    font-weight: 700;
+    line-height: 1.25 !important;
+    text-align: left;
+}
+
+.dprai-section .dprai-accent {
+    color: #D81F28;
+}
+
+.dprai-section .dprai-intro,
+.dprai-section .dprai-outro {
+    margin: 0;
+    color: #666666;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 26px !important;
+}
+
+.dprai-section .dprai-outro {
+    margin-top: 48px;
+}
+
+/* ---------- Technology box ---------- */
+.dprai-section .dprai-box {
+    margin-top: 48px;
+    padding: 32px;
+    background-color: #F7F7F7;
+    border: 1px solid #E8E8E8;
+    border-radius: 6px;
+}
+
+.dprai-section .dprai-label {
+    margin: 0 0 20px;
+    color: #D81F28;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px !important;
+    font-weight: 800;
+    line-height: 24px !important;
+    text-transform: uppercase;
+}
+
+/* 3 rows, column-wise flow: left column 3 items, right column 2 */
+.dprai-section .dprai-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(3, auto);
+    grid-auto-flow: column;
+    column-gap: 48px;
+    row-gap: 20px;
+}
+
+.dprai-section .dprai-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.dprai-section .dprai-icon {
+    flex-shrink: 0;
+    width: 24px;
+    display: inline-flex;
+    justify-content: center;
+    color: #D81F28;
+    font-size: 20px;
+    line-height: 1;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1199px) {
+    .dprai-section .dprai-heading { font-size: 40px !important; }
+}
+
+@media (max-width: 991px) {
+    .dprai-section .dprai-heading { font-size: 34px !important; }
+    .dprai-section .dprai-list { column-gap: 24px; }
+}
+
+@media (max-width: 767px) {
+    .dprai-section .dprai-heading { font-size: 28px !important; }
+    .dprai-section .dprai-box {
+        margin-top: 32px;
+        padding: 24px 20px;
+    }
+    .dprai-section .dprai-label {
+        font-size: 17px !important;
+        line-height: 22px !important;
+        margin-bottom: 16px;
+    }
+    .dprai-section .dprai-list {
+        grid-template-columns: 1fr;
+        grid-template-rows: none;
+        grid-auto-flow: row;
+        row-gap: 14px;
+    }
+    .dprai-section .dprai-item { gap: 12px; }
+    .dprai-section .dprai-outro { margin-top: 32px; }
+}

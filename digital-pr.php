@@ -21,7 +21,7 @@
 <body class="service-page">
 
     <!-- Header  -->
-    <?php include_once 'assets/include/navbar.php';?>
+   <?php include_once 'assets/include/navbar.php';?> 
 
     <div class="font-inter">
 
@@ -29,7 +29,7 @@
     <section class="main-banner svc-hero" style="background-image: linear-gradient(89deg, #000 25%, rgba(0, 0, 0, 0) 99%), url('assets/images/services/digital-pr/hero.webp');">
         <div class="container d-flex overflow-h flex-column flex-md-column flex-lg-row">
             <div class="container d-flex flex-column justify-content-center hero-banner-text m-0" style="max-width: 777px;">
-                <h1 class="mt-4 my-3 dt text-light h1-sm fw-bold">Build Brand Authority and Earn High-Quality Media Coverage With <span class="text-crimson">Expert Digital PR Services</span></h1>
+                <h1 class="mt-4 my-3 dt text-light h1-sm fw-bold">Build Brand Authority and Earn High-Quality Media Coverage With Expert<span class="text-crimson"> Digital PR Services</span></h1>
                 <p class="fw-medium text-light">Increase your online visibility, strengthen your brand reputation, and earn authoritative media mentions with strategic digital public relations.</p>
                 <p class="fw-medium text-light">As a trusted digital PR agency, we help businesses secure quality press coverage, build powerful backlinks, and create brand awareness that drives long-term growth.</p>
                 <div class="container d-flex gap-3 flex-wrap">
@@ -42,30 +42,46 @@
 
     <?php include 'assets/include/brands-loop.php'; ?>
 
-    <!-- Is Your Brand Struggling to Get Recognized Online? -->
-    <section class="section-gap">
-        <div class="new-container">
-            <div class="svc-head text-center">
-                <h2 class="svc-h2">Is Your Brand Struggling to Get <span class="text-crimson">Recognized Online?</span></h2>
-                <p class="svc-intro p-xsm">If yes, you may be facing these challenges.</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6"><div class="svc-item p-16"><span class="svc-icon-box"><img src="assets/images/icons/svc/alert.svg" alt=""></span><span>Few mentions on trusted websites</span></div></div>
-                <div class="col-lg-4 col-md-6"><div class="svc-item p-16"><span class="svc-icon-box"><img src="assets/images/icons/svc/alert.svg" alt=""></span><span>Competitors getting all the press</span></div></div>
-                <div class="col-lg-4 col-md-6"><div class="svc-item p-16"><span class="svc-icon-box"><img src="assets/images/icons/svc/alert.svg" alt=""></span><span>Low brand awareness</span></div></div>
-                <div class="col-lg-4 col-md-6"><div class="svc-item p-16"><span class="svc-icon-box"><img src="assets/images/icons/svc/alert.svg" alt=""></span><span>Weak backlink profile</span></div></div>
-                <div class="col-lg-4 col-md-6"><div class="svc-item p-16"><span class="svc-icon-box"><img src="assets/images/icons/svc/alert.svg" alt=""></span><span>Little trust from new customers</span></div></div>
-                <div class="col-lg-4 col-md-6"><div class="svc-item p-16"><span class="svc-icon-box"><img src="assets/images/icons/svc/alert.svg" alt=""></span><span>Company news that never gets noticed</span></div></div>
-            </div>
-            <div class="svc-callout is-plain"><p class="p-16">If these problems sound familiar, our digital PR services can help.</p></div>
+    <!-- ================= STRUGGLING ================= -->
+<section class="section-gap dpr-struggle">
+    <div class="new-container">
+        <div class="haro-head">
+            <h2 class="haro-h2">Is Your Brand <span class="text-crimson">Struggling</span> to Get Recognized Online?</h2>
+            <p class="haro-intro">If yes, you may be facing these challenges.</p>
         </div>
-    </section>
+
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="haro-item"><img src="assets/images/icons/svc/alert.svg" alt="">Low engagement on posts</div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="haro-item"><img src="assets/images/icons/svc/alert.svg" alt="">Inconsistent brand presence</div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="haro-item"><img src="assets/images/icons/svc/alert.svg" alt="">Paid social campaigns with poor ROI</div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="haro-item"><img src="assets/images/icons/svc/alert.svg" alt="">Followers that never convert into customers</div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="haro-item"><img src="assets/images/icons/svc/alert.svg" alt="">Limited reach despite regular posting</div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="haro-item"><img src="assets/images/icons/svc/alert.svg" alt="">Difficulty generating leads from social platforms</div>
+            </div>
+        </div>
+
+        <div class="haro-callout">
+            <p>If these problems sound familiar, our social media management service can help.</p>
+        </div>
+    </div>
+</section>
 
     <!-- Digital PR Agency That Builds Brand Trust, Authority &amp; Online Visibility -->
     <section class="section-gap svc-grey">
         <div class="new-container">
             <div class="svc-head">
-                <h2 class="svc-h2">Digital PR Agency That Builds Brand Trust, <span class="text-crimson">Authority &amp; Online Visibility</span></h2>
+                <h2 class="svc-h2"><span class="text-crimson">Digital PR Agency </span> That Builds Brand Trust, Authority Online Visibility</h2>
                 <p class="svc-intro p-xsm">Getting noticed online is about much more than publishing content. People trust brands they see featured on respected websites, industry publications, and news platforms. That’s where digital public relations makes a real difference.</p>
                 <p class="svc-intro p-xsm">At Iynix Digital, we combine smart PR strategies, SEO expertise, and relationship building to help businesses earn valuable media coverage and high-quality backlinks. As an experienced digital PR company, we create campaigns that improve your brand authority, strengthen your online reputation, and increase organic visibility.</p>
                 <p class="svc-intro p-xsm">Whether you’re a startup, SaaS company, local business, or enterprise brand, our digital PR services help you build lasting credibility while supporting your overall SEO and marketing goals.</p>
@@ -74,18 +90,30 @@
         </div>
     </section>
 
-    <!-- Stats -->
-    <section class="ppc-stats-section">
-        <div class="new-container">
-            <div class="ppc-stats-wrap">
-                <div class="text-center pt-5"><h2 class="svc-h2">Our Digital PR <span class="text-crimson">Performance</span></h2></div>
-                <div class="row g-0 justify-content-center">
-                    <div class="col-lg-6 col-6"><div class="ppc-stat-item"><h2>5,000+</h2><p class="accent">HIGH-AUTHORITY BACKLINKS EARNED</p></div></div>
-                    <div class="col-lg-6 col-6"><div class="ppc-stat-item"><h2>500+</h2><p class="accent">SUCCESSFUL BRAND CAMPAIGNS</p></div></div>
+    <!-- ================= PERFORMANCE (DARK) ================= -->
+<section class="dprperf-section section-gap">
+    <div class="dprperf-inner">
+        <div class="dprperf-head">
+            <h2 class="dprperf-heading">Our <span class="dprperf-accent">Digital PR</span> Performance</h2>
+            <p class="dprperf-sub">Our digital PR firm focuses on creating measurable business impact through media exposure and authority building.</p>
+        </div>
+
+        <div class="row g-3 g-md-4">
+            <div class="col-md-6">
+                <div class="dprperf-card">
+                    <div class="dprperf-label">High-Authority Backlinks Earned</div>
+                    <div class="dprperf-num">5,000+</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="dprperf-card">
+                    <div class="dprperf-label">Successful Brand Campaigns</div>
+                    <div class="dprperf-num">500+</div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Iynix’s Digital PR Services -->
     <section class="section-gap">
@@ -130,47 +158,91 @@
         </div>
     </section>
 
-    <!-- Why Does Your Business Need Digital PR Services? -->
-    <section class="section-gap svc-grey">
-        <div class="new-container">
-            <div class="svc-head">
-                <h2 class="svc-h2">Why Does Your Business Need <span class="text-crimson">Digital PR Services?</span></h2>
-                <p class="svc-intro p-xsm">Modern customers trust brands that appear on respected websites and are recognized by trusted media sources.</p>
-                <p class="svc-sub p-text-21">Digital PR helps your business:</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6"><div class="svc-item p-16"><span class="svc-icon-box"><img src="assets/images/icons/svc/check.svg" alt=""></span><span>Increase brand awareness</span></div></div>
-                <div class="col-lg-4 col-md-6"><div class="svc-item p-16"><span class="svc-icon-box"><img src="assets/images/icons/svc/check.svg" alt=""></span><span>Build customer trust</span></div></div>
-                <div class="col-lg-4 col-md-6"><div class="svc-item p-16"><span class="svc-icon-box"><img src="assets/images/icons/svc/check.svg" alt=""></span><span>Earn high-quality backlinks</span></div></div>
-                <div class="col-lg-4 col-md-6"><div class="svc-item p-16"><span class="svc-icon-box"><img src="assets/images/icons/svc/check.svg" alt=""></span><span>Improve search engine rankings</span></div></div>
-                <div class="col-lg-4 col-md-6"><div class="svc-item p-16"><span class="svc-icon-box"><img src="assets/images/icons/svc/check.svg" alt=""></span><span>Strengthen online reputation</span></div></div>
-                <div class="col-lg-4 col-md-6"><div class="svc-item p-16"><span class="svc-icon-box"><img src="assets/images/icons/svc/check.svg" alt=""></span><span>Reach new audiences</span></div></div>
-                <div class="col-md-6"><div class="svc-item p-16"><span class="svc-icon-box"><img src="assets/images/icons/svc/check.svg" alt=""></span><span>Increase referral traffic</span></div></div>
-                <div class="col-md-6"><div class="svc-item p-16"><span class="svc-icon-box"><img src="assets/images/icons/svc/check.svg" alt=""></span><span>Support long-term SEO growth</span></div></div>
-            </div>
-            <div class="svc-callout"><p class="p-16">Working with an experienced digital PR agency helps your brand earn the kind of visibility and trust that paid ads alone cannot buy.</p></div>
+    <section class="dprneed-section section-gap">
+    <div class="dprneed-inner">
+        <div class="dprneed-head">
+            <h2 class="dprneed-heading">Why Does Your Business Need <span class="dprneed-accent">Digital PR Services</span>?</h2>
+            <p class="dprneed-intro">Modern customers trust brands that appear on respected websites and are recognized by trusted media sources.</p>
+            <p class="dprneed-sub">Digital PR helps your business:</p>
         </div>
-    </section>
+
+        <div class="row gx-4 gy-4 gy-lg-5">
+            <div class="col-lg-4 col-md-6">
+                <div class="dprneed-card">
+                    <span class="dprneed-icon"><img src="assets/images/icons/svc/check.svg" alt=""></span>
+                    <span class="dprneed-text">Increase brand awareness</span>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="dprneed-card">
+                    <span class="dprneed-icon"><img src="assets/images/icons/svc/check.svg" alt=""></span>
+                    <span class="dprneed-text">Build customer trust</span>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="dprneed-card">
+                    <span class="dprneed-icon"><img src="assets/images/icons/svc/check.svg" alt=""></span>
+                    <span class="dprneed-text">Earn high-quality backlinks</span>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="dprneed-card">
+                    <span class="dprneed-icon"><img src="assets/images/icons/svc/check.svg" alt=""></span>
+                    <span class="dprneed-text">Improve search engine rankings</span>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="dprneed-card">
+                    <span class="dprneed-icon"><img src="assets/images/icons/svc/check.svg" alt=""></span>
+                    <span class="dprneed-text">Strengthen online reputation</span>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="dprneed-card">
+                    <span class="dprneed-icon"><img src="assets/images/icons/svc/check.svg" alt=""></span>
+                    <span class="dprneed-text">Reach new audiences</span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="dprneed-card">
+                    <span class="dprneed-icon"><img src="assets/images/icons/svc/check.svg" alt=""></span>
+                    <span class="dprneed-text">Increase referral traffic</span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="dprneed-card">
+                    <span class="dprneed-icon"><img src="assets/images/icons/svc/check.svg" alt=""></span>
+                    <span class="dprneed-text">Support long-term SEO growth</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="dprneed-note">
+            <p class="dprneed-note-text">Working with an experienced digital PR agency helps your brand earn the kind of visibility and trust that paid ads alone cannot buy.</p>
+        </div>
+    </div>
+</section>
 
     <!-- Smarter Digital PR Strategies Powered by Data &amp; AI -->
-    <section class="section-gap">
-        <div class="new-container">
-            <div class="svc-head">
-                <h2 class="svc-h2">Smarter Digital PR Strategies <span class="text-crimson">Powered by Data &amp; AI</span></h2>
-                <p class="svc-intro p-xsm">Successful PR campaigns require the right timing, the right audience, and the right story. We combine human creativity with AI-powered insights to identify media opportunities that deliver maximum impact.</p>
-                <p class="svc-sub p-text-21">Our team uses advanced technology to:</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6"><div class="svc-item p-16"><span class="svc-icon-box"><img src="assets/images/icons/svc/check.svg" alt=""></span><span>Find relevant journalists and publications</span></div></div>
-                <div class="col-lg-4 col-md-6"><div class="svc-item p-16"><span class="svc-icon-box"><img src="assets/images/icons/svc/check.svg" alt=""></span><span>Spot trending topics early</span></div></div>
-                <div class="col-lg-4 col-md-6"><div class="svc-item p-16"><span class="svc-icon-box"><img src="assets/images/icons/svc/check.svg" alt=""></span><span>Analyze competitor media coverage</span></div></div>
-                <div class="col-lg-4 col-md-6"><div class="svc-item p-16"><span class="svc-icon-box"><img src="assets/images/icons/svc/check.svg" alt=""></span><span>Track brand mentions</span></div></div>
-                <div class="col-lg-4 col-md-6"><div class="svc-item p-16"><span class="svc-icon-box"><img src="assets/images/icons/svc/check.svg" alt=""></span><span>Measure backlink quality</span></div></div>
-                <div class="col-lg-4 col-md-6"><div class="svc-item p-16"><span class="svc-icon-box"><img src="assets/images/icons/svc/check.svg" alt=""></span><span>Report campaign impact</span></div></div>
-            </div>
-            <div class="svc-callout"><p class="p-16">This allows our digital PR firm to build campaigns that generate stronger visibility and measurable business results.</p></div>
+   <section class="dprai-section section-gap">
+    <div class="dprai-inner">
+        <h2 class="dprai-heading">Smarter <span class="dprai-accent">Digital PR Strategies</span> Powered by Data &amp; AI</h2>
+        <p class="dprai-intro">Successful PR campaigns require the right timing, the right audience, and the right story. We combine human creativity with AI-powered insights to identify media opportunities that deliver maximum impact.</p>
+
+        <div class="dprai-box">
+            <p class="dprai-label">Our team uses advanced technology to:</p>
+            <ul class="dprai-list">
+                <li class="dprai-item"><i class="bi bi-check2-all dprai-icon"></i><span>Navigation speed</span></li>
+                <li class="dprai-item"><i class="bi bi-check2-all dprai-icon"></i><span>Mobile usability</span></li>
+                <li class="dprai-item"><i class="bi bi-check2-all dprai-icon"></i><span>Customer engagement</span></li>
+                <li class="dprai-item"><i class="bi bi-check2-all dprai-icon"></i><span>Session duration</span></li>
+                <li class="dprai-item"><i class="bi bi-check2-all dprai-icon"></i><span>User satisfaction</span></li>
+            </ul>
         </div>
-    </section>
+
+        <p class="dprai-outro">This allows our digital PR firm to build campaigns that generate stronger visibility and measurable business results.</p>
+    </div>
+</section>
 
     <!-- How Does Iynix Digital Help Build Your Brand Authority? -->
     <section class="section-gap svc-grey">

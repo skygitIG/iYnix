@@ -115,7 +115,7 @@
                   </div>  
                 </div>
 
-                <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="drive-business-box">
                     <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
                     <p class="fw-bolder p-xsm mt-3">Lower Development Costs</p>
@@ -123,7 +123,14 @@
                   </div>  
                 </div>
 
-                <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="drive-business-box">
+                    <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
+                    <p class="fw-bolder p-xsm mt-3">Large Ecosystem and Community</p>
+                    <p class="ppc-box-description mt-3">Backed by Meta and a huge developer community, React Native offers thousands of ready-made libraries and tools that speed up development.</p>
+                  </div>  
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="drive-business-box">
                     <img class="ppc-number" src="assets/images/icons/checkicon.svg" alt="">
                     <p class="fw-bolder p-xsm mt-3">Large Ecosystem and Community</p>

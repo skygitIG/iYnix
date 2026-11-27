@@ -33,7 +33,7 @@
 
             <div class="container d-flex flex-column justify-content-center hero-banner-text m-0"
                 style="max-width: 777px;">
-                <h1 class="mt-4 my-3 dt text-crimson h1-sm fw-bold">Build High-Performance Apps for Android and iOS with a  <span class="text-light"> Trusted Flutter App Development Company</span>
+                <h1 class="mt-4 my-3 text-light dt h1-sm fw-bold">Build High-Performance Apps for Android and iOS with a  <span class=" text-crimson"> Trusted Flutter App Development Company</span>
                 </h1>
                 <p class="fw-medium text-light">Launch faster, reduce development costs, and deliver seamless experiences across Android, iOS, web, and desktop with our expert Flutter app development services.
                 Using Google's Flutter framework, we develop feature-rich cross-platform applications with a single codebase, helping businesses reach more users without maintaining separate native apps.</p>
